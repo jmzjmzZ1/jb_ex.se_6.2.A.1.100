@@ -1570,4 +1570,8 @@ for account %s."</string>
     <string name="wifi_p2p_noncuncurrency_message">Start Wi-Fi Direct. This will disconnect Wi-Fi connection.</string>
     <string name="config_networkLocationProvider">com.google.android.location.NetworkLocationProvider</string>
     <string name="config_geocodeProvider">com.google.android.location.GeocodeProvider</string>
+    <string name="global_action_reboot_txt">Reboot</string>
+    <string name="global_action_reboot_safe_txt">Safe mode</string>
+    <string name="reboot_system">Reboot phone</string>
+    <string name="reboot_progress">Rebooting…</string>
 </resources>

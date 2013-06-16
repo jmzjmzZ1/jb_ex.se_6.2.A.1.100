@@ -116,4 +116,6 @@
     <color name="white_with_transparency">#40ffffff</color>
     <color name="black_with_little_transparency">#dd000000</color>
     <color name="white_with_little_transparency">#ddffffff</color>
+    <color name="semc_theme_accent_color">#ffffffff</color>
+    <color name="semc_theme_illumination_color">#00000000</color>
 </resources>

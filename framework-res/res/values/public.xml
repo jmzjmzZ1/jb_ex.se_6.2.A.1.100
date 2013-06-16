@@ -4526,6 +4526,10 @@
     <public type="string" name="config_networkLocationProvider" id="0x01040605" />
     <public type="string" name="config_geocodeProvider" id="0x01040606" />
     <public type="string" name="BaMmi" id="0x01040570" />
+    <public type="string" name="global_action_reboot_txt" id="0x01040607" />
+    <public type="string" name="global_action_reboot_safe_txt" id="0x01040608" />
+    <public type="string" name="reboot_system" id="0x01040609" />
+    <public type="string" name="reboot_progress" id="0x0104060a" />
     <public type="string" name="config_networkLocationProvider1" id="0x010405a4" />
     <public type="dimen" name="app_icon_size" id="0x01050000" />
     <public type="dimen" name="thumbnail_height" id="0x01050001" />
@@ -4826,6 +4830,8 @@
     <public type="color" name="tab_indicator_text_v4" id="0x010600a6" />
     <public type="color" name="tertiary_text_holo_dark" id="0x010600a7" />
     <public type="color" name="tertiary_text_holo_light" id="0x010600a8" />
+    <public type="color" name="semc_theme_accent_color" id="0x010600a9" />
+    <public type="color" name="semc_theme_illumination_color" id="0x010600aa" />
     <public type="array" name="emailAddressTypes" id="0x01070000" />
     <public type="array" name="imProtocols" id="0x01070001" />
     <public type="array" name="organizationTypes" id="0x01070002" />
@@ -4883,6 +4889,7 @@
     <public type="array" name="super_stamina_whitelist" id="0x01070036" />
     <public type="array" name="imAddressTypes" id="0x01070037" />
     <public type="array" name="carrier_properties" id="0x01070038" />
+    <public type="array" name="notification_light_package_mapping" id="0x01070039" />
     <public type="drawable" name="background_holo_dark" id="0x010800cc" />
     <public type="drawable" name="background_holo_light" id="0x010800cd" />
     <public type="drawable" name="blank_tile" id="0x010800cf" />
@@ -7346,6 +7353,10 @@
     <public type="drawable" name="APKTOOL_DUMMY_08bf" id="0x010808bf" />
     <public type="drawable" name="APKTOOL_DUMMY_08c0" id="0x010808c0" />
     <public type="drawable" name="APKTOOL_DUMMY_08c2" id="0x010808c2" />
+    <public type="drawable" name="semc_bg_bright_tile" id="0x0108099f" />
+    <public type="drawable" name="semc_bg_tile" id="0x010809a0" />
+    <public type="drawable" name="ic_lock_power_reboot" id="0x010809a1" />
+    <public type="drawable" name="ic_lock_power_safe" id="0x010809a2" />
     <public type="layout" name="activity_list_item" id="0x01090000" />
     <public type="layout" name="expandable_list_content" id="0x01090001" />
     <public type="layout" name="preference_category" id="0x01090002" />
