@@ -2,7 +2,7 @@
 <layer-list
   xmlns:android="http://schemas.android.com/apk/res/android">
     <item>
-        <somc:colorizable android:drawable="@drawable/semc_switch_bg_on_disabled_holo_colored" android:color="@com.sonyericsson.uxp:color/semc_theme_accent_color" xmlns:somc="com.sonymobile" />
+        <colorizable android:drawable="@drawable/semc_switch_bg_on_disabled_holo_colored" android:color="@color/semc_theme_accent_color" />
     </item>
     <item android:drawable="@drawable/semc_switch_bg_on_disabled_holo_dark_normal" />
 </layer-list>
