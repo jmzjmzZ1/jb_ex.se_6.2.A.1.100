@@ -365,45 +365,167 @@
     return-void
 .end method
 
-.method private static configureLedNotification(Landroid/app/Notification;)V
-    .locals 1
+.method private static configureLedNotification(Landroid/content/Context;ILandroid/app/Notification;)V
+    .locals 11
+    .parameter "context"
+    .parameter "notificationType"
     .parameter "note"
 
     .prologue
     .line 492
-    invoke-static {}, Lcom/android/phone/PhoneApp;->getInstance()Lcom/android/phone/PhoneApp;
+    const v10, 0xffffff
 
-    move-result-object v0
+    const/4 v7, 0x0
 
-    invoke-virtual {v0}, Lcom/android/phone/PhoneApp;->getCallIlluminationInstance()Lcom/android/phone/SomcCallIllumination;
+    const/4 v6, 0x1
 
-    move-result-object v0
+    const/16 v9, 0x3e8
 
-    invoke-virtual {v0}, Lcom/android/phone/SomcCallIllumination;->getMissedCallIlluminationColor()I
+    invoke-virtual {p0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v3
+
+    .local v3, resolver:Landroid/content/ContentResolver;
+    const-string v8, "notification_light_pulse"
+
+    invoke-static {v3, v8, v7}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v8
+
+    if-ne v8, v6, :cond_2
+
+    move v2, v6
+
+    .local v2, lightEnabled:Z
+    :goto_0
+    const-string v8, "notification_light_pulse_default_color"
+
+    invoke-static {v3, v8, v10}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
 
     move-result v0
 
-    iput v0, p0, Landroid/app/Notification;->ledARGB:I
+    .local v0, color:I
+    const-string v8, "notification_light_pulse_default_led_on"
 
     .line 493
-    const/16 v0, 0x64
+    invoke-static {v3, v8, v9}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
 
-    iput v0, p0, Landroid/app/Notification;->ledOnMS:I
+    move-result v5
 
     .line 494
-    const/16 v0, 0x1770
+    .local v5, timeOn:I
+    const-string v8, "notification_light_pulse_default_led_off"
 
-    iput v0, p0, Landroid/app/Notification;->ledOffMS:I
+    invoke-static {v3, v8, v9}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
 
     .line 495
-    iget v0, p0, Landroid/app/Notification;->flags:I
+    move-result v4
 
-    or-int/lit8 v0, v0, 0x1
+    .local v4, timeOff:I
+    const-string v8, "notification_light_pulse_custom_enable"
 
-    iput v0, p0, Landroid/app/Notification;->flags:I
+    invoke-static {v3, v8, v7}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v8
+
+    if-ne v8, v6, :cond_3
 
     .line 496
+    move v1, v6
+
+    .local v1, customEnabled:Z
+    :goto_1
+    if-eqz v1, :cond_0
+
+    if-ne p1, v6, :cond_4
+
+    const-string v6, "notification_light_pulse_call_color"
+
+    invoke-static {v3, v6, v10}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v0
+
+    const-string v6, "notification_light_pulse_call_led_on"
+
+    invoke-static {v3, v6, v9}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v5
+
+    const-string v6, "notification_light_pulse_call_led_off"
+
+    invoke-static {v3, v6, v9}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v4
+
+    :cond_0
+    :goto_2
+    if-eqz v2, :cond_1
+
+    iput v0, p2, Landroid/app/Notification;->ledARGB:I
+
+    iput v5, p2, Landroid/app/Notification;->ledOnMS:I
+
+    iput v4, p2, Landroid/app/Notification;->ledOffMS:I
+
+    iget v6, p2, Landroid/app/Notification;->flags:I
+
+    or-int/lit8 v6, v6, 0x1
+
+    iput v6, p2, Landroid/app/Notification;->flags:I
+
+    iget v6, p2, Landroid/app/Notification;->flags:I
+
+    or-int/lit16 v6, v6, 0x100
+
+    iput v6, p2, Landroid/app/Notification;->flags:I
+
+    :cond_1
     return-void
+
+    .end local v0           #color:I
+    .end local v1           #customEnabled:Z
+    .end local v2           #lightEnabled:Z
+    .end local v4           #timeOff:I
+    .end local v5           #timeOn:I
+    :cond_2
+    move v2, v7
+
+    goto :goto_0
+
+    .restart local v0       #color:I
+    .restart local v2       #lightEnabled:Z
+    .restart local v4       #timeOff:I
+    .restart local v5       #timeOn:I
+    :cond_3
+    move v1, v7
+
+    goto :goto_1
+
+    .restart local v1       #customEnabled:Z
+    :cond_4
+    const/4 v6, 0x5
+
+    if-ne p1, v6, :cond_0
+
+    const-string v6, "notification_light_pulse_vmail_color"
+
+    invoke-static {v3, v6, v10}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v0
+
+    const-string v6, "notification_light_pulse_vmail_led_on"
+
+    invoke-static {v3, v6, v9}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v5
+
+    const-string v6, "notification_light_pulse_vmail_led_off"
+
+    invoke-static {v3, v6, v9}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v4
+
+    goto :goto_2
 .end method
 
 .method private createClearMissedCallsIntent()Landroid/app/PendingIntent;
@@ -3042,7 +3164,11 @@
 
     .line 619
     .local v7, notification:Landroid/app/Notification;
-    invoke-static {v7}, Lcom/android/phone/NotificationMgr;->configureLedNotification(Landroid/app/Notification;)V
+    iget-object v9, p0, Lcom/android/phone/NotificationMgr;->mContext:Landroid/content/Context;
+
+    const/4 v10, 0x1
+
+    invoke-static {v9, v10, v7}, Lcom/android/phone/NotificationMgr;->configureLedNotification(Landroid/content/Context;ILandroid/app/Notification;)V
 
     .line 620
     iget-object v9, p0, Lcom/android/phone/NotificationMgr;->mNotificationManager:Landroid/app/NotificationManager;
