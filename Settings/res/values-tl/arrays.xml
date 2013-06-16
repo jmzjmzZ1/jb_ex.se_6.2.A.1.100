@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="timezone_filters">
+        <item>America</item>
+        <item>Europe</item>
+        <item>Africa</item>
+        <item>Asya</item>
+        <item>Australia</item>
+        <item>Pacific</item>
+        <item>Lahat</item>
+    </string-array>
+    <string-array name="screen_timeout_entries">
+        <item>15 segundo</item>
+        <item>30 segundo</item>
+        <item>1 minuto</item>
+        <item>2 minuto</item>
+        <item>5 minuto</item>
+        <item>10 minuto</item>
+        <item>30 minuto</item>
+    </string-array>
+    <string-array name="dream_timeout_entries">
+        <item>Hindi Kailanman</item>
+        <item>15 segundo</item>
+        <item>30 segundo</item>
+        <item>1 minuto</item>
+        <item>2 minuto</item>
+        <item>5 minuto</item>
+        <item>10 minuto</item>
+        <item>30 minuto</item>
+    </string-array>
+    <string-array name="lock_after_timeout_entries">
+        <item>Kaagad</item>
+        <item>5 segundo</item>
+        <item>15 segundo</item>
+        <item>30 segundo</item>
+        <item>1 minuto</item>
+        <item>2 minuto</item>
+        <item>5 minuto</item>
+        <item>10 minuto</item>
+        <item>30 minuto</item>
+    </string-array>
+    <string-array name="entries_font_size">
+        <item>Maliit</item>
+        <item>Normal</item>
+        <item>Malaki</item>
+        <item>Sobrang Laki</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Napakabagal</item>
+        <item>Mabagal</item>
+        <item>Normal</item>
+        <item>Mabilis</item>
+        <item>Napakabilis</item>
+    </string-array>
+    <string-array name="tts_pitch_entries">
+        <item>Napakababa</item>
+        <item>Mababa</item>
+        <item>Normal</item>
+        <item>Mataas</item>
+        <item>Napakataas</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Ini-scan...</item>
+        <item>Kumukonekta...</item>
+        <item>Pinapatunayan...</item>
+        <item>Kinukuha ang IP address...</item>
+        <item>Konektado</item>
+        <item>Suspendido</item>
+        <item>Inaalis ang koneksyon...</item>
+        <item>Hindi na konektado</item>
+        <item>Hindi tagumpay</item>
+        <item>Naka-block</item>
+        <item>Pansamantalang iniiwasan ang mabagal na koneksyon</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Ini-scan…</item>
+        <item>Kumokonekta sa %1$s…</item>
+        <item>Nagpapatotoo sa %1$s…</item>
+        <item>Kinukuha IP address mula sa %1$s…</item>
+        <item>Nakakonekta sa %1$s</item>
+        <item>Sinuspinde</item>
+        <item>Nagdidiskonekta mula sa %1$s…</item>
+        <item>Naalis ang koneksyon</item>
+        <item>Hindi tagumpay</item>
+        <item>Naka-block</item>
+        <item>Pansamantalang iniiwasan ang mabagal na koneksyon</item>
+    </string-array>
+    <string-array name="wifi_eap_method">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+    </string-array>
+    <string-array name="wifi_p2p_wps_setup">
+        <item>Button ng pagpindot</item>
+        <item>PIN mula sa device ng kaibigan</item>
+        <item>PIN mula sa device</item>
+    </string-array>
+    <string-array name="wifi_p2p_status">
+        <item>Nakakonekta</item>
+        <item>Inimbitahan</item>
+        <item>Hindi matagumpay</item>
+        <item>Available</item>
+        <item>Wala sa sakop</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2 minuto</item>
+        <item>5 minuto</item>
+        <item>1 oras</item>
+        <item>Huwag kailanman mag-time out</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>Mahina</item>
+        <item>Katamtaman</item>
+        <item>Maayos</item>
+        <item>Malakas</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>Palagi</item>
+        <item>Kapag naka-plug in lamang</item>
+        <item>Di Kailanman (pinapataas ang paggamit ng data)</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <item>Palagi</item>
+        <item>Kapag naka-plug in lamang</item>
+        <item>Hindi Kailanman</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>Awto</item>
+        <item>5 GHz lamang</item>
+        <item>2.4 GHz lamang</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>Oras ng paggamit</item>
+        <item>Bilang ng paglunsad</item>
+        <item>Pangalan ng app</item>
+    </string-array>
+    <string-array name="wifi_eap_entries">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>Wala</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>Static</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>Wala</item>
+        <item>Manual</item>
+    </string-array>
+    <string-array name="emergency_tone_entries">
+        <item>I-off</item>
+        <item>Alerto</item>
+        <item>Vibrate</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>Wala</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP o CHAP</item>
+    </string-array>
+    <string-array name="apn_protocol_entries">
+        <item>IPv4</item>
+        <item>IPv6</item>
+        <item>IPv4/IPv6</item>
+    </string-array>
+    <string-array name="bearer_entries">
+        <item>LTE</item>
+        <item>eHRPD</item>
+        <item>Hindi tinukoy</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>Panloob storage device</item>
+        <item>Naaalis na SD card</item>
+        <item>Hayaan pasya system</item>
+    </string-array>
+    <string-array name="long_press_timeout_selector_titles">
+        <item>Maikli</item>
+        <item>Katamtaman</item>
+        <item>Mahaba</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>Huwag kailanman suriin</item>
+        <item>Suriin lang para sa nilalamang DRM</item>
+        <item>Palaging suriin</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>Huwag kailanman gumamit ng pagsusuring HDCP</item>
+        <item>Gamitin lang ang pagsusuring HDCP para sa nilalamang DRM</item>
+        <item>Palaging gumamit ng pagsusuring HDCP</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>Naka-off ang animation</item>
+        <item>Scale ng animation .5x</item>
+        <item>Scale ng animation 1x</item>
+        <item>Scale ng animation 1.5x</item>
+        <item>Scale ng animation 2x</item>
+        <item>Scale ng animation 5x</item>
+        <item>Scale ng animation 10x</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>Naka-off ang animation</item>
+        <item>Scale ng animation .5x</item>
+        <item>Scale ng animation 1x</item>
+        <item>Scale ng animation 1.5x</item>
+        <item>Scale ng animation 2x</item>
+        <item>Scale ng animation 5x</item>
+        <item>Scale ng animation 10x</item>
+    </string-array>
+    <string-array name="animator_duration_scale_entries">
+        <item>Naka-off ang animation</item>
+        <item>Sukat ng animation .5x</item>
+        <item>Sukat ng animation 1x</item>
+        <item>Sukat ng animation 1.5x</item>
+        <item>Sukat ng animation 2x</item>
+        <item>Sukat ng animation 5x</item>
+        <item>Sukat ng animation 10x</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>Karaniwang limitasyon</item>
+        <item>Walang mga background na proseso</item>
+        <item>1 proseso ang pinakamarami</item>
+        <item>2 proseso ang pinakamarami</item>
+        <item>3 proseso ang pinakamarami</item>
+        <item>4 na proseso ang pinakamarami</item>
+    </string-array>
+    <string-array name="vpn_types_long">
+        <item>PPTP VPN</item>
+        <item>L2TP/IPSec VPN na may mga paunang nakabahaging key</item>
+        <item>L2TP/IPSec VPN na may mga certificate</item>
+        <item>IPSec VPN na may mga paunang nakabahaging key at pagpapatotoo ng Xauth</item>
+        <item>IPSec VPN na may mga certificate at pagpapatotoo ng Xauth</item>
+        <item>IPSec VPN na may mga certificate at hybrid na pagpapatotoo</item>
+    </string-array>
+    <string-array name="vpn_states">
+        <item>Hindi na nakakonekta</item>
+        <item>Sinisimulan…</item>
+        <item>Kumokonekta…</item>
+        <item>Nakakonekta</item>
+        <item>Timeout</item>
+        <item>Hindi matagumpay</item>
+    </string-array>
+    <string-array name="wapi_psk_type">
+        <item>WAPI ASCII</item>
+        <item>WAPI hexadecimal</item>
+    </string-array>
+    <string-array name="password_timeout_entries_txt">
+        <item>30 segundo</item>
+        <item>1 minuto</item>
+        <item>2 minuto</item>
+        <item>10 minuto</item>
+        <item>30 minuto</item>
+        <item>60 minuto</item>
+    </string-array>
+    <array name="wifi_status_with_sip_ppp">
+        <item></item>
+        <item>Nagsa-scan</item>
+        <item>Kumokonekta</item>
+        <item>Pinapatunayan</item>
+        <item>Kinukuha ang IP address</item>
+        <item>Nakakonekta</item>
+        <item>Nasuspinde</item>
+        <item>Idinidiskonekta</item>
+        <item>Nadiskonekta</item>
+        <item>Hindi matagumpay</item>
+        <item></item>
+        <item>@string/sip_authenticating_text</item>
+        <item>@string/sip_authentication_failed_text</item>
+        <item>@string/sip_authentication_successful_text</item>
+        <item>@string/ppp_connecting_text</item>
+        <item>@string/ppp_connection_fail_text</item>
+        <item>@string/ct_wifi_connected_text</item>
+    </array>
+</resources>

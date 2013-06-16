@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">يجب أن تحتوي كلمة المرور على %d أحرف على الأقل</item>
+        <item quantity="one">يجب أن تحتوي كلمة المرور على حرف واحد على الأقل</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">يجب أن تحتوي كلمة المرور على %d أحرف صغيرة على الأقل</item>
+        <item quantity="one">يجب أن تحتوي كلمة المرور على حرف واحد صغير على الأقل</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">يجب أن تحتوي كلمة المرور على %d أحرف كبيرة على الأقل</item>
+        <item quantity="one">يجب أن تحتوي كلمة المرور على حرف واحد كبير على الأقل</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">يجب أن تحتوي كلمة المرور على %d أرقام على الأقل</item>
+        <item quantity="one">يجب أن تحتوي كلمة المرور على رقم واحد على الأقل</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">"يجب أن تحتوي كلمة المرور على %d  رموز خاصة على الأقل"</item>
+        <item quantity="one">يجب أن تحتوي كلمة المرور على رمز واحد خاص على الأقل</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">يجب أن تحتوي كلمة المرور على %d رموز ليست حروفًا على الأقل</item>
+        <item quantity="one">يجب أن تحتوي كلمة المرور على رمز واحد ليس حرفًا على الأقل</item>
+    </plurals>
+    <plurals name="remaining_time_format_days">
+        <item quantity="other">%d‏ أيام</item>
+        <item quantity="one">%dيوم واحد</item>
+    </plurals>
+    <plurals name="remaining_time_format_hours">
+        <item quantity="other">%d ‏ ساعات</item>
+        <item quantity="one">%dساعة واحدة</item>
+    </plurals>
+</resources>

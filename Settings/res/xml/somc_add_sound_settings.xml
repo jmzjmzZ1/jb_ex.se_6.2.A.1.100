@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.sonymobile.settings.preference.CheckBoxPreference android:title="@string/clear_phase_strings_clear_phase_txt" android:key="clearphase" android:summary="@string/clear_phase_strings_clear_phase_desc_txt" android:defaultValue="true" settings:dependOnSystemProperty="ro.somc.clearphase.supported" settings:before="first" settings:valueOfSettingsSystem="com.sonymobile.clearphase_enabled" settings:valueOnExtraStatusName="com.sonymobile.audioeffect.intent.extra.CLEARPHASE_STATUS">
+        <intent android:action="com.sonymobile.audioeffect.intent.action.CLEARPHASE_REQUEST" />
+    </com.sonymobile.settings.preference.CheckBoxPreference>
+    <com.sonymobile.settings.preference.CheckBoxPreference android:title="@string/xloud_strings_xloud_txt" android:key="xloud" android:summary="@string/xloud_strings_xloud_desc_txt" settings:dependOnSystemProperty="ro.semc.xloud.supported" settings:before="first" settings:valueOfSettingsSystem="com.sonyericsson.xloud_enabled" settings:valueOnExtraStatusName="com.sonyericsson.audioeffectservice.intent.extra.XLOUD_STATUS">
+        <intent android:action="com.sonyericsson.audioeffectservice.intent.action.XLOUD_REQUEST" />
+    </com.sonymobile.settings.preference.CheckBoxPreference>
+    <com.sonymobile.settings.preference.CheckBoxPreference android:key="sforce3d" android:defaultValue="false" settings:dependOnSystemProperty="ro.somc.sforce.supported" settings:before="first" settings:hasMetaData="true" settings:valueOfSettingsSystem="com.sonymobile.sforce_enabled" settings:valueOnExtraStatusName="com.sonymobile.audioeffect.intent.extra.SFORCESURROUND_STATUS">
+        <intent android:action="com.sonymobile.audioeffect.intent.action.SFORCESURROUND_REQUEST" />
+    </com.sonymobile.settings.preference.CheckBoxPreference>
+</PreferenceScreen>

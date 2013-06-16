@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.sonymobile.settings.preference.CheckBoxPreference android:title="@string/wifi_strings_autoip_txt" android:key="wifi_auto_ip" android:summary="@string/wifi_strings_autoip_description_txt" settings:before="mac_address" settings:valueOfSettingsSystem="wifi_autoip_support" />
+</PreferenceScreen>

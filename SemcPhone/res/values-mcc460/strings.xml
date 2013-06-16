@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sip_call_options_wifi_only_title">Use Internet calling (WLAN only)</string>
+    <string name="registration_status_no_wifi_data">No WLAN connection. Could not register account.</string>
+    <string name="no_wifi_available_title">No WLAN connection</string>
+    <string name="no_wifi_available">You must connect to a WLAN network for Internet calling (Go to Settings > Wireless &amp; networks).</string>
+</resources>

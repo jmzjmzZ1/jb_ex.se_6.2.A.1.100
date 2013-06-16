@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="timezone_filters">
+        <item>Amerika</item>
+        <item>Európa</item>
+        <item>Afrika</item>
+        <item>Ázsia</item>
+        <item>Ausztrália</item>
+        <item>Csendes-óceáni térség</item>
+        <item>Mind</item>
+    </string-array>
+    <string-array name="screen_timeout_entries">
+        <item>15 másodperc</item>
+        <item>30 másodperc</item>
+        <item>1 perc</item>
+        <item>2 perc</item>
+        <item>5 perc</item>
+        <item>10 perc</item>
+        <item>30 perc</item>
+    </string-array>
+    <string-array name="dream_timeout_entries">
+        <item>Soha</item>
+        <item>15 másodperc</item>
+        <item>30 másodperc</item>
+        <item>1 perc</item>
+        <item>2 perc</item>
+        <item>5 perc</item>
+        <item>10 perc</item>
+        <item>30 perc</item>
+    </string-array>
+    <string-array name="lock_after_timeout_entries">
+        <item>Azonnal</item>
+        <item>5 másodperc</item>
+        <item>15 másodperc</item>
+        <item>30 másodperc</item>
+        <item>1 perc</item>
+        <item>2 perc</item>
+        <item>5 perc</item>
+        <item>10 perc</item>
+        <item>30 perc</item>
+    </string-array>
+    <string-array name="entries_font_size">
+        <item>Kicsi</item>
+        <item>Normál</item>
+        <item>Nagy</item>
+        <item>Nagyon nagy</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Nagyon lassú</item>
+        <item>Lassú</item>
+        <item>Normál</item>
+        <item>Gyors</item>
+        <item>Nagyon gyors</item>
+    </string-array>
+    <string-array name="tts_pitch_entries">
+        <item>Nagyon mély</item>
+        <item>Mély</item>
+        <item>Normál</item>
+        <item>Magas</item>
+        <item>Nagyon magas</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Keresés...</item>
+        <item>Kapcsolódás...</item>
+        <item>Hitelesítés...</item>
+        <item>IP-cím beszerzése...</item>
+        <item>Kapcsolódva</item>
+        <item>Felfüggesztve</item>
+        <item>Kapcsolat bontása...</item>
+        <item>Kapcsolat bontva</item>
+        <item>Sikertelen</item>
+        <item>Letiltva</item>
+        <item>A rossz minőségű kapcsolatok átmeneti elkerülése</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Keresés...</item>
+        <item>Csatlakozás hálózathoz: %1$s…</item>
+        <item>Hitelesítés ezen: %1$s…</item>
+        <item>IP-cím lekérése innen: %1$s…</item>
+        <item>Csatlakoztatva ehhez: %1$s</item>
+        <item>Felfüggesztve</item>
+        <item>Leválasztás erről: %1$s…</item>
+        <item>Kapcsolat bontva</item>
+        <item>Sikertelen</item>
+        <item>Letiltva</item>
+        <item>A rossz minőségű kapcsolatok átmeneti elkerülése</item>
+    </string-array>
+    <string-array name="wifi_eap_method">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>Nyilvános webes meghajtó</item>
+    </string-array>
+    <string-array name="wifi_p2p_wps_setup">
+        <item>Nyomógomb</item>
+        <item>Partnereszköztől kapott PIN</item>
+        <item>Készülék PIN kódja</item>
+    </string-array>
+    <string-array name="wifi_p2p_status">
+        <item>Csatlakoztatva</item>
+        <item>Meghívott</item>
+        <item>Sikertelen</item>
+        <item>Rendelkezésre álló</item>
+        <item>Tartományon kívül</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2 perc</item>
+        <item>5 perc</item>
+        <item>1 óra</item>
+        <item>Soha ne legyen időtúllépés</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>Gyenge</item>
+        <item>Megfelelő</item>
+        <item>Jó</item>
+        <item>Kiváló</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>Mindig</item>
+        <item>Csak ha csatlakoztatva van</item>
+        <item>Soha (növeli az adathasználatot)</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <item>Mindig</item>
+        <item>Csak ha csatlakoztatva van</item>
+        <item>Soha</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>Automatikus</item>
+        <item>Csak 5 GHz</item>
+        <item>Csak 2,4 GHz</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>Használat ideje</item>
+        <item>Elindítások száma</item>
+        <item>Alkalmazás neve</item>
+    </string-array>
+    <string-array name="wifi_eap_entries">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>Nyilvános webes meghajtó</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>Nincs</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>Statikus</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>Nincs</item>
+        <item>Kézi</item>
+    </string-array>
+    <string-array name="emergency_tone_entries">
+        <item>Kikapcsol</item>
+        <item>Riasztás</item>
+        <item>Rezgés</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>Nincs</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP vagy CHAP</item>
+    </string-array>
+    <string-array name="apn_protocol_entries">
+        <item>IPv4</item>
+        <item>IPv6</item>
+        <item>IPv4/IPv6</item>
+    </string-array>
+    <string-array name="bearer_entries">
+        <item>LTE</item>
+        <item>eHRPD</item>
+        <item>Nincs megadva</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>Belső eszköztároló</item>
+        <item>Eltávolítható SD-kártya</item>
+        <item>A rendszer dönthet</item>
+    </string-array>
+    <string-array name="long_press_timeout_selector_titles">
+        <item>Rövid</item>
+        <item>Közepes</item>
+        <item>Hosszú</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>Ellenőrzés soha</item>
+        <item>Csak DRM-tartalom ellenőrzése</item>
+        <item>Ellenőrzés mindig</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>Soha ne használjon HDCP-ellenőrzést</item>
+        <item>Csak digitális jogvédelem alá eső tartalomhoz használjon HDCP-ellenőrzést</item>
+        <item>Mindig használjon HDCP-ellenőrzést</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>Animáció kikapcsolása</item>
+        <item>Animáció mérete: 0,5x</item>
+        <item>Animáció mérete: 1x</item>
+        <item>Animáció mérete: 1,5x</item>
+        <item>Animáció mérete: 2x</item>
+        <item>Animáció mérete: 5x</item>
+        <item>Animáció mérete: 10x</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>Animáció kikapcsolása</item>
+        <item>Animáció mérete: 0,5x</item>
+        <item>Animáció mérete: 1x</item>
+        <item>Animáció mérete: 1,5x</item>
+        <item>Animáció mérete: 2x</item>
+        <item>Animáció mérete: 5x</item>
+        <item>Animáció mérete: 10x</item>
+    </string-array>
+    <string-array name="animator_duration_scale_entries">
+        <item>Animáció kikapcsolása</item>
+        <item>Animáció léptéke: 0,5x</item>
+        <item>Animáció léptéke: 1x</item>
+        <item>Animáció léptéke: 1,5x</item>
+        <item>Animáció léptéke: 2x</item>
+        <item>Animáció léptéke: 5x</item>
+        <item>Animáció léptéke: 10x</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>Normál korlátozás</item>
+        <item>Nincsenek háttérfolyamatok</item>
+        <item>Legfeljebb 1 folyamat</item>
+        <item>Legfeljebb 2 folyamat</item>
+        <item>Legfeljebb 3 folyamat</item>
+        <item>Legfeljebb 4 folyamat</item>
+    </string-array>
+    <string-array name="vpn_types_long">
+        <item>PPTP VPN</item>
+        <item>L2TP/IPSec VPN megosztott kulcsokkal</item>
+        <item>L2TP/IPSec VPN-tanúsítványokkal</item>
+        <item>IPSec VPN előre megosztott kulcsokkal és Xauth hitelesítés</item>
+        <item>IPSec VPN-tanúsítványokkal és Xauth hitelesítés</item>
+        <item>IPSec VPN-tanúsítványokkal és hibrid hitelesítés</item>
+    </string-array>
+    <string-array name="vpn_states">
+        <item>Kapcsolat bontva</item>
+        <item>Inicializálás...</item>
+        <item>Csatlakozás…</item>
+        <item>Csatlakoztatva</item>
+        <item>Időtúllépés</item>
+        <item>Sikertelen</item>
+    </string-array>
+    <string-array name="wapi_psk_type">
+        <item>WAPI ASCII</item>
+        <item>WAPI hexadecimal</item>
+    </string-array>
+    <string-array name="password_timeout_entries_txt">
+        <item>30 másodperc</item>
+        <item>1 perc</item>
+        <item>2 perc</item>
+        <item>10 perc</item>
+        <item>30 perc</item>
+        <item>60 perc</item>
+    </string-array>
+    <array name="wifi_status_with_sip_ppp">
+        <item></item>
+        <item>Keresés</item>
+        <item>Kapcsolódás</item>
+        <item>Hitelesítés</item>
+        <item>IP-cím lekérése</item>
+        <item>Csatlakoztatva</item>
+        <item>Felfüggesztve</item>
+        <item>Leválasztás</item>
+        <item>Leválasztva</item>
+        <item>Sikertelen</item>
+        <item></item>
+        <item>@string/sip_authenticating_text</item>
+        <item>@string/sip_authentication_failed_text</item>
+        <item>@string/sip_authentication_successful_text</item>
+        <item>@string/ppp_connecting_text</item>
+        <item>@string/ppp_connection_fail_text</item>
+        <item>@string/ct_wifi_connected_text</item>
+    </array>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">Минимальное количество букв в пароле: %d</item>
+        <item quantity="one">Минимальное количество букв в пароле: 1</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">Минимальное количество строчных букв в пароле: %d</item>
+        <item quantity="one">Минимальное количество строчных букв в пароле: 1</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">Минимальное количество заглавных букв в пароле: %d</item>
+        <item quantity="one">Минимальное количество заглавных букв в пароле: 1</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">Минимальное количество цифр в пароле: %d</item>
+        <item quantity="one">Минимальное количество цифр в пароле: 1</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">Минимальное количество специальных символов в пароле: %d</item>
+        <item quantity="one">Минимальное количество специальных символов в пароле: 1</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">Минимальное количество небуквенных символов в пароле: %d</item>
+        <item quantity="one">Минимальное количество небуквенных символов в пароле: 1</item>
+    </plurals>
+    <plurals name="remaining_time_format_days">
+        <item quantity="other">%d дн.</item>
+        <item quantity="one">%d день</item>
+    </plurals>
+    <plurals name="remaining_time_format_hours">
+        <item quantity="other">%d ч.</item>
+        <item quantity="one">%d час</item>
+    </plurals>
+</resources>

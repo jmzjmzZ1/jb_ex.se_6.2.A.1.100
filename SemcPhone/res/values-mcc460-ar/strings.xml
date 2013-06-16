@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sip_call_options_wifi_only_title">استخدام الاتصال عبر الإنترنت (WLAN فقط)</string>
+    <string name="registration_status_no_wifi_data">لا يوجد اتصال WLAN. تعذر تسجيل الحساب.</string>
+    <string name="no_wifi_available_title">لا يوجد اتصال WLAN</string>
+    <string name="no_wifi_available">يجب عليك الاتصال بشبكة WLAN لإجراء مكالمات عبر الإنترنت (انتقل إلى إعدادات > لاسلكي وشبكات).</string>
+</resources>

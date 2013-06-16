@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:focusable="true" android:layout_width="fill_parent" android:layout_height="@dimen/incall_screen_panel_button_height" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/panel_button" android:layout_width="fill_parent" android:layout_height="fill_parent" android:directionality="leftToRight">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/icbp_btn_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/incall_screen_margin_indicator_top" />
+        <ImageView android:id="@id/icbp_indicator" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/incall_screen_margin_indicator" android:src="@drawable/btn_onoff_indicator_off" />
+    </LinearLayout>
+</FrameLayout>

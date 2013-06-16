@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/twelve_key_dialer_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="@dimen/twelve_key_dialer_digits_height" android:baselineAligned="false">
+        <FrameLayout android:id="@id/one" android:background="@drawable/dial_num_large_left_dark" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="@dimen/twelve_key_dialer_number_size" android:gravity="center_vertical" android:paddingLeft="35.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/phone_strings_dialpad_1_txt" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/two" android:background="@drawable/dial_num_large_dark" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="@dimen/twelve_key_dialer_number_size" android:gravity="center_vertical" android:paddingLeft="35.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/phone_strings_dialpad_2_txt" />
+            <TextView android:textSize="@dimen/twelve_key_dialer_text_size" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="64.0dip" android:text="@string/general_dialpad_label_2_txt" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/three" android:background="@drawable/dial_num_large_dark" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="@dimen/twelve_key_dialer_number_size" android:gravity="center_vertical" android:paddingLeft="35.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/phone_strings_dialpad_3_txt" />
+            <TextView android:textSize="@dimen/twelve_key_dialer_text_size" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="64.0dip" android:text="@string/general_dialpad_label_3_txt" />
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="@dimen/twelve_key_dialer_digits_height" android:baselineAligned="false">
+        <FrameLayout android:id="@id/four" android:background="@drawable/dial_num_large_left_dark" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="@dimen/twelve_key_dialer_number_size" android:gravity="center_vertical" android:paddingLeft="35.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/phone_strings_dialpad_4_txt" />
+            <TextView android:textSize="@dimen/twelve_key_dialer_text_size" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="64.0dip" android:text="@string/general_dialpad_label_4_txt" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/five" android:background="@drawable/dial_num_large_dark" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="@dimen/twelve_key_dialer_number_size" android:gravity="center_vertical" android:paddingLeft="35.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/phone_strings_dialpad_5_txt" />
+            <TextView android:textSize="@dimen/twelve_key_dialer_text_size" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="64.0dip" android:text="@string/general_dialpad_label_5_txt" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/six" android:background="@drawable/dial_num_large_dark" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="@dimen/twelve_key_dialer_number_size" android:gravity="center_vertical" android:paddingLeft="35.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/phone_strings_dialpad_6_txt" />
+            <TextView android:textSize="@dimen/twelve_key_dialer_text_size" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="64.0dip" android:text="@string/general_dialpad_label_6_txt" />
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="@dimen/twelve_key_dialer_digits_height" android:baselineAligned="false">
+        <FrameLayout android:id="@id/seven" android:background="@drawable/dial_num_large_left_dark" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="@dimen/twelve_key_dialer_number_size" android:gravity="center_vertical" android:paddingLeft="35.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/phone_strings_dialpad_7_txt" />
+            <TextView android:textSize="@dimen/twelve_key_dialer_text_size" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="64.0dip" android:text="@string/general_dialpad_label_7_txt" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/eight" android:background="@drawable/dial_num_large_dark" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="@dimen/twelve_key_dialer_number_size" android:gravity="center_vertical" android:paddingLeft="35.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/phone_strings_dialpad_8_txt" />
+            <TextView android:textSize="@dimen/twelve_key_dialer_text_size" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="64.0dip" android:text="@string/general_dialpad_label_8_txt" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/nine" android:background="@drawable/dial_num_large_dark" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="@dimen/twelve_key_dialer_number_size" android:gravity="center_vertical" android:paddingLeft="35.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/phone_strings_dialpad_9_txt" />
+            <TextView android:textSize="@dimen/twelve_key_dialer_text_size" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="64.0dip" android:text="@string/general_dialpad_label_9_txt" />
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="@dimen/twelve_key_dialer_digits_height" android:baselineAligned="false">
+        <FrameLayout android:id="@id/star" android:background="@drawable/dial_num_large_left_dark" android:focusable="true" android:nextFocusDown="@id/button1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="50.0dip" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/twelve_key_dialer_star_margin_top" android:layout_marginBottom="@dimen/twelve_key_dialer_star_margin_bottom" android:text="@string/general_dialpad_star_txt" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/zero" android:background="@drawable/dial_num_large_dark" android:focusable="true" android:nextFocusDown="@id/button2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="@dimen/twelve_key_dialer_number_size" android:gravity="center_vertical" android:paddingLeft="35.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/phone_strings_dialpad_0_txt" />
+            <TextView android:textSize="@dimen/twelve_key_dialer_plus_size" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="64.0dip" android:text="@string/general_dialpad_label_0_txt" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/pound" android:background="@drawable/dial_num_large_dark" android:paddingTop="-3.0dip" android:focusable="true" android:nextFocusDown="@id/button4" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="36.0dip" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/general_dialpad_hash_txt" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

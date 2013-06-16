@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.phone.SomcSlidingDrawer android:layout_gravity="center_horizontal" android:id="@id/rejectMsgsDrawer" android:layout_width="fill_parent" android:layout_height="fill_parent" SomcSlidingDrawer:handle="@id/rejectMsgsDrawerHandle" SomcSlidingDrawer:content="@id/rejectMsgsDrawerContent" SomcSlidingDrawer:topOffset="@dimen/incall_screen_call_large_Header_height" SomcSlidingDrawer:allowSingleTap="false"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:SomcSlidingDrawer="http://schemas.android.com/apk/res/com.android.phone">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/rejectMsgsDrawerHandle" android:background="@drawable/reject_with_message_slide_bar" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:directionality="leftToRight">
+            <ImageView android:id="@id/handleLogo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/reject_with_message_msg_logo" />
+            <TextView android:textSize="@dimen/reject_with_message_text_size" android:textColor="#ff333333" android:id="@id/handleText" android:paddingLeft="@dimen/reject_with_message_text_padding_horiz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/reject_with_message_tab_txt" />
+        </LinearLayout>
+        <ImageView android:id="@id/handleArrow" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:src="@drawable/reject_with_message_slide_handle" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/rejectMsgsDrawerContent" android:background="#d8f5f5f5" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textSize="@dimen/reject_with_message_text_size" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/writeNewMessage" android:layout_width="220.0dip" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/reject_with_message_write_new" />
+        <ListView android:layout_gravity="center_horizontal" android:id="@id/rejectMsgList" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:divider="#ff8d8b8b" android:dividerHeight="1.0dip" />
+    </LinearLayout>
+</com.android.phone.SomcSlidingDrawer>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/dtmf_dialer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/dtmfDialerField" android:background="@drawable/dial_input_bg" android:focusable="true" android:nextFocusRight="@id/backspaceimg" android:layout_width="fill_parent" android:layout_height="@dimen/twelve_key_dialer_text_view_height" android:directionality="none">
+        <view android:textSize="@dimen/twelve_key_dialer_number_size" android:textColor="#ff333333" android:layout_gravity="center_vertical" android:id="@id/dtmfDialerFieldDigits" android:background="#00000000" android:clickable="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" android:scrollHorizontally="true" android:layout_weight="1.0" android:inputType="phone" android:textCursorDrawable="@null" class="com.android.phone.SomcEditText" />
+        <ImageButton android:layout_gravity="center_vertical" android:id="@id/backspaceimg" android:background="#00000000" android:nextFocusLeft="@id/dtmfDialerField" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" android:src="@drawable/ic_delete_phone_number_large" android:contentDescription="@string/incall_screen_dialer_pad_backspace_txt" />
+    </LinearLayout>
+    <include android:id="@id/dialpad" layout="@layout/somc_dialpad" />
+</LinearLayout>

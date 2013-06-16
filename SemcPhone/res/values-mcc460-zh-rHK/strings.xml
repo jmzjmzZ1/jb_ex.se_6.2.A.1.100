@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sip_call_options_wifi_only_title">使用互聯網通話(僅限WLAN)</string>
+    <string name="registration_status_no_wifi_data">沒有WLAN連接，無法註冊帳戶。</string>
+    <string name="no_wifi_available_title">無WLAN連接</string>
+    <string name="no_wifi_available">您必須連接到WLAN網絡以進行互聯網通話(進入[設定] > [無線及網絡])。</string>
+</resources>

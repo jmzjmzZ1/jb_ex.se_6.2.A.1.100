@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sip_call_options_wifi_only_title">इंटरनेट कॉलिंग का उपयोग करें केवल (WLAN)</string>
+    <string name="registration_status_no_wifi_data">कोई WLAN कनेक्शन नहीं। खाता पंजीकृत नहीं कर सकता।</string>
+    <string name="no_wifi_available_title">कोई वाई-फ़ाई कनेक्शन नहीं</string>
+    <string name="no_wifi_available">आपको इंटरनेट कॉलिंग के लिए किसी WLAN नेटवर्क से जुड़ना होगा (सेटिंग > बेतार और नेटवर्क पर जाएँ)।</string>
+</resources>

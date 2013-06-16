@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sip_call_options_wifi_only_title">Χρήση κλήσης μέσω Internet (μόνο WLAN)</string>
+    <string name="registration_status_no_wifi_data">Ο λογαριασμός εγγραφής διεκόπη επειδή δεν υπάρχει σύνδεση WLAN</string>
+    <string name="no_wifi_available_title">Δεν υπάρχει σύνδεση WLAN</string>
+    <string name="no_wifi_available">Για κλήσεις μέσω Διαδικτύου πρέπει να είστε συνδεδεμένοι σε δίκτυο WLAN (χρησιμοποιήστε το στοιχείο Ασύρματο δίκτυο και Ρυθμίσεις δικτύου)</string>
+</resources>

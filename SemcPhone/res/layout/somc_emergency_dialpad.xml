@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/emergency_dialer" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/emergencyDialerField" android:background="@drawable/dial_input_bg_dark" android:focusable="true" android:nextFocusRight="@id/backspaceimg" android:layout_width="fill_parent" android:layout_height="@dimen/twelve_key_dialer_text_view_height">
+        <view android:textSize="@dimen/emergency_dialpad_input_text_size" android:textColor="#ffffffff" android:layout_gravity="center_vertical" android:id="@id/emergencyDialerFieldDigits" android:background="#00000000" android:clickable="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" android:scrollHorizontally="true" android:layout_weight="1.0" android:inputType="phone" class="com.android.phone.SomcEditText" />
+        <ImageButton android:layout_gravity="center_vertical" android:id="@id/backspaceimg" android:background="#00000000" android:nextFocusLeft="@id/emergencyDialerField" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" android:src="@drawable/ic_delete_phone_number_large_dark" />
+    </LinearLayout>
+    <include android:id="@id/dialpad" layout="@layout/somc_dialpad_emergency" />
+    <RelativeLayout android:id="@id/dialPadGreen" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/emergency_dialpad_green_margin_left" android:layout_marginTop="@dimen/emergency_dialpad_green_margin_top" android:layout_marginRight="@dimen/emergency_dialpad_green_margin_right" android:directionality="leftToRight" style="@android:style/Widget.DeviceDefault.Button">
+        <TextView android:textSize="@dimen/emergency_dialpad_green_text_size" android:textColor="@color/somc_primary_text" android:id="@id/dialPadGreenText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/clh_large_button_panel_call_txt" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/dialPadGreenIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="7.0dip" android:src="@drawable/clh_large_icbp_dialpad_call" android:layout_toLeftOf="@id/dialPadGreenText" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>

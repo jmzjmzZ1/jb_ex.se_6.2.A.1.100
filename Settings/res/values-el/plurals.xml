@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">Ο κωδικός πρόσβασης θα πρέπει να αποτελείται από τουλάχιστον %d χαρακτήρες</item>
+        <item quantity="one">Ο κωδικός πρόσβασης θα πρέπει να αποτελείται από τουλάχιστον 1 χαρακτήρα</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">Ο κωδικός πρόσβασης θα πρέπει να αποτελείται από τουλάχιστον %d πεζούν χαρακτήρες</item>
+        <item quantity="one">Ο κωδικός πρόσβασης θα πρέπει να αποτελείται από τουλάχιστον 1 πεζό χαρακτήρα</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">Ο κωδικός πρόσβασης θα πρέπει να αποτελείται από τουλάχιστον %d κεφαλαίους χαρακτήρες</item>
+        <item quantity="one">Ο κωδικός πρόσβασης θα πρέπει να αποτελείται από τουλάχιστον 1 κεφαλαίο χαρακτήρα</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">Ο κωδικός πρόσβασης θα πρέπει να αποτελείται από τουλάχιστον %d αριθμητικά ψηφία</item>
+        <item quantity="one">Ο κωδικός πρόσβασης θα πρέπει να αποτελείται από τουλάχιστον 1 αριθμητικό ψηφίο</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">Ο κωδικός πρόσβασης θα πρέπει να αποτελείται από τουλάχιστον %d ειδικά σύμβολα</item>
+        <item quantity="one">Ο κωδικός πρόσβασης θα πρέπει να αποτελείται από τουλάχιστον 1 ειδικό σύμβολο</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">Ο κωδικός πρόσβασης θα πρέπει να αποτελείται από τουλάχιστον %d χαρακτήρες εκτός γράμματος</item>
+        <item quantity="one">Ο κωδικός πρόσβασης θα πρέπει να αποτελείται από τουλάχιστον 1 χαρακτήρα εκτός γράμματος</item>
+    </plurals>
+    <plurals name="remaining_time_format_days">
+        <item quantity="other">%d ημέρες</item>
+        <item quantity="one">%d ημέρα</item>
+    </plurals>
+    <plurals name="remaining_time_format_hours">
+        <item quantity="other">%d ώρες</item>
+        <item quantity="one">%d ώρα</item>
+    </plurals>
+</resources>

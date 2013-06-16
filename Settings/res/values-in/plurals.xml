@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">Sandi harus memuat sekurangnya %d huruf</item>
+        <item quantity="one">Sandi harus memuat sekurangnya 1 huruf</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">Sandi harus memuat sekurangnya %d huruf kecil</item>
+        <item quantity="one">Sandi harus memuat sekurangnya 1 huruf kecil</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">Sandi harus memuat sekurangnya %d huruf balok</item>
+        <item quantity="one">Sandi harus memuat sekurangnya 1 huruf balok</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">Sandi harus memuat sekurangnya %d digit angka</item>
+        <item quantity="one">Sandi harus memuat sekurangnya 1 digit angka</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">Sandi harus memuat sekurangnya %d simbol khusus</item>
+        <item quantity="one">Sandi harus memuat sekurangnya 1 simbol khusus</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">Sandi harus memuat sekurangnya %d karakter bukan huruf</item>
+        <item quantity="one">Sandi harus memuat sekurangnya 1 karakter bukan huruf</item>
+    </plurals>
+    <plurals name="remaining_time_format_days">
+        <item quantity="other">%d hari</item>
+        <item quantity="one">%d hari</item>
+    </plurals>
+    <plurals name="remaining_time_format_hours">
+        <item quantity="other">%d jam</item>
+        <item quantity="one">%d jam</item>
+    </plurals>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">Dapat na maglaman ang password ng hindi bababa sa %d (na) titik</item>
+        <item quantity="one">Dapat na maglaman ang password ng hindi bababa sa 1 titik</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">Dapat na maglaman ang password ng hindi bababa sa %d (na) lowercase na titik</item>
+        <item quantity="one">Dapat na maglaman ang password ng hindi bababa sa 1 lowercase na titik</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">Dapat na maglaman ang password ng hindi bababa sa %d (na) uppercase na titik</item>
+        <item quantity="one">Dapat na maglaman ang password ng hindi bababa sa 1 uppercase na titik</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">Dapat na maglaman ang password ng hindi bababa sa %d (na) numerong digit</item>
+        <item quantity="one">Dapat na maglaman ang password ng hindi bababa sa 1 numerong digit</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">Dapat na maglaman ang password ng hindi bababa sa %d (na) espesyal na simbolo</item>
+        <item quantity="one">Dapat na maglaman ang password ng hindi bababa sa 1 espesyal na simbolo</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">Dapat na maglaman ang password ng hindi bababa sa %d (na) hindi titik na charcter</item>
+        <item quantity="one">Dapat na maglaman ang password ng hindi bababa sa 1 hindi titik na charcter</item>
+    </plurals>
+    <plurals name="remaining_time_format_days">
+        <item quantity="other">%d araw</item>
+        <item quantity="one">%d araw</item>
+    </plurals>
+    <plurals name="remaining_time_format_hours">
+        <item quantity="other">%d oras</item>
+        <item quantity="one">%d saat</item>
+    </plurals>
+</resources>

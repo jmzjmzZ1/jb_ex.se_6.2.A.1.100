@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="somc_mock_add_setting_screen_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.sonymobile.settings.preference.PreferenceCategory android:title="debug_debugging_category added" android:key="debug_debugging_category" settings:dependOnResource="true">
+        <com.sonymobile.settings.preference.IntentPreference android:title="intent_key" android:key="intent_key" android:summary="Sony IntentPreference" settings:chooserTitle="@string/debug_debugging_category">
+            <intent android:action="android.settings.DEVICE_INFO_SETTINGS" />
+        </com.sonymobile.settings.preference.IntentPreference>
+    </com.sonymobile.settings.preference.PreferenceCategory>
+    <com.sonymobile.settings.preference.PreferenceCategory android:title="@string/debug_debugging_category" android:key="debug_debugging_category2" settings:dependOnResource="false">
+        <com.sonymobile.settings.preference.IntentPreference android:title="intent_key2" android:key="intent_key2" android:summary="Sony IntentPreference" settings:chooserTitle="@string/debug_debugging_category" />
+    </com.sonymobile.settings.preference.PreferenceCategory>
+    <com.sonymobile.settings.preference.IntentPreference android:title="intent_key3" android:key="intent_key3" android:summary="Sony IntentPreference" settings:dependOnIsValidIntent="true">
+        <intent android:action="com.invalid.action.missing" />
+    </com.sonymobile.settings.preference.IntentPreference>
+    <com.sonymobile.settings.preference.RemovePreference android:key="remove_wallpaper" settings:dependOnResource="true" settings:targetKey="wallpaper" settings:targetParentKey="test_category" />
+    <com.sonymobile.settings.preference.CheckBoxPreference android:title="mock_checkbox_key" android:key="mock_checkbox_key" android:summary="Sony CheckBoxPreference" settings:before="first" settings:valueOfSettingsSystem="SomcSettingsTestCheckBoxValue" />
+    <com.sonymobile.settings.preference.SwitchPreference android:title="mock_switch_key after brightness" android:key="mock_switch_key" android:summary="Sony SwitchPreference" settings:after="brightness" settings:valueOfSettingsSecure="SomcSettingsTestSwitchValue" />
+    <com.sonymobile.settings.preference.CheckBoxPreference android:key="mock_checkbox_key_broadcast" android:defaultValue="true" settings:hasMetaData="true" settings:valueOfSettingsSystem="SomcSettingsTestCheckBoxValue2">
+        <intent android:targetPackage="com.android.settings.tests" android:targetClass="com.sonymobile.settings.preference.util.CheckBoxReceiver" />
+    </com.sonymobile.settings.preference.CheckBoxPreference>
+</PreferenceScreen>

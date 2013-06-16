@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">পাসওয়ার্ডে অবশ্যই কমপক্ষে %dটি অক্ষর থাকবে</item>
+        <item quantity="one">পাসওয়ার্ডে অবশ্যই কমপক্ষে একটি বর্ণ থাকবে</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">পাসওয়ার্ড অবশ্যই কমপক্ষে %dটি লোয়ারকেস বর্ণ থাকবে</item>
+        <item quantity="one">পাসওয়ার্ডে অবশ্যই কমপক্ষে একটি লোয়ারকেস বর্ণ থাকবে</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">পাসওয়ার্ড অবশ্যই কমপক্ষে %dটি আপারকেস বর্ণ থাকবে</item>
+        <item quantity="one">পাসওয়ার্ডে অবশ্যই কমপক্ষে একটি আপারকেস বর্ণ থাকবে</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">পাসওয়ার্ড অবশ্যই কমপক্ষে %dটি সংখ্যা থাকবে</item>
+        <item quantity="one">পাসওয়ার্ডে অবশ্যই কমপক্ষে একটি সংখ্যা থাকবে</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">পাসওয়ার্ড অবশ্যই কমপক্ষে %dটি বিশেষ প্রতীক থাকবে</item>
+        <item quantity="one">পাসওয়ার্ডে অবশ্যই কমপক্ষে একটি বিশেষ প্রতীক থাকবে</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">পাসওয়ার্ড অবশ্যই কমপক্ষে %dটি বিশেষ অ-বর্ণ অক্ষর থাকবে</item>
+        <item quantity="one">পাসওয়ার্ডে অবশ্যই কমপক্ষে একটি অ-বর্ণ অক্ষর থাকবে</item>
+    </plurals>
+    <plurals name="remaining_time_format_days">
+        <item quantity="other">%d দিন</item>
+        <item quantity="one">%d দিন</item>
+    </plurals>
+    <plurals name="remaining_time_format_hours">
+        <item quantity="other">%d ঘন্টা</item>
+        <item quantity="one">%d ঘন্টা</item>
+    </plurals>
+</resources>

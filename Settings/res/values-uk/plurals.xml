@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">Пароль має містити принаймні стільки букв: %d</item>
+        <item quantity="one">Пароль має містити принаймні 1 букву</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">Пароль має містити принаймні стільки букв нижнього регістру: %d</item>
+        <item quantity="one">Пароль має містити принаймні 1 букву нижнього регістру</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">Пароль має містити принаймні стільки букв верхнього регістру: %d</item>
+        <item quantity="one">Пароль має містити принаймні 1 букву верхнього регістру</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">Пароль має містити принаймні стільки цифр: %d</item>
+        <item quantity="one">Пароль має містити принаймні 1 цифру</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">Пароль має містити принаймні стільки спеціальних символів: %d</item>
+        <item quantity="one">Пароль має містити принаймні 1 спеціальний символ</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">Пароль має містити принаймні стільки символів, які не є буквами: %d</item>
+        <item quantity="one">Пароль має містити принаймні 1 символ, який не є буквою</item>
+    </plurals>
+    <plurals name="remaining_time_format_days">
+        <item quantity="other">%d дн.</item>
+        <item quantity="one">%d день</item>
+    </plurals>
+    <plurals name="remaining_time_format_hours">
+        <item quantity="other">"%d  год."</item>
+        <item quantity="one">%d година</item>
+    </plurals>
+</resources>

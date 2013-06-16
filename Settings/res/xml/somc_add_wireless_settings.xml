@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.sonymobile.settings.preference.IntentPreference android:key="media_server_settings" settings:dependOnIsValidIntent="true" settings:before="toggle_nfc" settings:hasMetaData="true">
+        <intent android:action="com.sonymobile.dlna.intent.action.START_DMS_ACTIVITY" />
+    </com.sonymobile.settings.preference.IntentPreference>
+    <com.sonymobile.settings.preference.IntentPreference android:key="osaifukeitai_settings" settings:dependOnIsValidIntent="true" settings:before="toggle_wifi_p2p" settings:hasMetaData="true">
+        <intent android:targetPackage="com.sonymobile.nfclock" android:action="android.intent.action.MAIN" android:targetClass="com.sonymobile.nfclock.NfcSettings" />
+    </com.sonymobile.settings.preference.IntentPreference>
+    <com.sonymobile.settings.preference.RemovePreference settings:dependOnIsValidIntent="true" settings:targetKey="key_secure_elements">
+        <intent android:targetPackage="com.sonymobile.nfclock" android:action="android.intent.action.MAIN" android:targetClass="com.sonymobile.nfclock.NfcSettings" />
+    </com.sonymobile.settings.preference.RemovePreference>
+    <com.sonymobile.settings.preference.RemovePreference settings:dependOnIsValidIntent="true" settings:targetKey="toggle_nfc">
+        <intent android:targetPackage="com.sonymobile.nfclock" android:action="android.intent.action.MAIN" android:targetClass="com.sonymobile.nfclock.NfcSettings" />
+    </com.sonymobile.settings.preference.RemovePreference>
+    <com.sonymobile.settings.preference.RemovePreference settings:dependOnIsValidIntent="true" settings:targetKey="android_beam_settings">
+        <intent android:targetPackage="com.sonymobile.nfclock" android:action="android.intent.action.MAIN" android:targetClass="com.sonymobile.nfclock.NfcSettings" />
+    </com.sonymobile.settings.preference.RemovePreference>
+    <com.sonymobile.settings.preference.IntentPreference android:key="oma_client_provisioning" settings:dependOnIsValidIntent="true" settings:after="mobile_network_settings" settings:hasMetaData="true">
+        <intent android:action="com.sonyericsson.android.omacp.intent.action.START_OMA_CP" />
+    </com.sonymobile.settings.preference.IntentPreference>
+</PreferenceScreen>

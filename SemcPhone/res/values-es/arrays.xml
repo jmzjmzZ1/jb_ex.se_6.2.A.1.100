@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clir_display_values">
+        <item>Valor predeterminado</item>
+        <item>Ocultar número</item>
+        <item>Mostrar número</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices">
+        <item>Global</item>
+        <item>EvDo solamente</item>
+        <item>CDMA sin EvDo</item>
+        <item>CDMA/EvDo automático</item>
+        <item>2G/3G automático</item>
+        <item>3G solamente</item>
+        <item>2G solamente</item>
+        <item>2G/3G preferidas</item>
+    </string-array>
+    <string-array name="list_language_entries">
+        <item>Inglés</item>
+        <item>Francés</item>
+        <item>Español</item>
+        <item>Japonés</item>
+        <item>Coreano</item>
+        <item>Chino</item>
+        <item>Hebreo</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>2G/3G (modo auto)</item>
+        <item>3G solamente</item>
+        <item>2G solamente</item>
+        <item>2G/3G (3G pref)</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices">
+        <item>Sólo local</item>
+        <item>Automático</item>
+    </string-array>
+    <string-array name="cdma_roaming_mode_choices">
+        <item>Sólo redes locales</item>
+        <item>Redes afiliadas</item>
+        <item>Cualquier red</item>
+    </string-array>
+    <string-array name="cdma_network_preferences_choices">
+        <item>CDMA/EvDo</item>
+        <item>CDMA solamente</item>
+        <item>Sólo EvDo</item>
+    </string-array>
+    <string-array name="cdma_subscription_choices">
+        <item>RUIM/SIM</item>
+        <item>NV</item>
+    </string-array>
+    <string-array name="tty_mode_entries">
+        <item>TTY desactivado</item>
+        <item>TTY total</item>
+        <item>TTY HCO</item>
+        <item>TTY VCO</item>
+    </string-array>
+    <string-array name="dtmf_tone_entries">
+        <item>Normal</item>
+        <item>Largo</item>
+    </string-array>
+    <string-array name="voicemail_notification_vibrate_when_entries">
+        <item>Siempre</item>
+        <item>Sólo cuando silencio</item>
+        <item>Nunca</item>
+    </string-array>
+</resources>

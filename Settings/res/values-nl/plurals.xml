@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">Wachtwoord moet ten minste %d letters bevatten</item>
+        <item quantity="one">Wachtwoord moet ten minste 1 letter bevatten</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">Wachtwoord moet ten minste %d kleine letters bevatten</item>
+        <item quantity="one">Wachtwoord moet ten minste 1 kleine letter bevatten</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">Wachtwoord moet ten minste %d hoofdletters bevatten</item>
+        <item quantity="one">Wachtwoord moet ten minste 1 hoofdletter bevatten</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">Wachtwoord moet ten minste %d cijfers bevatten</item>
+        <item quantity="one">Wachtwoord moet ten minste 1 cijfer bevatten</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">Wachtwoord moet ten minste %d speciale symbolen bevatten</item>
+        <item quantity="one">Wachtwoord moet ten minste 1 speciaal symbool bevatten</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">Wachtwoord moet ten minste %d niet-lettertekens bevatten</item>
+        <item quantity="one">Wachtwoord moet ten minste 1 niet-letterteken bevatten</item>
+    </plurals>
+    <plurals name="remaining_time_format_days">
+        <item quantity="other">%d dagen</item>
+        <item quantity="one">%d dag</item>
+    </plurals>
+    <plurals name="remaining_time_format_hours">
+        <item quantity="other">%d uur</item>
+        <item quantity="one">%d uur</item>
+    </plurals>
+</resources>

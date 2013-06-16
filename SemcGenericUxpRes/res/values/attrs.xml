@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="semcApplicationBackground" format="reference" />
+    <attr name="semcPreview" format="reference" />
+    <attr name="semcWallpaperImage" format="reference" />
+    <attr name="semcLiveWallpaperComponent" format="string" />
+    <attr name="directionality">
+        <enum name="none" value="0" />
+        <enum name="leftToRight" value="1" />
+    </attr>
+    <attr name="popupNavigationBarOverlay" format="boolean" />
+    <attr name="switchButtonStyle" format="reference" />
+    <attr name="semcTextAppearanceBadge" format="reference" />
+</resources>

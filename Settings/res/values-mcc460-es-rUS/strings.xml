@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="radio_controls_summary">Administrar WLAN, Bluetooth, modo de avión, redes, móviles, &amp; VPN</string>
+    <string name="wifi_quick_toggle_title">WLAN</string>
+    <string name="wifi_quick_toggle_summary">Activar WLAN</string>
+    <string name="wifi_settings">WLAN</string>
+    <string name="wifi_settings_category">Configuración WLAN</string>
+    <string name="wifi_settings_title">WLAN</string>
+    <string name="wifi_setup_wizard_title">Seleccionar WLAN</string>
+    <string name="wifi_starting">Activando WLAN...</string>
+    <string name="wifi_stopping">Apagando WLAN...</string>
+    <string name="wifi_poor_network_detection_summary">No usar una red WLAN a menos que tenga una buena conexión a Internet</string>
+    <string name="wifi_setting_sleep_policy_title">Mantener WLAN durante la suspensión</string>
+    <string name="wifi_access_points">Redes WLAN</string>
+    <string name="wifi_menu_p2p">WLAN Direct</string>
+    <string name="wifi_empty_list_wifi_off">Para ver las redes disponibles, activa WLAN.</string>
+    <string name="wifi_empty_list_wifi_on">Buscando redes WLAN…</string>
+    <string name="wifi_wps_setup_title">Configuración WLAN protegida</string>
+    <string name="wifi_wps_onstart_pbc">Pulsa el botón Configuración WLAN protegida del router. Es posible que se denomine \"WPS\" o que incluya este símbolo:</string>
+    <string name="wifi_wps_onstart_pin">Ingresa el PIN %1$s en tu enrutador WLAN. La configuración puede demorar hasta dos minutos en completarse.</string>
+    <string name="wifi_wps_connected">Se estableció conexión con la red WLAN %s.</string>
+    <string name="wifi_advanced_titlebar">WLAN avanzada</string>
+    <string name="wifi_setting_frequency_band_title">Banda de frecuencia WLAN</string>
+    <string name="wifi_p2p_settings_title">WLAN Direct</string>
+    <string name="wifi_tether_checkbox_text">Zona WLAN portátil</string>
+    <string name="wifi_tether_enabled_subtext">Zona WLAN portátil de %1$s activa</string>
+    <string name="wifi_tether_failed_subtext">Error en la zona WLAN portátil</string>
+    <string name="wifi_tether_configure_ap_text">Configurar la zona WLAN</string>
+    <string name="wifi_tether_configure_subtext">" Zona WLAN portátil %1$s %2$s"</string>
+    <string name="status_wifi_mac_address">Dirección MAC de WLAN</string>
+    <string name="tether_settings_title_wifi">Zona WLAN portátil</string>
+    <string name="location_network_based">Ubicación de red WLAN y móvil</string>
+    <string name="location_neighborhood_level">Permitir que aplicaciones usen el servicio de ubicación de Google para calcular tu ubicación (se enviarán datos anónimos a Google)</string>
+    <string name="location_neighborhood_level_wifi">Ubicación determinada por WLAN</string>
+    <string name="battery_stats_wifi_running_label">WLAN</string>
+    <string name="wifi_on_time">WLAN a tiempo</string>
+    <string name="bluetooth_on_time">WLAN a tiempo</string>
+    <string name="power_wifi">WLAN</string>
+    <string name="usage_type_wifi_running">WLAN en funcionamiento</string>
+    <string name="battery_action_wifi">Configuración WLAN</string>
+    <string name="battery_desc_wifi">La batería está siendo utilizada por WLAN</string>
+    <string name="battery_sugg_wifi">Desactiva WLAN cuando no lo uses o cuando no esté disponible.</string>
+    <string name="gadget_toggle_wifi">Actualizando configuración de WLAN</string>
+    <string name="backup_data_summary">Crear copias de seguridad de los datos de distintas aplicaciones, de contraseñas WLAN y de otros parámetros de configuración en los servidores de Google</string>
+    <string name="backup_erase_dialog_message">¿Deseas dejar de crear copias de seguridad de tus contraseñas WLAN, de tus marcadores, de otros parámetros de configuración y de datos de distintas aplicaciones, y eliminar todas las copias de los servidores de Google?</string>
+    <string name="wifi_setup_title">Configurar WLAN</string>
+    <string name="wifi_setup_title_editing_network">Conectar a una red WLAN %s</string>
+    <string name="wifi_setup_title_connecting_network">Conectándose a la red WLAN %s...</string>
+    <string name="wifi_setup_title_connected_network">Conectado a una red WLAN %s</string>
+    <string name="wifi_setup_eap_not_supported">No puedes configurar una conexión WLAN con EAP durante la configuración. Luego de esta, puedes hacerlo en Conexiones inalámbricas y redes, en Configuración.</string>
+    <string name="wifi_setup_description_connected">Tocar <b>Siguiente</b>" para continuar con la instalación.
+
+Tocar "<b>Atrás</b> para conectarte a otra red WLAN.</string>
+    <string name="data_usage_menu_show_wifi">Mostrar el uso de WLAN</string>
+    <string name="data_usage_menu_metered">Zonas WLAN móviles</string>
+    <string name="data_usage_disable_wifi_limit">Establecer límite de datos WLAN</string>
+    <string name="data_usage_tab_wifi">WLAN</string>
+    <string name="data_usage_restrict_background">Si restringes los datos para celulares de referencia, algunas aplicaciones y servicios no funcionarán a menos que te conectes a una red WLAN.</string>
+    <string name="data_usage_metered_title">Zonas WLAN móviles</string>
+    <string name="data_usage_metered_body">Selecciona las redes WLAN que sean zonas WLAN móviles. Se puede impedir que las aplicaciones usen estas redes cuando se ejecuten en segundo plano. Asimismo, las aplicaciones pueden mostrar un mensaje de advertencia antes de usar estas redes para descargar archivos de gran tamaño.</string>
+    <string name="data_usage_metered_wifi">Redes WLAN</string>
+    <string name="data_usage_metered_wifi_disabled">Para seleccionar zonas WLAN móviles, activa WLAN.</string>
+</resources>

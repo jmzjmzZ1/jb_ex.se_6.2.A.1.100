@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sip_call_options_wifi_only_title">Internetanruf verwenden (nur WLAN)</string>
+    <string name="registration_status_no_wifi_data">Keine WLAN-Verbindung vorhanden. Kontoregistrierung nicht möglich.</string>
+    <string name="no_wifi_available_title">Keine WLAN-Verbindung</string>
+    <string name="no_wifi_available">Für Internetanrufe ist eine aktive WLAN-Verbindung notwendig. Wählen Sie die entsprechenden Einstellungen unter \"Drahtlos &amp; Netzwerke\".</string>
+</resources>

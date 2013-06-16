@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="install_wapi_certs">WLAN 인증서 설치</string>
+    <string name="wifi_security_wapi_psk">WLAN PSK</string>
+    <string name="wifi_security_wapi_cert">WLAN CERT</string>
+    <string name="radio_controls_summary">WLAN, Bluetooth, 비행 모드, 모바일 네트워크 및VPN관리</string>
+    <string name="wifi_quick_toggle_title">WLAN</string>
+    <string name="wifi_quick_toggle_summary">WLAN 켜기</string>
+    <string name="wifi_settings">WLAN</string>
+    <string name="wifi_settings_category">WLAN 설정</string>
+    <string name="wifi_settings_title">WLAN</string>
+    <string name="wifi_setup_wizard_title">WLAN 선택</string>
+    <string name="wifi_starting">WLAN 켜는 중</string>
+    <string name="wifi_stopping">WLAN 끄는 중</string>
+    <string name="wifi_poor_network_detection_summary">인터넷 연결이 원활하지 않으면 WLAN 네트워크를 사용하지 않음</string>
+    <string name="wifi_setting_sleep_policy_title">절전 모드 동안 WLAN 연결 유지</string>
+    <string name="wifi_access_points">WLAN 네트워크</string>
+    <string name="wifi_menu_p2p">WLAN Direct</string>
+    <string name="wifi_empty_list_wifi_off">사용할 수 있는 네트워크를 보려면 WLAN를 켭니다.</string>
+    <string name="wifi_empty_list_wifi_on">WLAN 네트워크를 찾는 중…</string>
+    <string name="wifi_wps_setup_title">WPS(WLAN 보호) 설정</string>
+    <string name="wifi_wps_onstart_pbc">공유기에서 WLAN 보호 설정 버튼을 누르세요. \"WPS\"라고 줄여 부르기도 하며 다음 기호를 포함할 수도 있습니다.</string>
+    <string name="wifi_wps_onstart_pin">WLAN 공유기에 개인 식별 번호 %1$s을(를) 입력하십시오. 설정을 완료하는 데 최대 2분이 소요됩니다.</string>
+    <string name="wifi_wps_connected">WLAN 네트워크 %s에 연결됨</string>
+    <string name="wifi_advanced_titlebar">고급 WLAN</string>
+    <string name="wifi_setting_frequency_band_title">WLAN 주파수 대역</string>
+    <string name="wifi_p2p_settings_title">WLAN Direct</string>
+    <string name="wifi_tether_checkbox_text">휴대용 WLAN 핫스팟</string>
+    <string name="wifi_tether_failed_subtext">휴대용 WLAN 핫스팟 오류</string>
+    <string name="wifi_tether_configure_ap_text">WLAN 핫스팟 설정</string>
+    <string name="wifi_tether_configure_subtext">"%1$s 휴대용 WLAN 핫스팟입니다.
+보안: %2$s"</string>
+    <string name="status_wifi_mac_address">WLAN MAC 주소</string>
+    <string name="location_neighborhood_level">익명의 위치 정보를 Google에 전송하도록 허용합니다. 또한 허용된 앱에서 WLAN 및 모바일 네트워크와 같은 소스의 데이터를 사용하여 사용자의 대략적인 위치를 판단할 수 있게 합니다.</string>
+    <string name="location_neighborhood_level_wifi">WLAN에서 확인된 위치</string>
+    <string name="battery_stats_wifi_running_label">WLAN</string>
+    <string name="wifi_on_time">WLAN 사용 시간</string>
+    <string name="bluetooth_on_time">WLAN 사용 시간</string>
+    <string name="power_wifi">WLAN</string>
+    <string name="usage_type_wifi_running">WLAN 실행 중</string>
+    <string name="battery_action_wifi">WLAN 설정</string>
+    <string name="battery_desc_wifi">WLAN 배터리 사용량</string>
+    <string name="battery_sugg_wifi">사용 중이 아니거나 사용할 수 없을 때 WLAN 끄기</string>
+    <string name="gadget_toggle_wifi">WLAN 설정 업데이트 중</string>
+    <string name="backup_data_summary">앱 데이터, WLAN 암호 및 기타 Google 서버 설정 백업</string>
+    <string name="backup_erase_dialog_message">WLAN 암호, 즐겨찾기, 기타 설정 및 앱 데이터 백업을 중지하고 Google 서버에 있는 모든 사본을 지우시겠습니까?</string>
+    <string name="wifi_setup_title">WLAN 설정</string>
+    <string name="wifi_setup_title_editing_network">WLAN 네트워크(%s)에 연결</string>
+    <string name="wifi_setup_title_connecting_network">WLAN 네트워크(%s)에 연결 중…</string>
+    <string name="wifi_setup_title_connected_network">WLAN 네트워크(%s)에 연결됨</string>
+    <string name="wifi_setup_eap_not_supported">설정하는 동안에는 EAP WLAN 연결을 구성할 수 없습니다. 설정한 후에 설정 > 무선 및 네트워크에서 구성할 수 있습니다.</string>
+    <string name="wifi_setup_description_connected">설정을 계속하려면 <b>다음</b>"을 터치하십시오.
+
+다른 WLAN 네트워크에 연결하려면 "<b>뒤로 가기</b>를 터치하십시오.</string>
+    <string name="data_usage_menu_show_wifi">WLAN 사용량 표시</string>
+    <string name="data_usage_disable_wifi_limit">WLAN 데이터 제한 설정</string>
+    <string name="data_usage_tab_wifi">WLAN</string>
+    <string name="data_usage_restrict_background">백그라운드 모바일 데이터를 제한하면 WLAN 네트워크에 연결되어 있지 않은 경우 일부 앱과 서비스가 작동하지 않습니다.</string>
+    <string name="data_usage_metered_body">모바일 핫스팟인 WLAN 네트워크를 선택하십시오. 앱에서 백그라운드 데이터를 사용 할 때 해당 네트워크를 사용할 수 없도록 제한할 수 있습니다. 또한 앱에서 대용량 다운로드 전에 네트워크 사용에 대해 경고해 줍니다.</string>
+    <string name="data_usage_metered_wifi">WLAN 네트워크</string>
+    <string name="data_usage_metered_wifi_disabled">모바일 핫스팟을 선택하려면 WLAN를 사용하도록 설정합니다.</string>
+    <string name="ct_wifi_connected_text">China Telecom WLAN에 연결됨</string>
+    <string name="cw_network_priority">China Telecom WLAN 우선 지정</string>
+    <string name="cw_network_priority_summary">연결 시 China Telecom WLAN는 기타 WLAN 네트워크보다 우선적으로 지정됨</string>
+    <string name="data_traffic_disabled_text">데이터 트래픽을 사용할 수 없어 China Telecom WLAN 네트워크에 연결할 수 없습니다. 데이터 트래픽을 사용하도록 설정하시겠습니까?</string>
+    <string name="location_based_wifi">위치 기반 WLAN</string>
+    <string name="operator_auto_connect_hotspot_description_txt">AT&amp;T WLAN 핫스팟에 자동 연결</string>
+    <string name="operator_auto_connect_hotspot_txt">AT&amp;T WLAN 자동 연결</string>
+    <string name="wifi_calling_mode_title">WLAN 전화</string>
+    <string name="wifi_context_menu_change_wapi_certificate">WLAN 인증서 변경</string>
+    <string name="wifi_p2p_settings">WLAN Direct 설정</string>
+    <string name="wifi_security_verbose_wapi_cert">WLAN CERT로 보안</string>
+    <string name="wifi_security_verbose_wapi_psk">WLAN PSK로 보안</string>
+    <string name="wifi_tether_settings_subtext">휴대용 WLAN 핫스팟 설정 및 관리</string>
+    <string name="wifi_tether_settings_text">휴대용 WLAN 핫스팟 설정</string>
+    <string name="wifi_wps_category_title">WLAN 네트워크 설정</string>
+    <string name="cw_network_notification">CT WLAN 알림 사용하도록 설정</string>
+    <string name="dialog_message_hint"><u>STAMINA 모드란 무엇입니까?</u>"
+STAMINA 모드는 Sony™의 전원 절약 기능입니다. 이 모드를 활성화하면 화면이 꺼져 있는 동안 기능이 사용하지 않도록 설정되어 배터리 수명이 연장됩니다.
+
+"<u>기본 사용법</u>"
+STAMINA 모드를 활성화하려면 아래 버튼을 누릅니다. 이때 휴대폰을 재시작해야 합니다.
+화면이 꺼지면 WLAN 및 모바일 데이터가 일시적으로 사용하지 않도록 설정되고 대부분의 응용프로그램이 비활성화되어 배터리가 절약됩니다.
+화면이 켜지면 휴대폰이 정상적으로 작동합니다.
+
+"<u>고급 사용법</u>"
+화면이 꺼져 있을 때 일부 응용프로그램을 활성화된 상태로 유지하려면 해당 응용프로그램을 대기 모드에서 활성화된 앱 목록에 추가하기만 하면 됩니다.
+
+"<u>참고</u>"
+일부 응용프로그램은 대기 모드에서 사용하지 않도록 설정되면 제대로 작동하지 않을 수도 있습니다. 응용프로그램이 제대로 작동하지 않으면 대기 모드에서 활성화된 앱 목록에 추가하거나, 응용프로그램이 작동하지 않으면 STAMINA 모드를 비활성화하세요."</string>
+    <string name="extended_standby_mode_descr">화면이 꺼졌을 때 모바일 데이터 및 WLAN를 사용하지 않도록 설정</string>
+    <string name="location_based_wi_fi_descr">저장된 WLAN 네트워크의 범위에 들어오면 자동으로 WLAN가 활성화됨</string>
+    <string name="location_based_wi_fi_label">위치 기반 WLAN</string>
+    <string name="powersaver_feature_wifi">WLAN 끔</string>
+    <string name="tethering_no_sim_warning_txt">인터넷에 접속하기 위해 모바일 WLAN 핫스팟 또는 USB 테더링을 사용하여 다른 장치와 휴대폰의 데이터 연결을 공유하려면 USIM 카드를 삽입하세요.</string>
+</resources>

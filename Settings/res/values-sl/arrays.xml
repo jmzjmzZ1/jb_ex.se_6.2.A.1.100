@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="timezone_filters">
+        <item>Amerika</item>
+        <item>Evropa</item>
+        <item>Afrika</item>
+        <item>Azija</item>
+        <item>Avstralija</item>
+        <item>Pacifiška regija</item>
+        <item>Vse</item>
+    </string-array>
+    <string-array name="screen_timeout_entries">
+        <item>15 sekund</item>
+        <item>30 sekund</item>
+        <item>1 min.</item>
+        <item>2 minuti</item>
+        <item>5 minut</item>
+        <item>10 minut</item>
+        <item>30 minut</item>
+    </string-array>
+    <string-array name="dream_timeout_entries">
+        <item>Nikoli</item>
+        <item>15 sekund</item>
+        <item>30 sekund</item>
+        <item>1 minuta</item>
+        <item>2 minuti</item>
+        <item>5 minut</item>
+        <item>10 minut</item>
+        <item>30 minut</item>
+    </string-array>
+    <string-array name="lock_after_timeout_entries">
+        <item>Takoj</item>
+        <item>5 sekund</item>
+        <item>15 sekund</item>
+        <item>30 sekund</item>
+        <item>1 minuta</item>
+        <item>2 minuti</item>
+        <item>5 minut</item>
+        <item>10 minut</item>
+        <item>30 minut</item>
+    </string-array>
+    <string-array name="entries_font_size">
+        <item>Majhna</item>
+        <item>Navadna</item>
+        <item>Velika</item>
+        <item>Zelo velika</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Zelo počasen</item>
+        <item>Počasen</item>
+        <item>Normalen</item>
+        <item>Hiter</item>
+        <item>Zelo hiter</item>
+    </string-array>
+    <string-array name="tts_pitch_entries">
+        <item>Zelo nizek</item>
+        <item>Nizek</item>
+        <item>Normalen</item>
+        <item>Visok</item>
+        <item>Zelo visok</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Pregledovanje …</item>
+        <item>Vzpostavljanje povezave ...</item>
+        <item>Overjanje …</item>
+        <item>Pridobivanje naslova IP …</item>
+        <item>Povezava je vzpostavljena</item>
+        <item>Odloženo</item>
+        <item>Prekinjanje povezave ...</item>
+        <item>Povezava je prekinjena</item>
+        <item>Neuspešno</item>
+        <item>Blokirano</item>
+        <item>Začasno izogibanje slabi povezavi</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Pregledovanje …</item>
+        <item>Pov. z %1$s …</item>
+        <item>Prev. v %1$s …</item>
+        <item>Pr. IP od %1$s …</item>
+        <item>Pov. z %1$s je vzpostavljena</item>
+        <item>Odloženo</item>
+        <item>Prek. z %1$s …</item>
+        <item>Povezava je prekinjena</item>
+        <item>Neuspešno</item>
+        <item>Blokirano</item>
+        <item>Začasno izogibanje slabi povezavi</item>
+    </string-array>
+    <string-array name="wifi_eap_method">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+    </string-array>
+    <string-array name="wifi_p2p_wps_setup">
+        <item>Pritisnite gumb</item>
+        <item>PIN iz enakovredne naprave</item>
+        <item>PIN iz te naprave</item>
+    </string-array>
+    <string-array name="wifi_p2p_status">
+        <item>Povezava vzpostavljena</item>
+        <item>Povabljen</item>
+        <item>Neuspešno</item>
+        <item>Na voljo</item>
+        <item>Zunaj dosega</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2 minuti</item>
+        <item>5 minut</item>
+        <item>1 ura</item>
+        <item>Brez časovne omejitve</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>Slabo</item>
+        <item>Zadovoljivo</item>
+        <item>Dobro</item>
+        <item>Odlično</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>Vedno</item>
+        <item>Samo, ko je priključen</item>
+        <item>Nikoli (poveča uporabo podatkov)</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <item>Vedno</item>
+        <item>Samo, ko je priključen</item>
+        <item>Nikoli</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>Samodejno</item>
+        <item>Samo 5 GHz</item>
+        <item>Samo 2,4 GHz</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>Čas uporabe</item>
+        <item>Število zagonov</item>
+        <item>Ime programa</item>
+    </string-array>
+    <string-array name="wifi_eap_entries">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>Brez</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>Statično</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>Brez</item>
+        <item>Ročno</item>
+    </string-array>
+    <string-array name="emergency_tone_entries">
+        <item>Izklop</item>
+        <item>Opozorilo</item>
+        <item>Vibriranje</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>Brez</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP ali CHAP</item>
+    </string-array>
+    <string-array name="apn_protocol_entries">
+        <item>IPv4</item>
+        <item>IPv6</item>
+        <item>IPv4/IPv6</item>
+    </string-array>
+    <string-array name="bearer_entries">
+        <item>LTE</item>
+        <item>eHRPD</item>
+        <item>Neopredeljeno</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>Notran. pomniln. naprave</item>
+        <item>Izmenljiva kartica SD</item>
+        <item>Naj določi sistem</item>
+    </string-array>
+    <string-array name="long_press_timeout_selector_titles">
+        <item>Kratko</item>
+        <item>Srednje</item>
+        <item>Dolgo</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>Nikoli ne preveri</item>
+        <item>Preveri samo glede vsebine DRM</item>
+        <item>Vedno preveri</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>Nikoli ne uporabi preverjanja HDCP</item>
+        <item>Preverjanje HDCP uporabi samo za vsebino DRM</item>
+        <item>Vedno uporabi preverjanje HDCP</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>Animacija je izključena</item>
+        <item>Merilo animacije: 0,5 x</item>
+        <item>Merilo animacije: 1 x</item>
+        <item>Merilo animacije: 1,5 x</item>
+        <item>Merilo animacije: 2 x</item>
+        <item>Merilo animacije: 5 x</item>
+        <item>Merilo animacije: 10 x</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>Animacija je izključena</item>
+        <item>Merilo animacije: 0,5 x</item>
+        <item>Merilo animacije: 1 x</item>
+        <item>Merilo animacije: 1,5 x</item>
+        <item>Merilo animacije: 2 x</item>
+        <item>Merilo animacije: 5 x</item>
+        <item>Merilo animacije: 10 x</item>
+    </string-array>
+    <string-array name="animator_duration_scale_entries">
+        <item>Animacija je izklopljena</item>
+        <item>Merilo animacije: 0,5 x</item>
+        <item>Merilo animacije: 1 x</item>
+        <item>Merilo animacije: 1,5 x</item>
+        <item>Merilo animacije: 2 x</item>
+        <item>Merilo animacije: 5 x</item>
+        <item>Merilo animacije: 10 x</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>Standardna omejitev</item>
+        <item>Ni postopkov v ozadju</item>
+        <item>Največ 1 postopek</item>
+        <item>Največ 2 postopka</item>
+        <item>Največ 3 postopki</item>
+        <item>Največ 4 postopki</item>
+    </string-array>
+    <string-array name="vpn_types_long">
+        <item>PPTP VPN</item>
+        <item>L2TP/IPSec VPN s ključi v predhodni skupni rabi</item>
+        <item>L2TP/IPSec VPN s potrdili</item>
+        <item>IPSec VPN s ključi v predhodni skupni rabi in preverjanjem pristnosti Xauth</item>
+        <item>IPSec VPN s potrdili in preverjanjem pristnosti Xauth</item>
+        <item>IPSec VPN s potrdili in hibridnim preverjanjem pristnosti</item>
+    </string-array>
+    <string-array name="vpn_states">
+        <item>Povezava je prekinjena</item>
+        <item>Inicializacija ...</item>
+        <item>Povezovanje ...</item>
+        <item>Povezan</item>
+        <item>Časovna omejitev</item>
+        <item>Neuspešno</item>
+    </string-array>
+    <string-array name="wapi_psk_type">
+        <item>WAPI ASCII</item>
+        <item>WAPI hexadecimal</item>
+    </string-array>
+    <string-array name="password_timeout_entries_txt">
+        <item>30 sekund</item>
+        <item>1 minuta</item>
+        <item>2 minuti</item>
+        <item>10 minut</item>
+        <item>30 minut</item>
+        <item>60 minut</item>
+    </string-array>
+    <array name="wifi_status_with_sip_ppp">
+        <item></item>
+        <item>Iskanje</item>
+        <item>Vzpostavljanje povezave</item>
+        <item>Overjanje</item>
+        <item>Pridobivanje naslova IP</item>
+        <item>Povezava je vzpostavljena</item>
+        <item>Začasno prekinjeno</item>
+        <item>Prekinjanje povezave</item>
+        <item>"Povezava z  je prekinjena"</item>
+        <item>Neuspešno</item>
+        <item></item>
+        <item>@string/sip_authenticating_text</item>
+        <item>@string/sip_authentication_failed_text</item>
+        <item>@string/sip_authentication_successful_text</item>
+        <item>@string/ppp_connecting_text</item>
+        <item>@string/ppp_connection_fail_text</item>
+        <item>@string/ct_wifi_connected_text</item>
+    </array>
+</resources>

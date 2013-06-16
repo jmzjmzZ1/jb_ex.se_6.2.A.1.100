@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="twelve_key_dialer_digits_height">75.0dip</dimen>
+    <dimen name="incall_screen_end_call_button_portrait_height">79.0dip</dimen>
+    <dimen name="incall_screen_call_large_header_margin_right">32.0dip</dimen>
+    <dimen name="incall_screen_held_call_button_height">65.0dip</dimen>
+    <dimen name="incall_screen_end_call_info_margin_bottom">240.0dip</dimen>
+    <dimen name="incall_screen_waitting_and_call_pane_height">261.0dip</dimen>
+    <dimen name="incall_screen_waitting_and_call_pane_button_margintop">16.0dip</dimen>
+    <dimen name="twelve_key_dialer_text_view_height">64.0dip</dimen>
+    <dimen name="incall_screen_call_time_text_size">34.0dip</dimen>
+    <dimen name="incall_screen_end_call_button_margin_size">16.0dip</dimen>
+    <dimen name="twelve_key_dialer_height">300.0dip</dimen>
+    <dimen name="incall_screen_call_large_header_text_size">34.0dip</dimen>
+    <dimen name="incall_screen_call_large_header_text_small_size">34.0dip</dimen>
+    <dimen name="incall_screen_call_large_header_text_normal_size">34.0dip</dimen>
+    <dimen name="incall_screen_panel_button_height">88.0dip</dimen>
+    <dimen name="incall_screen_button_default_height_size">65.0dip</dimen>
+    <dimen name="incall_screen_conference_tap_info_text_size">14.0dip</dimen>
+    <dimen name="incall_screen_bluetooth_button_text_size">18.0dip</dimen>
+    <dimen name="incall_screen_call_default_middle_text_size">32.0dip</dimen>
+    <dimen name="incall_screen_contact_number_text_size">18.0dip</dimen>
+    <dimen name="incall_screen_call_cityid_text_size">12.0dip</dimen>
+    <dimen name="incall_screen_margin_indicator_top">13.0dip</dimen>
+</resources>

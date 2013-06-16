@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="grayBg">#ff333333</item>
+    <item type="drawable" name="somc_incallscreen_popupdailog_bg">#ffe6e6e6</item>
+    <item type="drawable" name="somc_incallscreen_popupdailog_pressed">#ffc0c0c0</item>
+    <item type="drawable" name="somc_incallscreen_popupdailog_divider">#ffcfcfcf</item>
+    <item type="drawable" name="APKTOOL_DUMMY_002a">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_0030">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_0045">false</item>
+</resources>

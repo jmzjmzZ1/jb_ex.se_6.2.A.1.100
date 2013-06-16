@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">Кілтсөзде кемінде %d әріп болуы тиіс</item>
+        <item quantity="one">Кілтсөзде кемінде 1 әріп болуы тиіс</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">Кілтсөзде кемінде %d 1 кіші әріп болуы тиіс</item>
+        <item quantity="one">Кілтсөзде кемінде 1 кіші әріп болуы тиіс</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">Кілтсөзде кемінде %d үлкен әріп болуы тиіс</item>
+        <item quantity="one">Кілтсөзде кемінде 1 үлкен әріп болуы тиіс</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">Кілтсөзде кемінде %d сандық таңба болуы тиіс</item>
+        <item quantity="one">Кілтсөзде кемінде 1 сандық таңба болуы тиіс</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">Кілтсөзде кемінде %d арнайы таңба болуы тиіс</item>
+        <item quantity="one">Кілтсөзде кемінде 1 арнайы таңба болуы тиіс</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">Кілтсөзде кемінде %d әріп емес таңба болуы тиіс</item>
+        <item quantity="one">Кілтсөзде кемінде 1 әріп емес таңба болуы тиіс</item>
+    </plurals>
+    <plurals name="remaining_time_format_days">
+        <item quantity="other">%d күн</item>
+        <item quantity="one">%d күн</item>
+    </plurals>
+    <plurals name="remaining_time_format_hours">
+        <item quantity="other">%d сағат</item>
+        <item quantity="one">%d сағат</item>
+    </plurals>
+</resources>

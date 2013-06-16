@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sip_call_options_wifi_only_title">ইন্টারনেট কলিং ব্যবহার করুন (কেবল WLAN)</string>
+    <string name="registration_status_no_wifi_data">কোনও WLAN সংযোগ নেই৷ অ্যাকাউন্ট নিবন্ধ করতে পারেনি৷</string>
+    <string name="no_wifi_available_title">কোনও WLAN সংযোগ নেই</string>
+    <string name="no_wifi_available">আপনি অবশ্যই ইন্টারনেট কলিংয়ের জন্য WLAN নেটওয়ার্ক সংযোগ করুন (সেটিংসে যান > ওয়্যারলেস ও নেটওয়ার্কস)৷</string>
+</resources>

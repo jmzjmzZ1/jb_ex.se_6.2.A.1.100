@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/manageConferencePanel" android:paddingBottom="@dimen/incall_screen_conference_pane_padding_bottom" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:directionality="leftToRight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/manageConferenceHeader" android:background="@drawable/somc_ab_stacked_solid_light_holo" android:layout_width="fill_parent" android:layout_height="48.0dip" android:directionality="leftToRight">
+        <ImageView android:layout_gravity="left|center" android:visibility="invisible" android:layout_width="12.0dip" android:layout_height="15.0dip" android:src="@drawable/semc_ic_ab_back_holo_light" />
+        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="8.0dip" android:src="@drawable/clh_launcher_phone" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="@dimen/conference_list_size" android:textColor="#ff333333" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/clh_large_manage_conference_participants" android:layout_weight="2.0" />
+    </LinearLayout>
+    <ListView android:id="@id/conferenceList" android:focusableInTouchMode="false" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_below="@id/manageConferenceHeader" android:directionality="leftToRight" />
+    <RelativeLayout android:id="@id/conferenceTextRelativeLayout" android:layout_width="@dimen/incall_screen_conference_right_pane_width" android:layout_height="@dimen/incall_screen_conference_right_pane_height" android:layout_toRightOf="@id/conferenceList">
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:textColor="#ff333333" android:ellipsize="end" android:id="@id/nameOrNumberFGCallConference" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/clh_conference_call_title_txt" android:singleLine="true" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

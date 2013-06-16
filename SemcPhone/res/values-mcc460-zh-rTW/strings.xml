@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sip_call_options_wifi_only_title">撥打網路電話 (僅限 WLAN)</string>
+    <string name="registration_status_no_wifi_data">沒有WLAN連線。無法註冊帳號。</string>
+    <string name="no_wifi_available_title">沒有 WLAN 連線</string>
+    <string name="no_wifi_available">您必須連上 WLAN 網路才能使用網路電話 (使用 [無線網路和網路] 設定)</string>
+</resources>

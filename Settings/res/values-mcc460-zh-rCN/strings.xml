@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="install_wapi_certs">安装WLAN证书</string>
+    <string name="wifi_security_wapi_psk">WLAN PSK</string>
+    <string name="wifi_security_wapi_cert">WLAN CERT</string>
+    <string name="radio_controls_summary">管理WLAN、蓝牙、飞行模式、移动网络和VPN</string>
+    <string name="wifi_quick_toggle_title">WLAN</string>
+    <string name="wifi_quick_toggle_summary">打开WLAN</string>
+    <string name="wifi_settings">WLAN</string>
+    <string name="wifi_settings_category">WLAN设定</string>
+    <string name="wifi_settings_title">WLAN</string>
+    <string name="wifi_setup_wizard_title">选择WLAN</string>
+    <string name="wifi_starting">正在打开WLAN...</string>
+    <string name="wifi_stopping">正在关闭WLAN...</string>
+    <string name="wifi_poor_network_detection_summary">仅在WLAN互联网连接状况良好时使用WLAN网络</string>
+    <string name="wifi_setting_sleep_policy_title">在睡眠状态下保持WLAN连接</string>
+    <string name="wifi_access_points">WLAN网络</string>
+    <string name="wifi_menu_p2p">WLAN Direct</string>
+    <string name="wifi_empty_list_wifi_off">要查看可用网络，请打开WLAN。</string>
+    <string name="wifi_empty_list_wifi_on">正在搜索WLAN网络…</string>
+    <string name="wifi_wps_setup_title">WLAN保护设置</string>
+    <string name="wifi_wps_onstart_pbc">请按下您路由器上的WLAN保护设置按钮，它可能会标为“WPS”或包含此符号：</string>
+    <string name="wifi_wps_onstart_pin">请在WLAN路由器上输入PIN %1$s。设置过程最多可能需要两分钟时间才能完成。</string>
+    <string name="wifi_wps_connected">已连接到WLAN网络%s</string>
+    <string name="wifi_advanced_titlebar">高级WLAN设定</string>
+    <string name="wifi_setting_frequency_band_title">WLAN频带</string>
+    <string name="wifi_p2p_settings_title">WLAN Direct</string>
+    <string name="wifi_tether_checkbox_text">移动热点</string>
+    <string name="wifi_tether_failed_subtext">移动热点错误</string>
+    <string name="wifi_tether_configure_ap_text">设置WLAN热点</string>
+    <string name="wifi_tether_configure_subtext">"%1$s 移动热点。
+安全性：%2$s"</string>
+    <string name="status_wifi_mac_address">WLAN MAC地址</string>
+    <string name="location_neighborhood_level">允许系统向Google发送匿名位置数据。同时允许具有权限的应用程序使用来自WLAN和移动网络等来源的数据，以便确定您所在的大概位置。</string>
+    <string name="location_neighborhood_level_wifi">通过WLAN确定位置</string>
+    <string name="battery_stats_wifi_running_label">WLAN</string>
+    <string name="wifi_on_time">WLAN开启时间</string>
+    <string name="bluetooth_on_time">WLAN开启时间</string>
+    <string name="power_wifi">WLAN</string>
+    <string name="usage_type_wifi_running">WLAN正在运行</string>
+    <string name="battery_action_wifi">WLAN设定</string>
+    <string name="battery_desc_wifi">WLAN所耗电量</string>
+    <string name="battery_sugg_wifi">不使用WLAN或其不可用时将其关闭</string>
+    <string name="gadget_toggle_wifi">正在更新WLAN设定</string>
+    <string name="backup_data_summary">将应用程序数据、WLAN 密码和其他设定备份至服务器</string>
+    <string name="backup_erase_dialog_message">要停止备份您的WLAN密码、书签、其他设定以及应用程序数据，并清除服务器上的所有副本吗？</string>
+    <string name="wifi_setup_title">WLAN设定</string>
+    <string name="wifi_setup_title_editing_network">连接到WLAN网络“%s”</string>
+    <string name="wifi_setup_title_connecting_network">正在连接WLAN网络“%s”...</string>
+    <string name="wifi_setup_title_connected_network">已连接到WLAN网络“%s”</string>
+    <string name="wifi_setup_eap_not_supported">不能在设定过程中配置EAP WLAN连接。设定完成后，您可以在“设定”>“无线和网络”下进行配置。</string>
+    <string name="wifi_setup_description_connected">触摸<b>下一步</b>"可继续进行设定。
+
+触摸"<b>返回</b>可连接到其他WLAN网络。</string>
+    <string name="data_usage_menu_show_wifi">显示WLAN使用情况</string>
+    <string name="data_usage_disable_wifi_limit">设定WLAN数据限制</string>
+    <string name="data_usage_tab_wifi">WLAN</string>
+    <string name="data_usage_restrict_background">如果限制后台移动数据，那么除非您已连接到WLAN网络，否则部分应用程序和服务会无法运行。</string>
+    <string name="data_usage_metered_body">选择属于移动热点的WLAN网络。这样可限制应用程序在后台使用这些网络。应用程序在使用这些网络下载较大的文件前，还可能会发出警告。</string>
+    <string name="data_usage_metered_wifi">WLAN网络</string>
+    <string name="data_usage_metered_wifi_disabled">要选择移动热点，请打开WLAN。</string>
+    <string name="ct_wifi_connected_text">已连接中国电信WLAN网络。</string>
+    <string name="cw_network_priority">优先使用中国电信WLAN网络</string>
+    <string name="cw_network_priority_summary">相对其他WLAN网络优先连接中国电信WLAN网络</string>
+    <string name="data_traffic_disabled_text">因为已禁用数据通信，无法连接中国电信WLAN网络。是否立即启用数据通信？</string>
+    <string name="location_based_wifi">基于位置的WLAN</string>
+    <string name="operator_auto_connect_hotspot_description_txt">自动连接到AT&amp;T的WLAN热点区</string>
+    <string name="operator_auto_connect_hotspot_txt">AT&amp;T WLAN自动连接</string>
+    <string name="wifi_calling_mode_title">WLAN呼叫</string>
+    <string name="wifi_context_menu_change_wapi_certificate">更改WLAN证书</string>
+    <string name="wifi_p2p_settings">WLAN Direct设定</string>
+    <string name="wifi_security_verbose_wapi_cert">使用WLAN CERT提供保护</string>
+    <string name="wifi_security_verbose_wapi_psk">使用WLAN PSK提供保护</string>
+    <string name="wifi_tether_settings_subtext">设置和管理移动热点</string>
+    <string name="wifi_tether_settings_text">移动热点设定</string>
+    <string name="wifi_wps_category_title">设定WLAN网络</string>
+    <string name="cw_network_notification">启用中国电信WLAN通知</string>
+    <string name="dialog_message_hint"><u>什么是STAMINA模式？</u>"
+STAMINA模式一种Sony™省电功能。它通过在屏幕处于关闭状态时禁用功能来延长电池使用寿命。
+
+"<u>基本用法</u>"
+要激活STAMINA模式，请点击下面的按钮。请注意，需要重新启动手机。
+当屏幕关闭时，WLAN和移动数据将暂时禁用，并且大多数应用程序将处于不活动状态，以节省电池电量。
+当屏幕打开时，您的手机将能正常工作。
+
+"<u>高级用法</u>"
+如果您希望在屏幕关闭时将某些应用程序保持活动状态，只需将其添加到\"待机时仍启用应用程序\"列表中即可。
+
+"<u>注意</u>"
+如果在待机模式下禁用某些应用程序，则它们可能无法正常工作。如果某个应用程序无法正常工作，请将其添加到\"待机时仍启用应用程序\"列表中，如果此举无法解决问题，请取消激活STAMINA模式。"</string>
+    <string name="extended_standby_mode_descr">关闭屏幕时禁用移动数据和WLAN</string>
+    <string name="location_based_wi_fi_descr">处于已保存的WLAN网络区域内时自动启用WLAN</string>
+    <string name="location_based_wi_fi_label">基于位置的WLAN</string>
+    <string name="powersaver_feature_wifi">WLAN关闭</string>
+    <string name="tethering_no_sim_warning_txt">请插入SIM卡，以便与使用移动WLAN热点或USB绑定访问互联网的其他设备共享手机的数据连接。</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/button_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_alignParentBottom="true" style="?android:attr/buttonBarStyle">
+        <Button android:ellipsize="marquee" android:id="@id/backupQuestionCancelButton" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/skip_button_label" android:singleLine="true" android:layout_weight="1.0" style="?android:attr/buttonBarButtonStyle" />
+        <Button android:ellipsize="marquee" android:id="@id/backupQuestionContinueButton" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/lockpattern_continue_button_text" android:singleLine="true" android:layout_weight="1.0" style="?android:attr/buttonBarButtonStyle" />
+    </LinearLayout>
+    <ListView android:id="@id/backupQuestionSelectorList" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="16.0dip" android:drawSelectorOnTop="false" android:dividerHeight="2.0px" android:layout_above="@id/button_bar" android:layout_alignParentTop="true" />
+</RelativeLayout>

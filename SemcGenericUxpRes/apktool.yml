@@ -1,0 +1,6 @@
+version: 1.4.3
+apkFileName: SemcGenericUxpRes.apk
+isFrameworkApk: true
+usesFramework:
+  ids:
+  - 1

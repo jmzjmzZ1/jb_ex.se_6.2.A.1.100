@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="incall_screen_supp_notification_toast_height_gravity">300</integer>
+    <integer name="incall_screen_contact_picture_width_middle_size">128</integer>
+    <integer name="incall_screen_contact_picture_margin_top">16</integer>
+    <integer name="incall_screen_contact_picture_width_large_size">600</integer>
+    <integer name="incall_screen_contact_picture_border_top">6</integer>
+    <integer name="incall_screen_contact_picture_border_left">6</integer>
+    <integer name="incall_screen_contact_picture_margin_right">102</integer>
+</resources>

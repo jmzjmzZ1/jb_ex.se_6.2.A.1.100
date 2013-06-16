@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SEMCWidget" parent="@android:style/Widget" />
+    <style name="SEMCWidget.AbsListView" parent="@android:style/Widget.AbsListView" />
+    <style name="SEMCWidget.GestureOverlayView" parent="@style/SEMCWidget" />
+    <style name="SEMCWidget.GestureOverlayView.White" parent="@style/SEMCWidget.GestureOverlayView" />
+    <style name="SEMCWidget.Button" parent="@android:style/Widget.Button">
+        <item name="android:textAppearance">@style/SEMCTextAppearance.Widget.Button</item>
+        <item name="android:textColor">@color/semc_primary_text</item>
+        <item name="android:background">@drawable/semc_btn_default</item>
+    </style>
+    <style name="SEMCWidget.Button.Vanilla" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/semc_btn_default</item>
+    </style>
+    <style name="SEMCWidget.Button.Small" parent="@style/SEMCWidget.Button">
+        <item name="android:background">@drawable/semc_btn_default_small</item>
+    </style>
+    <style name="SEMCWidget.Button.Inset" parent="@android:style/Widget.Button.Inset" />
+    <style name="SEMCWidget.Button.Transparent" parent="@style/SEMCWidget.Button" />
+    <style name="SEMCWidget.CompoundButton" parent="@android:style/Widget.CompoundButton" />
+    <style name="SEMCWidget.CompoundButton.CheckBox" parent="@android:style/Widget.CompoundButton.CheckBox" />
+    <style name="SEMCWidget.CompoundButton.RadioButton" parent="@android:style/Widget.CompoundButton.RadioButton" />
+    <style name="SEMCWidget.CompoundButton.Star" parent="@android:style/Widget.CompoundButton.Star" />
+    <style name="SEMCWidget.CompoundButton.SwitchButton" parent="@style/SEMCWidget.CompoundButton">
+        <item name="android:background">@drawable/semc_button_switch_bg</item>
+        <item name="android:button">@drawable/semc_button_switch_control</item>
+        <item name="android:maxWidth">@dimen/semc_switchbutton_maxwidth</item>
+        <item name="android:maxHeight">@dimen/semc_switchbutton_maxheight</item>
+        <item name="android:minWidth">@dimen/semc_switchbutton_minwidth</item>
+        <item name="android:minHeight">@dimen/semc_switchbutton_minheight</item>
+    </style>
+    <style name="SEMCWidget.Button.Toggle" parent="@android:style/Widget.Button.Toggle" />
+    <style name="SEMCWidget.ProgressBar" parent="@android:style/Widget.ProgressBar" />
+    <style name="SEMCWidget.ProgressBar.Large" parent="@android:style/Widget.ProgressBar.Large" />
+    <style name="SEMCWidget.ProgressBar.Small" parent="@android:style/Widget.ProgressBar.Small" />
+    <style name="SEMCWidget.ProgressBar.Inverse" parent="@android:style/Widget.ProgressBar.Inverse" />
+    <style name="SEMCWidget.ProgressBar.Large.Inverse" parent="@android:style/Widget.ProgressBar.Large.Inverse" />
+    <style name="SEMCWidget.ProgressBar.Small.Inverse" parent="@android:style/Widget.ProgressBar.Small.Inverse" />
+    <style name="SEMCWidget.ProgressBar.Small.Title" parent="@style/SEMCWidget.ProgressBar.Small">
+        <item name="android:indeterminateDrawable">@android:drawable/progress_small_titlebar</item>
+    </style>
+    <style name="SEMCWidget.ProgressBar.Horizontal" parent="@android:style/Widget.ProgressBar.Horizontal" />
+    <style name="SEMCWidget.SeekBar" parent="@android:style/Widget.SeekBar" />
+    <style name="SEMCWidget.RatingBar" parent="@android:style/Widget.RatingBar" />
+    <style name="SEMCWidget.RatingBar.Indicator" parent="@style/SEMCWidget.RatingBar" />
+    <style name="SEMCWidget.RatingBar.Small" parent="@style/SEMCWidget.RatingBar" />
+    <style name="SEMCWidget.TextView" parent="@android:style/Widget.TextView" />
+    <style name="SEMCWidget.TextView.ListSeparator" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">5.0sp</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="SEMCWidget.TextView.ListSeparator.White" parent="@style/SEMCWidget.TextView.ListSeparator">
+        <item name="android:background">@drawable/semc_light_header_dither</item>
+    </style>
+    <style name="SEMCWidget.EditText" parent="@android:style/Widget.EditText" />
+    <style name="SEMCWidget.ExpandableListView" parent="@style/SEMCWidget.ListView">
+        <item name="android:groupIndicator">@android:drawable/expander_group</item>
+        <item name="android:indicatorLeft">?android:expandableListPreferredItemIndicatorLeft</item>
+        <item name="android:indicatorRight">?android:expandableListPreferredItemIndicatorRight</item>
+        <item name="android:childDivider">@android:drawable/divider_horizontal_dark_opaque</item>
+    </style>
+    <style name="SEMCWidget.ImageWell" parent="@android:style/Widget.ImageWell" />
+    <style name="SEMCWidget.ImageButton" parent="@android:style/Widget.ImageButton">
+        <item name="android:background">@drawable/semc_btn_default</item>
+    </style>
+    <style name="SEMCWidget.ImageButton.Vanilla" parent="@style/SEMCWidget.ImageButton">
+        <item name="android:background">@drawable/semc_btn_default</item>
+    </style>
+    <style name="SEMCWidget.AutoCompleteTextView" parent="@android:style/Widget.AutoCompleteTextView" />
+    <style name="SEMCWidget.Spinner" parent="@android:style/Widget.Spinner">
+        <item name="android:textAppearance">@style/SEMCTextAppearance.Inverse</item>
+        <item name="android:background">@drawable/semc_btn_dropdown</item>
+    </style>
+    <style name="SEMCWidget.TextView.PopupMenu" parent="@android:style/Widget.TextView.PopupMenu" />
+    <style name="SEMCWidget.TextView.SpinnerItem" parent="@android:style/Widget.TextView.SpinnerItem">
+        <item name="android:textColor">@android:color/primary_text_dark_disable_only</item>
+    </style>
+    <style name="SEMCWidget.DropDownItem" parent="@android:style/Widget.DropDownItem" />
+    <style name="SEMCWidget.DropDownItem.Spinner" parent="@android:style/Widget.DropDownItem.Spinner" />
+    <style name="SEMCWidget.ScrollView" parent="@android:style/Widget.ScrollView" />
+    <style name="SEMCWidget.HorizontalScrollView" parent="@style/SEMCWidget" />
+    <style name="SEMCWidget.ListView" parent="@style/SEMCWidget.AbsListView">
+        <item name="android:listSelector">@drawable/semc_list_selector_background</item>
+        <item name="android:cacheColorHint">@color/semc_listview_cache_color_hint</item>
+        <item name="android:divider">@android:drawable/divider_horizontal_dark_opaque</item>
+    </style>
+    <style name="SEMCWidget.ListView.White" parent="@style/SEMCWidget.AbsListView">
+        <item name="android:listSelector">@android:drawable/list_selector_background</item>
+        <item name="android:cacheColorHint">@color/semc_listview_cache_color_hint</item>
+        <item name="android:divider">@android:drawable/divider_horizontal_bright_opaque</item>
+    </style>
+    <style name="SEMCWidget.ListView.DropDown" parent="@style/SEMCWidget.ListView">
+        <item name="android:cacheColorHint">@null</item>
+        <item name="android:divider">@android:drawable/divider_horizontal_bright_opaque</item>
+    </style>
+    <style name="SEMCWidget.ListView.Menu" parent="@style/SEMCWidget.ListView">
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadingEdge">vertical</item>
+        <item name="android:listSelector">@android:drawable/menu_selector</item>
+        <item name="android:cacheColorHint">@null</item>
+        <item name="android:divider">@android:drawable/divider_horizontal_dark</item>
+    </style>
+    <style name="SEMCWidget.GridView" parent="@style/SEMCWidget.AbsListView">
+        <item name="android:listSelector">@android:drawable/grid_selector_background</item>
+    </style>
+    <style name="SEMCWidget.WebView" parent="@android:style/Widget.WebView" />
+    <style name="SEMCWidget.TabHost" parent="@style/SEMCWidget" />
+    <style name="SEMCWidget.TabWidget" parent="@android:style/Widget.TabWidget" />
+    <style name="SEMCWidget.Gallery" parent="@android:style/Widget.Gallery" />
+    <style name="SEMCWidget.PopupWindow" parent="@android:style/Widget.PopupWindow" />
+    <style name="SEMCWidget.KeyboardView" parent="@android:style/Widget.KeyboardView" />
+    <style name="SEMCWidget.QuickContactBadge" parent="@style/SEMCWidget" />
+    <style name="SEMCWidget.QuickContactBadgeSmall" parent="@style/SEMCWidget" />
+    <style name="SEMCWidget.QuickContactBadge.WindowSmall" parent="@style/SEMCWidget.QuickContactBadge" />
+    <style name="SEMCWidget.QuickContactBadge.WindowMedium" parent="@style/SEMCWidget.QuickContactBadge" />
+    <style name="SEMCWidget.QuickContactBadge.WindowLarge" parent="@style/SEMCWidget.QuickContactBadge" />
+    <style name="SEMCWidget.QuickContactBadgeSmall.WindowSmall" parent="@style/SEMCWidget.QuickContactBadgeSmall" />
+    <style name="SEMCWidget.QuickContactBadgeSmall.WindowMedium" parent="@style/SEMCWidget.QuickContactBadgeSmall" />
+    <style name="SEMCWidget.QuickContactBadgeSmall.WindowLarge" parent="@style/SEMCWidget.QuickContactBadgeSmall" />
+    <style name="SEMCTextAppearance" parent="@android:style/TextAppearance">
+        <item name="android:textColorLink">@color/semc_text_color_link</item>
+    </style>
+    <style name="SEMCTextAppearance.ExtraLarge" parent="@style/SEMCTextAppearance">
+        <item name="android:textSize">@dimen/semc_text_size_extra_large</item>
+    </style>
+    <style name="SEMCTextAppearance.ExtraLarge.Secondary" parent="@style/SEMCTextAppearance.ExtraLarge">
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+    <style name="SEMCTextAppearance.ExtraLarge.Disabled" parent="@style/SEMCTextAppearance.ExtraLarge">
+        <item name="android:textColor">?android:textColorPrimaryDisableOnly</item>
+    </style>
+    <style name="SEMCTextAppearance.Large" parent="@android:style/TextAppearance.Large">
+        <item name="android:textColorLink">@color/semc_text_color_link</item>
+    </style>
+    <style name="SEMCTextAppearance.Large.Secondary" parent="@style/SEMCTextAppearance.Large">
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+    <style name="SEMCTextAppearance.Large.Disabled" parent="@style/SEMCTextAppearance.Large">
+        <item name="android:textColor">?android:textColorPrimaryDisableOnly</item>
+    </style>
+    <style name="SEMCTextAppearance.Medium" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColorLink">@color/semc_text_color_link</item>
+    </style>
+    <style name="SEMCTextAppearance.Medium.Secondary" parent="@style/SEMCTextAppearance.Medium">
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+    <style name="SEMCTextAppearance.Medium.Disabled" parent="@style/SEMCTextAppearance.Medium">
+        <item name="android:textColor">?android:textColorPrimaryDisableOnly</item>
+    </style>
+    <style name="SEMCTextAppearance.Small" parent="@android:style/TextAppearance.Small">
+        <item name="android:textColorLink">@color/semc_text_color_link</item>
+    </style>
+    <style name="SEMCTextAppearance.Small.Secondary" parent="@style/SEMCTextAppearance.Small">
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+    <style name="SEMCTextAppearance.Small.Disabled" parent="@style/SEMCTextAppearance.Small">
+        <item name="android:textColor">?android:textColorPrimaryDisableOnly</item>
+    </style>
+    <style name="SEMCTextAppearance.ExtraSmall" parent="@style/SEMCTextAppearance">
+        <item name="android:textSize">@dimen/semc_text_size_extra_small</item>
+    </style>
+    <style name="SEMCTextAppearance.ExtraSmall.Secondary" parent="@style/SEMCTextAppearance.ExtraSmall">
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+    <style name="SEMCTextAppearance.ExtraSmall.Disabled" parent="@style/SEMCTextAppearance.ExtraSmall">
+        <item name="android:textColor">?android:textColorPrimaryDisableOnly</item>
+    </style>
+    <style name="SEMCTextAppearance.DialogWindowTitle" parent="@android:style/TextAppearance.DialogWindowTitle" />
+    <style name="SEMCTextAppearance.WindowTitle" parent="@android:style/TextAppearance.WindowTitle">
+        <item name="android:textColor">@color/semc_theme_accent_color</item>
+    </style>
+    <style name="SEMCTextAppearance.Widget" parent="@android:style/TextAppearance.Widget">
+        <item name="android:textColorLink">@color/semc_text_color_link</item>
+    </style>
+    <style name="SEMCTextAppearance.Widget.Button" parent="@android:style/TextAppearance.Widget.Button">
+        <item name="android:textColor">@color/semc_primary_text</item>
+    </style>
+    <style name="SEMCTextAppearance.Widget.IconMenu" parent="@style/SEMCTextAppearance.Widget" />
+    <style name="SEMCTextAppearance.Widget.IconMenu.Item" parent="@style/SEMCTextAppearance.Widget.IconMenu" />
+    <style name="SEMCTextAppearance.Widget.EditText" parent="@android:style/TextAppearance.Widget.EditText">
+        <item name="android:textColorLink">@color/semc_text_color_link</item>
+    </style>
+    <style name="SEMCTextAppearance.Widget.TabWidget" parent="@android:style/TextAppearance.Widget.TabWidget" />
+    <style name="SEMCTextAppearance.Widget.TextView" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:textColorLink">@color/semc_text_color_link</item>
+    </style>
+    <style name="SEMCTextAppearance.Widget.DropDownHint" parent="@android:style/TextAppearance.Widget.DropDownHint">
+        <item name="android:textColorLink">@color/semc_text_color_link</item>
+    </style>
+    <style name="SEMCTextAppearance.Widget.DropDownItem" parent="@android:style/TextAppearance.Widget.DropDownItem">
+        <item name="android:textColorLink">@color/semc_text_color_link</item>
+    </style>
+    <style name="SEMCTextAppearance.Widget.TextView.SpinnerItem" parent="@android:style/TextAppearance.Widget.TextView.SpinnerItem">
+        <item name="android:textColorLink">@color/semc_text_color_link</item>
+    </style>
+    <style name="SEMCTextAppearance.SearchResult" parent="@style/SEMCTextAppearance">
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+    </style>
+    <style name="SEMCTextAppearance.SearchResult.Title" parent="@android:style/TextAppearance.SearchResult.Title">
+        <item name="android:textColorLink">@color/semc_text_color_link</item>
+    </style>
+    <style name="SEMCTextAppearance.SearchResult.Subtitle" parent="@android:style/TextAppearance.SearchResult.Subtitle">
+        <item name="android:textColorLink">@color/semc_text_color_link</item>
+    </style>
+    <style name="SEMCPreference">
+        <item name="android:layout">@android:layout/preference</item>
+    </style>
+    <style name="SEMCPreference.Information" parent="@style/SEMCPreference">
+        <item name="android:enabled">false</item>
+        <item name="android:layout">@android:layout/preference_information</item>
+        <item name="android:shouldDisableView">false</item>
+    </style>
+    <style name="SEMCPreference.Category" parent="@style/SEMCPreference">
+        <item name="android:layout">@android:layout/preference_category</item>
+        <item name="android:selectable">false</item>
+        <item name="android:shouldDisableView">false</item>
+    </style>
+    <style name="SEMCPreference.CheckBoxPreference" parent="@style/SEMCPreference">
+        <item name="android:widgetLayout">@android:layout/preference_widget_checkbox</item>
+    </style>
+    <style name="SEMCPreference.PreferenceScreen" parent="@style/SEMCPreference" />
+    <style name="SEMCPreference.DialogPreference" parent="@style/SEMCPreference">
+        <item name="android:widgetLayout">@layout/semc_preference_dialog</item>
+        <item name="android:positiveButtonText">@android:string/ok</item>
+        <item name="android:negativeButtonText">@android:string/cancel</item>
+    </style>
+    <style name="SEMCPreference.DialogPreference.YesNoPreference" parent="@style/SEMCPreference.DialogPreference">
+        <item name="android:widgetLayout">@layout/semc_preference_dialog</item>
+        <item name="android:positiveButtonText">@android:string/yes</item>
+        <item name="android:negativeButtonText">@android:string/no</item>
+    </style>
+    <style name="SEMCPreference.DialogPreference.EditTextPreference" parent="@style/SEMCPreference.DialogPreference">
+        <item name="android:widgetLayout">@layout/semc_preference_dialog</item>
+        <item name="android:dialogLayout">@android:layout/preference_dialog_edittext</item>
+    </style>
+    <style name="SEMCPreference.RingtonePreference" parent="@style/SEMCPreference">
+        <item name="android:widgetLayout">@layout/semc_preference_dialog</item>
+        <item name="android:ringtoneType">ringtone</item>
+        <item name="android:showDefault">true</item>
+        <item name="android:showSilent">true</item>
+    </style>
+    <style name="SEMCMediaButton" parent="@android:style/MediaButton" />
+    <style name="SEMCMediaButton.Previous" parent="@style/SEMCMediaButton" />
+    <style name="SEMCMediaButton.Next" parent="@style/SEMCMediaButton" />
+    <style name="SEMCMediaButton.Play" parent="@style/SEMCMediaButton" />
+    <style name="SEMCMediaButton.Ffwd" parent="@style/SEMCMediaButton" />
+    <style name="SEMCMediaButton.Rew" parent="@style/SEMCMediaButton" />
+    <style name="SEMCMediaButton.Pause" parent="@style/SEMCMediaButton" />
+    <style name="SEMCButtonBar" parent="@android:style/ButtonBar" />
+    <style name="SEMCTheme" parent="@android:style/Theme">
+        <item name="android:textAppearance">@style/SEMCTextAppearance</item>
+        <item name="android:textAppearanceLarge">@style/SEMCTextAppearance.Large</item>
+        <item name="android:textAppearanceMedium">@style/SEMCTextAppearance.Medium</item>
+        <item name="android:textAppearanceSmall">@style/SEMCTextAppearance.Small</item>
+        <item name="android:buttonStyle">@style/SEMCWidget.Button</item>
+        <item name="android:buttonStyleSmall">@style/SEMCWidget.Button.Small</item>
+        <item name="android:buttonStyleInset">@style/SEMCWidget.Button.Inset</item>
+        <item name="android:windowBackground">@drawable/semc_bg</item>
+        <item name="android:windowTitleStyle">@style/SEMCWindowTitle</item>
+        <item name="android:absListViewStyle">@style/SEMCWidget.AbsListView</item>
+        <item name="android:dropDownListViewStyle">@style/SEMCWidget.ListView.DropDown</item>
+        <item name="android:expandableListViewStyle">@style/SEMCWidget.ExpandableListView</item>
+        <item name="android:imageButtonStyle">@style/SEMCWidget.ImageButton</item>
+        <item name="android:listViewStyle">@style/SEMCWidget.ListView</item>
+        <item name="android:listViewWhiteStyle">@style/SEMCWidget.ListView.White</item>
+        <item name="android:spinnerStyle">@style/SEMCWidget.Spinner</item>
+        <item name="android:spinnerDropDownItemStyle">@style/SEMCWidget.DropDownItem.Spinner</item>
+        <item name="android:spinnerItemStyle">@style/SEMCWidget.TextView.SpinnerItem</item>
+        <item name="android:textAppearanceButton">@style/SEMCTextAppearance.Widget.Button</item>
+        <item name="switchButtonStyle">@style/SEMCWidget.CompoundButton.SwitchButton</item>
+        <item name="semcTextAppearanceBadge">@style/SEMCTextAppearance.Medium</item>
+    </style>
+    <style name="SEMCTheme.NoTitleBar" parent="@style/SEMCTheme">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="SEMCTheme.NoTitleBar.Fullscreen" parent="@style/SEMCTheme.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="SEMCTheme.Light" parent="@style/SEMCTheme">
+        <item name="android:colorForeground">@android:color/bright_foreground_light</item>
+        <item name="android:colorBackground">@android:color/background_light</item>
+        <item name="android:textColorPrimary">@android:color/primary_text_light</item>
+        <item name="android:textColorPrimaryDisableOnly">@android:color/primary_text_light_disable_only</item>
+        <item name="android:textColorSecondary">@android:color/secondary_text_light</item>
+        <item name="android:textColorPrimaryInverse">@android:color/primary_text_dark</item>
+        <item name="android:textColorSecondaryInverse">@android:color/secondary_text_dark</item>
+        <item name="android:textColorPrimaryNoDisable">@android:color/primary_text_light_nodisable</item>
+        <item name="android:textColorSecondaryNoDisable">@android:color/secondary_text_light_nodisable</item>
+        <item name="android:textColorPrimaryInverseNoDisable">@android:color/primary_text_dark_nodisable</item>
+        <item name="android:textColorSecondaryInverseNoDisable">@android:color/secondary_text_dark_nodisable</item>
+        <item name="android:textCheckMark">@android:drawable/indicator_check_mark_light</item>
+        <item name="android:textCheckMarkInverse">@android:drawable/indicator_check_mark_dark</item>
+        <item name="android:windowBackground">@drawable/semc_bg_bright</item>
+        <item name="android:listViewStyle">@android:style/Widget.ListView.White</item>
+        <item name="android:popupWindowStyle">@style/SEMCWidget.PopupWindow</item>
+        <item name="android:progressBarStyle">@style/SEMCWidget.ProgressBar.Inverse</item>
+        <item name="android:progressBarStyleSmall">@style/SEMCWidget.ProgressBar.Small.Inverse</item>
+        <item name="android:progressBarStyleLarge">@style/SEMCWidget.ProgressBar.Large.Inverse</item>
+        <item name="android:colorForegroundInverse">@android:color/bright_foreground_light_inverse</item>
+        <item name="android:listSeparatorTextViewStyle">@style/SEMCWidget.TextView.ListSeparator.White</item>
+        <item name="android:textColorTertiary">@android:color/tertiary_text_light</item>
+        <item name="android:textColorTertiaryInverse">@android:color/tertiary_text_dark</item>
+        <item name="android:listDivider">@drawable/semc_divider_horizontal_bright</item>
+        <item name="android:progressBarStyleInverse">@style/SEMCWidget.ProgressBar</item>
+        <item name="android:progressBarStyleSmallInverse">@style/SEMCWidget.ProgressBar.Small</item>
+        <item name="android:progressBarStyleLargeInverse">@style/SEMCWidget.ProgressBar.Large</item>
+        <item name="android:textColorPrimaryInverseDisableOnly">@android:color/primary_text_dark_disable_only</item>
+    </style>
+    <style name="SEMCTheme.Light.NoTitleBar" parent="@style/SEMCTheme.Light">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="SEMCTheme.Light.NoTitleBar.Fullscreen" parent="@style/SEMCTheme.Light.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="SEMCTheme.Black" parent="@style/SEMCTheme">
+        <item name="android:colorBackground">@android:color/black</item>
+        <item name="android:windowBackground">@android:color/black</item>
+    </style>
+    <style name="SEMCTheme.Black.NoTitleBar" parent="@style/SEMCTheme.Black">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="SEMCTheme.Black.NoTitleBar.Fullscreen" parent="@style/SEMCTheme.Black.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="SEMCTheme.Wallpaper" parent="@style/SEMCTheme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+    <style name="SEMCTheme.Wallpaper.NoTitleBar" parent="@style/SEMCTheme.Wallpaper">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="SEMCTheme.Wallpaper.NoTitleBar.Fullscreen" parent="@style/SEMCTheme.Wallpaper.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="SEMCTheme.WallpaperSettings" parent="@style/SEMCTheme">
+        <item name="android:windowBackground">@android:drawable/screen_background_dark_transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+    <style name="SEMCTheme.Light.WallpaperSettings" parent="@style/SEMCTheme.Light">
+        <item name="android:windowBackground">@android:drawable/screen_background_light_transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+    <style name="SEMCTheme.Translucent" parent="@style/SEMCTheme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+    <style name="SEMCTheme.Translucent.NoTitleBar" parent="@style/SEMCTheme.Translucent">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="SEMCTheme.Translucent.NoTitleBar.Fullscreen" parent="@style/SEMCTheme.Translucent.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="SEMCTheme.NoDisplay" parent="@style/SEMCTheme">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowNoDisplay">true</item>
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+    <style name="SEMCTheme.Dialog" parent="@android:style/Theme.Dialog" />
+    <style name="SEMCTheme.Dialog.ActionDialog" parent="@style/SEMCTheme.Translucent.NoTitleBar" />
+    <style name="SEMCTheme.Dialog.Alert" parent="@android:style/Theme.Dialog.Alert" />
+    <style name="SEMCTheme.Panel" parent="@style/SEMCTheme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+    <style name="SEMCTheme.Light.Panel" parent="@style/SEMCTheme.Light">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+    <style name="SEMCTheme.InputMethod" parent="@style/SEMCTheme.Panel">
+        <item name="android:windowAnimationStyle">@android:style/Animation.InputMethod</item>
+        <item name="android:imeFullscreenBackground">@android:drawable/input_method_fullscreen_background</item>
+        <item name="android:imeExtractEnterAnimation">@android:anim/input_method_extract_enter</item>
+        <item name="android:imeExtractExitAnimation">@android:anim/input_method_extract_exit</item>
+    </style>
+    <style name="SEMCTheme.SearchBar" parent="@style/SEMCTheme.Panel">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="SEMCTheme.GlobalSearchBar" parent="@style/SEMCTheme.Panel">
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="SEMCTheme.IconMenu" parent="@android:style/Theme.IconMenu" />
+    <style name="SEMCTheme.ExpandedMenu" parent="@style/SEMCTheme">
+        <item name="android:listViewStyle">@style/SEMCWidget.ListView.Menu</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.OptionsPanel</item>
+        <item name="android:background">@null</item>
+        <item name="android:itemTextAppearance">?android:textAppearanceLargeInverse</item>
+    </style>
+    <style name="SEMCTheme.Dialog.AppError" parent="@android:style/Theme.Dialog.AppError" />
+    <style name="SEMCTheme.Dialog.RecentApplications" parent="@android:style/Theme.Dialog.RecentApplications" />
+    <style name="SEMCTheme.Vanilla" parent="@style/SEMCTheme" />
+    <style name="SEMCTheme.Dialog.Vanilla" parent="@style/SEMCTheme.Dialog" />
+    <style name="SEMCTheme.Dialog.Alert.Vanilla" parent="@style/SEMCTheme.Dialog.Alert" />
+    <style name="SEMCTheme.NoGlobalAppBackground" parent="@style/SEMCTheme" />
+    <style name="SEMCTheme.BottomTabs" parent="@style/SEMCTheme">
+        <item name="android:tabWidgetStyle">@style/SEMCWidget.TabWidget.Bottom</item>
+    </style>
+    <style name="SEMCWidget.TabHost.Bottom" parent="@style/SEMCWidget.TabHost" />
+    <style name="SEMCWidget.TabWidget.TabStripDisabled" parent="@style/SEMCWidget.TabWidget">
+        <item name="android:tabStripEnabled">false</item>
+    </style>
+    <style name="SEMCWindowTitleBackground" />
+    <style name="SEMCDialogWindowTitle">
+        <item name="android:maxLines">1</item>
+        <item name="android:scrollHorizontally">true</item>
+    </style>
+    <style name="SEMCWindowTitle">
+        <item name="android:textAppearance">@style/SEMCTextAppearance.WindowTitle</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:shadowColor">#bb000000</item>
+        <item name="android:shadowRadius">2.75</item>
+    </style>
+    <style name="Animation.Dialog.SEMCModalDialog" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/semc_dialog_popup_enter</item>
+        <item name="android:windowExitAnimation">@anim/semc_dialog_popup_exit</item>
+    </style>
+    <style name="SEMCWidget.TabWidget.Bottom" parent="@style/SEMCWidget.TabWidget">
+        <item name="android:tabStripEnabled">false</item>
+        <item name="android:tabLayout">@layout/semc_tab_indicator</item>
+    </style>
+    <style name="SEMCTextAppearance.Inverse" parent="@style/SEMCTextAppearance">
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+        <item name="android:textColorHint">?android:textColorHintInverse</item>
+    </style>
+</resources>

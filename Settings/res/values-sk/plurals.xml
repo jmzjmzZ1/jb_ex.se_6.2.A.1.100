@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">Heslo musí obsahovať aspoň nasledujúci počet písmen: %d</item>
+        <item quantity="one">Heslo musí obsahovať aspoň 1 písmeno</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">Heslo musí obsahovať aspoň nasledujúci počet malých písmen: %d</item>
+        <item quantity="one">Heslo musí obsahovať aspoň 1 malé písmeno</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">Heslo musí obsahovať aspoň nasledujúci počet veľkých písmen: %d</item>
+        <item quantity="one">Heslo musí obsahovať aspoň 1 veľké písmeno</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">Heslo musí obsahovať aspoň nasledujúci počet číslic: %d</item>
+        <item quantity="one">Heslo musí obsahovať aspoň 1 číslicu</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">Heslo musí obsahovať aspoň nasledujúci počet špeciálnych symbolov: %d</item>
+        <item quantity="one">Heslo musí obsahovať aspoň 1 špeciálny symbol</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">Heslo musí obsahovať aspoň nasledujúci počet znakov, ktoré nie sú písmenami: %d</item>
+        <item quantity="one">Heslo musí obsahovať aspoň 1 znak, ktorý nie je písmenom</item>
+    </plurals>
+    <plurals name="remaining_time_format_days">
+        <item quantity="other">Dní: %d</item>
+        <item quantity="one">%d deň</item>
+    </plurals>
+    <plurals name="remaining_time_format_hours">
+        <item quantity="other">%d hod.</item>
+        <item quantity="one">%d hodina</item>
+    </plurals>
+</resources>

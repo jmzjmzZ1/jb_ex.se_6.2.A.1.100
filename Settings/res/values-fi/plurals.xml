@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">Salasanassa on oltava vähintään %d kirjainta</item>
+        <item quantity="one">Salasanassa on oltava vähintään 1 kirjain</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">Salasanassa on oltava vähintään %d pientä kirjainta</item>
+        <item quantity="one">Salasanassa on oltava vähintään 1 pieni kirjain</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">Salasanassa on oltava vähintään %d isoa kirjainta</item>
+        <item quantity="one">Salasanassa on oltava vähintään 1 iso kirjain</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">Salasanassa on oltava vähintään %d numeroa</item>
+        <item quantity="one">Salasanassa on oltava vähintään 1 numero</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">Salasanassa on oltava vähintään %d erikoissymbolia</item>
+        <item quantity="one">Salasanassa on oltava vähintään 1 erikoissymboli</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">Salasanassa on oltava vähintään %d merkkiä, jotka eivät ole kirjaimia</item>
+        <item quantity="one">Salasanassa on oltava vähintään 1 merkki, joka ei ole kirjain</item>
+    </plurals>
+    <plurals name="remaining_time_format_days">
+        <item quantity="other">%d päivää</item>
+        <item quantity="one">%d päivä</item>
+    </plurals>
+    <plurals name="remaining_time_format_hours">
+        <item quantity="other">%d tuntia</item>
+        <item quantity="one">%d tunti</item>
+    </plurals>
+</resources>

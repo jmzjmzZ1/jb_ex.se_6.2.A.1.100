@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="international_call_lock_title">International Call Lock</string>
+    <string name="international_call_lock_enabled">International call lock is enabled</string>
+    <string name="international_call_lock_disabled">International call lock is disabled</string>
+    <string name="international_call_restricted">International call is restricted</string>
+</resources>

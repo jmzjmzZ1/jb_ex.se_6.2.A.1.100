@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sip_call_options_wifi_only_title">İnternet çağrısı kullan (yalnızca kablosuz)</string>
+    <string name="registration_status_no_wifi_data">Kablosuz bağlantı hesap kayıt işlemi durduruldu</string>
+    <string name="no_wifi_available_title">Kablosuz bağlantı yok</string>
+    <string name="no_wifi_available">İnternet çağrıları için bir Kablosuz ağa bağlı olmalısınız (Kablosuz ve Ağ ayarlarını kullanın)</string>
+</resources>

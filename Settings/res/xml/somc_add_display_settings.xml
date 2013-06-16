@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.sonymobile.settings.preference.CheckBoxPreference android:title="@string/swiqi_strings_swiqi_txt" android:key="swiqi" android:summary="@string/swiqi_strings_swiqi_desc_txt" android:defaultValue="true" settings:dependOnSystemProperty="ro.service.swiqi.supported" settings:before="first" settings:valueOfSystemProperty="persist.service.swiqi.enable" />
+    <com.sonymobile.settings.preference.CheckBoxPreference android:title="@string/swiqi_strings_swiqi2_txt" android:key="swiqi2" android:summary="@string/swiqi_strings_swiqi_desc_txt" android:defaultValue="true" settings:dependOnSystemProperty="ro.service.swiqi2.supported" settings:before="first" settings:valueOfSettingsSystem="com.sonymobile.swiqi2_mode" />
+    <com.sonymobile.settings.preference.CheckBoxPreference android:title="@string/glove_mode_checkbox_title" android:key="glove_mode" android:summary="@string/glove_mode_checkbox_summary" android:defaultValue="true" settings:dependOnHasSystemFeature="com.sonymobile.floating_touch" settings:before="brightness" settings:valueOfSettingsSystem="com.sonymobile.touch.glove_mode" />
+    <com.sonymobile.settings.preference.PreferenceCategory android:title="@string/display_category_personalisation_title" android:key="category_personalisation" settings:after="last">
+        <com.sonymobile.settings.preference.IntentPreference android:title="@string/theme_label" android:key="theme" android:summary="@string/theme_summary" settings:dependOnIsValidIntent="true" settings:chooserTitle="@string/theme_dialog_title_select_theme_txt">
+            <intent android:action="com.sonyericsson.theme.intent.action.SET_RUNTIME_THEME" />
+        </com.sonymobile.settings.preference.IntentPreference>
+        <com.sonymobile.settings.preference.IntentPreference android:key="lockscreen" settings:dependOnIsValidIntent="true" settings:hasMetaData="true">
+            <intent android:action="com.sonyericsson.settings.intent.action.LOCKSCREEN" />
+        </com.sonymobile.settings.preference.IntentPreference>
+    </com.sonymobile.settings.preference.PreferenceCategory>
+    <com.sonymobile.settings.preference.IntentPreference android:key="white_balance" settings:dependOnIsValidIntent="true" settings:after="brightness" settings:hasMetaData="true">
+        <intent android:targetPackage="com.sonymobile.whitebalance" android:action="android.intent.action.MAIN" android:targetClass="com.sonymobile.whitebalance.WhiteBalanceActivity" />
+    </com.sonymobile.settings.preference.IntentPreference>
+</PreferenceScreen>

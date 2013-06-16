@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sip_call_options_wifi_only_title">Använd Internetsamtal (endast WLAN)</string>
+    <string name="registration_status_no_wifi_data">Ingen WLAN-anslutning. Det gick inte att registrera kontot.</string>
+    <string name="no_wifi_available_title">Ingen WLAN-anslutning</string>
+    <string name="no_wifi_available">Telefonen måste vara ansluten till ett WLAN-nätverk för att du ska kunna ringa Internetsamtal (gå till Inställningar > Trådlöst och nätverk)</string>
+</resources>

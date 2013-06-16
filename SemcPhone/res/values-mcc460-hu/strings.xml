@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sip_call_options_wifi_only_title">Internetes hívás használata (csak WLAN)</string>
+    <string name="registration_status_no_wifi_data">Nincs WLAN kapcsolat. Sikertelen a fiók regisztrálása.</string>
+    <string name="no_wifi_available_title">Nincs WLAN kapcsolat</string>
+    <string name="no_wifi_available">Internetes híváshoz WLAN hálózathoz kell kapcsolódnia (ugorjon a Beállítások > Vezeték nélküli és mobilhálózatok beállításra).</string>
+</resources>

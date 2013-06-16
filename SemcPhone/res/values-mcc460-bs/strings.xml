@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sip_call_options_wifi_only_title">Koristiti Internet pozivanje (samo WLAN)</string>
+    <string name="registration_status_no_wifi_data">Nema WLAN veze. Nije bilo moguće registrirati račun.</string>
+    <string name="no_wifi_available_title">WLAN veza nije uspostavljena</string>
+    <string name="no_wifi_available">Za Internet pozive morate biti povezani na WLAN mrežu (Idite na Postavke > Bežično i mreže).</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="bottom" android:id="@id/inCallButtonPanel" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/buttonRow" android:layout_width="wrap_content" android:layout_height="@dimen/incall_screen_button_row_height">
+        <include android:id="@id/button1" layout="@layout/somc_incall_panel_button" />
+        <include android:id="@id/button2" layout="@layout/somc_incall_panel_button" />
+        <include android:id="@id/button3" layout="@layout/somc_incall_panel_button" />
+        <include android:id="@id/button4" layout="@layout/somc_incall_panel_button" />
+    </LinearLayout>
+    <RelativeLayout android:gravity="center" android:id="@id/endCallButton" android:background="@drawable/clh_large_end_call_button" android:focusable="true" android:layout_width="@dimen/incall_screen_end_call_button_width" android:layout_height="@dimen/incall_screen_end_call_button_height" android:layout_marginTop="@dimen/incall_screen_end_call_button_padding_top" android:layout_below="@id/buttonRow" android:layout_centerHorizontal="true">
+        <ImageView android:id="@id/endCallButtonIcon" android:layout_width="@dimen/incall_screen_end_call_button_icon_width" android:layout_height="@dimen/incall_screen_end_call_button_icon_height" android:layout_marginRight="@dimen/incall_screen_end_call_button_icon_padding_right" android:src="@drawable/clh_large_end_call_icon" />
+        <TextView android:textSize="22.0dip" android:id="@id/endCallButtonText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/incall_screen_end_call_text_padding_right" android:text="@string/menu_endCall" android:layout_toRightOf="@id/endCallButtonIcon" />
+    </RelativeLayout>
+</RelativeLayout>

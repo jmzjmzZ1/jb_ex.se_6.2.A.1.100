@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">Лозинката мора да содржи најмалку %d букви</item>
+        <item quantity="one">Лозинката мора да содржи најмалку 1 буква</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">Лозинката мора да содржи најмалку %d мали букви</item>
+        <item quantity="one">Лозинката мора да содржи најмалку 1 мала буква</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">Лозинката мора да содржи најмалку %d големи букви</item>
+        <item quantity="one">Лозинката мора да содржи најмалку 1 голема буква</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">Лозинката мора да содржи најмалку %d нумерички броеви</item>
+        <item quantity="one">Лозинката мора да содржи најмалку 1 нумерички број</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">Лозинката мора да содржи најмалку %d специјални симболи</item>
+        <item quantity="one">Лозинката мора да содржи најмалку 1 специјален симбол</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">Лозинката мора да содржи најмалку %d знаци што не се букви</item>
+        <item quantity="one">Лозинката мора да содржи најмалку 1 знак што не е буква</item>
+    </plurals>
+    <plurals name="remaining_time_format_days">
+        <item quantity="other">%d дена</item>
+        <item quantity="one">%d ден</item>
+    </plurals>
+    <plurals name="remaining_time_format_hours">
+        <item quantity="other">%d часа</item>
+        <item quantity="one">%d час</item>
+    </plurals>
+</resources>

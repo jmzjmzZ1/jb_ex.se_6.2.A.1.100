@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sip_call_options_wifi_only_title">Llamadas por Internet (WLAN)</string>
+    <string name="registration_status_no_wifi_data">Se ha detenido el registro de cuenta porque no hay conexión WLAN.</string>
+    <string name="no_wifi_available_title">Sin conexión WLAN</string>
+    <string name="no_wifi_available">Para realizar llamadas por Internet, debes estar conectado a una red WLAN (utiliza la conexiones inalámbricas).</string>
+</resources>

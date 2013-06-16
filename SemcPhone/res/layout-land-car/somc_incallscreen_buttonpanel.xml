@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/buttonRow" android:layout_width="@dimen/incall_screen_end_call_button_carmode_width" android:layout_height="fill_parent" android:layout_alignParentRight="true" android:directionality="leftToRight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/button4" layout="@layout/somc_incall_panel_button" />
+    <include android:id="@id/button3" layout="@layout/somc_incall_panel_button" />
+    <include android:id="@id/button2" layout="@layout/somc_incall_panel_button" />
+    <include android:id="@id/button1" layout="@layout/somc_incall_panel_button" />
+</LinearLayout>

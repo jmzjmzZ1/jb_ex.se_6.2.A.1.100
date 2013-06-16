@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="timezone_filters">
+        <item>Amerika</item>
+        <item>Eropa</item>
+        <item>Afrika</item>
+        <item>Asia</item>
+        <item>Australia</item>
+        <item>Pasifik</item>
+        <item>Kabeh</item>
+    </string-array>
+    <string-array name="screen_timeout_entries">
+        <item>15 detik</item>
+        <item>30 detik</item>
+        <item>1 menit</item>
+        <item>2 menit</item>
+        <item>5 menit</item>
+        <item>10 menit</item>
+        <item>30 menit</item>
+    </string-array>
+    <string-array name="dream_timeout_entries">
+        <item>Ora nate</item>
+        <item>15 detik</item>
+        <item>30 detik</item>
+        <item>1 menit</item>
+        <item>2 menit</item>
+        <item>5 menit</item>
+        <item>10 menit</item>
+        <item>30 menit</item>
+    </string-array>
+    <string-array name="lock_after_timeout_entries">
+        <item>Langsung</item>
+        <item>5 detik</item>
+        <item>15 detik</item>
+        <item>30 detik</item>
+        <item>1 menit</item>
+        <item>2 menit</item>
+        <item>5 menit</item>
+        <item>10 menit</item>
+        <item>30 menit</item>
+    </string-array>
+    <string-array name="entries_font_size">
+        <item>Cilik</item>
+        <item>Normal</item>
+        <item>Gedhe</item>
+        <item>Ekstra gedhe</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Alon banget</item>
+        <item>Alon</item>
+        <item>Normal</item>
+        <item>Cepet</item>
+        <item>Cepet banget</item>
+    </string-array>
+    <string-array name="tts_pitch_entries">
+        <item>Alon banget</item>
+        <item>Alon</item>
+        <item>Normal</item>
+        <item>Cepet</item>
+        <item>Cepet banget</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Mindai...</item>
+        <item>Nyambungake...</item>
+        <item>Ngotentikasi...</item>
+        <item>Nggoleki alamat IP...</item>
+        <item>Disambungake</item>
+        <item>Ditundha</item>
+        <item>Medhot sambungan...</item>
+        <item>Sambungan dipedhot</item>
+        <item>Gagal</item>
+        <item>Diblokir</item>
+        <item>Ngindhari sambungan alon kanggo sawetara</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Mindai...</item>
+        <item>Nyambung menyang %1$s…</item>
+        <item>Ngotentikasi karo %1$s…</item>
+        <item>Nggoleki alamat IP saka %1$s…</item>
+        <item>Sinambung menyang %1$s</item>
+        <item>Ditundha</item>
+        <item>Medhot sambungan saka %1$s…</item>
+        <item>Sambungan dipedhot</item>
+        <item>Gagal</item>
+        <item>Diblokir</item>
+        <item>Ngindhari sambungan alon kanggo sawetara</item>
+    </string-array>
+    <string-array name="wifi_p2p_wps_setup">
+        <item>Tombol Push</item>
+        <item>PIN saka piranti kanca</item>
+        <item>PIN saka piranti iki</item>
+    </string-array>
+    <string-array name="wifi_p2p_status">
+        <item>Sinambung</item>
+        <item>Diundang</item>
+        <item>Gagal</item>
+        <item>Kasedhiya</item>
+        <item>Ing njaba kisaran</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2 menit</item>
+        <item>5 menit</item>
+        <item>1 jam</item>
+        <item>Ora nate wektu entek</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>Elek</item>
+        <item>Sedheng</item>
+        <item>Apik</item>
+        <item>Sampurna</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>Mesthi</item>
+        <item>Mung yen ditancepake</item>
+        <item>Ora nate (nambah panggunaan data)</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <item>Mesthi</item>
+        <item>Mung yen ditancepake</item>
+        <item>Ora nate</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>Otomatis</item>
+        <item>Mung 5 GHz</item>
+        <item>Mung 2.4 GHz</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>Wektu panggunaan</item>
+        <item>Bukak ngetung</item>
+        <item>Jeneng aplikasi</item>
+    </string-array>
+    <string-array name="wifi_eap_entries">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>Ora ana</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>Statis</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>Ora ana</item>
+        <item>Manual</item>
+    </string-array>
+    <string-array name="emergency_tone_entries">
+        <item>OFF</item>
+        <item>Tandha</item>
+        <item>Kedher</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>Ora ana</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP utawa CHAP</item>
+    </string-array>
+    <string-array name="apn_protocol_entries">
+        <item>IPv4</item>
+        <item>IPv6</item>
+        <item>IPv4/IPv6</item>
+    </string-array>
+    <string-array name="bearer_entries">
+        <item>LTE</item>
+        <item>eHRPD</item>
+        <item>Ora ditemtokake</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>Simpenan piranti internal</item>
+        <item>Kertu SD bisa dicopot</item>
+        <item>Gawe sistem mutusake</item>
+    </string-array>
+    <string-array name="long_press_timeout_selector_titles">
+        <item>Cendhak</item>
+        <item>Sedheng</item>
+        <item>Dawa</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>Ora nate priksa</item>
+        <item>Mung priksa isi DRM</item>
+        <item>Mesthi priksa</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>Ora nate gunakake pamriksa HDCP</item>
+        <item>Gunakake mriksa HDCP mung kanggo isi DRM</item>
+        <item>Mesthi gunakake pamriksa HDCP</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>Animasi mati</item>
+        <item>Skala animasi 0,5x</item>
+        <item>Skala animasi 1x</item>
+        <item>Skala animasi 1,5x</item>
+        <item>Skala animasi 2x</item>
+        <item>Skala animasi 5x</item>
+        <item>Skala animasi 10x</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>Animasi mati</item>
+        <item>Skala animasi 0,5x</item>
+        <item>Skala animasi 1x</item>
+        <item>Skala animasi 1,5x</item>
+        <item>Skala animasi 2x</item>
+        <item>Skala animasi 5x</item>
+        <item>Skala animasi 10x</item>
+    </string-array>
+    <string-array name="animator_duration_scale_entries">
+        <item>Animasi mati</item>
+        <item>Skala animasi 0,5x</item>
+        <item>Skala animasi 1x</item>
+        <item>Skala animasi 1,5x</item>
+        <item>Skala animasi 2x</item>
+        <item>Skala animasi 5x</item>
+        <item>Skala animasi 10x</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>Watesan standar</item>
+        <item>Ora ana proses latar mburi</item>
+        <item>Maksimal 1 proses</item>
+        <item>Maksimal 2 proses</item>
+        <item>Maksimal 3 proses</item>
+        <item>Maksimal 4 proses</item>
+    </string-array>
+    <string-array name="vpn_types_long">
+        <item>PPTP VPN</item>
+        <item>L2TP/IPSec VPN kanthi kunci pra-nganggo bareng</item>
+        <item>L2TP/IPSec VPN kanthi sertifikat</item>
+        <item>VPN IPSec kanthi kunci pra-nganggo bareng lan otentikasi Xauth</item>
+        <item>VPN IPSec kanthi sertifikat lan otentikasi Xauth</item>
+        <item>VPN IPSec kanthi sertifikat lan otentikasi hibrid</item>
+    </string-array>
+    <string-array name="vpn_states">
+        <item>Sambungan dipedhot</item>
+        <item>Inisialisasi...</item>
+        <item>Nyambungake...</item>
+        <item>Sinambung</item>
+        <item>Wektu entek</item>
+        <item>Gagal</item>
+    </string-array>
+    <string-array name="wapi_psk_type">
+        <item>WAPI ASCII</item>
+        <item>WAPI hexadecimal</item>
+    </string-array>
+    <string-array name="password_timeout_entries_txt">
+        <item>30 detik</item>
+        <item>1 menit</item>
+        <item>2 menit</item>
+        <item>10 menit</item>
+        <item>30 menit</item>
+        <item>60 menit</item>
+    </string-array>
+    <array name="wifi_status_with_sip_ppp">
+        <item></item>
+        <item>Mindai</item>
+        <item>Nyambungake</item>
+        <item>Ngotentikasi</item>
+        <item>NJaluk alamat IP</item>
+        <item>Sinambung</item>
+        <item>Ditundha</item>
+        <item>Medhot</item>
+        <item>Dipedhot</item>
+        <item>Gagal</item>
+        <item></item>
+        <item>@string/sip_authenticating_text</item>
+        <item>@string/sip_authentication_failed_text</item>
+        <item>@string/sip_authentication_successful_text</item>
+        <item>@string/ppp_connecting_text</item>
+        <item>@string/ppp_connection_fail_text</item>
+        <item>@string/ct_wifi_connected_text</item>
+    </array>
+</resources>

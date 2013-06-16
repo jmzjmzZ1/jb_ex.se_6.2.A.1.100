@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">Fjalëkalimi duhet të përmbajë të paktën %d shkronja</item>
+        <item quantity="one">Fjalëkalimi duhet të përmbajë të paktën 1 shkronjë</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">Fjalëkalimi duhet të përmbajë të paktën %d shkronja të vogla</item>
+        <item quantity="one">Fjalëkalimi duhet të përmbajë të paktën 1 shkronjë të vogël</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">Fjalëkalimi duhet të përmbajë të paktën %d shkronja të mëdha</item>
+        <item quantity="one">Fjalëkalimi duhet të përmbajë të paktën 1 shkronjë të madhe</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">Fjalëkalimi duhet të përmbajë të paktën %d shifra numerike</item>
+        <item quantity="one">Fjalëkalimi duhet të përmbajë të paktën 1 shifër numerike</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">Fjalëkalimi duhet të përmbajë të paktën %d simbole të veçanta</item>
+        <item quantity="one">Fjalëkalimi duhet të përmbajë të paktën 1 simbol të veçantë</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">Fjalëkalimi duhet të përmbajë të paktën %d karaktere që nuk janë shkronja</item>
+        <item quantity="one">Fjalëkalimi duhet të përmbajë të paktën 1 karakter që nuk është shkronjë</item>
+    </plurals>
+    <plurals name="remaining_time_format_days">
+        <item quantity="other">%d ditë</item>
+        <item quantity="one">%d ditë</item>
+    </plurals>
+    <plurals name="remaining_time_format_hours">
+        <item quantity="other">%d orë</item>
+        <item quantity="one">%d orë</item>
+    </plurals>
+</resources>

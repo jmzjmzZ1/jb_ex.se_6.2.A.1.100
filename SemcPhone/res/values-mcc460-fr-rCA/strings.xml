@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sip_call_options_wifi_only_title">"Utiliser l'appel Internet (WLAN seulement)"</string>
+    <string name="registration_status_no_wifi_data">"Pas de connexion WLAN. Impossible d'enregistrer le compte."</string>
+    <string name="no_wifi_available_title">Auc connex WLAN</string>
+    <string name="no_wifi_available">Vous devez vous connecter à un réseau WLAN pour des appels par Internet (aller dans Paramètres > Sans fil et réseaux).</string>
+</resources>

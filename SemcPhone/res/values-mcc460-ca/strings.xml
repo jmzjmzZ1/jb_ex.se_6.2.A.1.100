@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sip_call_options_wifi_only_title">Ús de trucades per Internet (només WLAN)</string>
+    <string name="registration_status_no_wifi_data">"No s'ha pogut registrar el compte perquè no hi ha connexió WLAN."</string>
+    <string name="no_wifi_available_title">Sense connexió WLAN</string>
+    <string name="no_wifi_available">"Per fer trucades d'Internet, cal que us connecteu a una xarxa WLAN. Aneu a Paràmetres > Sense fil i xarxes."</string>
+</resources>

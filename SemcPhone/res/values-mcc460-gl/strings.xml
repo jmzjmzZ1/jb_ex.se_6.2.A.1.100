@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sip_call_options_wifi_only_title">Usar chamadas da Internet (só WLAN)</string>
+    <string name="registration_status_no_wifi_data">Non hai conexión WLAN. Non se puido rexistrar a conta.</string>
+    <string name="no_wifi_available_title">Non hai conexión WLAN</string>
+    <string name="no_wifi_available">Debe conectarse a unha rede WLAN para facer chamadas da Internet (Vaia a Axustes > Conexións sen fíos e redes).</string>
+</resources>
