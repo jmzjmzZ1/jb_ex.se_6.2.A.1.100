@@ -76,7 +76,7 @@
         <item quantity="one">Қол жетімді Wi-Fi желісін ашу</item>
     </plurals>
     <plurals name="matches_found">
-        <item quantity="other">%d ішінен %d</item>
+        <item quantity="other">%1$d ішінен %2$d</item>
         <item quantity="one">1 сәйкестік</item>
     </plurals>
 </resources>

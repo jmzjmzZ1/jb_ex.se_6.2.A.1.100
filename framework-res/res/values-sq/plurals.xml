@@ -76,7 +76,7 @@
         <item quantity="one">Hap rrjetin Wi-Fi të disponueshëm</item>
     </plurals>
     <plurals name="matches_found">
-        <item quantity="other">%d nga %d</item>
+        <item quantity="other">%1$d nga %2$d</item>
         <item quantity="one">1 përkim</item>
     </plurals>
 </resources>

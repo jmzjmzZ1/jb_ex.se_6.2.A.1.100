@@ -76,7 +76,7 @@
         <item quantity="one">मुक्त Wi-Fi नेटवर्क उपलब्ध है</item>
     </plurals>
     <plurals name="matches_found">
-        <item quantity="other">%d में से %d</item>
+        <item quantity="other">%1$d में से %2$d</item>
         <item quantity="one">1 मैच</item>
     </plurals>
 </resources>
