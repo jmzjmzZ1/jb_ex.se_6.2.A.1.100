@@ -29,4 +29,5 @@
     <dimen name="header_icon_width">28.0dip</dimen>
     <dimen name="appwidget_min_width">260.0dip</dimen>
     <dimen name="appwidget_min_height">40.0dip</dimen>
+    <dimen name="dialog_light_settings_width">400.0dip</dimen>
 </resources>

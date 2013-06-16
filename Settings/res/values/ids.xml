@@ -527,4 +527,16 @@
     <item type="id" name="action_select_all">false</item>
     <item type="id" name="storage_usb">false</item>
     <item type="id" name="wifi_wps">false</item>
+    <item type="id" name="textViewName">false</item>
+    <item type="id" name="light_color">false</item>
+    <item type="id" name="textViewTimeOffValue">false</item>
+    <item type="id" name="textViewTimeOnValue">false</item>
+    <item type="id" name="app_light_pref">false</item>
+    <item type="id" name="color_picker_view">false</item>
+    <item type="id" name="color_panel_view">false</item>
+    <item type="id" name="old_color_panel">false</item>
+    <item type="id" name="new_color_panel">false</item>
+    <item type="id" name="speed_title_view">false</item>
+    <item type="id" name="on_spinner">false</item>
+    <item type="id" name="off_spinner">false</item>
 </resources>
