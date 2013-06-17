@@ -28,17 +28,33 @@
 
 .field private static final TAG:Ljava/lang/String; = "ShutdownThread"
 
-.field private static mReboot:Z
+.field static mReboot:Z
+    .annotation build Landroid/annotation/MiuiHook;
+        value = .enum Landroid/annotation/MiuiHook$MiuiHookType;->CHANGE_ACCESS:Landroid/annotation/MiuiHook$MiuiHookType;
+    .end annotation
+.end field
 
-.field private static mRebootReason:Ljava/lang/String;
+.field static mRebootReason:Ljava/lang/String;
+    .annotation build Landroid/annotation/MiuiHook;
+        value = .enum Landroid/annotation/MiuiHook$MiuiHookType;->CHANGE_ACCESS:Landroid/annotation/MiuiHook$MiuiHookType;
+    .end annotation
+.end field
 
 .field private static mRebootSafeMode:Z
 
 .field private static final sInstance:Lcom/android/server/pm/ShutdownThread;
 
-.field private static sIsStarted:Z
+.field static sIsStarted:Z
+    .annotation build Landroid/annotation/MiuiHook;
+        value = .enum Landroid/annotation/MiuiHook$MiuiHookType;->CHANGE_ACCESS:Landroid/annotation/MiuiHook$MiuiHookType;
+    .end annotation
+.end field
 
-.field private static sIsStartedGuard:Ljava/lang/Object;
+.field static sIsStartedGuard:Ljava/lang/Object;
+    .annotation build Landroid/annotation/MiuiHook;
+        value = .enum Landroid/annotation/MiuiHook$MiuiHookType;->CHANGE_ACCESS:Landroid/annotation/MiuiHook$MiuiHookType;
+    .end annotation
+.end field
 
 
 # instance fields
@@ -188,7 +204,11 @@
 
     .line 221
     .local v1, pd:Landroid/app/ProgressDialog;
-    const v2, 0x104017f
+    sget-boolean v2, Lcom/android/server/pm/ShutdownThread;->mReboot:Z
+
+    if-eqz v2, :cond_2
+
+    const v2, 0x1040609
 
     invoke-virtual {p0, v2}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -197,7 +217,7 @@
     invoke-virtual {v1, v2}, Landroid/app/ProgressDialog;->setTitle(Ljava/lang/CharSequence;)V
 
     .line 222
-    const v2, 0x1040183
+    const v2, 0x104060a
 
     invoke-virtual {p0, v2}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -206,6 +226,7 @@
     invoke-virtual {v1, v2}, Landroid/app/ProgressDialog;->setMessage(Ljava/lang/CharSequence;)V
 
     .line 223
+    :goto_1
     invoke-virtual {v1, v5}, Landroid/app/ProgressDialog;->setIndeterminate(Z)V
 
     .line 224
@@ -283,7 +304,7 @@
     .catch Ljava/lang/SecurityException; {:try_start_1 .. :try_end_1} :catch_0
 
     .line 245
-    :goto_1
+    :goto_2
     sget-object v2, Lcom/android/server/pm/ShutdownThread;->sInstance:Lcom/android/server/pm/ShutdownThread;
 
     iput-object v6, v2, Lcom/android/server/pm/ShutdownThread;->mScreenWakeLock:Landroid/os/PowerManager$WakeLock;
@@ -337,7 +358,7 @@
 
     .line 259
     :cond_1
-    :goto_2
+    :goto_3
     sget-object v2, Lcom/android/server/pm/ShutdownThread;->sInstance:Lcom/android/server/pm/ShutdownThread;
 
     new-instance v3, Lcom/android/server/pm/ShutdownThread$2;
@@ -367,6 +388,25 @@
 
     .line 239
     .restart local v1       #pd:Landroid/app/ProgressDialog;
+    :cond_2
+    const v2, 0x104017f
+
+    invoke-virtual {p0, v2}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v2}, Landroid/app/ProgressDialog;->setTitle(Ljava/lang/CharSequence;)V
+
+    const v2, 0x1040183
+
+    invoke-virtual {p0, v2}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v2}, Landroid/app/ProgressDialog;->setMessage(Ljava/lang/CharSequence;)V
+
+    goto/16 :goto_1
+
     :catch_0
     move-exception v0
 
@@ -383,7 +423,7 @@
 
     iput-object v6, v2, Lcom/android/server/pm/ShutdownThread;->mCpuWakeLock:Landroid/os/PowerManager$WakeLock;
 
-    goto :goto_1
+    goto :goto_2
 
     .line 252
     .end local v0           #e:Ljava/lang/SecurityException;
@@ -403,7 +443,7 @@
 
     iput-object v6, v2, Lcom/android/server/pm/ShutdownThread;->mScreenWakeLock:Landroid/os/PowerManager$WakeLock;
 
-    goto :goto_2
+    goto :goto_3
 .end method
 
 .method public static reboot(Landroid/content/Context;Ljava/lang/String;Z)V
