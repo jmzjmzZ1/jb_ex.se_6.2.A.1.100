@@ -245,28 +245,55 @@
 
     invoke-virtual {v2, v6}, Landroid/content/res/TypedArray;->hasValue(I)Z
 
-    move-result v5
+    move-result v0
 
     #setter for: Landroid/graphics/drawable/ColorizableDrawable$ColorizableState;->mColorExists:Z
-    invoke-static {v4, v5}, Landroid/graphics/drawable/ColorizableDrawable$ColorizableState;->access$002(Landroid/graphics/drawable/ColorizableDrawable$ColorizableState;Z)Z
+    invoke-static {v4, v0}, Landroid/graphics/drawable/ColorizableDrawable$ColorizableState;->access$002(Landroid/graphics/drawable/ColorizableDrawable$ColorizableState;Z)Z
+
+    if-nez v0, :cond_0
+
+    const-string/jumbo v5, "semc_bg"
+
+    const-string v1, "drawable"
+
+    const-string v0, "com.sonyericsson.uxp"
+
+    invoke-virtual {p1, v5, v1, v0}, Landroid/content/res/Resources;->getIdentifier(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
+
+    move-result v5
+
+    invoke-virtual {p1, v5}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
+
+    move-result-object v0
+
+    goto :goto_0
 
     .line 43
-    iget-object v4, p0, Landroid/graphics/drawable/ColorizableDrawable;->mColorizableState:Landroid/graphics/drawable/ColorizableDrawable$ColorizableState;
+    :cond_0
+    const-string/jumbo v5, "semc_theme_accent_color"
 
-    invoke-virtual {v2, v6, v7}, Landroid/content/res/TypedArray;->getColor(II)I
+    const-string v1, "color"
+
+    const-string v0, "com.sonyericsson.uxp"
+
+    invoke-virtual {p1, v5, v1, v0}, Landroid/content/res/Resources;->getIdentifier(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
+
+    move-result v5
+
+    invoke-virtual {p1, v5}, Landroid/content/res/Resources;->getColor(I)I
 
     move-result v5
 
     #setter for: Landroid/graphics/drawable/ColorizableDrawable$ColorizableState;->mColor:I
     invoke-static {v4, v5}, Landroid/graphics/drawable/ColorizableDrawable$ColorizableState;->access$102(Landroid/graphics/drawable/ColorizableDrawable$ColorizableState;I)I
 
-    .line 46
     invoke-virtual {v2, v7}, Landroid/content/res/TypedArray;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
 
     .line 48
     .local v0, dr:Landroid/graphics/drawable/Drawable;
+    :goto_0
     invoke-virtual {v2}, Landroid/content/res/TypedArray;->recycle()V
 
     .line 50
@@ -276,41 +303,41 @@
 
     .line 52
     .local v1, outerDepth:I
-    :cond_0
-    :goto_0
+    :cond_1
+    :goto_1
     invoke-interface {p2}, Lorg/xmlpull/v1/XmlPullParser;->next()I
 
     move-result v3
 
     .local v3, type:I
-    if-eq v3, v6, :cond_2
+    if-eq v3, v6, :cond_3
 
     const/4 v4, 0x3
 
-    if-ne v3, v4, :cond_1
+    if-ne v3, v4, :cond_2
 
     invoke-interface {p2}, Lorg/xmlpull/v1/XmlPullParser;->getDepth()I
 
     move-result v4
 
-    if-le v4, v1, :cond_2
+    if-le v4, v1, :cond_3
 
     .line 53
-    :cond_1
+    :cond_2
     const/4 v4, 0x2
 
-    if-ne v3, v4, :cond_0
+    if-ne v3, v4, :cond_1
 
     .line 56
     invoke-static {p1, p2, p3}, Landroid/graphics/drawable/Drawable;->createFromXmlInner(Landroid/content/res/Resources;Lorg/xmlpull/v1/XmlPullParser;Landroid/util/AttributeSet;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
 
-    goto :goto_0
+    goto :goto_1
 
     .line 59
-    :cond_2
-    if-nez v0, :cond_3
+    :cond_3
+    if-nez v0, :cond_4
 
     .line 60
     new-instance v4, Ljava/lang/IllegalArgumentException;
@@ -322,7 +349,7 @@
     throw v4
 
     .line 63
-    :cond_3
+    :cond_4
     iget-object v4, p0, Landroid/graphics/drawable/ColorizableDrawable;->mColorizableState:Landroid/graphics/drawable/ColorizableDrawable$ColorizableState;
 
     iput-object v0, v4, Landroid/graphics/drawable/ColorizableDrawable$ColorizableState;->mDrawable:Landroid/graphics/drawable/Drawable;

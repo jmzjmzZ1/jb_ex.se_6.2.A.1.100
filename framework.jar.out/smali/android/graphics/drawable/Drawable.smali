@@ -707,14 +707,6 @@
     .line 881
     .end local v0           #drawable:Landroid/graphics/drawable/Drawable;
     :cond_e
-    const-string v3, "com.sonymobile"
-
-    invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v3
-
-    if-eqz v3, :cond_f
-
     const-string v3, "colorizable"
 
     invoke-virtual {v1, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -734,14 +726,6 @@
     .line 883
     .end local v0           #drawable:Landroid/graphics/drawable/Drawable;
     :cond_f
-    const-string v3, "com.sonymobile"
-
-    invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v3
-
-    if-eqz v3, :cond_10
-
     const-string v3, "directional"
 
     invoke-virtual {v1, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z

@@ -89,6 +89,8 @@
 
 .field public static final networkAttributes:I = 0x1070015
 
+.field public static final notification_light_package_mapping:I = 0x1070039
+
 .field public static final organizationTypes:I = 0x1070002
 
 .field public static final phoneTypes:I = 0x1070003
