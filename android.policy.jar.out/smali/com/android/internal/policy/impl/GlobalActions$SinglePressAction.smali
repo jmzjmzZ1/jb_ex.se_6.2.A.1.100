@@ -17,6 +17,12 @@
 .end annotation
 
 
+# static fields
+.field protected static rebootMode:I
+
+.field protected static final rebootOptions:[Ljava/lang/String;
+
+
 # instance fields
 .field private final mIconResId:I
 
@@ -26,6 +32,36 @@
 
 
 # direct methods
+.method static constructor <clinit>()V
+    .locals 3
+
+    const/4 v0, 0x3
+
+    new-array v0, v0, [Ljava/lang/String;
+
+    const/4 v1, 0x0
+
+    const-string v2, "Normal"
+
+    aput-object v2, v0, v1
+
+    const/4 v1, 0x1
+
+    const-string v2, "Recovery"
+
+    aput-object v2, v0, v1
+
+    const/4 v1, 0x2
+
+    const-string v2, "Fastboot"
+
+    aput-object v2, v0, v1
+
+    sput-object v0, Lcom/android/internal/policy/impl/GlobalActions$SinglePressAction;->rebootOptions:[Ljava/lang/String;
+
+    return-void
+.end method
+
 .method protected constructor <init>(II)V
     .locals 1
     .parameter "iconResId"
@@ -33,7 +69,7 @@
 
     .prologue
     .line 476
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
 
     .line 477
     iput p1, p0, Lcom/android/internal/policy/impl/GlobalActions$SinglePressAction;->mIconResId:I
@@ -57,7 +93,7 @@
 
     .prologue
     .line 482
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
 
     .line 483
     iput p1, p0, Lcom/android/internal/policy/impl/GlobalActions$SinglePressAction;->mIconResId:I
