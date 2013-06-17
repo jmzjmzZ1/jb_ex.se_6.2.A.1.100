@@ -237,9 +237,9 @@
     .line 111
     new-instance v1, Lcom/android/settings/notificationlight/LightSettingsDialog$PulseSpeedAdapter;
 
-    const v2, 0x7f07005c
+    const v2, 0x7f07005a
 
-    const v5, 0x7f07005d
+    const v5, 0x7f07005b
 
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -288,9 +288,9 @@
     new-instance v1, Lcom/android/settings/notificationlight/LightSettingsDialog$PulseSpeedAdapter;
 
     .end local v1           #pulseSpeedAdapter:Lcom/android/settings/notificationlight/LightSettingsDialog$PulseSpeedAdapter;
-    const v2, 0x7f07005e
+    const v2, 0x7f07005c
 
-    const v5, 0x7f07005f
+    const v5, 0x7f07005d
 
     invoke-static {p3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
