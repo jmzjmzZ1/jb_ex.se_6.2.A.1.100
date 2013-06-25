@@ -216,6 +216,17 @@
     return-object p1
 .end method
 
+.method static synthetic access$1200(Lcom/android/internal/policy/impl/PhoneWindow;)Lcom/android/internal/view/menu/ContextMenuBuilder;
+    .registers 2
+    .parameter "x0"
+
+    .prologue
+    .line 92
+    iget-object v0, p0, Lcom/android/internal/policy/impl/PhoneWindow;->mContextMenu:Lcom/android/internal/view/menu/ContextMenuBuilder;
+
+    return-object v0
+.end method
+
 .method static synthetic access$1300(Lcom/android/internal/policy/impl/PhoneWindow;I)V
     .locals 0
     .parameter "x0"
