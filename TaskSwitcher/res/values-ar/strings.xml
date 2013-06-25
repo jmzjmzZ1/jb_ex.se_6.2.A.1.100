@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="small_app_uninstalled">تم إلغاء تثبيت التطبيق %s</string>
+    <string name="dialog_max_apps_title">تم بلوغ الحد الأقصى للعدد</string>
+    <string name="dialog_max_apps_message">"هناك مساحة فقط لـ %d من التطبيقات الصغيرة في مبدل المهام.
+
+لإضافة تطبيق جديد، احذف أولاً تطبيقًا واحدًا أو أكثر من القائمة."</string>
+    <string name="dialog_remove_app_title">حذف</string>
+    <string name="dialog_remove_app_title_dynamic">حذف %s</string>
+    <string name="dialog_remove_app_message">"سيتم حذف التطبيق من مبدل المهام.
+
+لاسترجاعه مرة أخرى، انقر سريعًا فوق أيقونة + في قائمة التطبيقات المصغرة."</string>
+    <string name="dialog_remove_app_checkbox_text">لا تعرض هذه الرسالة مجددًا</string>
+    <string name="dialog_add_app_in_use">مستخدم</string>
+    <string name="dialog_add_app_title">إضافة تطبيقات صغيرة من</string>
+    <string name="dialog_add_app_installed_title_dynamic">التطبيقات الصغيرة المثبتة (%d)</string>
+    <string name="dialog_add_app_installed_text">تحديد من التطبيقات الصغيرة المثبتة مسبقًا</string>
+    <string name="dialog_add_app_market_title">سوق Play</string>
+    <string name="dialog_add_app_market_text">تثبيت التطبيقات الصغيرة الجديدة من سوق Play</string>
+    <string name="dialog_add_ndoo_app_market_text">تثبيت التطبيقات الصغيرة الجديدة من Ndoo Market</string>
+    <string name="dialog_add_app_widgets_title">واجهات رسومية</string>
+    <string name="dialog_add_app_widgets_text">قم بتشغيل الواجهات الرسومية المفضلة في التطبيقات الصغيرة.</string>
+    <string name="dialog_add_app_from_small_apps_title">تحديد تطبيق صغير</string>
+    <string name="dialog_add_app_from_widget_title">تحديد واجهة رسومية</string>
+    <string name="status_bar_recent_remove_item_title">حذف من القائمة</string>
+    <string name="status_bar_recent_inspect_item_title">معلومات التطبيق</string>
+    <string name="status_bar_no_recent_apps">ليست هناك تطبيقات حديثة</string>
+    <string name="accessibility_recents_item_dismissed">تم حذف %s من القائمة.</string>
+</resources>

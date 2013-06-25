@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="small_app_uninstalled">%s жойылды</string>
+    <string name="dialog_max_apps_title">Ең көп санға қол жетті</string>
+    <string name="dialog_max_apps_message">"Тапсырмалар ауыстырғышында тек %d шағын бағ-ма үшін орын бар.
+
+Жаңа бағ-ны қосу үшін алдымен тізімнен бір немесе бірнеше бағ-ны жойыңыз."</string>
+    <string name="dialog_remove_app_title">Жою</string>
+    <string name="dialog_remove_app_title_dynamic">%s жою</string>
+    <string name="dialog_remove_app_message">"Бағ-ма тапсырмалар ауыстырғышынан жойылады.
+
+Оны қайта шығарып алу үшін шағын бағ-лар тізіміндегі қосу белг-сін түртіңіз."</string>
+    <string name="dialog_remove_app_checkbox_text">Бұл хабарды қайта көрсетпеу</string>
+    <string name="dialog_add_app_in_use">пайд-да</string>
+    <string name="dialog_add_app_title">Мына жерден шағын бағ-ды қосу</string>
+    <string name="dialog_add_app_installed_title_dynamic">Орнатылған шағын қолданбалар (%d)</string>
+    <string name="dialog_add_app_installed_text">Алдында орнатылған шағын бағдарламалар ішінен таңдау</string>
+    <string name="dialog_add_app_market_title">Play Store</string>
+    <string name="dialog_add_app_market_text">Play Store сайтынан жаңа шағын бағд-ды орнату</string>
+    <string name="dialog_add_ndoo_app_market_text">Ndoo дүкенінен жаңа шағын бағдарламаларды орнату</string>
+    <string name="dialog_add_app_widgets_title">Виджеттер</string>
+    <string name="dialog_add_app_widgets_text">Таңдаулы виджеттерді шағын бағ-ға айналдырыңыз.</string>
+    <string name="dialog_add_app_from_small_apps_title">Шағын бағдарламаны таңдау</string>
+    <string name="dialog_add_app_from_widget_title">Виджетті таңдау</string>
+    <string name="status_bar_recent_remove_item_title">Тізімнен жою</string>
+    <string name="status_bar_recent_inspect_item_title">Бағдарлама ақпараты</string>
+    <string name="status_bar_no_recent_apps">Соңғы бағдарламалар жоқ</string>
+    <string name="accessibility_recents_item_dismissed">%s тізімнен жойылды.</string>
+</resources>

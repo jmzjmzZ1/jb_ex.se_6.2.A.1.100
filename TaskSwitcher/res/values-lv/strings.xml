@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="small_app_uninstalled">Lietotne %s ir atinstalēta</string>
+    <string name="dialog_max_apps_title">Sasniegts maksimālais skaits</string>
+    <string name="dialog_max_apps_message">"Uzdevumu pārslēdzējā pietiek vietas tikai %d mazajām lietotnēm.
+
+Lai pievienotu jaunu lietotni, vispirms sarakstā izdzēsiet vienu vai vairākas lietotnes."</string>
+    <string name="dialog_remove_app_title">Dzēšana</string>
+    <string name="dialog_remove_app_title_dynamic">Dzēst %s</string>
+    <string name="dialog_remove_app_message">"Lietotne tiks izdzēsta no uzdevumu pārslēdzēja.
+
+Lai to atkal izgūtu, mazo lietotņu sarakstā piesitiet + ikonai."</string>
+    <string name="dialog_remove_app_checkbox_text">Vairs nerādīt šo ziņu</string>
+    <string name="dialog_add_app_in_use">lieto</string>
+    <string name="dialog_add_app_title">Pievienot mazās lietotnes no</string>
+    <string name="dialog_add_app_installed_title_dynamic">Instalētas nelielas lietotnes (%d)</string>
+    <string name="dialog_add_app_installed_text">Atlasīt no iepriekš instalētajām mazajām lietotnēm</string>
+    <string name="dialog_add_app_market_title">Play veikals</string>
+    <string name="dialog_add_app_market_text">Instalēt jaunas mazās lietotnes no Play veikala</string>
+    <string name="dialog_add_ndoo_app_market_text">Instalēt jaunas, nelielas lietotnes no Ndoo Market</string>
+    <string name="dialog_add_app_widgets_title">Logrīki</string>
+    <string name="dialog_add_app_widgets_text">Pārvērtiet iecienītākos logrīkus par mazajām lietotnēm.</string>
+    <string name="dialog_add_app_from_small_apps_title">Mazas lietotnes atlase</string>
+    <string name="dialog_add_app_from_widget_title">Logrīka atlase</string>
+    <string name="status_bar_recent_remove_item_title">Dzēst no saraksta</string>
+    <string name="status_bar_recent_inspect_item_title">Lietotnes informācija</string>
+    <string name="status_bar_no_recent_apps">Nav pēdējo lietotņu</string>
+    <string name="accessibility_recents_item_dismissed">Lietotne %s izdzēsta no saraksta.</string>
+</resources>

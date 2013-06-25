@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="small_app_uninstalled">%s பயன்பாடு நிறுவல்நீக்கப்பட்டது</string>
+    <string name="dialog_max_apps_title">அதிகபட்ச எண் அடைந்தது</string>
+    <string name="dialog_max_apps_message">"%d சிறிய பயன்பாடுகளுக்கான ஒரே ஒரு அறையும் இந்த பணி மாற்றியில் உள்ளது.
+
+புதிய பயன்பாட்டைச் சேர்க்க, பட்டியலில் இருந்து ஒன்று அல்லது அதற்குமேற்பட்ட பயன்பாடுகளை முதலில் நீக்கவும்."</string>
+    <string name="dialog_remove_app_title">நீக்கு</string>
+    <string name="dialog_remove_app_title_dynamic">நீக்கு%s</string>
+    <string name="dialog_remove_app_message">"பணி மாற்றியிலிருந்து பயன்பாடு நீக்கப்படும்.
+
+அதை மீண்டும் மீட்டெடுக்க, சிறிய பயன்பாடுகள் பட்டியலில் உள்ள ப்ளஸ் ஐகானைத் தட்டவும்."</string>
+    <string name="dialog_remove_app_checkbox_text">இந்தச் செய்தியை மீண்டும் காண்பிக. வே.</string>
+    <string name="dialog_add_app_in_use">பயன்ப.</string>
+    <string name="dialog_add_app_title">இதிலிருந்து சிறிய பயன்பாட. சேர்க்கவும்</string>
+    <string name="dialog_add_app_installed_title_dynamic">சிறிய பயன்பாடுகள் (%d) நிறுவப்பட்டுள்ளன</string>
+    <string name="dialog_add_app_installed_text">ஏற்கனவே நிறுவிய சிறிய பயன்பாடுகளிலிருந்து தேர்ந்த.</string>
+    <string name="dialog_add_app_market_title">Play Store</string>
+    <string name="dialog_add_app_market_text">Play Store -இலிருந்து புதிய சிறிய பயன்பாடுகளை நிறுவு</string>
+    <string name="dialog_add_ndoo_app_market_text">Ndoo Market -இலிருந்து புதிய சிறிய பயன்பாடுகளை நிறுவு</string>
+    <string name="dialog_add_app_widgets_title">விட்ஜெட்கள்</string>
+    <string name="dialog_add_app_widgets_text">சிறிய பயன்பாடுகளில் பிடித்த விட்ஜெட்களை இயக்கவும்.</string>
+    <string name="dialog_add_app_from_small_apps_title">சிறிய பயன்பாட்டைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="dialog_add_app_from_widget_title">விட்ஜெட்டைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="status_bar_recent_remove_item_title">பட்டியலிலிருந்து நீக்கு</string>
+    <string name="status_bar_recent_inspect_item_title">பயன்பாட்டுத் தகவல்</string>
+    <string name="status_bar_no_recent_apps">சமீபத்திய பயன்பாடுகள் இல்லை</string>
+    <string name="accessibility_recents_item_dismissed">"பட்டியலில் இருந்து %s  நீக்கப்பட்டது."</string>
+</resources>

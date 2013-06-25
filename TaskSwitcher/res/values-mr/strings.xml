@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="small_app_uninstalled">%s विस्थापित करण्यात आले</string>
+    <string name="dialog_max_apps_title">कमाल संख्येस पोहोचले</string>
+    <string name="dialog_max_apps_message">"कामगिरी स्विचरमधील फक्त %d लहान अनुप्रयोगांसाठी जागा आहे.
+
+नवीन अनुप्रयोग समाविष्ट करण्यासाठी प्रथम यादीतून एक किंवा अधिक अनुप्रयोग हटवा."</string>
+    <string name="dialog_remove_app_title">हटवा</string>
+    <string name="dialog_remove_app_title_dynamic">काढून टाका %s</string>
+    <string name="dialog_remove_app_message">"हे ऍप टास्क स्विचरवरुन काढून टाकले जाईल.
+
+ते पुन्हा मिळवण्यासाठी छोट्या ऍप्स सूचीमधील प्लस आयकॉन टॅप करा."</string>
+    <string name="dialog_remove_app_checkbox_text">हा संदेश पुन्हा दाखवू नका</string>
+    <string name="dialog_add_app_in_use">वापरामध्ये</string>
+    <string name="dialog_add_app_title">लहान अनुप्रयोग मधून समाविष्ट करा</string>
+    <string name="dialog_add_app_installed_title_dynamic">प्रस्थापित लहान अॅप्स (%d)</string>
+    <string name="dialog_add_app_installed_text">आधी इन्स्टॉल केलेल्या लहान अनुप्रयोगांमधून निवडा</string>
+    <string name="dialog_add_app_market_title">Play Store</string>
+    <string name="dialog_add_app_market_text">Play Store मधून नवीन लहान अनुप्रयोग इन्स्टॉल करा</string>
+    <string name="dialog_add_ndoo_app_market_text">Ndoo Market कडून नवीन लहान अनुप्रयोग स्थापित करा</string>
+    <string name="dialog_add_app_widgets_title">संवादमाध्यमे</string>
+    <string name="dialog_add_app_widgets_text">तुमची मनपसंत संवादमाध्यमे लहान अनुप्रयोगांमध्ये बदला</string>
+    <string name="dialog_add_app_from_small_apps_title">लहान अनुप्रयोग निवडा</string>
+    <string name="dialog_add_app_from_widget_title">संवादमाध्यम निवडा</string>
+    <string name="status_bar_recent_remove_item_title">सूचीमधून हटवा</string>
+    <string name="status_bar_recent_inspect_item_title">ऍप माहिती</string>
+    <string name="status_bar_no_recent_apps">अलिकडील ऍप नाही</string>
+    <string name="accessibility_recents_item_dismissed">%s यादीतून हटविलेले.</string>
+</resources>

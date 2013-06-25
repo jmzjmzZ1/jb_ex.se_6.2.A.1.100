@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="small_app_uninstalled">Aplikacija %s je deinstalirana</string>
+    <string name="dialog_max_apps_title">Dosegnut je maksimalni broj</string>
+    <string name="dialog_max_apps_message">"U preklopniku zadataka ima mjesta samo za %d malih aplikacija.
+
+Da biste dodali novu aplikaciju, prvo izbrišite jednu ili više aplikacija s liste."</string>
+    <string name="dialog_remove_app_title">Izbriši</string>
+    <string name="dialog_remove_app_title_dynamic">Izbriši %s</string>
+    <string name="dialog_remove_app_message">"Aplikacija će biti izbrisana s preklopnika zadataka.
+
+Da biste je opet preuzeli, kucnite ikonu znaka plus na listi malih aplikacija."</string>
+    <string name="dialog_remove_app_checkbox_text">Ne prikazuj ovu poruku ponovo</string>
+    <string name="dialog_add_app_in_use">koristi se</string>
+    <string name="dialog_add_app_title">Dodaj male aplikacije iz</string>
+    <string name="dialog_add_app_installed_title_dynamic">Instalirane male aplikacije (%d)</string>
+    <string name="dialog_add_app_installed_text">Odaberite među prethodno instaliranim malim aplikacijama</string>
+    <string name="dialog_add_app_market_title">Play Store</string>
+    <string name="dialog_add_app_market_text">Instalirajte nove male aplikacije s usluge Play Store</string>
+    <string name="dialog_add_ndoo_app_market_text">Instalirajte nove male aplikacije s usluge Ndoo Market</string>
+    <string name="dialog_add_app_widgets_title">Kontrole</string>
+    <string name="dialog_add_app_widgets_text">Pretvorite omiljene kontrole u male aplikacije.</string>
+    <string name="dialog_add_app_from_small_apps_title">Odaberi malu aplikaciju</string>
+    <string name="dialog_add_app_from_widget_title">Odaberi kontrolu</string>
+    <string name="status_bar_recent_remove_item_title">Izbriši s liste</string>
+    <string name="status_bar_recent_inspect_item_title">Informacije o aplikaciji</string>
+    <string name="status_bar_no_recent_apps">Nema nedavnih aplikacija</string>
+    <string name="accessibility_recents_item_dismissed">Aplikacija %s je izbrisana s liste.</string>
+</resources>

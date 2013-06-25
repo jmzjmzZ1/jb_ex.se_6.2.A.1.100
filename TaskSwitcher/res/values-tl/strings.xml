@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="small_app_uninstalled">Na-uninstall na ang %s app</string>
+    <string name="dialog_max_apps_title">Naabot na ang maximum na bilang</string>
+    <string name="dialog_max_apps_message">"%d (na) maliit na app lamang ang kasya sa task switcher.
+
+Upang magdagdag ng bagong app, magtanggal muna ng isa o higit pang mga app mula sa listahan."</string>
+    <string name="dialog_remove_app_title">Tanggalin</string>
+    <string name="dialog_remove_app_title_dynamic">Tanggalin ang %s</string>
+    <string name="dialog_remove_app_message">"Tatanggalin sa task switcher ang app.
+
+Para bawiin itong muli, tapikin ang icon na + sa listahan ng maliliit na app."</string>
+    <string name="dialog_remove_app_checkbox_text">Huwag ipakitang muli ang mensaheng ito</string>
+    <string name="dialog_add_app_in_use">napili na</string>
+    <string name="dialog_add_app_title">Magdagdag ng maliliit na app mula sa</string>
+    <string name="dialog_add_app_installed_title_dynamic">Naka-install na maliliit na app (%d)</string>
+    <string name="dialog_add_app_installed_text">Pumili mula sa mga naka-install nang maliit na app</string>
+    <string name="dialog_add_app_market_title">Play Store</string>
+    <string name="dialog_add_app_market_text">Mag-install ng bagong maliliit na app mula sa Play Store</string>
+    <string name="dialog_add_ndoo_app_market_text">Mag-install ng bagong maliliit na app mula sa Ndoo Market</string>
+    <string name="dialog_add_app_widgets_title">Mga Widget</string>
+    <string name="dialog_add_app_widgets_text">Gawing maliliit na app ang iyong mga paboritong widget.</string>
+    <string name="dialog_add_app_from_small_apps_title">Piliin ang maliit na app</string>
+    <string name="dialog_add_app_from_widget_title">Piliin ang widget</string>
+    <string name="status_bar_recent_remove_item_title">Tanggalin sa listahan</string>
+    <string name="status_bar_recent_inspect_item_title">Impormasyon ng app</string>
+    <string name="status_bar_no_recent_apps">Walang mga kamakailang app</string>
+    <string name="accessibility_recents_item_dismissed">Tinanggal sa listahan ang %s</string>
+</resources>

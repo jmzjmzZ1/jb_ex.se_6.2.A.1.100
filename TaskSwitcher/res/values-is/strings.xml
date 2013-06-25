@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="small_app_uninstalled">Forritið %s var fjarlægt</string>
+    <string name="dialog_max_apps_title">Hámarksfjölda náð</string>
+    <string name="dialog_max_apps_message">"Það er aðeins pláss fyrir %d smáforrit í forritavalinu.
+
+Til að bæta nýju forriti við skaltu fyrst eyða einu eða fleiri forritum af listanum."</string>
+    <string name="dialog_remove_app_title">Eyða</string>
+    <string name="dialog_remove_app_title_dynamic">Eyða %s</string>
+    <string name="dialog_remove_app_message">"Þessu forriti verður eytt af forritavalinu.
+
+Til að sækja það á ný skaltu pikka á stillingatáknið á smáforritalistanum."</string>
+    <string name="dialog_remove_app_checkbox_text">Ekki birta þessi skilaboð aftur</string>
+    <string name="dialog_add_app_in_use">í notkun</string>
+    <string name="dialog_add_app_title">Bæta við smáforritum frá</string>
+    <string name="dialog_add_app_installed_title_dynamic">Setja upp smáforrit (%d)</string>
+    <string name="dialog_add_app_installed_text">Velja úr smáforritum sem áður voru sett upp</string>
+    <string name="dialog_add_app_market_title">Play Store</string>
+    <string name="dialog_add_app_market_text">Setja upp ný smáforrit frá Play Store</string>
+    <string name="dialog_add_ndoo_app_market_text">Settu upp ný smáforrit frá Ndoo Market</string>
+    <string name="dialog_add_app_widgets_title">Græjur</string>
+    <string name="dialog_add_app_widgets_text">Breyttu uppáhaldsgræjunum þínum í smáforrit</string>
+    <string name="dialog_add_app_from_small_apps_title">Velja smáforrit</string>
+    <string name="dialog_add_app_from_widget_title">Velja græju</string>
+    <string name="status_bar_recent_remove_item_title">Eyða af lista</string>
+    <string name="status_bar_recent_inspect_item_title">Forritsupplýsingar</string>
+    <string name="status_bar_no_recent_apps">Engin nýleg forrit</string>
+    <string name="accessibility_recents_item_dismissed">%s eytt af lista.</string>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="small_app_uninstalled">%s अनुप्रयोग की स्थापना रद्द कर दी गई है</string>
+    <string name="dialog_max_apps_title">अधिकतम संख्या पहुंच गई</string>
+    <string name="dialog_max_apps_message">"कार्य स्विचर में केवल %d छोटे अनुप्रयोगों के लिए जगह है।
+
+कोई नया अनुप्रयोग जोड़ने के लिए, पहले सूची से एक या अधिक अनुप्रयोग हटाएं।"</string>
+    <string name="dialog_remove_app_title">हटाएं</string>
+    <string name="dialog_remove_app_title_dynamic">%s हटाएं</string>
+    <string name="dialog_remove_app_message">"अनुप्रयोग को कार्य स्विचर से हटा दिया जाएगा।
+
+इसे पुनःप्राप्त करने के लिए, छोटे अनुप्रयोग की सूची में प्लस आइकॉन टैप करें।"</string>
+    <string name="dialog_remove_app_checkbox_text">यह संदेश पुनः नहीं दिखाएं</string>
+    <string name="dialog_add_app_in_use">उपयोग में</string>
+    <string name="dialog_add_app_title">इससे छोटे अनुप्रयोग जोड़ें</string>
+    <string name="dialog_add_app_installed_title_dynamic">स्थापित लघु अनुप्रयोग (%d)</string>
+    <string name="dialog_add_app_installed_text">पूर्व में स्थापित छोटे अनुप्रयोगों से चयनित करें</string>
+    <string name="dialog_add_app_market_title">Play स्टोर</string>
+    <string name="dialog_add_app_market_text">Play स्टोर से नए छोटे अनुप्रयोग स्थापित करें</string>
+    <string name="dialog_add_ndoo_app_market_text">Ndoo Market से नए छोटे अनुप्रयोग स्थापित करें</string>
+    <string name="dialog_add_app_widgets_title">विजेट</string>
+    <string name="dialog_add_app_widgets_text">अपने पसंदीदा विजेट को छोटे अनुप्रयोगों में बदलें।</string>
+    <string name="dialog_add_app_from_small_apps_title">छोटे अनुप्रयोग चयनित करें</string>
+    <string name="dialog_add_app_from_widget_title">विजेट चयनित करें</string>
+    <string name="status_bar_recent_remove_item_title">सूची से हटाएं</string>
+    <string name="status_bar_recent_inspect_item_title">अनुप्रयोग सूचना</string>
+    <string name="status_bar_no_recent_apps">कोई हाल के अनुप्रयोग नहीं</string>
+    <string name="accessibility_recents_item_dismissed">%s सूची से हटाया गया।</string>
+</resources>

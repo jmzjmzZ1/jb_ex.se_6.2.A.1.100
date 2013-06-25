@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="small_app_uninstalled">Апликацијата %s е деинсталирана</string>
+    <string name="dialog_max_apps_title">Достигнат е максималниот број</string>
+    <string name="dialog_max_apps_message">"Во префрлувачот на задачи има простор за %d мали апликации.
+
+За да додадете нова апликација, прво избришете една или повеќе апликации од листата."</string>
+    <string name="dialog_remove_app_title">Бришење</string>
+    <string name="dialog_remove_app_title_dynamic">Избриши %s</string>
+    <string name="dialog_remove_app_message">"Апликацијата ќе биде избришана од префрлувачот на задачи.
+
+За да ја вчитате повторно, допрете ја иконата плус во листата на мали апликации."</string>
+    <string name="dialog_remove_app_checkbox_text">Не покажувај ја повторно поракава</string>
+    <string name="dialog_add_app_in_use">се корис.</string>
+    <string name="dialog_add_app_title">Додај мали апликации од</string>
+    <string name="dialog_add_app_installed_title_dynamic">Инсталирани мали апликации (%d)</string>
+    <string name="dialog_add_app_installed_text">Одбери од претходно инсталирани мали апликации</string>
+    <string name="dialog_add_app_market_title">Play Store</string>
+    <string name="dialog_add_app_market_text">Инсталирај нови, мали апликации од Play Store</string>
+    <string name="dialog_add_ndoo_app_market_text">Инсталирај нови, мали апликации од Ndoo Market</string>
+    <string name="dialog_add_app_widgets_title">Елементи</string>
+    <string name="dialog_add_app_widgets_text">Претворете ги омилените елементи во мали апликации.</string>
+    <string name="dialog_add_app_from_small_apps_title">Одбирање мала апликација</string>
+    <string name="dialog_add_app_from_widget_title">Одбирање елемент</string>
+    <string name="status_bar_recent_remove_item_title">Бришење од листата</string>
+    <string name="status_bar_recent_inspect_item_title">Информации за апликација</string>
+    <string name="status_bar_no_recent_apps">Нема неодамнешни апликации</string>
+    <string name="accessibility_recents_item_dismissed">%s е избришана од листата.</string>
+</resources>

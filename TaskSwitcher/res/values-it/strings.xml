@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="small_app_uninstalled">"L'app %s è stata disinstallata"</string>
+    <string name="dialog_max_apps_title">Numero massimo raggiunto</string>
+    <string name="dialog_max_apps_message">"In Cambio attività la disponibilità è limitata a solo %d piccole app.
+
+Per aggiungerne altre, eliminare prima una o più app dall'elenco."</string>
+    <string name="dialog_remove_app_title">Elimina</string>
+    <string name="dialog_remove_app_title_dynamic">Elimina %s</string>
+    <string name="dialog_remove_app_message">"L'app verrà eliminata dal Cambio attività.
+
+Per recuperarla nuovamente, tocca l'icona più nell'elenco di piccole app."</string>
+    <string name="dialog_remove_app_checkbox_text">Non mostrare più questo messaggio</string>
+    <string name="dialog_add_app_in_use">in uso</string>
+    <string name="dialog_add_app_title">Aggiungi piccole app da</string>
+    <string name="dialog_add_app_installed_title_dynamic">Piccole app installate (%d)</string>
+    <string name="dialog_add_app_installed_text">Seleziona dalle piccole app precedentemente installate</string>
+    <string name="dialog_add_app_market_title">Play Store</string>
+    <string name="dialog_add_app_market_text">Installa nuove piccole app da Play Store</string>
+    <string name="dialog_add_ndoo_app_market_text">Installa nuove piccole app da Ndoo Market</string>
+    <string name="dialog_add_app_widgets_title">Widget</string>
+    <string name="dialog_add_app_widgets_text">Trasformare i widget preferiti in piccole app.</string>
+    <string name="dialog_add_app_from_small_apps_title">Seleziona piccola app</string>
+    <string name="dialog_add_app_from_widget_title">Seleziona widget</string>
+    <string name="status_bar_recent_remove_item_title">"Elimina dall'elenco"</string>
+    <string name="status_bar_recent_inspect_item_title">Informazioni app</string>
+    <string name="status_bar_no_recent_apps">Nessuna app recente</string>
+    <string name="accessibility_recents_item_dismissed">"%s eliminata dall'elenco."</string>
+</resources>

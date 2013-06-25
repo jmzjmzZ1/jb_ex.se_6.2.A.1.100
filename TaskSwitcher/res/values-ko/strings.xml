@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="small_app_uninstalled">%s 응용프로그램이 제거됨</string>
+    <string name="dialog_max_apps_title">최대 수 도달</string>
+    <string name="dialog_max_apps_message">"작업 전환기에는 소형 응용프로그램 %d개를 사용할 공간만 있습니다.
+
+새 응용프로그램을 추가하려면 먼저 목록에서 응용프로그램을 하나 이상 삭제하세요."</string>
+    <string name="dialog_remove_app_title">삭제</string>
+    <string name="dialog_remove_app_title_dynamic">%s 삭제</string>
+    <string name="dialog_remove_app_message">"이 응용프로그램은 작업 전환기에서 삭제됩니다.
+
+재개하려면 소형 응용프로그램 목록에서 + 아이콘을 누르세요."</string>
+    <string name="dialog_remove_app_checkbox_text">이 메시지를 다시 표시하지 않음</string>
+    <string name="dialog_add_app_in_use">사용 중</string>
+    <string name="dialog_add_app_title">다음에서 소형 응용프로그램 추가</string>
+    <string name="dialog_add_app_installed_title_dynamic">작은 앱 %d개 설치됨</string>
+    <string name="dialog_add_app_installed_text">이전에 설치된 소형 응용프로그램에서 선택</string>
+    <string name="dialog_add_app_market_title">Play 스토어</string>
+    <string name="dialog_add_app_market_text">Play 스토어에서 새로운 소형 응용프로그램 설치</string>
+    <string name="dialog_add_ndoo_app_market_text">Ndoo Market에서 새 소형 응용프로그램을 설치</string>
+    <string name="dialog_add_app_widgets_title">위젯</string>
+    <string name="dialog_add_app_widgets_text">좋아하는 위젯을 소형 응용프로그램으로 바꾸세요.</string>
+    <string name="dialog_add_app_from_small_apps_title">소형 응용프로그램 선택</string>
+    <string name="dialog_add_app_from_widget_title">위젯 선택</string>
+    <string name="status_bar_recent_remove_item_title">목록에서 삭제</string>
+    <string name="status_bar_recent_inspect_item_title">응용프로그램 정보</string>
+    <string name="status_bar_no_recent_apps">최신 응용프로그램 없음</string>
+    <string name="accessibility_recents_item_dismissed">%s이(가) 목록에서 삭제됨</string>
+</resources>

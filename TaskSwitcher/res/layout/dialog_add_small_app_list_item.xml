@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:directionality="leftToRight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/app_icon" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:ellipsize="marquee" android:id="@id/app_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:singleLine="true" android:layout_toLeftOf="@id/app_in_use" android:layout_toRightOf="@id/app_icon" android:layout_centerVertical="true" />
+    <TextView android:enabled="false" android:textAppearance="?android:textAppearanceMedium" android:id="@id/app_in_use" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:text="@string/dialog_add_app_in_use" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

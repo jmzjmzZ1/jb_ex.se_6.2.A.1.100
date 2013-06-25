@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="small_app_uninstalled">Aplikasi %s telah dicopot penginstalannya</string>
+    <string name="dialog_max_apps_title">Jumlah maksimum tercapai</string>
+    <string name="dialog_max_apps_message">"Hanya ada ruang untuk %d aplikasi kecil di pengalih tugas.
+
+Untuk menambah aplikasi baru, pertama-tama hapus satu atau beberapa aplikasi dari daftar."</string>
+    <string name="dialog_remove_app_title">Hapus</string>
+    <string name="dialog_remove_app_title_dynamic">Hapus %s</string>
+    <string name="dialog_remove_app_message">"Aplikasi akan dihapus dari pengalih tugas.
+
+Untuk mendapatkannya kembali, ketuk ikon + di daftar aplikasi kecil."</string>
+    <string name="dialog_remove_app_checkbox_text">Jangan tampilkan pesan ini lagi</string>
+    <string name="dialog_add_app_in_use">sdg pakai</string>
+    <string name="dialog_add_app_title">Tambahkan aplikasi kecil dari</string>
+    <string name="dialog_add_app_installed_title_dynamic">Aplikasi kecil yang terpasang (%d)</string>
+    <string name="dialog_add_app_installed_text">Pilih dari aplikasi yang diinstal sebelumnya</string>
+    <string name="dialog_add_app_market_title">Play Store</string>
+    <string name="dialog_add_app_market_text">Instal aplikasi kecil baru dari Play Store</string>
+    <string name="dialog_add_ndoo_app_market_text">Instal aplikasi kecil baru dari Ndoo Market</string>
+    <string name="dialog_add_app_widgets_title">Gawit</string>
+    <string name="dialog_add_app_widgets_text">Ubahlah gawit favorit Anda menjadi aplikasi kecil.</string>
+    <string name="dialog_add_app_from_small_apps_title">Pilih aplikasi kecil</string>
+    <string name="dialog_add_app_from_widget_title">Pilih widget</string>
+    <string name="status_bar_recent_remove_item_title">Hapus dari daftar</string>
+    <string name="status_bar_recent_inspect_item_title">Info aplikasi</string>
+    <string name="status_bar_no_recent_apps">Tidak ada aplikasi terakhir</string>
+    <string name="accessibility_recents_item_dismissed">%s dihapus dari daftar.</string>
+</resources>

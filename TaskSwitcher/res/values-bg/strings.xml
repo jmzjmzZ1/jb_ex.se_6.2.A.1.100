@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="small_app_uninstalled">Приложението %s е деинсталирано</string>
+    <string name="dialog_max_apps_title">Максималният брой е достигнат</string>
+    <string name="dialog_max_apps_message">Има пространство само за %d малки приложения в превключването на задачи. За да добавите ново приложение, първо изтрийте едно или повече приложения от списъка.</string>
+    <string name="dialog_remove_app_title">Изтриване</string>
+    <string name="dialog_remove_app_title_dynamic">Изтриване на %s</string>
+    <string name="dialog_remove_app_message">"Приложението ще се изтрие от превключвателя на задачи.
+
+За да го възобновите, натиснете иконата \"+\" в списъка с малки приложения."</string>
+    <string name="dialog_remove_app_checkbox_text">Не показвай това съобщение отново</string>
+    <string name="dialog_add_app_in_use">изп. се</string>
+    <string name="dialog_add_app_title">Добавяне на малки приложения от</string>
+    <string name="dialog_add_app_installed_title_dynamic">Инсталирани малки приложения (%d)</string>
+    <string name="dialog_add_app_installed_text">Избор от предишно инсталирани малки прил.</string>
+    <string name="dialog_add_app_market_title">Google Play Магазин</string>
+    <string name="dialog_add_app_market_text">Инстал. на малки приложения от Google Play Магазин</string>
+    <string name="dialog_add_ndoo_app_market_text">Инсталиране на нови малки приложения от Ndoo Market</string>
+    <string name="dialog_add_app_widgets_title">Графични обекти</string>
+    <string name="dialog_add_app_widgets_text">Превърнете любимите си граф. обекти в малки приложения.</string>
+    <string name="dialog_add_app_from_small_apps_title">Избор на малки приложения</string>
+    <string name="dialog_add_app_from_widget_title">Избор на графичен обект</string>
+    <string name="status_bar_recent_remove_item_title">Изтриване от списъка</string>
+    <string name="status_bar_recent_inspect_item_title">Информация за прил.</string>
+    <string name="status_bar_no_recent_apps">Няма скорошни приложения</string>
+    <string name="accessibility_recents_item_dismissed">%s е изтрито от списъка.</string>
+</resources>

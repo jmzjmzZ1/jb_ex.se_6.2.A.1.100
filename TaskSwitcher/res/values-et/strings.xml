@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="small_app_uninstalled">%s on desinstallitud</string>
+    <string name="dialog_max_apps_title">Suurim lubatud arv on täis</string>
+    <string name="dialog_max_apps_message">"Tegumivahetis on ruumi ainult %d väikerakenduse jaoks.
+
+Uue rakenduse lisamiseks kustutage kõigepealt loendist vähemalt üks rakendus."</string>
+    <string name="dialog_remove_app_title">Kustutamine</string>
+    <string name="dialog_remove_app_title_dynamic">Kustuta %s</string>
+    <string name="dialog_remove_app_message">"See rakendus kustutatakse tegumivahetist.
+
+Selle uuesti toomiseks koputage väikerakenduste loendis plussikooni."</string>
+    <string name="dialog_remove_app_checkbox_text">Ära seda teadet enam kuva</string>
+    <string name="dialog_add_app_in_use">kasut-sel</string>
+    <string name="dialog_add_app_title">Lisa väikerakendusi kohast:</string>
+    <string name="dialog_add_app_installed_title_dynamic">Installitud väikerakendusi (%d)</string>
+    <string name="dialog_add_app_installed_text">Valige varem installitud väikerakenduste hulgast</string>
+    <string name="dialog_add_app_market_title">Play pood</string>
+    <string name="dialog_add_app_market_text">Saate installida uusi väikerakendusi Play poest</string>
+    <string name="dialog_add_ndoo_app_market_text">Saate installida uusi väikerakendusi Ndoo Marketist</string>
+    <string name="dialog_add_app_widgets_title">Vidinad</string>
+    <string name="dialog_add_app_widgets_text">Saate oma lemmikvidinad muuta väikerakendusteks.</string>
+    <string name="dialog_add_app_from_small_apps_title">Väikerakenduse installimine</string>
+    <string name="dialog_add_app_from_widget_title">Vidina valimine</string>
+    <string name="status_bar_recent_remove_item_title">Loendist kustutamine</string>
+    <string name="status_bar_recent_inspect_item_title">Rakenduse teave</string>
+    <string name="status_bar_no_recent_apps">Viimati kasutatud rakendusi pole</string>
+    <string name="accessibility_recents_item_dismissed">%s on loendist kustutatud.</string>
+</resources>

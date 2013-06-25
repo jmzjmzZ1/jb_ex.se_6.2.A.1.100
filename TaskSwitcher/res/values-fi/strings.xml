@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="small_app_uninstalled">Sovelluksen %s asennus on poistettu</string>
+    <string name="dialog_max_apps_title">Enimmäismäärä on täynnä</string>
+    <string name="dialog_max_apps_message">"Tehtävänvaihdossa on tilaa vain %d piensovellukselle.
+
+Jos haluat lisätä uuden sovelluksen, poista ensin vähintään yksi sovellus luettelosta."</string>
+    <string name="dialog_remove_app_title">Poista</string>
+    <string name="dialog_remove_app_title_dynamic">Poista %s</string>
+    <string name="dialog_remove_app_message">"Sovellus poistetaan tehtävänvaihdosta.
+
+Jos haluat noutaa sen uudelleen, napauta piensovellusluettelon pluskuvaketta."</string>
+    <string name="dialog_remove_app_checkbox_text">Älä näytä tätä viestiä uudelleen</string>
+    <string name="dialog_add_app_in_use">käytössä</string>
+    <string name="dialog_add_app_title">Lisää piensovelluksia kohteesta</string>
+    <string name="dialog_add_app_installed_title_dynamic">Asennetut piensovellukset (%d)</string>
+    <string name="dialog_add_app_installed_text">Valitse aiemmin asennettujen piensovellusten joukosta</string>
+    <string name="dialog_add_app_market_title">Play-kauppa</string>
+    <string name="dialog_add_app_market_text">Asenna uusia piensovelluksia Play-kaupasta</string>
+    <string name="dialog_add_ndoo_app_market_text">Asenna uusia piensovelluksia Ndoo Market -palvelusta</string>
+    <string name="dialog_add_app_widgets_title">Lisäohjelmat</string>
+    <string name="dialog_add_app_widgets_text">Tee suosikkilisäohjelmistasi piensovelluksia.</string>
+    <string name="dialog_add_app_from_small_apps_title">Valitse piensovellus</string>
+    <string name="dialog_add_app_from_widget_title">Valitse lisäohjelma</string>
+    <string name="status_bar_recent_remove_item_title">Poista luettelosta</string>
+    <string name="status_bar_recent_inspect_item_title">Sovelluksen tiedot</string>
+    <string name="status_bar_no_recent_apps">Ei äskettäisiä sovelluksia</string>
+    <string name="accessibility_recents_item_dismissed">" %s poistettu luettelosta."</string>
+</resources>

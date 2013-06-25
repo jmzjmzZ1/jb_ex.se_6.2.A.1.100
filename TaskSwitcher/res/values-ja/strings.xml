@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="small_app_uninstalled">アプリがアンインストールされました: %s</string>
+    <string name="dialog_max_apps_title">アプリの上限数に達しました</string>
+    <string name="dialog_max_apps_message">"タスクスイッチャーのスモールアプリ数上限は%d件です。
+
+新たにアプリを追加するには、まずリストから削除を行ってください。"</string>
+    <string name="dialog_remove_app_title">削除</string>
+    <string name="dialog_remove_app_title_dynamic">%sを削除</string>
+    <string name="dialog_remove_app_message">"アプリはタスクスイッチャーから削除されます。
+
+再度表示させるためにはスモールアプリリストにある＋アイコンをタップしてください。"</string>
+    <string name="dialog_remove_app_checkbox_text">このメッセージを次から表示しない</string>
+    <string name="dialog_add_app_in_use">使用中</string>
+    <string name="dialog_add_app_title">スモールアプリを追加</string>
+    <string name="dialog_add_app_installed_title_dynamic">インストール済み(%d)</string>
+    <string name="dialog_add_app_installed_text">インストール済みのスモールアプリから選択</string>
+    <string name="dialog_add_app_market_title">Playストア</string>
+    <string name="dialog_add_app_market_text">Playストアから新しいスモールアプリをインストール</string>
+    <string name="dialog_add_ndoo_app_market_text">Ndoo Marketから新しいスモールアプリをインストール</string>
+    <string name="dialog_add_app_widgets_title">ウィジェット</string>
+    <string name="dialog_add_app_widgets_text">お気に入りのウィジェットをスモールアプリ化</string>
+    <string name="dialog_add_app_from_small_apps_title">スモールアプリを選択</string>
+    <string name="dialog_add_app_from_widget_title">ウィジェットを選択</string>
+    <string name="status_bar_recent_remove_item_title">リストから削除</string>
+    <string name="status_bar_recent_inspect_item_title">アプリ情報</string>
+    <string name="status_bar_no_recent_apps">アプリ履歴なし</string>
+    <string name="accessibility_recents_item_dismissed">リストから削除済み: %s</string>
+</resources>

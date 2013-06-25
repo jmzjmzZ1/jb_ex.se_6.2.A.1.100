@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="small_app_uninstalled">Applicatie %s is verwijderd</string>
+    <string name="dialog_max_apps_title">Maximaal aantal bereikt</string>
+    <string name="dialog_max_apps_message">"Er is slechts ruimte voor %d kleine applicaties in het schakelprogramma voor taken.
+
+Als u een nieuwe applicatie wilt toevoegen, verwijdert u eerst een of meer applicaties uit de lijst."</string>
+    <string name="dialog_remove_app_title">Verwijderen</string>
+    <string name="dialog_remove_app_title_dynamic">%s verwijderen</string>
+    <string name="dialog_remove_app_message">"De app wordt verwijderd uit het schakelprogramma voor taken.
+
+Als u de app opnieuw wilt ophalen, tikt u op het +-pictogram in de lijst met kleine apps."</string>
+    <string name="dialog_remove_app_checkbox_text">Dit bericht niet meer weergeven</string>
+    <string name="dialog_add_app_in_use">gebruikt</string>
+    <string name="dialog_add_app_title">Kleine applicaties installeren vanuit</string>
+    <string name="dialog_add_app_installed_title_dynamic">Geïnstalleerde kleine applicaties (%d)</string>
+    <string name="dialog_add_app_installed_text">Selecteren vanuit eerder geïnstalleerde kleine applicaties</string>
+    <string name="dialog_add_app_market_title">Play Store</string>
+    <string name="dialog_add_app_market_text">Nieuwe kleine applicaties installeren vanuit de Play Store</string>
+    <string name="dialog_add_ndoo_app_market_text">Nieuwe kleine apps installeren vanaf Ndoo Market installeren</string>
+    <string name="dialog_add_app_widgets_title">Widgets</string>
+    <string name="dialog_add_app_widgets_text">Verander uw favoriete widgets in kleine applicaties.</string>
+    <string name="dialog_add_app_from_small_apps_title">Kleine applicatie selecteren</string>
+    <string name="dialog_add_app_from_widget_title">Widget selecteren</string>
+    <string name="status_bar_recent_remove_item_title">Verwijderen uit lijst</string>
+    <string name="status_bar_recent_inspect_item_title">Applicatie-info</string>
+    <string name="status_bar_no_recent_apps">Geen recente applicaties</string>
+    <string name="accessibility_recents_item_dismissed">%s verwijderd uit lijst.</string>
+</resources>

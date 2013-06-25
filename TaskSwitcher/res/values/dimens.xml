@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="min_screen_size_for_small_apps">4.0in</dimen>
+    <dimen name="status_bar_recents_app_icon_max_width">23.0dip</dimen>
+    <dimen name="status_bar_recents_app_icon_max_height">23.0dip</dimen>
+    <dimen name="status_bar_recents_thumbnail_width">118.0dip</dimen>
+    <dimen name="status_bar_recents_thumbnail_height">94.0dip</dimen>
+    <dimen name="status_bar_recents_fading_edge_length">5.0dip</dimen>
+    <dimen name="status_bar_recents_app_icon_left_margin">4.0dip</dimen>
+    <dimen name="status_bar_recents_app_label_left_margin">10.0dip</dimen>
+    <dimen name="status_bar_recents_app_label_right_margin">4.0dip</dimen>
+    <dimen name="small_app_icon_size">48.0dip</dimen>
+</resources>

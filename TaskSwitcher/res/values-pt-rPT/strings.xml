@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="small_app_uninstalled">A aplicação %s foi desinstalada</string>
+    <string name="dialog_max_apps_title">Número máximo atingido</string>
+    <string name="dialog_max_apps_message">"Há apenas espaço %d para aplicações pequenas no comutador de tarefas.
+
+Para adicionar uma aplicação nova, primeiro, elimine uma ou mais aplicações da lista."</string>
+    <string name="dialog_remove_app_title">Eliminar</string>
+    <string name="dialog_remove_app_title_dynamic">Eliminar %s</string>
+    <string name="dialog_remove_app_message">"A aplicação será eliminada do comutador de tarefas.
+
+Para obtê-la novamente, toque no ícone + na lista de aplicações pequenas."</string>
+    <string name="dialog_remove_app_checkbox_text">Não voltar a mostrar esta mensagem</string>
+    <string name="dialog_add_app_in_use">em utiliz.</string>
+    <string name="dialog_add_app_title">Adicionar aplicações pequenas a partir de</string>
+    <string name="dialog_add_app_installed_title_dynamic">Pequenas aplicações instaladas (%d)</string>
+    <string name="dialog_add_app_installed_text">Selecionar das aplicações peq. instaladas anteriormente</string>
+    <string name="dialog_add_app_market_title">Play Store</string>
+    <string name="dialog_add_app_market_text">Instalar novas aplicações pequenas a partir da Play Store</string>
+    <string name="dialog_add_ndoo_app_market_text">Instalar aplicações novas a partir do Ndoo Market</string>
+    <string name="dialog_add_app_widgets_title">Widgets</string>
+    <string name="dialog_add_app_widgets_text">Transformar os seus widgets favoritos em aplic. pequenas.</string>
+    <string name="dialog_add_app_from_small_apps_title">Selecionar aplicação pequena</string>
+    <string name="dialog_add_app_from_widget_title">Selecionar widget</string>
+    <string name="status_bar_recent_remove_item_title">Eliminar da lista</string>
+    <string name="status_bar_recent_inspect_item_title">Informações da aplicação</string>
+    <string name="status_bar_no_recent_apps">Não existem aplicações recentes</string>
+    <string name="accessibility_recents_item_dismissed">%s eliminada da lista.</string>
+</resources>

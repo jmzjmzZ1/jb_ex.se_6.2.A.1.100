@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="small_app_uninstalled">Đã gỡ cài đặt ứng dụng %s</string>
+    <string name="dialog_max_apps_title">Đã đạt tới số tối đa</string>
+    <string name="dialog_max_apps_message">Chỉ còn dung lượng cho %d ứng dụng nhỏ trong trình chuyển tác vụ. Để thêm ứng dụng mới, trước tiên, xoá bớt một hoặc nhiều ứng dụng khỏi danh sách.</string>
+    <string name="dialog_remove_app_title">Xoá</string>
+    <string name="dialog_remove_app_title_dynamic">Xoá %s</string>
+    <string name="dialog_remove_app_message">"Ứng dụng sẽ bị xoá khỏi trình chuyển tác vụ.
+
+Để truy xuất lại ứng dụng, nhấn vào biểu tượng + trong danh sách ứng dụng nhỏ."</string>
+    <string name="dialog_remove_app_checkbox_text">Không hiển thị lại thông báo này</string>
+    <string name="dialog_add_app_in_use">dùng</string>
+    <string name="dialog_add_app_title">Thêm ứng dụng nhỏ từ</string>
+    <string name="dialog_add_app_installed_title_dynamic">Ứng dụng nhỏ đã cài đặt (%d)</string>
+    <string name="dialog_add_app_installed_text">Chọn từ ứng dụng nhỏ được cài đặt trước đây</string>
+    <string name="dialog_add_app_market_title">Cửa hàng Play</string>
+    <string name="dialog_add_app_market_text">Cài đặt ứng dụng nhỏ mới từ Cửa hàng Play</string>
+    <string name="dialog_add_ndoo_app_market_text">Cài đặt những ứng dụng nhỏ mới từ Ndoo Market</string>
+    <string name="dialog_add_app_widgets_title">Tiện ích</string>
+    <string name="dialog_add_app_widgets_text">Biến tiện ích ưa thích của bạn thành ứng dụng nhỏ.</string>
+    <string name="dialog_add_app_from_small_apps_title">Chọn ứng dụng nhỏ</string>
+    <string name="dialog_add_app_from_widget_title">Chọn tiện ích</string>
+    <string name="status_bar_recent_remove_item_title">Xoá khỏi danh sách</string>
+    <string name="status_bar_recent_inspect_item_title">Thông tin ứng dụng</string>
+    <string name="status_bar_no_recent_apps">Không có ứng dụng gần đây nào</string>
+    <string name="accessibility_recents_item_dismissed">%s đã bị xoá khỏi danh sách.</string>
+</resources>

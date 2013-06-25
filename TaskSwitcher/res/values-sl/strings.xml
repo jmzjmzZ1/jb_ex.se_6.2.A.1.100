@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="small_app_uninstalled">Program %s je bil izbrisan</string>
+    <string name="dialog_max_apps_title">Dosegli ste najv. dovoljeno število programov</string>
+    <string name="dialog_max_apps_message">"V preklopnik med opravili lahko shranite največ %d majhnih programov.
+
+Če želite dodati nov program, morate najprej s seznama izbrisati nekaj obstoječih programov."</string>
+    <string name="dialog_remove_app_title">Brisanje</string>
+    <string name="dialog_remove_app_title_dynamic">Izbriši %s</string>
+    <string name="dialog_remove_app_message">"Ta program bo izbrisan iz preklopnika med opravili.
+
+Če ga želite znova pridobiti, tapnite ikono + na seznamu majhnih programov."</string>
+    <string name="dialog_remove_app_checkbox_text">Tega sporočila ne kaži več</string>
+    <string name="dialog_add_app_in_use">v uporabi</string>
+    <string name="dialog_add_app_title">Dodajanje majhnih programov</string>
+    <string name="dialog_add_app_installed_title_dynamic">Št. nameščenih majhnih programov: %d</string>
+    <string name="dialog_add_app_installed_text">Izberi med že nameščenimi majhnimi programi</string>
+    <string name="dialog_add_app_market_title">Trgovina Play</string>
+    <string name="dialog_add_app_market_text">Namesti nove majhne programe iz Trgovine Play</string>
+    <string name="dialog_add_ndoo_app_market_text">Namesti nove majhne programe iz tržnice Ndoo Market</string>
+    <string name="dialog_add_app_widgets_title">Gradniki</string>
+    <string name="dialog_add_app_widgets_text">Spremenite priljubljene gradnike v majhne programe.</string>
+    <string name="dialog_add_app_from_small_apps_title">Izbira majhnega programa</string>
+    <string name="dialog_add_app_from_widget_title">Izbira gradnika</string>
+    <string name="status_bar_recent_remove_item_title">Brisanje s seznama</string>
+    <string name="status_bar_recent_inspect_item_title">Informacije o programu</string>
+    <string name="status_bar_no_recent_apps">Ni nedavnih programov</string>
+    <string name="accessibility_recents_item_dismissed">%s je bil izbrisan s seznama.</string>
+</resources>

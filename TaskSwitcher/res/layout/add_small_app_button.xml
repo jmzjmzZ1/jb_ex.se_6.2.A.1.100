@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/add_app_divider" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/small_apps_bar_vertical_divider" android:scaleType="fitXY" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentBottom="true" />
+    <RelativeLayout android:id="@id/add_app_icon_layout" android:background="@drawable/small_app_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toRightOf="@id/add_app_divider">
+        <ImageView android:id="@id/add_app_icon" android:layout_width="@dimen/small_app_icon_size" android:layout_height="@dimen/small_app_icon_size" android:scaleType="centerInside" android:layout_alignParentTop="true" android:layout_alignParentBottom="true" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

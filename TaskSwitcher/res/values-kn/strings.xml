@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="small_app_uninstalled">%s ಅಪ್ಲಿಕೇಶನ್ ಅನ್‌ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಲಾಗಿದೆ</string>
+    <string name="dialog_max_apps_title">ಗರಿಷ್ಠ ಸಂಖ್ಯೆ ತಲುಪಿದೆ</string>
+    <string name="dialog_max_apps_message">"ಟಾಸ್ಕ್ ಸ್ವಿಚರ್‌ನಲ್ಲಿ %d ಚಿಕ್ಕ ಅಪ್ಲಿಕೇಶನ್‌ಗಳಿಗೆ ಮಾತ್ರ ಜಾಗವಿದೆ.
+
+ಹೊಸ ಅಪ್ಲಿಕೇಶನ್ ಸೇರಿಸಲು, ಮೊದಲಿಗೆ ಪಟ್ಟಿಯಿಂದ ಒಂದು ಅಥವಾ ಹೆಚ್ಚಿನ ಅಪ್ಲಿಕೇಶನ್‌ಗಳನ್ನು ಅಳಿಸಿ."</string>
+    <string name="dialog_remove_app_title">ಅಳಿಸಿ</string>
+    <string name="dialog_remove_app_title_dynamic">ಅಳಿಸಿ %s</string>
+    <string name="dialog_remove_app_message">"ಕೆಲಸ ಸ್ವಿಚರ್‌ನಿಂದ ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ಅಳಿಸಲಾಗುತ್ತದೆ.
+
+ಅದನ್ನು ಮತ್ತೊಮ್ಮೆ ಹಿಂಪಡೆಯಲು, ಚಿಕ್ಕ ಅಪ್ಲಿಕೇಶನ್‌ಗಳ ಪಟ್ಟಿಯಲ್ಲಿ ಕೂಡಿಸು ಐಕಾನ್ ಅನ್ನು ತಟ್ಟಿರಿ."</string>
+    <string name="dialog_remove_app_checkbox_text">ಈ ಸಂದೇಶವನ್ನು ಮತ್ತೊಮ್ಮೆ ತೋರಿಸಬೇಡ</string>
+    <string name="dialog_add_app_in_use">ಬಳಕೆಯಲ್ಲಿ</string>
+    <string name="dialog_add_app_title">ಇಲ್ಲಿಂದ ಚಿಕ್ಕ ಅಪ್ಲಿಕೇಶನ್‌ಗಳನ್ನು ಸೇರಿಸಿ</string>
+    <string name="dialog_add_app_installed_title_dynamic">ಸ್ಥಾಪಿಸಿರುವ ಸಣ್ಣ ಅಪ್ಲಿಕೇಶನ್‌ಗಳು (%d)</string>
+    <string name="dialog_add_app_installed_text">ಮುಂಚೆ ಸ್ಥಾಪಿಸಲಾಗಿರುವ ಚಿಕ್ಕ ಅಪ್ಲಿಕೇಶನ್‌ಗಳಿಂದ ಆರಿಸಿ</string>
+    <string name="dialog_add_app_market_title">Play Store</string>
+    <string name="dialog_add_app_market_text">Play Storeನಿಂದ ಚಿಕ್ಕ ಅಪ್ಲಿಕೇಶನ್‌ಗಳನ್ನು ಸ್ಥಾಪಿಸಿ</string>
+    <string name="dialog_add_ndoo_app_market_text">ಹೊಸ ಸಣ್ಣ ಅಪ್ಪಿಕೇಶನ್‌ಗಳನ್ನು Ndoo Marketನಿಂದ ಸ್ಥಾಪಿಸು</string>
+    <string name="dialog_add_app_widgets_title">ವಿಡ್ಗೆಟ್‌ಗಳು</string>
+    <string name="dialog_add_app_widgets_text">ನಿಮ್ಮ ಪ್ರಿಯವಾದ ವಿಡ್ಗೆಟ್‌ಗಳನ್ನು ಚಿಕ್ಕ ಅಪ್ಲಿಕೇಶನ್‌ಗಳಾಗಿಸಿ.</string>
+    <string name="dialog_add_app_from_small_apps_title">ಚಿಕ್ಕ ಅಪ್ಲಿಕೇಶನ್ ಆರಿಸಿ</string>
+    <string name="dialog_add_app_from_widget_title">ವಿಡ್ಗೆಟ್ ಆರಿಸಿ</string>
+    <string name="status_bar_recent_remove_item_title">ಪಟ್ಟಿಯಿಂದ ಅಳಿಸು</string>
+    <string name="status_bar_recent_inspect_item_title">ಅಪ್ಲಿಕೇಶನ್ ಮಾಹಿತಿ</string>
+    <string name="status_bar_no_recent_apps">ಇತ್ತೀಚಿನ ಅಪ್ಲಿಕೇಶನ್‌ಗಳು ಇಲ್ಲ</string>
+    <string name="accessibility_recents_item_dismissed">%s ಪಟ್ಟಿಯಿಂದ ಅಳಿಸಿದೆ.</string>
+</resources>

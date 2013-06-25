@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:sharedUserId="com.sonymobile.uid.systemui" android:versionCode="1" android:versionName="1.0" package="com.sonymobile.taskswitcher"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="16" />
+    <uses-permission android:name="com.sonymobile.permission.TASK_SWITCHER_PLUGIN_VIEW" />
+    <application>
+        <meta-data android:name="com.sonymobile.taskswitcher.PLUGIN_VIEW" android:value="com.sonymobile.taskswitcher.SmallAppContainerView" />
+        <activity android:name=".SmallAppContainerTestActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.MONKEY" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

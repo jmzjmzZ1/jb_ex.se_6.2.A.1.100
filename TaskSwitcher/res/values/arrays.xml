@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="first_start_small_apps">
+        <item>com.sonymobile.smallapps.calc/.SmallCalculator</item>
+        <item>com.sonymobile.smallapps.timer/.SmallTimer</item>
+        <item>com.sonymobile.smallapps.notes/.SmallNotes</item>
+        <item>com.sonymobile.smallapps.recorder/.SmallRecorder</item>
+    </string-array>
+</resources>

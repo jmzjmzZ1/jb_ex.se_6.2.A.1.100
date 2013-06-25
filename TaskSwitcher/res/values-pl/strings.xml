@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="small_app_uninstalled">Aplikacja %s została odinstalowana</string>
+    <string name="dialog_max_apps_title">Osiągnięto maksymalną liczbę</string>
+    <string name="dialog_max_apps_message">"W przełączniku zadań jest miejsce tylko na ograniczoną liczbę drobnych aplikacji (%d).
+
+Aby dodać nową aplikację, najpierw usuń co najmniej jedną aplikację z listy."</string>
+    <string name="dialog_remove_app_title">Usuwanie</string>
+    <string name="dialog_remove_app_title_dynamic">Usuwanie %s</string>
+    <string name="dialog_remove_app_message">"Aplikacja zostanie usunięta z przełącznika zadań.
+
+Aby ponownie mieć do niej dostęp, stuknij ikonę z plusem na liście drobnych aplikacji."</string>
+    <string name="dialog_remove_app_checkbox_text">Nie pokazuj więcej tego komunikatu</string>
+    <string name="dialog_add_app_in_use">w użyciu</string>
+    <string name="dialog_add_app_title">Dodaj drobne aplikacje z</string>
+    <string name="dialog_add_app_installed_title_dynamic">Zainstalowane drobne aplikacje (%d)</string>
+    <string name="dialog_add_app_installed_text">Wybierz z wcześniej zainstalow. drobnych aplikacji</string>
+    <string name="dialog_add_app_market_title">Sklep Play</string>
+    <string name="dialog_add_app_market_text">Zainstaluj nowe drobne aplikacje ze Sklepu Play</string>
+    <string name="dialog_add_ndoo_app_market_text">Instaluj nowe drobne aplikacje z usługi Ndoo Market</string>
+    <string name="dialog_add_app_widgets_title">Widżety</string>
+    <string name="dialog_add_app_widgets_text">Przekształć ulubione widżety w drobne aplikacje</string>
+    <string name="dialog_add_app_from_small_apps_title">Wybierz drobną aplikację</string>
+    <string name="dialog_add_app_from_widget_title">Wybierz widżet</string>
+    <string name="status_bar_recent_remove_item_title">Usuń z listy</string>
+    <string name="status_bar_recent_inspect_item_title">Informacje o aplikacji</string>
+    <string name="status_bar_no_recent_apps">Brak ostatnich aplikacji</string>
+    <string name="accessibility_recents_item_dismissed">Aplikacja %s została usunięta z listy.</string>
+</resources>

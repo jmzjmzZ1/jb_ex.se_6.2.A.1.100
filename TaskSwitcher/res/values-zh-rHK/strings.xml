@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="small_app_uninstalled">%s應用程式已解除安裝</string>
+    <string name="dialog_max_apps_title">已達上限</string>
+    <string name="dialog_max_apps_message">"任務切換工具中只能容納%d個小應用程式。
+
+若要新增應用程式，請先從清單中刪除一或多個應用程式。"</string>
+    <string name="dialog_remove_app_title">刪除</string>
+    <string name="dialog_remove_app_title_dynamic">刪除%s</string>
+    <string name="dialog_remove_app_message">"此應用程式將從工作切換工具中刪除。
+
+若要恢復此應用程式，請輕觸小型應用程式清單中的[+]圖示。"</string>
+    <string name="dialog_remove_app_checkbox_text">不要再顯示這則訊息</string>
+    <string name="dialog_add_app_in_use">使用中</string>
+    <string name="dialog_add_app_title">從以下來源新增小應用程式</string>
+    <string name="dialog_add_app_installed_title_dynamic">已安裝的小型應用程式(%d)個</string>
+    <string name="dialog_add_app_installed_text">從先前安裝的小應用程式中選擇</string>
+    <string name="dialog_add_app_market_title">Play Store</string>
+    <string name="dialog_add_app_market_text">從Play Store安裝新的小應用程式</string>
+    <string name="dialog_add_ndoo_app_market_text">從Ndoo Market安裝新的小應用程式</string>
+    <string name="dialog_add_app_widgets_title">外掛件</string>
+    <string name="dialog_add_app_widgets_text">將您最喜愛的外掛件轉換成小應用程式。</string>
+    <string name="dialog_add_app_from_small_apps_title">選擇小應用程式</string>
+    <string name="dialog_add_app_from_widget_title">選擇外掛件</string>
+    <string name="status_bar_recent_remove_item_title">從清單中刪除</string>
+    <string name="status_bar_recent_inspect_item_title">應用程式資訊</string>
+    <string name="status_bar_no_recent_apps">沒有新的應用程式訊息</string>
+    <string name="accessibility_recents_item_dismissed">%s已從清單中刪除</string>
+</resources>

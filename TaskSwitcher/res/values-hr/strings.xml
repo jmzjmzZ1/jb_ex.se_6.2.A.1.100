@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="small_app_uninstalled">Aplikacija %s je deinstalirana</string>
+    <string name="dialog_max_apps_title">Dostignut je maksimalan broj</string>
+    <string name="dialog_max_apps_message">"Na alatu za promjenu zadatka ima mjesta samo za sljedeći broj aplikacija: %d.
+
+Da biste dodali novu aplikaciju, najprije izbrišite jednu ili više aplikacija s popisa."</string>
+    <string name="dialog_remove_app_title">Brisanje</string>
+    <string name="dialog_remove_app_title_dynamic">Brisanje aplikacije %s</string>
+    <string name="dialog_remove_app_message">"Aplikacija će biti izbrisana iz alata za promjenu zadatka.
+
+Da biste je vratili, dotaknite simbol + na popisu malih aplikacija."</string>
+    <string name="dialog_remove_app_checkbox_text">Ne prikazuj više ovu poruku</string>
+    <string name="dialog_add_app_in_use">koristi se</string>
+    <string name="dialog_add_app_title">Dodavanje malih aplikacija iz izvora</string>
+    <string name="dialog_add_app_installed_title_dynamic">Instalirane male aplikacije (%d)</string>
+    <string name="dialog_add_app_installed_text">Odaberite neku prethodno instaliranu malu aplikaciju.</string>
+    <string name="dialog_add_app_market_title">Trgovina Play</string>
+    <string name="dialog_add_app_market_text">Instalacija novih malih aplikacija iz trgovine Play</string>
+    <string name="dialog_add_ndoo_app_market_text">Instalirajte nove male aplikacije sa servisa Ndoo Market</string>
+    <string name="dialog_add_app_widgets_title">Widgeti</string>
+    <string name="dialog_add_app_widgets_text">Pretvorite omiljene widgete u male aplikacije.</string>
+    <string name="dialog_add_app_from_small_apps_title">Odabir male aplikacije</string>
+    <string name="dialog_add_app_from_widget_title">Odabir widgeta</string>
+    <string name="status_bar_recent_remove_item_title">Brisanje s popisa</string>
+    <string name="status_bar_recent_inspect_item_title">Podaci o aplikaciji</string>
+    <string name="status_bar_no_recent_apps">Nema nedavnih aplikacija</string>
+    <string name="accessibility_recents_item_dismissed">Aplikacija %s izbrisana je s popisa.</string>
+</resources>

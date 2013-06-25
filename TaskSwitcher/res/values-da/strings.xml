@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="small_app_uninstalled">" %s-app'en er blevet afinstalleret"</string>
+    <string name="dialog_max_apps_title">Det maksimale antal er nået</string>
+    <string name="dialog_max_apps_message">"Der er kun plads til %d små apps i opgaveskifteren.
+
+Du kan tilføje en ny app ved først at slette en eller flere apps fra listen."</string>
+    <string name="dialog_remove_app_title">Slet</string>
+    <string name="dialog_remove_app_title_dynamic">Slet %s</string>
+    <string name="dialog_remove_app_message">"App'en vil blive slettet fra opgaveskifteren.
+
+Du kan hente den igen ved at tappe på +-ikonet på listen over små apps."</string>
+    <string name="dialog_remove_app_checkbox_text">Vis ikke denne meddelelse igen</string>
+    <string name="dialog_add_app_in_use">i brug</string>
+    <string name="dialog_add_app_title">Tilføj små apps fra</string>
+    <string name="dialog_add_app_installed_title_dynamic">Installerede små apps (%d)</string>
+    <string name="dialog_add_app_installed_text">Vælg mellem tidligere installerede små apps</string>
+    <string name="dialog_add_app_market_title">Play Butik</string>
+    <string name="dialog_add_app_market_text">Installer nye små apps fra Play Butik</string>
+    <string name="dialog_add_ndoo_app_market_text">Installer nye små apps fra Ndoo Market</string>
+    <string name="dialog_add_app_widgets_title">Widgets</string>
+    <string name="dialog_add_app_widgets_text">Omdan dine foretrukne widgets til små apps.</string>
+    <string name="dialog_add_app_from_small_apps_title">Vælg lille app</string>
+    <string name="dialog_add_app_from_widget_title">Vælg widget</string>
+    <string name="status_bar_recent_remove_item_title">Slet fra liste</string>
+    <string name="status_bar_recent_inspect_item_title">App-oplysninger</string>
+    <string name="status_bar_no_recent_apps">Ingen seneste opkald</string>
+    <string name="accessibility_recents_item_dismissed">" %s er slettet fra listen."</string>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="small_app_uninstalled">Se desinstaló la aplicación %s</string>
+    <string name="dialog_max_apps_title">Se alcanzó el número máximo</string>
+    <string name="dialog_max_apps_message">"Solamente hay espacio para %d aplicaciones pequeñas en el alternador de tareas.
+
+Para agregar una nueva aplicación, elimine primero una o más aplicaciones de la lista."</string>
+    <string name="dialog_remove_app_title">Eliminar</string>
+    <string name="dialog_remove_app_title_dynamic">Eliminar %s</string>
+    <string name="dialog_remove_app_message">"La aplicación se eliminará del alternador de tareas.
+
+Para recuperarla de nuevo, toque suavemente el icono de ajustes en la lista de aplicaciones pequeñas."</string>
+    <string name="dialog_remove_app_checkbox_text">No mostrar este mensaje de nuevo</string>
+    <string name="dialog_add_app_in_use">en uso</string>
+    <string name="dialog_add_app_title">Agregar aplicaciones pequeñas de</string>
+    <string name="dialog_add_app_installed_title_dynamic">Aplicaciones pequeñas instaladas (%d)</string>
+    <string name="dialog_add_app_installed_text">Seleccionar de las aplicaciones pequeñas instaladas antes</string>
+    <string name="dialog_add_app_market_title">Play Store</string>
+    <string name="dialog_add_app_market_text">Instalar nuevas aplicaciones pequeñas de Play Store</string>
+    <string name="dialog_add_ndoo_app_market_text">Instale nuevas aplicaciones pequeñas desde Ndoo Market</string>
+    <string name="dialog_add_app_widgets_title">Widgets</string>
+    <string name="dialog_add_app_widgets_text">Convierta sus widgets favoritos en aplicaciones pequeñas.</string>
+    <string name="dialog_add_app_from_small_apps_title">Seleccionar aplicación pequeña</string>
+    <string name="dialog_add_app_from_widget_title">Seleccionar widget</string>
+    <string name="status_bar_recent_remove_item_title">Eliminar de la lista</string>
+    <string name="status_bar_recent_inspect_item_title">Información de aplicación</string>
+    <string name="status_bar_no_recent_apps">Sin aplicaciones recientes</string>
+    <string name="accessibility_recents_item_dismissed">%s eliminado de la lista.</string>
+</resources>

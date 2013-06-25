@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="small_app_uninstalled">%s app has been uninstalled</string>
+    <string name="dialog_max_apps_title">Maximum number reached</string>
+    <string name="dialog_max_apps_message">"There is only room for %d small apps in the task switcher.
+
+To add a new app, first delete one or more apps from the list."</string>
+    <string name="dialog_remove_app_title">Delete</string>
+    <string name="dialog_remove_app_title_dynamic">Delete %s</string>
+    <string name="dialog_remove_app_message">"The app will be deleted from the task switcher.
+
+To retrieve it again, tap the plus icon in the small apps list."</string>
+    <string name="dialog_remove_app_checkbox_text">"Don't show this message again"</string>
+    <string name="dialog_add_app_in_use">in use</string>
+    <string name="dialog_add_app_title">Add small apps from</string>
+    <string name="dialog_add_app_installed_title_dynamic">Installed small apps (%d)</string>
+    <string name="dialog_add_app_installed_text">Select from previously installed small apps</string>
+    <string name="dialog_add_app_market_title">Play Store</string>
+    <string name="dialog_add_app_market_text">Install new small apps from Play Store</string>
+    <string name="dialog_add_ndoo_app_market_title">Ndoo Market</string>
+    <string name="dialog_add_ndoo_app_market_text">Install new small apps from Ndoo Market</string>
+    <string name="dialog_add_app_widgets_title">Widgets</string>
+    <string name="dialog_add_app_widgets_text">Turn your favorite widgets into small apps.</string>
+    <string name="dialog_add_app_from_small_apps_title">Select small app</string>
+    <string name="dialog_add_app_from_widget_title">Select widget</string>
+    <string name="status_bar_recent_remove_item_title">Delete from list</string>
+    <string name="status_bar_recent_inspect_item_title">App info</string>
+    <string name="status_bar_no_recent_apps">No recent apps</string>
+    <string name="accessibility_recents_item_dismissed">%s deleted from list.</string>
+</resources>

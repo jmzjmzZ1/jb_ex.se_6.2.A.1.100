@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="small_app_uninstalled">Aplikacioni %s nuk është instaluar</string>
+    <string name="dialog_max_apps_title">U arrit numri maksimal</string>
+    <string name="dialog_max_apps_message">"Në ndërruesin e detyrave ka hapësirë vetëm për %d aplikacione të vogla.
+
+Për të shtuar një aplikacion të ri, së pari fshini një ose më shumë aplikacione nga lista."</string>
+    <string name="dialog_remove_app_title">Fshi</string>
+    <string name="dialog_remove_app_title_dynamic">Fshi %s</string>
+    <string name="dialog_remove_app_message">"Aplikacioni do të fshihet nga ndërruesi i detyrave.
+
+Për t'i përnxjerrë përsëri, trokitni lehtë ikonën e cilësimeve në listën e aplikacioneve të vogla."</string>
+    <string name="dialog_remove_app_checkbox_text">Mos e afisho përsëri këtë mesazh</string>
+    <string name="dialog_add_app_in_use">në përd.</string>
+    <string name="dialog_add_app_title">Shtoni aplikacione të vogla nga</string>
+    <string name="dialog_add_app_installed_title_dynamic">Aplikacionet e vogla të instaluara (%d)</string>
+    <string name="dialog_add_app_installed_text">Përzgjidhni nga aplikacionet e vogla të instaluara më parë</string>
+    <string name="dialog_add_app_market_title">Play Store</string>
+    <string name="dialog_add_app_market_text">Instaloni aplikacione të vogla të reja nga Play Store</string>
+    <string name="dialog_add_ndoo_app_market_text">Instaloni aplikacione të vogla të reja nga Ndoo Market</string>
+    <string name="dialog_add_app_widgets_title">Widget-et</string>
+    <string name="dialog_add_app_widgets_text">Kthejini widget-et e preferuara në aplikacione të vogla.</string>
+    <string name="dialog_add_app_from_small_apps_title">Përzgjidh një aplikacion të vogël</string>
+    <string name="dialog_add_app_from_widget_title">Përzgjidh widget-in</string>
+    <string name="status_bar_recent_remove_item_title">Fshi nga lista</string>
+    <string name="status_bar_recent_inspect_item_title">Informacione për aplikacionin</string>
+    <string name="status_bar_no_recent_apps">Nuk ka aplikacione të fundit</string>
+    <string name="accessibility_recents_item_dismissed">%s u fshi nga lista.</string>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="small_app_uninstalled">%s har avinstallerats</string>
+    <string name="dialog_max_apps_title">Högsta antal har uppnåtts</string>
+    <string name="dialog_max_apps_message">"Det finns endast plats för %d små program i uppgiftsväxlaren.
+
+Om du vill lägga till ett nytt program raderar du först ett eller fler program i listan."</string>
+    <string name="dialog_remove_app_title">Radera</string>
+    <string name="dialog_remove_app_title_dynamic">Radera %s</string>
+    <string name="dialog_remove_app_message">"Programmet kommer att raderas från uppgiftsväxlaren.
+
+Om du vill hämta det igen trycker du på ikonen för inställningar i listan för små program."</string>
+    <string name="dialog_remove_app_checkbox_text">Visa inte detta meddelande igen</string>
+    <string name="dialog_add_app_in_use">används</string>
+    <string name="dialog_add_app_title">Lägg till små program från</string>
+    <string name="dialog_add_app_installed_title_dynamic">Installerade små program (%d)</string>
+    <string name="dialog_add_app_installed_text">Välj från tidigare installerade små program</string>
+    <string name="dialog_add_app_market_title">Play Butik</string>
+    <string name="dialog_add_app_market_text">Installera nya små program från Play Butik</string>
+    <string name="dialog_add_ndoo_app_market_text">Installera nytt mindre program från Ndoo Market</string>
+    <string name="dialog_add_app_widgets_title">Widgetar</string>
+    <string name="dialog_add_app_widgets_text">Gör små program av dina favoritwidgetar.</string>
+    <string name="dialog_add_app_from_small_apps_title">Välj små program</string>
+    <string name="dialog_add_app_from_widget_title">Välj widget</string>
+    <string name="status_bar_recent_remove_item_title">Ta bort från listan</string>
+    <string name="status_bar_recent_inspect_item_title">Programinfo</string>
+    <string name="status_bar_no_recent_apps">Inga senaste program</string>
+    <string name="accessibility_recents_item_dismissed">%s togs bort från listan.</string>
+</resources>

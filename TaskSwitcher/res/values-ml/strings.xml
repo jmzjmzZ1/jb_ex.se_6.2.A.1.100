@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="small_app_uninstalled">%s ആപ്ലിക്കേഷന്‍ അണ്‍ഇന്‍സ്റ്റാള്‍ ചെയ്തു</string>
+    <string name="dialog_max_apps_title">പരമാവധി സംഖ്യയെത്തി</string>
+    <string name="dialog_max_apps_message">"ടാസ്ക്ക് സ്വിച്ചറില്‍ %d ചെറിയ ആപ്ലിക്കേഷനുകള്‍ക്കുള്ള സ്ഥലമേയുള്ളു.
+
+ഒരു പുതിയ ആപ്ലിക്കേഷന്‍ ചേര്‍ക്കാന്‍ ലിസ്റ്റില്‍ നിന്ന് ഒന്നോ അതില്‍ അധികയോ ആപ്ലിക്കേഷനുകള്‍ നീക്കം ചെയ്യുക."</string>
+    <string name="dialog_remove_app_title">നീക്കം ചെയ്യുക</string>
+    <string name="dialog_remove_app_title_dynamic">നീക്കം ചെയ്യുക %s</string>
+    <string name="dialog_remove_app_message">"ദൌത്യ സ്വിച്ചറില്‍ നിന്ന് ആപ്ലിക്കേഷന്‍ നീക്കം ചെയ്യപ്പെടും. 
+
+ഇത് വീണ്ടും വീണ്ടെടുക്കാന്‍, ചെറുത് പ്രോഗ്രാം പട്ടികയില്‍ പ്ലസ് ചിഹ്നം ടാപ് ചെയ്യുക."</string>
+    <string name="dialog_remove_app_checkbox_text">ഈ സന്ദേശം വീണ്ടും കാണിക്കരുത്</string>
+    <string name="dialog_add_app_in_use">ഉപയ.</string>
+    <string name="dialog_add_app_title">ഇവിടെനിന്ന് ചെറിയ ആപ്ലിക്കേഷനുകള്‍ കൂട്ട.</string>
+    <string name="dialog_add_app_installed_title_dynamic">ഇന്‍സ്റ്റാള്‍ ചെയ്ത small apps %d</string>
+    <string name="dialog_add_app_installed_text">മുമ്പ് ഇന്‍സ്റ്റാള്‍ ചെയ്ത ചെറിയ ആപ്ലിക്കേഷനുകളില്‍ നിന്ന് തി.</string>
+    <string name="dialog_add_app_market_title">Play Store</string>
+    <string name="dialog_add_app_market_text">Play Store-ല്‍ നിന്ന് പുതിയ ചെറിയ ആപ്ലിക്കേഷ. ഇ. ച.</string>
+    <string name="dialog_add_ndoo_app_market_text">Ndoo Market-ല്‍ നിന്നും പുതിയ ചെറിയ ആപ്ലി. ഇന്‍സ്റ്റാ. ചെ.</string>
+    <string name="dialog_add_app_widgets_title">വിഡ്ജറ്റുകള്‍</string>
+    <string name="dialog_add_app_widgets_text">നിങ്ങളുടെ പ്രിയപ്പെട്ട വിഡ്ജേറ്റുകള്‍ ചെ. അ. ആ. മാ.</string>
+    <string name="dialog_add_app_from_small_apps_title">ചെറിയ ആപ്ലിക്കേഷന്‍ തിരഞ്ഞെടുക്കുക</string>
+    <string name="dialog_add_app_from_widget_title">വിഡ്‌ജറ്റ് തിരഞ്ഞെടുക്കുക</string>
+    <string name="status_bar_recent_remove_item_title">ലിസ്റ്റില്‍ നിന്ന് നീക്കം ചെയ.</string>
+    <string name="status_bar_recent_inspect_item_title">ആപ്ലിക്കേഷന്‍ വിവരങ്ങള്‍</string>
+    <string name="status_bar_no_recent_apps">സമകാലിക ആപ്ലിക്കേഷനൊന.</string>
+    <string name="accessibility_recents_item_dismissed">%s ലിസ്റ്റില്‍ നിന്ന് നീക്കം ചെയ്തു.</string>
+</resources>

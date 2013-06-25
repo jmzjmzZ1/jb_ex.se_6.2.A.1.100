@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="small_app_uninstalled">ยกเลิกการติดตั้งแอปพลิเคชัน %s แล้ว</string>
+    <string name="dialog_max_apps_title">ถึงจำนวนสูงสุด</string>
+    <string name="dialog_max_apps_message">"มีที่ว่างสำหรับ %d แอปพลิเคชัน
+ขนาดเล็กในตัวสลับงาน
+
+หากต้องการเพิ่มแอปพลิเคชันใหม่ ให้ลบหนึ่งแอปพลิเคชันขึ้นไปออกจากรายการก่อน"</string>
+    <string name="dialog_remove_app_title">ลบ</string>
+    <string name="dialog_remove_app_title_dynamic">ลบ %s</string>
+    <string name="dialog_remove_app_message">"แอปจะถูกลบออกจากตัวสลับงาน
+
+หากต้องการดึงกลับมาอีกครั้ง ให้แตะไอคอนบวกในรายการแอปขนาดเล็ก"</string>
+    <string name="dialog_remove_app_checkbox_text">ไม่ต้องแสดงข้อความนี้อีก</string>
+    <string name="dialog_add_app_in_use">ใช้งานอยู่</string>
+    <string name="dialog_add_app_title">เพิ่มแอปขนาดเล็กจาก</string>
+    <string name="dialog_add_app_installed_title_dynamic">ติดตั้งแอปขนาดเล็ก %d</string>
+    <string name="dialog_add_app_installed_text">"เลือกจากแอปขนาดเล็กที่ติดตั้งไว้
+ก่อนหน้านี้"</string>
+    <string name="dialog_add_app_market_title">Play สโตร์</string>
+    <string name="dialog_add_app_market_text">ติดตั้งแอปขนาดเล็กใหม่ๆ จาก Play สโตร์</string>
+    <string name="dialog_add_ndoo_app_market_text">"ติดตั้งแอปพลิเคชันขนาดเล็กใหม่
+จาก Ndoo Market"</string>
+    <string name="dialog_add_app_widgets_title">Widgets</string>
+    <string name="dialog_add_app_widgets_text">"เปลี่ยน widget โปรดของคุณเป็น
+แอปขนาดเล็ก"</string>
+    <string name="dialog_add_app_from_small_apps_title">เลือกแอปขนาดเล็ก</string>
+    <string name="dialog_add_app_from_widget_title">เลือก widget</string>
+    <string name="status_bar_recent_remove_item_title">ลบจากรายชื่อ</string>
+    <string name="status_bar_recent_inspect_item_title">ข้อมูลแอปพลิเคชัน</string>
+    <string name="status_bar_no_recent_apps">ไม่มีแอปพลิเคชันล่าสุด</string>
+    <string name="accessibility_recents_item_dismissed">%s ถูกลบออกจากรายการแล้ว</string>
+</resources>

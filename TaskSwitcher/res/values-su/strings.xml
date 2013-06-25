@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="small_app_uninstalled">%s Pamasangan aplikasi geus dibongkar</string>
+    <string name="dialog_max_apps_title">Jumlah maksimum</string>
+    <string name="dialog_max_apps_message">"Ngan aya rohang jang aplikasi leutik %d di pamindah tugas.
+
+Jang nambah aplikasi anyar, pupus heula hiji atawa sababaraha aplikasi ti daptar."</string>
+    <string name="dialog_remove_app_title">Pupus</string>
+    <string name="dialog_remove_app_title_dynamic">Pupus %s</string>
+    <string name="dialog_remove_app_message">"Aplikasi bade dipupus dina.
+
+Keur cokot deui, ketok ikon + dina daptar aplikasi leutik."</string>
+    <string name="dialog_remove_app_checkbox_text">Ulah pintonkeun deui talatah ieu</string>
+    <string name="dialog_add_app_in_use">dipake</string>
+    <string name="dialog_add_app_title">Tambah aplikasi leutik ti</string>
+    <string name="dialog_add_app_installed_title_dynamic">Masang aplikasi leutik (%d)</string>
+    <string name="dialog_add_app_installed_text">Pilih ti aplikasi leutik nu dipasang sateuacanna</string>
+    <string name="dialog_add_app_market_title">Play Store</string>
+    <string name="dialog_add_app_market_text">Pasang apl. leutik anyar ti Play Store</string>
+    <string name="dialog_add_ndoo_app_market_text">Pasang aplikasi leutik anyar ti Ndoo Market</string>
+    <string name="dialog_add_app_widgets_title">Widget</string>
+    <string name="dialog_add_app_widgets_text">Robah widget paporit anjeun ka aplikasi leutik.</string>
+    <string name="dialog_add_app_from_small_apps_title">Pilih aplikasi leutik</string>
+    <string name="dialog_add_app_from_widget_title">Pilih widget</string>
+    <string name="status_bar_recent_remove_item_title">Pupus ti daptar</string>
+    <string name="status_bar_recent_inspect_item_title">Inpo aplikasi</string>
+    <string name="status_bar_no_recent_apps">Teu aya aplikasi anyar</string>
+    <string name="accessibility_recents_item_dismissed">%s dipupus ti daptar.</string>
+</resources>

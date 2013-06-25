@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="small_app_uninstalled">%s యాప్ అన్‌ఇన్‌స్టాల్ చేయబడింది</string>
+    <string name="dialog_max_apps_title">గరిష్ట సంఖ్యకు చేరుకున్నారు</string>
+    <string name="dialog_max_apps_message">"టాస్క్ స్విచెర్‌లో %d చిన్న అప్లికేషన్‌లు కోసం మాత్రమే ఖాళీ ఉంది.
+
+కొత్త అప్లికేషన్‌ను చేర్చడానికి, ముందుగా జాబితా నుండి ఒకటి లేదా మరిన్ని అప్లికేషన్‌లను తొలగించండి."</string>
+    <string name="dialog_remove_app_title">తొలగించు</string>
+    <string name="dialog_remove_app_title_dynamic">"తొలగించండి   %s"</string>
+    <string name="dialog_remove_app_message">"టాస్క్ స్విచ్చర్ నుంచి అనువర్తనం గుర్తించబడుతుంది.
+
+మళ్లీ తిరిగి పొందడం కోసం చిన్న అప్లికేషన్ల జాబితాలో ఐకాన్ ను తట్టండి."</string>
+    <string name="dialog_remove_app_checkbox_text">ఈ సందేశాన్ని మళ్లీ చూపవద్దు</string>
+    <string name="dialog_add_app_in_use">ఉప. ఉంది</string>
+    <string name="dialog_add_app_title">దీని నుండి చిన్న అప్లికేషన్‌లను చేర్చండి</string>
+    <string name="dialog_add_app_installed_title_dynamic">చిన్న యాప్స్ ఇన్స్టాల్ చేయబడినవి (%d)</string>
+    <string name="dialog_add_app_installed_text">గతంలో ఇన్‌స్టాల్ చేసిన చిన్న అప్లికేషన్‌లు నుండి ఎంచుకోండి</string>
+    <string name="dialog_add_app_market_title">Play Store</string>
+    <string name="dialog_add_app_market_text">Play Store నుండి కొత్త చిన్న అప్లికేషన్‌లను ఇన్‌స్టాల్ చేయండి</string>
+    <string name="dialog_add_ndoo_app_market_text">Ndoo Market నుండి కొత్త చిన్న ఆప్స్ ఇన్స్టాల్ చేయండి</string>
+    <string name="dialog_add_app_widgets_title">విడ్జెట్‌లు</string>
+    <string name="dialog_add_app_widgets_text">మీ ఇష్టమైన విడ్జెట్‌లను చిన్న అప్లికేషన్‌లు వలె మార్చండి.</string>
+    <string name="dialog_add_app_from_small_apps_title">చిన్న అప్లికేషన్‌ను ఎంచుకోండి</string>
+    <string name="dialog_add_app_from_widget_title">విడ్జెట్ ఎంచుకోండి</string>
+    <string name="status_bar_recent_remove_item_title">జాబితా నుండి తొలగించు</string>
+    <string name="status_bar_recent_inspect_item_title">యాప్ సమాచారం</string>
+    <string name="status_bar_no_recent_apps">ఇటీవల యాప్స్ లేవు</string>
+    <string name="accessibility_recents_item_dismissed">%s జాబితా నుండి తొలగించబడింది.</string>
+</resources>

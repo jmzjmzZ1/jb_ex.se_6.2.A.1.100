@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="small_app_uninstalled">"S'ha desinstal·lat l'aplicació %s "</string>
+    <string name="dialog_max_apps_title">Número màxim aconseguit</string>
+    <string name="dialog_max_apps_message">"Només hi ha espai per a %d aplicacions petites al commutador de tasques.
+
+Per afegir una nova aplicació, suprimiu primer una o més aplicacions de la llista."</string>
+    <string name="dialog_remove_app_title">Supressió</string>
+    <string name="dialog_remove_app_title_dynamic">Suprimeix %s</string>
+    <string name="dialog_remove_app_message">"L'aplicació se suprimirà del commutador de tasques.
+
+Si voleu recuperar-la, puntegeu la icona de més de la llista d'aplicacions petites."</string>
+    <string name="dialog_remove_app_checkbox_text">No torneu a mostrar aquest missatge</string>
+    <string name="dialog_add_app_in_use">en ús</string>
+    <string name="dialog_add_app_title">"Addició d'aplicacions petites de"</string>
+    <string name="dialog_add_app_installed_title_dynamic">Aplicacions petites instal·lades (%d)</string>
+    <string name="dialog_add_app_installed_text">"Seleccioneu d'aplicacions petites instal·lades prèviament"</string>
+    <string name="dialog_add_app_market_title">Play Store</string>
+    <string name="dialog_add_app_market_text">Instal·lació de noves aplicacions petites de Play Store</string>
+    <string name="dialog_add_ndoo_app_market_text">Instal·la aplicacions petites noves des de Ndoo Market</string>
+    <string name="dialog_add_app_widgets_title">Ginys</string>
+    <string name="dialog_add_app_widgets_text">Convertiu els ginys favorits en aplicacions petites.</string>
+    <string name="dialog_add_app_from_small_apps_title">"Selecció d'aplicació petita"</string>
+    <string name="dialog_add_app_from_widget_title">Selecció de giny</string>
+    <string name="status_bar_recent_remove_item_title">Supressió de la llista</string>
+    <string name="status_bar_recent_inspect_item_title">"Informació de l'aplicació"</string>
+    <string name="status_bar_no_recent_apps">Sense aplicacions recents</string>
+    <string name="accessibility_recents_item_dismissed">"%s s'ha suprimit de la llista."</string>
+</resources>

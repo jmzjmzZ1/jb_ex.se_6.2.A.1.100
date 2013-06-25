@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="small_app_uninstalled">Aplikasi %s wis dibusak</string>
+    <string name="dialog_max_apps_title">Tekan jumlah maksimum</string>
+    <string name="dialog_max_apps_message">"Ruangan mung cukup kanggo %d aplikasi cilik ing pamindhah tugas.
+
+Kanggo nambah aplikasi anyar, kaping pisan, busak salah siji utawa sawetara aplikasi saka dhaptar."</string>
+    <string name="dialog_remove_app_title">Busak</string>
+    <string name="dialog_remove_app_title_dynamic">Busak%s</string>
+    <string name="dialog_remove_app_message">"Aplikasi bakal dibusak saka pangalih tugas.
+
+Kanggo njupuk iki maneh, tutul lambang + ing dhaptar aplikasi cilik."</string>
+    <string name="dialog_remove_app_checkbox_text">Aja tampilake maneh pesen iki</string>
+    <string name="dialog_add_app_in_use">kanggo</string>
+    <string name="dialog_add_app_title">Tambah aplikasi cilik saka</string>
+    <string name="dialog_add_app_installed_title_dynamic">Aplikasi cilik diinstal (%d)</string>
+    <string name="dialog_add_app_installed_text">Pilih saka aplikasi cilik sing diinstal sadurunge</string>
+    <string name="dialog_add_app_market_title">Play Store</string>
+    <string name="dialog_add_app_market_text">Instal aplikasi cilik anyar saka Play Store</string>
+    <string name="dialog_add_ndoo_app_market_text">Instal aplikasi cilik anyar saka Ndoo Market</string>
+    <string name="dialog_add_app_widgets_title">Widget</string>
+    <string name="dialog_add_app_widgets_text">Ganti widget favorit dadi aplikasi cilik.</string>
+    <string name="dialog_add_app_from_small_apps_title">Pilih aplikasi cilik</string>
+    <string name="dialog_add_app_from_widget_title">Pilih widget</string>
+    <string name="status_bar_recent_remove_item_title">Busak saka dhaptar</string>
+    <string name="status_bar_recent_inspect_item_title">Info aplikasi</string>
+    <string name="status_bar_no_recent_apps">Ora ana aplikasi pungkasan</string>
+    <string name="accessibility_recents_item_dismissed">%s dibusak saka dhaptar.</string>
+</resources>

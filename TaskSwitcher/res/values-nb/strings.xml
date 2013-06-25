@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="small_app_uninstalled">Appen %s har blitt avinstallert</string>
+    <string name="dialog_max_apps_title">Maksantall nådd</string>
+    <string name="dialog_max_apps_message">"Det er bare plass til %d små apper i oppgaveveksleren.
+ Hvis du 
+vil legge til en ny app, sletter du først én eller flere apper fra listen."</string>
+    <string name="dialog_remove_app_title">Slett</string>
+    <string name="dialog_remove_app_title_dynamic">Slett %s</string>
+    <string name="dialog_remove_app_message">"Appen vil bli slettet fra oppgaveveksleren.
+
+Hvis du vil hente den inn på nytt, tar du hurtig på +-ikonet i listen over små apper."</string>
+    <string name="dialog_remove_app_checkbox_text">Ikke vis denne meldingen igjen</string>
+    <string name="dialog_add_app_in_use">i bruk</string>
+    <string name="dialog_add_app_title">Legg til små apper fra</string>
+    <string name="dialog_add_app_installed_title_dynamic">Installerte små apper (%d)</string>
+    <string name="dialog_add_app_installed_text">Velg mellom tidligere installerte små apper</string>
+    <string name="dialog_add_app_market_title">Play Butikk</string>
+    <string name="dialog_add_app_market_text">Installer nye små apper fra Play Butikk</string>
+    <string name="dialog_add_ndoo_app_market_text">Installer nye små apper fra Ndoo Market</string>
+    <string name="dialog_add_app_widgets_title">Moduler</string>
+    <string name="dialog_add_app_widgets_text">Gjør favorittmodulene dine om til små apper.</string>
+    <string name="dialog_add_app_from_small_apps_title">Velg liten app</string>
+    <string name="dialog_add_app_from_widget_title">Velg modul</string>
+    <string name="status_bar_recent_remove_item_title">Slett fra listen</string>
+    <string name="status_bar_recent_inspect_item_title">Info om app</string>
+    <string name="status_bar_no_recent_apps">Ingen nylige apper</string>
+    <string name="accessibility_recents_item_dismissed">" %s slettet fra listen."</string>
+</resources>

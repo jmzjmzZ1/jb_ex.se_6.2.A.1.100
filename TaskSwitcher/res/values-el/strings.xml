@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="small_app_uninstalled">Η εγκατάσταση της εφαρμογής %s καταργήθηκε</string>
+    <string name="dialog_max_apps_title">Συμπληρώθηκε ο μέγιστος αριθμός</string>
+    <string name="dialog_max_apps_message">"Υπάρχει χώρος μόνο για %d small apps στην εναλλαγή εργασιών.
+
+Για να προσθέσετε μια νέα εφαρμογή, διαγράψτε πρώτα μία ή περισσότερες εφαρμογές από τη λίστα."</string>
+    <string name="dialog_remove_app_title">Διαγραφή</string>
+    <string name="dialog_remove_app_title_dynamic">Διαγραφή της εφαρμογής %s</string>
+    <string name="dialog_remove_app_message">"Η εφαρμογή θα διαγραφεί από την εναλλαγή εργασιών.
+
+Για να την ανακτήσετε, πατήστε το εικονίδιο συν στη λίστα small apps."</string>
+    <string name="dialog_remove_app_checkbox_text">Να μην εμφανιστεί ξανά αυτό το μήνυμα</string>
+    <string name="dialog_add_app_in_use">σε χρήση</string>
+    <string name="dialog_add_app_title">Προσθήκη εφαρμογών Small Apps από</string>
+    <string name="dialog_add_app_installed_title_dynamic">Εγκατεστημένες μικρές εφαρμογές (%d)</string>
+    <string name="dialog_add_app_installed_text">Επιλέξτε από τις προηγούμενες εγκατεστημένες small apps</string>
+    <string name="dialog_add_app_market_title">Play Store</string>
+    <string name="dialog_add_app_market_text">Εγκατάσταση νέων small apps από το Play Store</string>
+    <string name="dialog_add_ndoo_app_market_text">Εγκατάσταση νέων small apps από το Ndoo Market</string>
+    <string name="dialog_add_app_widgets_title">Widgets</string>
+    <string name="dialog_add_app_widgets_text">Μετατρέψτε τα αγαπημένα σας widget σε small apps.</string>
+    <string name="dialog_add_app_from_small_apps_title">Επιλογή small app</string>
+    <string name="dialog_add_app_from_widget_title">Επιλογή widget</string>
+    <string name="status_bar_recent_remove_item_title">Διαγραφή από τη λίστα</string>
+    <string name="status_bar_recent_inspect_item_title">Πληροφορίες εφαρμογής</string>
+    <string name="status_bar_no_recent_apps">Καμία πρόσφατη εφαρμογή</string>
+    <string name="accessibility_recents_item_dismissed">Η εφαρμογή %s διαγράφηκε από τη λίστα.</string>
+</resources>

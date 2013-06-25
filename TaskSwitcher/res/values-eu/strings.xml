@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="small_app_uninstalled">%s aplikazioa desinstalatu da</string>
+    <string name="dialog_max_apps_title">Gehienezko kopurura iritsi da</string>
+    <string name="dialog_max_apps_message">"%d aplikazio txikientzako dago lekua egitekoen aldatzailean.
+
+Beste aplikazio bat gehitzeko, lehenago ezabatu aplikazio bat edo gehiago zerrendatik."</string>
+    <string name="dialog_remove_app_title">Ezabatu</string>
+    <string name="dialog_remove_app_title_dynamic">Ezabatu %s</string>
+    <string name="dialog_remove_app_message">"Aplikazioa egitekoen aldatzailetik ezabatuko da.
+
+Hori berreskuratzeko, punteatu aplikazio txikien zerrendako + ikonoa."</string>
+    <string name="dialog_remove_app_checkbox_text">Ez erakutsi mezu hau berriro</string>
+    <string name="dialog_add_app_in_use">erabiltz.</string>
+    <string name="dialog_add_app_title">Gehitu aplikazio txikiak hemendik</string>
+    <string name="dialog_add_app_installed_title_dynamic">Instalatutako aplikazio txikiak (%d)</string>
+    <string name="dialog_add_app_installed_text">Hautatu lehendik instalatutako aplikazio txikietatik</string>
+    <string name="dialog_add_app_market_title">Play Store</string>
+    <string name="dialog_add_app_market_text">Instalatu aplikazio txiki berriak Play Store gunetik</string>
+    <string name="dialog_add_ndoo_app_market_text">Instalatu Ndoo Market-eko aplikazio txiki berriak</string>
+    <string name="dialog_add_app_widgets_title">Widgetak</string>
+    <string name="dialog_add_app_widgets_text">Bihurtu widget gogokoak aplikazio txiki</string>
+    <string name="dialog_add_app_from_small_apps_title">Hautatu aplikazio txikia</string>
+    <string name="dialog_add_app_from_widget_title">Hautatu widgeta</string>
+    <string name="status_bar_recent_remove_item_title">Ezabatu zerrendatik</string>
+    <string name="status_bar_recent_inspect_item_title">Aplikazioaren informazioa</string>
+    <string name="status_bar_no_recent_apps">Azken aplikaziorik ez</string>
+    <string name="accessibility_recents_item_dismissed">%s zerrendatik ezabatu da</string>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="small_app_uninstalled">Aplicaţia %s s-a dezinstalat</string>
+    <string name="dialog_max_apps_title">Număr maxim atins</string>
+    <string name="dialog_max_apps_message">"În utilitarul de comutare a activităţilor nu există spaţiu decât pentru %d aplicaţii mici.
+
+Pentru a adăuga o aplicaţie nouă, ştergeţi mai întâi cel puţin o aplicaţie din listă."</string>
+    <string name="dialog_remove_app_title">Ştergere</string>
+    <string name="dialog_remove_app_title_dynamic">Ştergere %s</string>
+    <string name="dialog_remove_app_message">"Aplicaţia va fi ştearsă din comutatorul de activităţi.
+
+Pentru a o prelua din nou, atingeţi uşor pictograma plus din lista de aplicaţii mici."</string>
+    <string name="dialog_remove_app_checkbox_text">Nu doresc să se mai afişeze mesajul</string>
+    <string name="dialog_add_app_in_use">în uz</string>
+    <string name="dialog_add_app_title">Adăugare aplicaţii mici din</string>
+    <string name="dialog_add_app_installed_title_dynamic">Aplicaţii mici instalate (%d)</string>
+    <string name="dialog_add_app_installed_text">Selectare din aplicaţiile mici instalate anterior</string>
+    <string name="dialog_add_app_market_title">Magazin Store</string>
+    <string name="dialog_add_app_market_text">Instalare aplicaţii mici noi din Magazinul Play</string>
+    <string name="dialog_add_ndoo_app_market_text">Instalaţi aplicaţii mici noi din Ndoo Market</string>
+    <string name="dialog_add_app_widgets_title">Widgeturi</string>
+    <string name="dialog_add_app_widgets_text">Transformaţi-vă widgeturile preferate în aplicaţii mici.</string>
+    <string name="dialog_add_app_from_small_apps_title">Selectare aplicaţie mică</string>
+    <string name="dialog_add_app_from_widget_title">Selectare widget</string>
+    <string name="status_bar_recent_remove_item_title">Ştergere din listă</string>
+    <string name="status_bar_recent_inspect_item_title">Informaţii aplicaţie</string>
+    <string name="status_bar_no_recent_apps">Nicio aplicaţie recentă</string>
+    <string name="accessibility_recents_item_dismissed">Aplicaţia %s a fost ştearsă din listă.</string>
+</resources>

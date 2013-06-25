@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="small_app_uninstalled">Приложение %s удалено</string>
+    <string name="dialog_max_apps_title">Максимальное число</string>
+    <string name="dialog_max_apps_message">"Число малых приложений, которые можно разместить в средстве переключения задач: %d.
+
+Чтобы добавить новое приложение, сначала удалите одно или несколько приложений из списка."</string>
+    <string name="dialog_remove_app_title">Удалить</string>
+    <string name="dialog_remove_app_title_dynamic">Удалить %s</string>
+    <string name="dialog_remove_app_message">"Приложение будет удалено из средства переключения задач.
+
+Чтобы вернуть приложение, коснитесь значка \"+\" в списке малых приложений."</string>
+    <string name="dialog_remove_app_checkbox_text">Не показывать это сообщение снова</string>
+    <string name="dialog_add_app_in_use">в работе</string>
+    <string name="dialog_add_app_title">Добавить малые приложения из</string>
+    <string name="dialog_add_app_installed_title_dynamic">Установленные малые приложения (%d)</string>
+    <string name="dialog_add_app_installed_text">Выбрать из ранее установленных приложений</string>
+    <string name="dialog_add_app_market_title">Play Маркет</string>
+    <string name="dialog_add_app_market_text">Установить новые малые приложения из Play Маркет</string>
+    <string name="dialog_add_ndoo_app_market_text">Установить новые малые приложения из Ndoo Market</string>
+    <string name="dialog_add_app_widgets_title">Виджеты</string>
+    <string name="dialog_add_app_widgets_text">Превратите свои любимые виджеты в малые приложения.</string>
+    <string name="dialog_add_app_from_small_apps_title">Выбрать малое приложение</string>
+    <string name="dialog_add_app_from_widget_title">Выбрать виджет</string>
+    <string name="status_bar_recent_remove_item_title">Удалить из списка</string>
+    <string name="status_bar_recent_inspect_item_title">О приложении</string>
+    <string name="status_bar_no_recent_apps">Нет недавних приложений</string>
+    <string name="accessibility_recents_item_dismissed">Приложение %s удалено из списка.</string>
+</resources>

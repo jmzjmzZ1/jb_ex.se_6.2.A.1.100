@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/small_apps_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:directionality="leftToRight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sonymobile.taskswitcher.smallapp.SmallAppScrollView android:id="@id/small_apps_container" android:background="@drawable/small_apps_bar" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="64.0dip" android:directionality="leftToRight">
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="left|center" android:orientation="horizontal" android:id="@id/small_apps_container_layout" android:paddingTop="1.0dip" android:paddingBottom="1.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:directionality="leftToRight" />
+    </com.sonymobile.taskswitcher.smallapp.SmallAppScrollView>
+</RelativeLayout>

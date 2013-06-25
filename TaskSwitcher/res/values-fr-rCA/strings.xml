@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="small_app_uninstalled">%s a été désinstallé</string>
+    <string name="dialog_max_apps_title">Nombre maximal atteint</string>
+    <string name="dialog_max_apps_message">"Il n'y a d'espace que pour %d petites appli dans le sélecteur de tâches.
+
+Pour ajouter une nouvelle appli, vous devez d'abord en supprimer une ou plusieurs de la liste."</string>
+    <string name="dialog_remove_app_title">Supprimer</string>
+    <string name="dialog_remove_app_title_dynamic">Supprimer %s</string>
+    <string name="dialog_remove_app_message">"L'application sera supprimée du sélectionneur.
+
+Pour la récupérer, tapez sur l'icône plus dans la liste des petites applications."</string>
+    <string name="dialog_remove_app_checkbox_text">Ne plus afficher ce message</string>
+    <string name="dialog_add_app_in_use">utilisé</string>
+    <string name="dialog_add_app_title">Ajouter petites applications à partir de</string>
+    <string name="dialog_add_app_installed_title_dynamic">Petites appli installées (%d)</string>
+    <string name="dialog_add_app_installed_text">Sélectionner parmi les petites appli déjà installées</string>
+    <string name="dialog_add_app_market_title">Play Store</string>
+    <string name="dialog_add_app_market_text">Installer nouvelles petites appli à partir du Play Store</string>
+    <string name="dialog_add_ndoo_app_market_text">Installer de nouvelles applications de Ndoo Market.</string>
+    <string name="dialog_add_app_widgets_title">Gadgets</string>
+    <string name="dialog_add_app_widgets_text">Transformer vos gadgets favoris en petites appli.</string>
+    <string name="dialog_add_app_from_small_apps_title">Sélectionner la petite application</string>
+    <string name="dialog_add_app_from_widget_title">Sélectionner le gadget</string>
+    <string name="status_bar_recent_remove_item_title">Supprimer de la liste</string>
+    <string name="status_bar_recent_inspect_item_title">"Infos sur l'appli"</string>
+    <string name="status_bar_no_recent_apps">Aucune appli récentes</string>
+    <string name="accessibility_recents_item_dismissed">%s a été supprimé de la liste.</string>
+</resources>

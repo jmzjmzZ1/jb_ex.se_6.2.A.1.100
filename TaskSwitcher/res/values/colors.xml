@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="status_bar_recents_background_color">#b5000000</color>
+    <color name="status_bar_recents_app_label_color">#ffffffff</color>
+    <color name="no_recent_apps_text_color">#ffffffff</color>
+    <color name="no_recent_apps_text_shadow_color">#ff0f1212</color>
+</resources>

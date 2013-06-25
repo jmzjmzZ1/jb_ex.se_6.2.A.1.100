@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="small_app_uninstalled">Die App %s wurde deinstalliert.</string>
+    <string name="dialog_max_apps_title">Maximale Anzahl erreicht</string>
+    <string name="dialog_max_apps_message">"Die Funktion zum Aufgabenwechsel bietet nur Platz für %d Small Apps.
+
+Wenn Sie eine neue App hinzufügen möchten, löschen Sie zuerst mindestens eine App aus der Liste."</string>
+    <string name="dialog_remove_app_title">Löschen</string>
+    <string name="dialog_remove_app_title_dynamic">%s löschen</string>
+    <string name="dialog_remove_app_message">"Die App wird aus der Funktion zum Aufgabenwechsel gelöscht.
+
+Zum Wiederherstellen tippen Sie auf das Plussymbol (+) in der Small Apps-Liste."</string>
+    <string name="dialog_remove_app_checkbox_text">Diese Nachricht nicht mehr anzeigen</string>
+    <string name="dialog_add_app_in_use">läuft</string>
+    <string name="dialog_add_app_title">Small Apps hinzufügen aus:</string>
+    <string name="dialog_add_app_installed_title_dynamic">Installierte Small Apps (%d)</string>
+    <string name="dialog_add_app_installed_text">Aus den zuvor installierten Small Apps auswählen</string>
+    <string name="dialog_add_app_market_title">Play Store</string>
+    <string name="dialog_add_app_market_text">Neue Small Apps aus dem Play Store installieren</string>
+    <string name="dialog_add_ndoo_app_market_text">Neue Small Apps aus dem Ndoo Market installieren</string>
+    <string name="dialog_add_app_widgets_title">Widgets</string>
+    <string name="dialog_add_app_widgets_text">Machen Sie Small Apps aus Ihren Lieblings-Widgets.</string>
+    <string name="dialog_add_app_from_small_apps_title">Small App auswählen</string>
+    <string name="dialog_add_app_from_widget_title">Widget auswählen</string>
+    <string name="status_bar_recent_remove_item_title">Aus der Liste löschen</string>
+    <string name="status_bar_recent_inspect_item_title">App-Info</string>
+    <string name="status_bar_no_recent_apps">Keine kürzlich verwendeten Apps</string>
+    <string name="accessibility_recents_item_dismissed">%s wurde aus der Liste gelöscht.</string>
+</resources>

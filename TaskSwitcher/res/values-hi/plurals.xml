@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">हाल के %d अनुप्रयोग</item>
+        <item quantity="one">हाल का 1 अनुप्रयोग</item>
+    </plurals>
+</resources>

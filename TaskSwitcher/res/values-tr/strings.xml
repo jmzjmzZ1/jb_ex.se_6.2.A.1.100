@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="small_app_uninstalled">%s uygulaması kaldırılmış</string>
+    <string name="dialog_max_apps_title">Maksimum sayıya ulaşıldı</string>
+    <string name="dialog_max_apps_message">"Görev değiştiricide yalnızca %d küçük uygulama için yer var.
+
+Yeni bir uygulama eklemek için önce listeden bir ya da daha fazla uygulamayı silin."</string>
+    <string name="dialog_remove_app_title">Sil</string>
+    <string name="dialog_remove_app_title_dynamic">%s uygulamasını sil</string>
+    <string name="dialog_remove_app_message">"Uygulama görev değiştiriciden silinecek.
+
+Yeniden getirmek için küçük uygulama listesinde ayar simgesine dokunun."</string>
+    <string name="dialog_remove_app_checkbox_text">Bu mesajı bir daha gösterme</string>
+    <string name="dialog_add_app_in_use">kllnmda</string>
+    <string name="dialog_add_app_title">Küçük uygulamaları ekle:</string>
+    <string name="dialog_add_app_installed_title_dynamic">Yüklenen küçük uygulamalar (%d)</string>
+    <string name="dialog_add_app_installed_text">Önceden yüklenen küçük uygulamalar arasından seç</string>
+    <string name="dialog_add_app_market_title">Google Play Store</string>
+    <string name="dialog_add_app_market_text">"Google Play Store'dan yeni küçük uygulamalar yükleyin"</string>
+    <string name="dialog_add_ndoo_app_market_text">"Ndoo Market'ten yeni ufak uygulamalar yükleyin"</string>
+    <string name="dialog_add_app_widgets_title">Widgetlar</string>
+    <string name="dialog_add_app_widgets_text">Sık kullanılan widgetlarınızı küçük uygulamalar haline getirin.</string>
+    <string name="dialog_add_app_from_small_apps_title">Küçük uygulama seç</string>
+    <string name="dialog_add_app_from_widget_title">Widget seç</string>
+    <string name="status_bar_recent_remove_item_title">Listeden sil</string>
+    <string name="status_bar_recent_inspect_item_title">Uygulama bilgileri</string>
+    <string name="status_bar_no_recent_apps">Yeni uygulama yok</string>
+    <string name="accessibility_recents_item_dismissed">%s listeden silindi.</string>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="small_app_uninstalled">O aplicativo %s foi desinstalado</string>
+    <string name="dialog_max_apps_title">Número máximo alcançado</string>
+    <string name="dialog_max_apps_message">"Só há espaço para %d aplicativos pequenos no alternador de tarefas. 
+
+Para adicionar um novo aplicativo, apague um ou mais aplicativos da lista."</string>
+    <string name="dialog_remove_app_title">Apagar</string>
+    <string name="dialog_remove_app_title_dynamic">Apagar %s</string>
+    <string name="dialog_remove_app_message">"Este aplicativo será excluído do alternador de tarefas.
+
+Para recuperá-lo, toque no ícone + na lista de aplicativos pequenos."</string>
+    <string name="dialog_remove_app_checkbox_text">Não exibir esta mensagem novamente</string>
+    <string name="dialog_add_app_in_use">em uso</string>
+    <string name="dialog_add_app_title">Adicionar aplicativos pequenos de</string>
+    <string name="dialog_add_app_installed_title_dynamic">Aplicativos pequenos instalados (%d)</string>
+    <string name="dialog_add_app_installed_text">Selecionar aplicativos pequenos previamente instalados</string>
+    <string name="dialog_add_app_market_title">Play Store</string>
+    <string name="dialog_add_app_market_text">Instalar novos aplicativos pequenos da Play Store</string>
+    <string name="dialog_add_ndoo_app_market_text">Instalar novos aplicativos pequenos da Ndoo Market</string>
+    <string name="dialog_add_app_widgets_title">Widgets</string>
+    <string name="dialog_add_app_widgets_text">Transforme seus widgets favoritos em aplicat. pequenos.</string>
+    <string name="dialog_add_app_from_small_apps_title">Selecionar aplicativos pequenos</string>
+    <string name="dialog_add_app_from_widget_title">Selecionar widget</string>
+    <string name="status_bar_recent_remove_item_title">Deletar da lista</string>
+    <string name="status_bar_recent_inspect_item_title">Informações do aplicativo</string>
+    <string name="status_bar_no_recent_apps">Nenhum aplicativo recente</string>
+    <string name="accessibility_recents_item_dismissed">%s apagado da lista.</string>
+</resources>

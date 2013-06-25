@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="small_app_uninstalled">%s alkalmazás eltávolítva</string>
+    <string name="dialog_max_apps_title">Elérte a maximális számot</string>
+    <string name="dialog_max_apps_message">"A feladatváltóban csak %d kisalkalmazás számára van hely.
+
+Új alkalmazás felvételéhez először töröljön legalább egy alkalmazást a listáról."</string>
+    <string name="dialog_remove_app_title">Törlés</string>
+    <string name="dialog_remove_app_title_dynamic">%s törlése</string>
+    <string name="dialog_remove_app_message">"A program törli az alkalmazást a feladatválasztóból.
+
+Ha újból be szeretné olvasni, koppintson a plusz ikonra a kisalkalmazások listájában."</string>
+    <string name="dialog_remove_app_checkbox_text">Ne jelenjen meg újra ez az üzenet</string>
+    <string name="dialog_add_app_in_use">fut</string>
+    <string name="dialog_add_app_title">Kisalkalmazások felvétele innen:</string>
+    <string name="dialog_add_app_installed_title_dynamic">Telepített kisalkalmazások (%d)</string>
+    <string name="dialog_add_app_installed_text">Választás előzőleg telepített kisalkalmazások közül</string>
+    <string name="dialog_add_app_market_title">Play Áruház</string>
+    <string name="dialog_add_app_market_text">Új kisalkalmazások telepítése a Play Áruházból</string>
+    <string name="dialog_add_ndoo_app_market_text">Új kisalkalmazások telepítése az Ndoo Market piactérről</string>
+    <string name="dialog_add_app_widgets_title">Alkalmazásfelületek</string>
+    <string name="dialog_add_app_widgets_text">Alakítsa kedvenc alk.felületeit kisalkalmazásokká.</string>
+    <string name="dialog_add_app_from_small_apps_title">Kisalkalmazás kiválasztása</string>
+    <string name="dialog_add_app_from_widget_title">Alkalmazásfelület kiválasztása</string>
+    <string name="status_bar_recent_remove_item_title">Törlés a listáról</string>
+    <string name="status_bar_recent_inspect_item_title">Alkalmazásadatok</string>
+    <string name="status_bar_no_recent_apps">Nincs legutóbbi alkalmazás</string>
+    <string name="accessibility_recents_item_dismissed">%s törölve a listáról.</string>
+</resources>

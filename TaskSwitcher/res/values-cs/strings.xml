@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="small_app_uninstalled">Aplikace %s byla odinstalována</string>
+    <string name="dialog_max_apps_title">Bylo dosaženo maximálního počtu</string>
+    <string name="dialog_max_apps_message">"V přepínači úloh je místo pouze pro %d malých aplikací.
+
+Chcete-li přidat novou aplikaci, nejprve některé ze seznamu odstraňte."</string>
+    <string name="dialog_remove_app_title">Odstranit</string>
+    <string name="dialog_remove_app_title_dynamic">Odstranit %s</string>
+    <string name="dialog_remove_app_message">"Aplikace bude z přepínače úloh odstraněna.
+
+Chcete-li ji znovu načíst, ťukněte v seznamu malých aplikací na ikonu +."</string>
+    <string name="dialog_remove_app_checkbox_text">Tuto zprávu již nezobrazovat</string>
+    <string name="dialog_add_app_in_use">použív.</string>
+    <string name="dialog_add_app_title">Přidat malé aplikace z webu</string>
+    <string name="dialog_add_app_installed_title_dynamic">Instalované malé aplikace (%d)</string>
+    <string name="dialog_add_app_installed_text">Vyberte z dříve nainstalovaných malých aplikací.</string>
+    <string name="dialog_add_app_market_title">Obchod Play</string>
+    <string name="dialog_add_app_market_text">Instalovat nové malé aplikace z webu Obchod Play</string>
+    <string name="dialog_add_ndoo_app_market_text">Instalovat nové malé aplikace z webu Ndoo Market</string>
+    <string name="dialog_add_app_widgets_title">Widgety</string>
+    <string name="dialog_add_app_widgets_text">Převeďte oblíbené widgety na malé aplikace.</string>
+    <string name="dialog_add_app_from_small_apps_title">Vybrat malou aplikaci</string>
+    <string name="dialog_add_app_from_widget_title">Vybrat widget</string>
+    <string name="status_bar_recent_remove_item_title">Odstranit ze seznamu</string>
+    <string name="status_bar_recent_inspect_item_title">Informace o aplikaci</string>
+    <string name="status_bar_no_recent_apps">Žádné nedávné aplikace</string>
+    <string name="accessibility_recents_item_dismissed">Aplikace %s byla odstraněna ze seznamu.</string>
+</resources>

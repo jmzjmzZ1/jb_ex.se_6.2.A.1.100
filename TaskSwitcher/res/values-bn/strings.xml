@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="small_app_uninstalled">%s অ্যাপ আন-ইনস্টল করা হয়েছে</string>
+    <string name="dialog_max_apps_title">সর্বাধিক নম্বরে পৌঁছে গেছেন</string>
+    <string name="dialog_max_apps_message">"টাস্ক স্যুইচারে শুধুমাত্র %d ছোট অ্যাপের জন্য জায়গা রয়েছে৷
+
+একটি নতুন অ্যাপ জুড়তে, প্রথমে তালিকা থেকে একটি বা একাধিক অ্যাপ মুছুন৷"</string>
+    <string name="dialog_remove_app_title">মুছুন</string>
+    <string name="dialog_remove_app_title_dynamic">মুছুন %s</string>
+    <string name="dialog_remove_app_message">"কার্য পাল্টানো থেকে অ্যাপ মুছে দেওয়া হবে৷
+
+এটিকে পুনরুদ্ধার করতে, ছোট অ্যাপ তালিকায় প্লাস আইকন আলতো চাপুন৷"</string>
+    <string name="dialog_remove_app_checkbox_text">এই বার্তা আর দেখাবেন না</string>
+    <string name="dialog_add_app_in_use">ব্য. হচ্ছে</string>
+    <string name="dialog_add_app_title">এখান থেকে ছোট অ্যাপ জুড়ুন</string>
+    <string name="dialog_add_app_installed_title_dynamic">ছোট অ্যাপ্লিকেশন ইনস্টল করা হয়েছে (%dটি)</string>
+    <string name="dialog_add_app_installed_text">আগে ইনস্টল করা ছোট অ্যাপ থেকে নির্বাচন করুন</string>
+    <string name="dialog_add_app_market_title">Play Store</string>
+    <string name="dialog_add_app_market_text">Play Store থেকে নতুন ছোট অ্যাপ ইনস্টল করুন</string>
+    <string name="dialog_add_ndoo_app_market_text">Ndoo Market থেকে নতুন ক্ষুদ্র অ্যাপ ইনস্টল করুন</string>
+    <string name="dialog_add_app_widgets_title">উইজেট</string>
+    <string name="dialog_add_app_widgets_text">আপনার প্রিয় উইজেটগুলিকে ছোট অ্যাপসে পরিণত করুন৷</string>
+    <string name="dialog_add_app_from_small_apps_title">ছোট অ্যাপ নির্বাচন করুন</string>
+    <string name="dialog_add_app_from_widget_title">উইজেট নির্বাচন করুন</string>
+    <string name="status_bar_recent_remove_item_title">তালিকা থেকে মুছুন</string>
+    <string name="status_bar_recent_inspect_item_title">অ্যাপ তথ্য</string>
+    <string name="status_bar_no_recent_apps">কোন সাম্প্রতিক অ্যাপ নেই</string>
+    <string name="accessibility_recents_item_dismissed">%s তালিকা থেকে মোছা হয়েছে৷</string>
+</resources>

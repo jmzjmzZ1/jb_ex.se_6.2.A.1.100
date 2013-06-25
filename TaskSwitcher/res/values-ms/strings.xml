@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="small_app_uninstalled">Aplikasi %s telah dinyahpasang</string>
+    <string name="dialog_max_apps_title">Bilangan maksimum dicapai</string>
+    <string name="dialog_max_apps_message">"Terdapat ruang untuk %d aplikasi kecil sahaja dalam penukar tugas.
+
+Untuk menambah aplikasi baru, padamkan satu atau lebih aplikasi daripada senarai dahulu."</string>
+    <string name="dialog_remove_app_title">Padam</string>
+    <string name="dialog_remove_app_title_dynamic">Padamkan %s</string>
+    <string name="dialog_remove_app_message">"Aplikasi akan dipadamkan dari penukar tugas.
+
+Untuk mengambilnya semula, ketik ikon tambah dalam senarai aplikasi kecil."</string>
+    <string name="dialog_remove_app_checkbox_text">Jangan tunjukkan mesej ini lagi</string>
+    <string name="dialog_add_app_in_use">digunakn</string>
+    <string name="dialog_add_app_title">Tambah aplikasi kecil dari</string>
+    <string name="dialog_add_app_installed_title_dynamic">Aplikasi keci dipasang (%d)</string>
+    <string name="dialog_add_app_installed_text">Pilih daripada aplikasi kecil yang dipasang sebelum ini</string>
+    <string name="dialog_add_app_market_title">Gedung Play</string>
+    <string name="dialog_add_app_market_text">Pasang aplikasi kecil baru dari Gedung Play</string>
+    <string name="dialog_add_ndoo_app_market_text">Pasang aplikasi kecil baharu dari Ndoo Market</string>
+    <string name="dialog_add_app_widgets_title">Widget</string>
+    <string name="dialog_add_app_widgets_text">Tukarkan widget kegemaran anda kepada aplikasi kecil.</string>
+    <string name="dialog_add_app_from_small_apps_title">Pilih aplikasi kecil</string>
+    <string name="dialog_add_app_from_widget_title">Pilih widget</string>
+    <string name="status_bar_recent_remove_item_title">Padam daripada senarai</string>
+    <string name="status_bar_recent_inspect_item_title">Maklumat aplikasi</string>
+    <string name="status_bar_no_recent_apps">Tiada aplikasi terbaru</string>
+    <string name="accessibility_recents_item_dismissed">%s dipadamkan daripada senarai.</string>
+</resources>

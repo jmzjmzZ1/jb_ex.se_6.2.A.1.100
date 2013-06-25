@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="small_app_uninstalled">نصب برنامه %s لغو شده است</string>
+    <string name="dialog_max_apps_title">به حداکثر تعداد مجاز رسید</string>
+    <string name="dialog_max_apps_message">"در تعویض کار فقط برای %d برنامه کوچک فضا وجود دارد.
+
+برای افزودن برنامه جدید، ابتدا یک یا دو برنامه را از لیست حذف کنید."</string>
+    <string name="dialog_remove_app_title">حذف</string>
+    <string name="dialog_remove_app_title_dynamic">حذف %s</string>
+    <string name="dialog_remove_app_message">"این برنامه از \"جابجاکننده کار\" حذف می شود.
+
+برای بازیابی مجدد آن، روی نماد بعلاوه در لیست برنامه های کوچک ضربه بزنید."</string>
+    <string name="dialog_remove_app_checkbox_text">این پیام دوباره نشان داده نشود</string>
+    <string name="dialog_add_app_in_use">در استفاده</string>
+    <string name="dialog_add_app_title">افزودن برنامه های کوچک از</string>
+    <string name="dialog_add_app_installed_title_dynamic">برنامه های کوچک نصب شده (%d)</string>
+    <string name="dialog_add_app_installed_text">انتخاب از برنامه های کوچک نصب شده از قبل</string>
+    <string name="dialog_add_app_market_title">فروشگاه Play</string>
+    <string name="dialog_add_app_market_text">برنامه های کوچک جدید را از فروشگاه Play نصب کنید</string>
+    <string name="dialog_add_ndoo_app_market_text">برنامه های کوچک و جدید را از Ndoo Market نصب کنید</string>
+    <string name="dialog_add_app_widgets_title">ویجت ها</string>
+    <string name="dialog_add_app_widgets_text">ویجتهای دلخواه خود را به برنامه های کوچک تبدیل کنید.</string>
+    <string name="dialog_add_app_from_small_apps_title">انتخاب برنامه کوچک</string>
+    <string name="dialog_add_app_from_widget_title">انتخاب ویجت</string>
+    <string name="status_bar_recent_remove_item_title">حذف از لیست</string>
+    <string name="status_bar_recent_inspect_item_title">اطلاعات برنامه</string>
+    <string name="status_bar_no_recent_apps">برنامه جدیدی وجود ندارد</string>
+    <string name="accessibility_recents_item_dismissed">%s از لیست حذف شد.</string>
+</resources>

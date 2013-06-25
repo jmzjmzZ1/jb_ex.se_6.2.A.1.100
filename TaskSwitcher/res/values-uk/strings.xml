@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="small_app_uninstalled">Програму %s видалено</string>
+    <string name="dialog_max_apps_title">Досягнуто максимальної кількості</string>
+    <string name="dialog_max_apps_message">"У перемикачі завдань вистачає місця лише для такої кількості малих програм: %d.
+
+Щоб додати нову програму, спершу видаліть принаймні одну програму зі списку."</string>
+    <string name="dialog_remove_app_title">Видалення</string>
+    <string name="dialog_remove_app_title_dynamic">Видалення %s</string>
+    <string name="dialog_remove_app_message">"Програму буде видалено з перемикача завдань.
+
+Щоб відновити її, торкніться піктограми зі знаком плюс у списку малих програм."</string>
+    <string name="dialog_remove_app_checkbox_text">Більше не показувати це повідомлення</string>
+    <string name="dialog_add_app_in_use">вибрано</string>
+    <string name="dialog_add_app_title">Додати малі програми звідси:</string>
+    <string name="dialog_add_app_installed_title_dynamic">Установлені малі програми (%d)</string>
+    <string name="dialog_add_app_installed_text">Вибрати з раніше встановлених малих програм</string>
+    <string name="dialog_add_app_market_title">Play Маркет</string>
+    <string name="dialog_add_app_market_text">Установити нові малі програми із сайту Play Маркет</string>
+    <string name="dialog_add_ndoo_app_market_text">Установити нові програми Small Apps із Ndoo Market</string>
+    <string name="dialog_add_app_widgets_title">Міні-програми</string>
+    <string name="dialog_add_app_widgets_text">Перетворіть свої улюблені міні-програми на малі програми.</string>
+    <string name="dialog_add_app_from_small_apps_title">Вибір малої програми</string>
+    <string name="dialog_add_app_from_widget_title">Вибір міні-програми</string>
+    <string name="status_bar_recent_remove_item_title">Видалення зі списку</string>
+    <string name="status_bar_recent_inspect_item_title">Дані програми</string>
+    <string name="status_bar_no_recent_apps">Немає останніх програм</string>
+    <string name="accessibility_recents_item_dismissed">%s видалено зі списку.</string>
+</resources>
