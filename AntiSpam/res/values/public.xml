@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <public type="attr" name="v5_action_bar_tab" id="0x06010000" />
+    <public type="attr" name="v5_action_bar_title_layout" id="0x06010001" />
+    <public type="attr" name="v5_group_item_bg" id="0x06010002" />
+    <public type="attr" name="v5_secondary_tab_indicator_bg" id="0x06010003" />
+    <public type="attr" name="v5_secondary_tab_bg" id="0x06010004" />
+    <public type="attr" name="v5_list_view_section_item_bg" id="0x06010005" />
+    <public type="attr" name="v5_list_view_item_bg" id="0x06010006" />
+    <public type="attr" name="v5_tab_indicator_style" id="0x06010007" />
+    <public type="attr" name="v5_top_placeholder_enabled" id="0x06010008" />
+    <public type="attr" name="v5_tab_indicator_bg" id="0x06010009" />
+    <public type="attr" name="v5_tab_indicator_bg_no_title" id="0x0601000a" />
     <public type="drawable" name="app_icon" id="0x7f020000" />
     <public type="drawable" name="mark_number_dialog_provider" id="0x7f020001" />
     <public type="drawable" name="no_calllog" id="0x7f020002" />
@@ -8,6 +19,39 @@
     <public type="drawable" name="stat_notify_firewall_hit" id="0x7f020005" />
     <public type="drawable" name="title_bar_bg" id="0x7f020006" />
     <public type="drawable" name="turn_on_smart_antispam" id="0x7f020007" />
+    <public type="drawable" name="v5_group_item_bg_light" id="0x7f020008" />
+    <public type="drawable" name="v5_group_first_item_bg_light" id="0x7f020009" />
+    <public type="drawable" name="v5_group_last_item_bg_light" id="0x7f02000a" />
+    <public type="drawable" name="v5_group_middle_item_bg_light" id="0x7f02000b" />
+    <public type="drawable" name="v5_group_single_item_bg_light" id="0x7f02000c" />
+    <public type="drawable" name="v5_secondary_tab_indicator_bg_light" id="0x7f02000d" />
+    <public type="drawable" name="v5_secondary_tab_bg_left_normal_light" id="0x7f02000e" />
+    <public type="drawable" name="v5_secondary_tab_bg_left_pressed_light" id="0x7f02000f" />
+    <public type="drawable" name="v5_secondary_tab_bg_middle_normal_light" id="0x7f020010" />
+    <public type="drawable" name="v5_secondary_tab_bg_middle_pressed_light" id="0x7f020011" />
+    <public type="drawable" name="v5_secondary_tab_bg_right_normal_light" id="0x7f020012" />
+    <public type="drawable" name="v5_secondary_tab_bg_right_pressed_light" id="0x7f020013" />
+    <public type="drawable" name="v5_btn_next_light" id="0x7f020014" />
+    <public type="drawable" name="v5_btn_next_disabled_light" id="0x7f020015" />
+    <public type="drawable" name="v5_btn_next_normal_light" id="0x7f020016" />
+    <public type="drawable" name="v5_btn_next_pressed_light" id="0x7f020017" />
+    <public type="drawable" name="v5_bottom_bar_top_line_light" id="0x7f020018" />
+    <public type="drawable" name="v5_list_view_item_bg_light" id="0x7f020019" />
+    <public type="drawable" name="v5_list_view_first_item_bg_normal_light" id="0x7f02001a" />
+    <public type="drawable" name="v5_list_view_first_item_bg_pressed_light" id="0x7f02001b" />
+    <public type="drawable" name="v5_list_view_first_item_bg_selected_light" id="0x7f02001c" />
+    <public type="drawable" name="v5_list_view_last_item_bg_normal_light" id="0x7f02001d" />
+    <public type="drawable" name="v5_list_view_last_item_bg_pressed_light" id="0x7f02001e" />
+    <public type="drawable" name="v5_list_view_last_item_bg_selected_light" id="0x7f02001f" />
+    <public type="drawable" name="v5_list_view_middle_item_bg_normal_light" id="0x7f020020" />
+    <public type="drawable" name="v5_list_view_middle_item_bg_pressed_light" id="0x7f020021" />
+    <public type="drawable" name="v5_list_view_middle_item_bg_selected_light" id="0x7f020022" />
+    <public type="drawable" name="v5_list_view_section_item_bg_light" id="0x7f020023" />
+    <public type="drawable" name="v5_list_view_single_item_bg_normal_light" id="0x7f020024" />
+    <public type="drawable" name="v5_list_view_single_item_bg_pressed_light" id="0x7f020025" />
+    <public type="drawable" name="v5_list_view_single_item_bg_selected_light" id="0x7f020026" />
+    <public type="drawable" name="v5_tab_indicator_bg_light" id="0x7f020027" />
+    <public type="drawable" name="v5_tab_indicator_bg_no_title_light" id="0x7f020028" />
     <public type="layout" name="fw_add_firewall_member" id="0x7f030000" />
     <public type="layout" name="fw_black_white_list" id="0x7f030001" />
     <public type="layout" name="fw_blacklist_hint_listitem" id="0x7f030002" />
@@ -42,6 +86,18 @@
     <public type="dimen" name="list_item_maxwidth" id="0x7f060005" />
     <public type="dimen" name="list_item_title_maxwidth" id="0x7f060006" />
     <public type="dimen" name="log_detail_title_height" id="0x7f060007" />
+    <public type="dimen" name="v5_text_font_size_primary" id="0x7f060008" />
+    <public type="dimen" name="v5_text_font_size_list_primary" id="0x7f060009" />
+    <public type="dimen" name="v5_text_font_size_list_secondary" id="0x7f06000a" />
+    <public type="dimen" name="v5_text_font_size_button" id="0x7f06000b" />
+    <public type="dimen" name="v5_list_view_padding_horizontal" id="0x7f06000c" />
+    <public type="dimen" name="v5_list_view_double_line_height" id="0x7f06000d" />
+    <public type="dimen" name="v5_text_font_size_small" id="0x7f06000e" />
+    <public type="dimen" name="v5_list_view_single_line_height" id="0x7f06000f" />
+    <public type="dimen" name="v5_text_font_size_title" id="0x7f060010" />
+    <public type="dimen" name="v5_text_font_size_title_bar_medium" id="0x7f060011" />
+    <public type="dimen" name="v5_text_font_size_title_bar_secondary_medium" id="0x7f060012" />
+    <public type="dimen" name="v5_list_view_treble_line_height" id="0x7f060013" />
     <public type="string" name="app_name" id="0x7f070000" />
     <public type="string" name="firewall_settings_tab_title" id="0x7f070001" />
     <public type="string" name="black_white_list_tab_title" id="0x7f070002" />

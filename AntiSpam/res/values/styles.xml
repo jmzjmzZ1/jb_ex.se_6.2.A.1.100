@@ -1,14 +1,148 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="ActionBarStyle" parent="@miui:style/V5.Widget.ActionBar">
+    <style name="V5" />
+    <style name="V5.Theme" parent="@android:style/Theme.Holo.Light">
+        <item name="v5_group_item_bg">@drawable/v5_group_item_bg_light</item>
+        <item name="v5_secondary_tab_indicator_bg">@drawable/v5_secondary_tab_indicator_bg_light</item>
+        <item name="v5_secondary_tab_bg">@drawable/v5_secondary_tab_bg_light</item>
+        <item name="v5_list_view_section_item_bg">@drawable/v5_list_view_section_item_bg_light</item>
+        <item name="v5_list_view_item_bg">@drawable/v5_list_view_item_bg_light</item>
+        <item name="v5_top_placeholder_enabled">true</item>
+        <item name="v5_tab_indicator_bg">@drawable/v5_tab_indicator_bg_light</item>
+        <item name="v5_tab_indicator_bg_no_title">@drawable/v5_tab_indicator_bg_no_title_light</item>
+    </style>
+    <style name="V5.Theme.Light" parent="@style/V5.Theme" />
+    <style name="V5.Theme.Light.Settings" parent="@style/V5.Theme.Light" />
+    <style name="V5.Theme.Light.Translucent" parent="@style/V5.Theme.Light">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+    <style name="V5.Theme.Light.Translucent.NoTitle" parent="@style/V5.Theme.Light.Translucent">
+        <item name="android:windowNoTitle">true</item>
+        <item name="v5_tab_indicator_style">@style/V5.Widget.TabIndicator.NoTitle</item>
+        <item name="v5_top_placeholder_enabled">false</item>
+    </style>
+    <style name="V5.TextAppearance" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/v5_text_font_size_primary</item>
+    </style>
+    <style name="V5.TextAppearance.Title" parent="@style/V5.TextAppearance">
+        <item name="android:textSize">@dimen/v5_text_font_size_title</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:shadowColor">#4d000000</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">5.0</item>
+        <item name="android:shadowRadius">10.0</item>
+    </style>
+    <style name="V5.TextAppearance.Title.Medium" parent="@style/V5.TextAppearance.Title">
+        <item name="android:textSize">@dimen/v5_text_font_size_title_bar_medium</item>
+    </style>
+    <style name="V5.TextAppearance.Title.Medium.Secondary" parent="@style/V5.TextAppearance.Title">
+        <item name="android:textSize">@dimen/v5_text_font_size_title_bar_secondary_medium</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="V5.TextAppearance.Small" parent="@android:style/TextAppearance.Small">
+        <item name="android:textSize">@dimen/v5_text_font_size_small</item>
+    </style>
+    <style name="V5.TextAppearance.List" parent="@style/V5.TextAppearance">
+        <item name="android:textSize">@dimen/v5_text_font_size_list_primary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#e6000000</item>
+    </style>
+    <style name="V5.TextAppearance.List.Primary" parent="@style/V5.TextAppearance.List" />
+    <style name="V5.TextAppearance.List.Secondary" parent="@style/V5.TextAppearance.List">
+        <item name="android:textSize">@dimen/v5_text_font_size_list_secondary</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#80000000</item>
+        <item name="android:shadowColor">#80ffffff</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    <style name="V5.TextAppearance.SecondaryTabIndicator" parent="@style/V5.TextAppearance">
+        <item name="android:textSize">@dimen/v5_text_font_size_button</item>
+        <item name="android:textColor">#cc000000</item>
+    </style>
+    <style name="V5.Widget" parent="@style/V5" />
+    <style name="V5.Widget.SecondaryTabIndicator" parent="@style/V5.Widget">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">?v5_secondary_tab_indicator_bg</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="V5.Widget.TabIndicator" parent="@style/V5.Widget">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">?v5_tab_indicator_bg</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="V5.Widget.TabIndicator.NoTitle" parent="@style/V5.Widget.TabIndicator">
+        <item name="android:background">?v5_tab_indicator_bg_no_title</item>
+    </style>
+    <style name="V5.Widget.SecondaryTab" parent="@style/V5.Widget">
+        <item name="android:textAppearance">@style/V5.TextAppearance.SecondaryTabIndicator</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">?v5_secondary_tab_bg</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:shadowColor">#80ffffff</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">5.0</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="V5.Widget.ListView" parent="@android:style/Widget.ListView.White">
+        <item name="android:fadingEdge">none</item>
+        <item name="android:listSelector">@android:color/transparent</item>
+        <item name="android:cacheColorHint">@null</item>
+        <item name="android:divider">@null</item>
+    </style>
+    <style name="V5.Widget.ListView.Item" parent="@style/V5.Widget">
+        <item name="android:gravity">left|center</item>
+        <item name="android:background">?v5_list_view_item_bg</item>
+        <item name="android:layout_width">fill_parent</item>
+    </style>
+    <style name="V5.Widget.ListView.Item.SingleLine" parent="@style/V5.Widget.ListView.Item">
+        <item name="android:textAppearance">@style/V5.TextAppearance.List</item>
+        <item name="android:paddingLeft">@dimen/v5_list_view_padding_horizontal</item>
+        <item name="android:paddingRight">@dimen/v5_list_view_padding_horizontal</item>
+        <item name="android:layout_height">@dimen/v5_list_view_single_line_height</item>
+        <item name="android:minHeight">@dimen/v5_list_view_single_line_height</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="V5.Widget.ListView.Item.DoubleLine" parent="@style/V5.Widget.ListView.Item">
+        <item name="android:textAppearance">@style/V5.TextAppearance.List.Primary</item>
+        <item name="android:paddingLeft">@dimen/v5_list_view_padding_horizontal</item>
+        <item name="android:paddingRight">@dimen/v5_list_view_padding_horizontal</item>
+        <item name="android:layout_height">@dimen/v5_list_view_double_line_height</item>
+        <item name="android:minHeight">@dimen/v5_list_view_double_line_height</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="V5.Widget.ListView.Item.TrebleLine" parent="@style/V5.Widget.ListView.Item">
+        <item name="android:textAppearance">@style/V5.TextAppearance.List.Primary</item>
+        <item name="android:paddingLeft">@dimen/v5_list_view_padding_horizontal</item>
+        <item name="android:paddingRight">@dimen/v5_list_view_padding_horizontal</item>
+        <item name="android:layout_height">@dimen/v5_list_view_treble_line_height</item>
+        <item name="android:minHeight">@dimen/v5_list_view_treble_line_height</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="Theme.Light.ActionBar.NoTitle" parent="@android:style/Theme.Light">
+        <item name="android:actionBarStyle">@style/Widget.ActionBar.NoTitle</item>
+    </style>
+    <style name="Widget.ActionBar.NoTitle" parent="@android:style/Widget.ActionBar">
+        <item name="android:displayOptions"></item>
+    </style>
+    <style name="ActionBarStyle" parent="@android:style/Widget.Holo.ActionBar">
         <item name="android:height">@dimen/log_detail_title_height</item>
         <item name="android:displayOptions">showTitle</item>
     </style>
-    <style name="AntiSpam.Theme.Tab" parent="@miui:style/V5.Theme.Light.ActionBar.NoTitle">
-        <item name="miui:v5_action_bar_tab">true</item>
+    <style name="AntiSpam.Theme.Tab" parent="@style/Theme.Light.ActionBar.NoTitle">
+        <item name="v5_action_bar_tab">true</item>
     </style>
-    <style name="AntiSpam.Theme.LogActivity" parent="@miui:style/V5.Theme.Light">
+    <style name="AntiSpam.Theme.LogActivity" parent="@android:style/Theme.Light">
         <item name="android:actionBarStyle">@style/ActionBarStyle</item>
-        <item name="miui:v5_action_bar_title_layout">@layout/fw_title_panel</item>
+        <item name="v5_action_bar_title_layout">@layout/fw_title_panel</item>
     </style>
 </resources>

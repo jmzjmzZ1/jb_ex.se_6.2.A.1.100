@@ -8,4 +8,16 @@
     <dimen name="list_item_maxwidth">160.0dip</dimen>
     <dimen name="list_item_title_maxwidth">200.0dip</dimen>
     <dimen name="log_detail_title_height">48.0dip</dimen>
+    <dimen name="v5_text_font_size_primary">16.0sp</dimen>
+    <dimen name="v5_text_font_size_list_primary">16.0sp</dimen>
+    <dimen name="v5_text_font_size_list_secondary">13.0sp</dimen>
+    <dimen name="v5_text_font_size_button">15.0sp</dimen>
+    <dimen name="v5_list_view_padding_horizontal">15.0dip</dimen>
+    <dimen name="v5_list_view_double_line_height">55.0dip</dimen>
+    <dimen name="v5_text_font_size_small">13.0sp</dimen>
+    <dimen name="v5_list_view_single_line_height">49.0dip</dimen>
+    <dimen name="v5_text_font_size_title">17.0sp</dimen>
+    <dimen name="v5_text_font_size_title_bar_medium">21.0sp</dimen>
+    <dimen name="v5_text_font_size_title_bar_secondary_medium">13.0sp</dimen>
+    <dimen name="v5_list_view_treble_line_height">63.0dip</dimen>
 </resources>

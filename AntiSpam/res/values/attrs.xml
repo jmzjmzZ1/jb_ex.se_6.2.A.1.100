@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="v5_action_bar_tab" format="boolean" />
+    <attr name="v5_action_bar_title_layout" format="reference" />
+    <attr name="v5_group_item_bg" format="reference" />
+    <attr name="v5_secondary_tab_indicator_bg" format="reference" />
+    <attr name="v5_secondary_tab_bg" format="reference" />
+    <attr name="v5_list_view_section_item_bg" format="reference" />
+    <attr name="v5_list_view_item_bg" format="reference" />
+    <attr name="v5_tab_indicator_style" format="reference" />
+    <attr name="v5_top_placeholder_enabled" format="boolean" />
+    <attr name="v5_tab_indicator_bg" format="reference" />
+    <attr name="v5_tab_indicator_bg_no_title" format="reference" />
+</resources>
