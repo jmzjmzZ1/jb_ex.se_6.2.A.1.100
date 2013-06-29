@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="power_settings_instructions">Enabling STAMINA mode in Power management will optimize battery lifetime</string>
+    <string name="battery_low_title">Connect charger</string>
+    <string name="usb_device_permission_prompt">Allow the app %1$s to access the USB device?</string>
+    <string name="usb_accessory_permission_prompt">Allow the app %1$s to access the USB accessory?</string>
+    <string name="usb_accessory_uri_prompt">No installed apps work with this USB accessory. Learn more about this accessory at %1$s</string>
+    <string name="compat_mode_help_header">Compatibility zoom</string>
+    <string name="screenshot_saving_ticker">Saving screenshot…</string>
+    <string name="screenshot_saving_title">Saving screenshot…</string>
+    <string name="installer_cd_button_title">Install Android File Transfer app for Mac</string>
+    <string name="accessibility_state_vibrate">vibrate</string>
+    <string name="status_bar_autorotate">Auto rotate</string>
+    <string name="status_bar_autosync_dialog_disable_title">Turn off Auto-sync?</string>
+    <string name="status_bar_autosync_dialog_disable_warning">Disabling Auto-sync will conserve data and battery usage, but you will need to sync each account manually to collect recent information. And you will not receive notifications when updates occur.</string>
+    <string name="status_bar_autosync_dialog_enable_title">Turn on Auto-sync?</string>
+    <string name="status_bar_autosync_dialog_enable_warning">"Any changes you make to your accounts on the web will be automatically copied to your phone.
+
+Some accounts may also automatically copy any changes you make on the phone to the web. Your Google Account works this way.
+
+To choose what kinds of data you sync for each account, go to Settings > Accounts."</string>
+    <string name="status_bar_autosync_dialog_extended_enable_warning">"Any changes you make to your accounts on the web will be automatically copied to your device.
+
+Some accounts may also automatically copy any changes you make on the device to the web. Your Google Account works this way.
+
+To choose what kinds of data you sync for each account, go to Settings > Accounts.
+
+Data charges may apply when updating your device. An unlimited data plan is recommended."</string>
+    <string name="status_bar_settings_autorotate">Auto rotate screen</string>
+</resources>

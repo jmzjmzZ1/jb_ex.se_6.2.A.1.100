@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="power_settings_instructions">Ef kveikt er á STAMINA-stillingu í Orkustjórnun eykst endingartími rafhlöðunnar</string>
+    <string name="battery_low_power_settings">Uppl. um rafhlöðu</string>
+    <string name="app_label">Kerfisviðmót</string>
+    <string name="status_bar_clear_all_button">Hreinsa</string>
+    <string name="status_bar_do_not_disturb_button">Ónáðið ekki</string>
+    <string name="status_bar_please_disturb_button">Sýna tilkynningar</string>
+    <string name="status_bar_recent_remove_item_title">Taka af lista</string>
+    <string name="status_bar_recent_inspect_item_title">Forritsupplýsingar</string>
+    <string name="status_bar_no_recent_apps">Engin nýleg forrit</string>
+    <string name="status_bar_accessibility_dismiss_recents">Hafna nýlegum forritum</string>
+    <string name="status_bar_no_notifications_title">Engar tilkynningar</string>
+    <string name="status_bar_ongoing_events_title">Í gangi</string>
+    <string name="status_bar_latest_events_title">Tilkynningar</string>
+    <string name="battery_low_title">Tengdu hleðslutækið</string>
+    <string name="battery_low_subtitle">Rafhlaðan er að tæmast.</string>
+    <string name="battery_low_percent_format">%d%% eftir</string>
+    <string name="invalid_charger">"Hleðsla með USB ekki studd.
+Notaðu einungis hleðslutækið sem fylgir."</string>
+    <string name="battery_low_why">Rafhlöðunotkun</string>
+    <string name="status_bar_settings_settings_button">Stillingar</string>
+    <string name="status_bar_settings_wifi_button">Wi-Fi</string>
+    <string name="status_bar_settings_airplane">Flugstilling</string>
+    <string name="status_bar_settings_auto_rotation">Snúa skjá sjálfkrafa</string>
+    <string name="status_bar_settings_mute_label">ÞAGGA</string>
+    <string name="status_bar_settings_auto_brightness_label">SJÁLFV</string>
+    <string name="status_bar_settings_notifications">Tilkynningar</string>
+    <string name="bluetooth_tethered">Bluetooth-tjóðrað</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">Setja upp innsláttaraðferðir</string>
+    <string name="status_bar_use_physical_keyboard">Takkaborð</string>
+    <string name="usb_device_permission_prompt">Veita forritinu %1$s aðgang að USB-tækinu?</string>
+    <string name="usb_accessory_permission_prompt">Veita forritinu %1$s aðgang að USB-aukabúnaðinum?</string>
+    <string name="usb_device_confirm_prompt">Opna %1$s þegar þetta USB-tæki er tengt?</string>
+    <string name="usb_accessory_confirm_prompt">Opna %1$s þegar þessi USB-aukabúnaður er tengdur?</string>
+    <string name="usb_accessory_uri_prompt">Engin uppsett forrit virka með þessum USB-aukabúnaði. Kynntu þér aukabúnaðinn frekar á %1$s</string>
+    <string name="title_usb_accessory">USB-aukabúnaður</string>
+    <string name="label_view">Skoða</string>
+    <string name="always_use_device">Nota sjálfkrafa fyrir þetta USB-tæki</string>
+    <string name="always_use_accessory">Nota sjálfgefið fyrir þennan USB-aukabúnað</string>
+    <string name="compat_mode_on">Fylla út í skjá</string>
+    <string name="compat_mode_off">Teygja svo fylli út í skjá</string>
+    <string name="compat_mode_help_header">Samræmisaðdráttur</string>
+    <string name="compat_mode_help_body">Ef forrit hefur verið hannað fyrir minni skjá birtist aðdráttarstýring við klukkuna.</string>
+    <string name="screenshot_saving_ticker">Vista skjáskot...</string>
+    <string name="screenshot_saving_title">Vista skjáskot...</string>
+    <string name="screenshot_saving_text">Verið er að vista skjáskot.</string>
+    <string name="screenshot_saved_title">Skjáskot tekið.</string>
+    <string name="screenshot_saved_text">Snertu til að skoða skjáskotið þitt.</string>
+    <string name="screenshot_failed_title">Tókst ekki að taka skjáskot.</string>
+    <string name="screenshot_failed_text">Tókst ekki að vista skjáskot. Geymsla gæti verið í notkun.</string>
+    <string name="usb_preference_title">Valkostir USB-skráarflutnings</string>
+    <string name="use_mtp_button_title">Tengja sem efnisspilara (MTP)</string>
+    <string name="use_ptp_button_title">Tengja sem myndavél (PTP)</string>
+    <string name="installer_cd_button_title">Setja upp Android skráarflutningsforrit fyrir Mac</string>
+    <string name="accessibility_back">Til baka</string>
+    <string name="accessibility_home">Upphafsskjár</string>
+    <string name="accessibility_menu">Valmynd</string>
+    <string name="accessibility_recent">Nýleg forrit</string>
+    <string name="accessibility_ime_switch_button">Skiptihnappur innsláttaraðferðar.</string>
+    <string name="accessibility_compatibility_zoom_button">Samræmisaðdráttarhnappur.</string>
+    <string name="accessibility_compatibility_zoom_example">Færa minni skjá á stærri.</string>
+    <string name="accessibility_bluetooth_connected">Bluetooth tengt.</string>
+    <string name="accessibility_bluetooth_disconnected">Bluetooth aftengt.</string>
+    <string name="accessibility_no_battery">Engin rafhlaða.</string>
+    <string name="accessibility_battery_one_bar">Rafhlaða eitt strik.</string>
+    <string name="accessibility_battery_two_bars">Rafhlaða tvö strik.</string>
+    <string name="accessibility_battery_three_bars">Rafhlaða þrjú strik.</string>
+    <string name="accessibility_battery_full">Rafhlaða full.</string>
+    <string name="accessibility_no_phone">Ekkert símasamband.</string>
+    <string name="accessibility_phone_one_bar">Símasamband eitt strik.</string>
+    <string name="accessibility_phone_two_bars">Símasamband tvö strik.</string>
+    <string name="accessibility_phone_three_bars">Símasamband þrjú strik.</string>
+    <string name="accessibility_phone_signal_full">Fullt símasamband.</string>
+    <string name="accessibility_no_data">Ekkert gagnasamband.</string>
+    <string name="accessibility_data_one_bar">Gagnasamband eitt strik.</string>
+    <string name="accessibility_data_two_bars">Gagnasamband tvö strik.</string>
+    <string name="accessibility_data_three_bars">Gagnasamband þrjú strik.</string>
+    <string name="accessibility_data_signal_full">Fullt gagnasamband.</string>
+    <string name="accessibility_no_wifi">Wi-Fi aftengt.</string>
+    <string name="accessibility_wifi_one_bar">Wi-Fi-samband eitt strik.</string>
+    <string name="accessibility_wifi_two_bars">Wi-Fi-samband tvö strik.</string>
+    <string name="accessibility_wifi_three_bars">Wi-Fi-samband þrjú strik.</string>
+    <string name="accessibility_wifi_signal_full">Fullt Wi-Fi-samband.</string>
+    <string name="accessibility_no_wimax">Ekkert WiMAX.</string>
+    <string name="accessibility_wimax_one_bar">Ein stika af WiMAX.</string>
+    <string name="accessibility_wimax_two_bars">Tvær stikur af WiMAX.</string>
+    <string name="accessibility_wimax_three_bars">Þrjár stikur af WiMAX.</string>
+    <string name="accessibility_wimax_signal_full">Fullt WiMAX-merki.</string>
+    <string name="accessibility_data_connection_gprs">GPRS</string>
+    <string name="accessibility_data_connection_3g">3G</string>
+    <string name="accessibility_data_connection_3.5g">3.5G</string>
+    <string name="accessibility_data_connection_4g">4G</string>
+    <string name="accessibility_data_connection_cdma">CDMA</string>
+    <string name="accessibility_data_connection_edge">Edge</string>
+    <string name="accessibility_data_connection_wifi">W-iFi</string>
+    <string name="accessibility_no_sim">Ekkert SIM-kort.</string>
+    <string name="accessibility_bluetooth_tether">Bluetooth tjóðrun.</string>
+    <string name="accessibility_airplane_mode">Flugstilling.</string>
+    <string name="accessibility_battery_level">Rafhlaða %d prósent.</string>
+    <string name="accessibility_settings_button">Kerfisstillingar.</string>
+    <string name="accessibility_notifications_button">Tilkynningar.</string>
+    <string name="accessibility_remove_notification">Hreinsa tilkynningu.</string>
+    <string name="accessibility_gps_enabled">GPS virkt.</string>
+    <string name="accessibility_gps_acquiring">GPS ákvörðun.</string>
+    <string name="accessibility_tty_enabled">TeleTypewriter virkt.</string>
+    <string name="accessibility_ringer_vibrate">Hringing titrar.</string>
+    <string name="accessibility_ringer_silent">Hringing hljóðlaus.</string>
+    <string name="accessibility_recents_item_dismissed">%s fjarlægt.</string>
+    <string name="data_usage_disabled_dialog_3g_title">2G-3G-gögn óvirk</string>
+    <string name="data_usage_disabled_dialog_4g_title">4G-gögn óvirk</string>
+    <string name="data_usage_disabled_dialog_mobile_title">Farsímagögn óvirk</string>
+    <string name="data_usage_disabled_dialog_title">Gögn óvirk</string>
+    <string name="data_usage_disabled_dialog">"Hámarki tilgreindrar gagnanotkunar hefur verið náð.
+
+Ef þú endurvirkjar gögn færðu mögulega rukkun frá símafyrirtækinu."</string>
+    <string name="data_usage_disabled_dialog_enable">Gera gögn virk á ný</string>
+    <string name="status_bar_settings_signal_meter_disconnected">"Engin nettenging "</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Wi-Fi er tengt</string>
+    <string name="gps_notification_searching_text">Leita að GPS</string>
+    <string name="gps_notification_found_text">Staðsetning stillt eftir GPS</string>
+    <string name="accessibility_clear_all">Hreinsa allar tilkynningar.</string>
+    <string name="dreams_dock_launcher">Kveikja á skjávara</string>
+    <string name="status_bar_notification_inspect_item_title">Upplýsingar um forrit</string>
+    <string name="notifications_off_title">Slökkt á tilkynningum</string>
+    <string name="notifications_off_text">Pikkaðu hér til að kveikja aftur á tilkynningum.</string>
+    <string name="accessibility_rotation_lock_off">Skjárinn snýst sjálfkrafa.</string>
+    <string name="accessibility_rotation_lock_on_landscape">Skjár er læstur í langsniði.</string>
+    <string name="accessibility_rotation_lock_on_portrait">Skjár er læstur í skammsniði.</string>
+    <string name="unmount_strings_dialog_content_txt">Ekki taka SD-kortið úr á meðan það er að aftengjast</string>
+    <string name="accessibility_state_vibrate">Titringur</string>
+    <string name="carrier_invalid_sim_card">Ógilt SIM-kort</string>
+    <string name="new_note">Nýr minnispunktur</string>
+    <string name="new_sketch">Ný skissa</string>
+    <string name="quick_Settings">Flýtistillingar</string>
+    <string name="quick_settings_description">Veldu fjölda flýtistillinga á tilkynningaskjánum og breyttu röð þeirra</string>
+    <string name="start_note_app">Ræsa minnispunktaforrit</string>
+    <string name="start_sketch_app">Ræsa skissuforrit</string>
+    <string name="status_bar_airplanemode">Flugvél</string>
+    <string name="status_bar_autorotate">Snúa sjálfvirkt</string>
+    <string name="status_bar_autosync">Sjálfv. samstilling</string>
+    <string name="status_bar_autosync_dialog_disable_title">Slökkva á sjálfvirkri samstillingu gagna?</string>
+    <string name="status_bar_autosync_dialog_disable_warning">Þetta sparar gagna- og rafhlöðunotkun en þú þarft að samstilla hvert pósthólf handvirkt til að safna nýlegum upplýsingum og þú færð ekki tilkynningar þegar uppfærslur eiga sér stað.</string>
+    <string name="status_bar_autosync_dialog_enable_title">Kveikja á sjálfvirkri samstillingu gagna?</string>
+    <string name="status_bar_autosync_dialog_enable_warning">"Allar breytingar sem þú gerir á reikningum þínum á netinu verða sjálfkrafa afritaðar í símann.
+
+
+
+Verið getur að sumir reikningar afriti einnig sjálfkrafa allar breytingar sem þú gerir í símanum á netið. Þannig virkar Google reikningur.
+
+
+
+Til að velja hvaða upplýsingar á að samstilla innan hvers reiknings ferðu í Stillingar > Reikningar."</string>
+    <string name="status_bar_autosync_dialog_extended_enable_warning">"Breytingar sem þú gerir á netinu á reikningnum verða sjálfkrafa afritaðar í tækið. 
+
+Sumir reikningar munu einnig sjálfkrafa afrita breytingar á netið sem þú gerir á tækinu.
+
+Til að velja hvaða tegund upplýsingar á að samstilla á hverjum reikning, farðu í Stillingar > Reikningar.
+
+Gjöld fyrir gagnaflutning kunna að eiga við þegar uppfærsla er gerð í tækið. Mælt er með ótakmarkaðri áskriftarleið. "</string>
+    <string name="status_bar_bluetooth">Bluetooth</string>
+    <string name="status_bar_brightness">Baklýsing</string>
+    <string name="status_bar_gps">GPS</string>
+    <string name="status_bar_mobile_data">Gagnaflutningur</string>
+    <string name="status_bar_nfc">NFC</string>
+    <string name="status_bar_roaming">Í reiki</string>
+    <string name="status_bar_settings">Stillingar</string>
+    <string name="status_bar_settings_airplanemode">Flugstilling</string>
+    <string name="status_bar_settings_autorotate">Snúa skjá sjálfvirkt</string>
+    <string name="status_bar_settings_autosync">Sjálfvirk samstilling gagna</string>
+    <string name="status_bar_settings_bluetooth">Bluetooth</string>
+    <string name="status_bar_settings_brightness">Baklýsing</string>
+    <string name="status_bar_settings_gps">GPS</string>
+    <string name="status_bar_settings_mobile_data">Umferð gagnaflutnings</string>
+    <string name="status_bar_settings_nfc">NFC</string>
+    <string name="status_bar_settings_roaming">Í reiki</string>
+    <string name="status_bar_settings_settings">Flýtileið í stillingar</string>
+    <string name="status_bar_settings_sound">Hljóð</string>
+    <string name="status_bar_settings_wifi">Wi-Fi-kerfi</string>
+    <string name="status_bar_settings_wifi_hotspot">Heitur reitur með Wi-Fi-kerfi</string>
+    <string name="status_bar_sound">Hljóð</string>
+    <string name="status_bar_toolsbar_settings_title">Veldu flýtistillingar</string>
+    <string name="status_bar_wifi">Wi-Fi-kerfi</string>
+    <string name="status_bar_wifi_hotspot">Heitur reitur</string>
+    <string name="to_charge_use_charger_txt">Til að hlaða tækið þitt skaltu nota Sony™ hleðslutæki</string>
+    <string name="toast_message_maximum_number_of_tools_reached">Hámarksfjöldi flýtistillinga hefur verið valinn</string>
+    <string name="toast_message_not_allow_turn_on_hotspot">"Heitur reitur Wi-Fi nets er ekki tiltækur í flugstillingu "</string>
+    <string name="usb_connected_txt">USB tengt</string>
+</resources>

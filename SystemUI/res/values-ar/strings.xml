@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="power_settings_instructions">سيؤدي تمكين وضع STAMINA في إدارة الطاقة إلى تحسين العمر الافتراضي للبطارية</string>
+    <string name="battery_low_power_settings">معلومات البطارية</string>
+    <string name="app_label">واجهة مستخدم النظام</string>
+    <string name="status_bar_clear_all_button">مسح</string>
+    <string name="status_bar_do_not_disturb_button">عدم الإزعاج</string>
+    <string name="status_bar_please_disturb_button">إظهار الإشعارات</string>
+    <string name="status_bar_recent_remove_item_title">إزالة من القائمة</string>
+    <string name="status_bar_recent_inspect_item_title">معلومات التطبيق</string>
+    <string name="status_bar_no_recent_apps">ليس هناك تطبيقات حديثة</string>
+    <string name="status_bar_accessibility_dismiss_recents">رفض التطبيقات الحديثة</string>
+    <string name="status_bar_no_notifications_title">لا توجد إشعارات</string>
+    <string name="status_bar_ongoing_events_title">مستمر</string>
+    <string name="status_bar_latest_events_title">إشعارات</string>
+    <string name="battery_low_title">يُرجى توصيل الشاحن</string>
+    <string name="battery_low_subtitle">شحن البطارية آخذ في الانخفاض.</string>
+    <string name="battery_low_percent_format">%d%% متبقي</string>
+    <string name="invalid_charger">"شحن USB غير مدعوم.
+
+استخدم الشاحن الموفر فقط."</string>
+    <string name="battery_low_why">استخدام البطارية</string>
+    <string name="status_bar_settings_settings_button">الإعدادات</string>
+    <string name="status_bar_settings_wifi_button">Wi-Fi</string>
+    <string name="status_bar_settings_airplane">وضع الطائرة</string>
+    <string name="status_bar_settings_auto_rotation">التدوير التلقائي للشاشة</string>
+    <string name="status_bar_settings_mute_label">كتم</string>
+    <string name="status_bar_settings_auto_brightness_label">تلقائي</string>
+    <string name="status_bar_settings_notifications">الإشعارات</string>
+    <string name="bluetooth_tethered">تم الربط عن طريق Bluetooth</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">إعداد أساليب الإدخال</string>
+    <string name="status_bar_use_physical_keyboard">لوحة مفاتيح فعلية</string>
+    <string name="usb_device_permission_prompt">السماح للتطبيق %1$s بالوصول لجهاز USB؟</string>
+    <string name="usb_accessory_permission_prompt">السماح للتطبيق %1$s بالوصول لملحق USB؟</string>
+    <string name="usb_device_confirm_prompt">فتح %1$s عند توصيل جهاز USB هذا؟</string>
+    <string name="usb_accessory_confirm_prompt">فتح %1$s عند توصيل ملحق USB هذا؟</string>
+    <string name="usb_accessory_uri_prompt">لا توجد تطبيقات مثبتة تعمل مع ملحق USB هذا. تعرف على المزيد عن هذا الملحق على %1$s</string>
+    <string name="title_usb_accessory">ملحق USB</string>
+    <string name="label_view">عرض</string>
+    <string name="always_use_device">الاستخدام بشكل افتراضي لجهاز USB هذا</string>
+    <string name="always_use_accessory">استخدام بشكل افتراضي لملحق USB هذا</string>
+    <string name="compat_mode_on">تكبير/تصغير لملء الشاشة</string>
+    <string name="compat_mode_off">تمديد لملء الشاشة</string>
+    <string name="compat_mode_help_header">تكبير/تصغير التوافق</string>
+    <string name="compat_mode_help_body">عند تصميم تطبيق لشاشة أصغر، سيظهر عنصر تحكم في التكبير/التصغير بجوار الساعة.</string>
+    <string name="screenshot_saving_ticker">جارٍ حفظ لقطة الشاشة...</string>
+    <string name="screenshot_saving_title">جارٍ حفظ لقطة الشاشة...</string>
+    <string name="screenshot_saving_text">يتم حفظ لقطة الشاشة.</string>
+    <string name="screenshot_saved_title">تم التقاط لقطة الشاشة.</string>
+    <string name="screenshot_saved_text">المس لعرض لقطة الشاشة.</string>
+    <string name="screenshot_failed_title">تعذر التقاط لقطة الشاشة.</string>
+    <string name="screenshot_failed_text">تعذر حفظ لقطة الشاشة. قد يكون المخزن قيد الاستخدام.</string>
+    <string name="usb_preference_title">خيارات نقل الملفات عبر USB</string>
+    <string name="use_mtp_button_title">تحميل كمشغل وسائط (MTP)</string>
+    <string name="use_ptp_button_title">توصيل ككاميرا (PTP)</string>
+    <string name="installer_cd_button_title">تثبيت تطبيق إرسال الملفات من Android لـ Mac</string>
+    <string name="accessibility_back">رجوع</string>
+    <string name="accessibility_home">الرئيسية</string>
+    <string name="accessibility_menu">القائمة</string>
+    <string name="accessibility_recent">التطبيقات الحديثة</string>
+    <string name="accessibility_ime_switch_button">زر تبديل أسلوب الإدخال.</string>
+    <string name="accessibility_compatibility_zoom_button">زر تكبير/تصغير للتوافق.</string>
+    <string name="accessibility_compatibility_zoom_example">استخدم التكبير/التصغير لتحويل شاشة صغيرة إلى شاشة أكبر.</string>
+    <string name="accessibility_bluetooth_connected">تم توصيل Bluetooth.</string>
+    <string name="accessibility_bluetooth_disconnected">تم فصل Bluetooth.</string>
+    <string name="accessibility_no_battery">ليست هناك بطارية.</string>
+    <string name="accessibility_battery_one_bar">مستوى شحن البطارية شريط واحد.</string>
+    <string name="accessibility_battery_two_bars">مستوى شحن البطارية شريطين.</string>
+    <string name="accessibility_battery_three_bars">مستوى شحن البطارية ثلاثة أشرطة.</string>
+    <string name="accessibility_battery_full">البطارية ممتلئة.</string>
+    <string name="accessibility_no_phone">ليست هناك إشارة بالهاتف.</string>
+    <string name="accessibility_phone_one_bar">إشارة الهاتف تتكون من شريط واحد.</string>
+    <string name="accessibility_phone_two_bars">إشارة الهاتف تتكون من شريطين.</string>
+    <string name="accessibility_phone_three_bars">إشارة الهاتف تتكون من ثلاثة أشرطة.</string>
+    <string name="accessibility_phone_signal_full">إشارة الهاتف كاملة.</string>
+    <string name="accessibility_no_data">لا تتوفر بيانات.</string>
+    <string name="accessibility_data_one_bar">إشارة البيانات تتكون من شريط واحد.</string>
+    <string name="accessibility_data_two_bars">إشارة البيانات تتكون من شريطين.</string>
+    <string name="accessibility_data_three_bars">إشارة البيانات تتكون من ثلاثة أشرطة.</string>
+    <string name="accessibility_data_signal_full">إشارة البيانات كاملة.</string>
+    <string name="accessibility_no_wifi">تم قطع اتصال Wi-Fi.</string>
+    <string name="accessibility_wifi_one_bar">إشارة WiFi تتكون من شريط واحد.</string>
+    <string name="accessibility_wifi_two_bars">إشارة WiFi تتكون من شريطين.</string>
+    <string name="accessibility_wifi_three_bars">إشارة WiFi تتكون من ثلاثة أشرطة.</string>
+    <string name="accessibility_wifi_signal_full">إشارة WiFi كاملة.</string>
+    <string name="accessibility_no_wimax">ليس هناك WiMAX.</string>
+    <string name="accessibility_wimax_one_bar">شريط WiMAX واحد.</string>
+    <string name="accessibility_wimax_two_bars">شريطا WiMAX.</string>
+    <string name="accessibility_wimax_three_bars">أشرطة WiMAX الثلاثة.</string>
+    <string name="accessibility_wimax_signal_full">إشارة WiMAX كاملة.</string>
+    <string name="accessibility_data_connection_gprs">GPRS</string>
+    <string name="accessibility_data_connection_3g">شبكة الجيل الثالث</string>
+    <string name="accessibility_data_connection_3.5g">شبكة 3.5G</string>
+    <string name="accessibility_data_connection_4g">شبكة الجيل الرابع</string>
+    <string name="accessibility_data_connection_cdma">CDMA</string>
+    <string name="accessibility_data_connection_edge">Edge</string>
+    <string name="accessibility_data_connection_wifi">Wi-Fi</string>
+    <string name="accessibility_no_sim">ليست هناك بطاقة SIM.</string>
+    <string name="accessibility_bluetooth_tether">ربط Bluetooth.</string>
+    <string name="accessibility_airplane_mode">وضع الطائرة.</string>
+    <string name="accessibility_battery_level">مستوى شحن البطارية %d في المائة.</string>
+    <string name="accessibility_settings_button">إعدادات النظام.</string>
+    <string name="accessibility_notifications_button">الإشعارات.</string>
+    <string name="accessibility_remove_notification">مسح الإشعار.</string>
+    <string name="accessibility_gps_enabled">تم تمكين GPS.</string>
+    <string name="accessibility_gps_acquiring">الحصول على GPS.</string>
+    <string name="accessibility_tty_enabled">تم تمكين الآلة الكاتبة.</string>
+    <string name="accessibility_ringer_vibrate">رنين مع الاهتزاز.</string>
+    <string name="accessibility_ringer_silent">رنين صامت.</string>
+    <string name="accessibility_recents_item_dismissed">تمت إزالة %s.</string>
+    <string name="data_usage_disabled_dialog_3g_title">تم تعطيل بيانات الجيل الثاني-الجيل الثالث</string>
+    <string name="data_usage_disabled_dialog_4g_title">تم تعطيل بيانات الجيل الرابع</string>
+    <string name="data_usage_disabled_dialog_mobile_title">تم تعطيل بيانات النقال</string>
+    <string name="data_usage_disabled_dialog_title">تم تعطيل البيانات</string>
+    <string name="data_usage_disabled_dialog">"لقد وصلت إلى حد استخدام البيانات المحدد. 
+
+إذا أعدت تمكين البيانات ، فقد يتم تحصيل رسوم منك من قبل مشغل شبكة الجوال."</string>
+    <string name="data_usage_disabled_dialog_enable">إعادة تمكين البيانات</string>
+    <string name="status_bar_settings_signal_meter_disconnected">لا يوجد اتصال إنترنت</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Wi-Fi متصلة</string>
+    <string name="gps_notification_searching_text">البحث عن GPS</string>
+    <string name="gps_notification_found_text">تم تعيين الموقع بواسطة GPS</string>
+    <string name="accessibility_clear_all">مسح جميع الإشعارات.</string>
+    <string name="dreams_dock_launcher">تنشيط شاشة التوقف</string>
+    <string name="status_bar_notification_inspect_item_title">معلومات التطبيق</string>
+    <string name="notifications_off_title">إيقاف الإشعارات</string>
+    <string name="notifications_off_text">انقر هنا لإعادة تشغيل الإشعارات.</string>
+    <string name="accessibility_rotation_lock_off">سيتم تدوير الشاشة تلقائيًا.</string>
+    <string name="accessibility_rotation_lock_on_landscape">تم قفل الشاشة في الاتجاه الأفقي.</string>
+    <string name="accessibility_rotation_lock_on_portrait">تم قفل الشاشة في الاتجاه العمودي.</string>
+    <string name="unmount_strings_dialog_content_txt">لا تقم بإزالة بطاقة SD أثناء الفصل</string>
+    <string name="accessibility_state_vibrate">الاهتزاز</string>
+    <string name="carrier_invalid_sim_card">بطاقة SIM غير صالحة</string>
+    <string name="new_note">ملاحظة جديدة</string>
+    <string name="new_sketch">مخطط جديد</string>
+    <string name="quick_Settings">إعدادات سريعة</string>
+    <string name="quick_settings_description">تحديد عدد الإعدادات السريعة في لوحة الإشعار وتعديل ترتيبها</string>
+    <string name="start_note_app">بدء تشغيل تطبيق الملاحظات</string>
+    <string name="start_sketch_app">بدء تشغيل تطبيق المخططات</string>
+    <string name="status_bar_airplanemode">الطائرة</string>
+    <string name="status_bar_autorotate">تدوير تلقائي</string>
+    <string name="status_bar_autosync">مزامنة تلقائية</string>
+    <string name="status_bar_autosync_dialog_disable_title">إيقاف مزامنة البيانات تلقائيًا؟</string>
+    <string name="status_bar_autosync_dialog_disable_warning">سيؤدي هذا إلى الحفاظ على استخدام البيانات والبطارية، ولكنك ستحتاج إلى مزامنة كل حساب يدويًا لجمع المعلومات الحديثة. ولن تتلقى إشعارات عند حدوث التحديثات.</string>
+    <string name="status_bar_autosync_dialog_enable_title">تشغيل مزامنة البيانات تلقائيًا؟</string>
+    <string name="status_bar_autosync_dialog_enable_warning">"سيتم نسخ أية تغييرات تجريها على حساباتك على الويب تلقائيًا إلى الهاتف. 
+
+
+
+قد تقوم بعض الحسابات أيضًا بنسخ أية تغييرات تجريها على الهاتف إلى الويب تلقائيًا. يعمل حساب Google بهذه الطريقة. 
+
+
+
+لاختيار أنواع المعلومات المراد مزامنتها داخل كل حساب، انتقل إلى الإعدادات > الحسابات."</string>
+    <string name="status_bar_autosync_dialog_extended_enable_warning">"سيتم نسخ أية تغييرات تقوم بإدخالها على حساباتك على الويب إلى جهازك بشكل تلقائي.
+قد يتم كذلك نسخ أية تغييرات تجريها على الجهاز إلى الويب بشكل تلقائي. يعمل حساب Google بهذه الطريقة.
+
+لتحديد نوع المعلومات المطلوب مزامنتها داخل الحساب، انتقل إلى الإعدادات > الحسابات.
+
+قد يتم فرض رسوم على إرسال البيانات عند إجراء تحديثات على جهازك. ويوصى باستخدام خطة بيانات غير محدودة."</string>
+    <string name="status_bar_bluetooth">Bluetooth</string>
+    <string name="status_bar_brightness">إضاءة خلفية</string>
+    <string name="status_bar_gps">نظام GPS</string>
+    <string name="status_bar_mobile_data">بيانات شبكة النقال</string>
+    <string name="status_bar_nfc">‏NFC</string>
+    <string name="status_bar_roaming">تجوال</string>
+    <string name="status_bar_settings">الإعدادات</string>
+    <string name="status_bar_settings_airplanemode">وضع الطائرة</string>
+    <string name="status_bar_settings_autorotate">التدوير التلقائي للشاشة</string>
+    <string name="status_bar_settings_autosync">المزامنة التلقائية للبيانات</string>
+    <string name="status_bar_settings_bluetooth">Bluetooth</string>
+    <string name="status_bar_settings_brightness">إضاءة خلفية</string>
+    <string name="status_bar_settings_gps">نظام GPS</string>
+    <string name="status_bar_settings_mobile_data">حركة مرور بيانات شبكة النقال</string>
+    <string name="status_bar_settings_nfc">الاتصال بالحقل القريب (NFC)</string>
+    <string name="status_bar_settings_roaming">تجوال</string>
+    <string name="status_bar_settings_settings">اختصار للإعدادات</string>
+    <string name="status_bar_settings_sound">الصوت</string>
+    <string name="status_bar_settings_wifi">Wi-Fi</string>
+    <string name="status_bar_settings_wifi_hotspot">نقطة اتصال بشبكة Wi-Fi</string>
+    <string name="status_bar_sound">الصوت</string>
+    <string name="status_bar_toolsbar_settings_title">تحديد الإعدادات السريعة</string>
+    <string name="status_bar_wifi">Wi-Fi</string>
+    <string name="status_bar_wifi_hotspot">نقطة اتصال بالشبكة</string>
+    <string name="to_charge_use_charger_txt">لشحن جهازك، استخدم شاحن Sony™‎</string>
+    <string name="toast_message_maximum_number_of_tools_reached">تم تحديد الحد الأقصى لعدد الإعدادات السريعة</string>
+    <string name="toast_message_not_allow_turn_on_hotspot">نقطة اتصال بشبكة Wi-Fi غير متوفرة في وضع الطائرة</string>
+    <string name="usb_connected_txt">تم توصيل USB</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_settings_wifi_button">WLAN</string>
+    <string name="accessibility_no_wifi">WLAN desconectado.</string>
+    <string name="accessibility_wifi_one_bar">Una barra de WLAN</string>
+    <string name="accessibility_wifi_two_bars">Dos barras de WLAN</string>
+    <string name="accessibility_wifi_three_bars">Tres barras de WLAN</string>
+    <string name="accessibility_wifi_signal_full">Señal de WLAN al máximo</string>
+    <string name="accessibility_data_connection_wifi">WLAN</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Con conexión WLAN</string>
+    <string name="status_bar_settings_wifi">WLAN</string>
+    <string name="status_bar_settings_wifi_hotspot">Zona activa de WLAN</string>
+    <string name="status_bar_wifi">WLAN</string>
+    <string name="toast_message_not_allow_turn_on_hotspot">La zona activa de WLAN no está disponible en el modo de avión</string>
+</resources>

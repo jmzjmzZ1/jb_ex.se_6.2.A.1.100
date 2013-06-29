@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="power_settings_instructions">Aktivizimi i regjimit STAMINA në Menaxhimin e energjisë do të optimizojë kohëzgjatjen e baterisë</string>
+    <string name="battery_low_power_settings">Info. për baterinë</string>
+    <string name="app_label">UI sistemi</string>
+    <string name="status_bar_clear_all_button">Pastro</string>
+    <string name="status_bar_do_not_disturb_button">Mos më shqetëso</string>
+    <string name="status_bar_please_disturb_button">Afisho njoftimet</string>
+    <string name="status_bar_recent_remove_item_title">Hiqe nga lista</string>
+    <string name="status_bar_recent_inspect_item_title">Informacioni i aplikacionit</string>
+    <string name="status_bar_no_recent_apps">Nuk ka aplikacione të fundit</string>
+    <string name="status_bar_accessibility_dismiss_recents">Hiq aplikacionet e fundit</string>
+    <string name="status_bar_no_notifications_title">Nuk ka njoftime</string>
+    <string name="status_bar_ongoing_events_title">Në vazhdim</string>
+    <string name="status_bar_latest_events_title">Njoftimet</string>
+    <string name="battery_low_title">Lidhni ngarkuesin</string>
+    <string name="battery_low_subtitle">Bateria po bie.</string>
+    <string name="battery_low_percent_format">Mbetën %d%%</string>
+    <string name="invalid_charger">"Ngarkimi me USB nuk mbështetet.
+Përdorni vetëm ngarkuesin e dhënë."</string>
+    <string name="battery_low_why">Përdorimi i baterisë</string>
+    <string name="status_bar_settings_settings_button">Cilësimet</string>
+    <string name="status_bar_settings_wifi_button">Wi-Fi</string>
+    <string name="status_bar_settings_airplane">Mënyra Në avion</string>
+    <string name="status_bar_settings_auto_rotation">Vetërrotullo ekranin</string>
+    <string name="status_bar_settings_mute_label">HESHT</string>
+    <string name="status_bar_settings_auto_brightness_label">AUTOM.</string>
+    <string name="status_bar_settings_notifications">Njoftimet</string>
+    <string name="bluetooth_tethered">Ndërlidhur me Bluetooth</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">Konfiguro metodat e futjes</string>
+    <string name="status_bar_use_physical_keyboard">Tastiera fizike</string>
+    <string name="usb_device_permission_prompt">Të lejohet aplikacioni %1$s të qaset në pajisjen USB?</string>
+    <string name="usb_accessory_permission_prompt">Të lejohet aplikacioni %1$s të qaset në pajisjen shtesë USB?</string>
+    <string name="usb_device_confirm_prompt">Të hapet %1$s kur kjo pajisje USB të jetë lidhur?</string>
+    <string name="usb_accessory_confirm_prompt">Të hapet %1$s kur kjo pajisje shtesë USB të jetë lidhur?</string>
+    <string name="usb_accessory_uri_prompt">Asnjë aplikacion i instaluar nuk funksionon me këtë aksesor USB. Mësoni më shumë për këtë aksesor në %1$s</string>
+    <string name="title_usb_accessory">Aksesori USB</string>
+    <string name="label_view">Shiko</string>
+    <string name="always_use_device">Përdore sipas paracaktimit për këtë pajisje USB</string>
+    <string name="always_use_accessory">Përdor sipas parazgjedhjes për këtë aksesor USB</string>
+    <string name="compat_mode_on">Zoom për mbush. ekranin</string>
+    <string name="compat_mode_off">Tërhiq për mbush. ekranin</string>
+    <string name="compat_mode_help_header">Zoom-i i përputhshmërisë</string>
+    <string name="compat_mode_help_body">Kur një aplikacion është planifikuar për një ekran më të vogël, kontrolli i zoom-it do të shfaqet pranë orës.</string>
+    <string name="screenshot_saving_ticker">Duke ruajtur pamjen e çastit...</string>
+    <string name="screenshot_saving_title">Duke ruajtur pamjen e çastit...</string>
+    <string name="screenshot_saving_text">Pamja e çastit është duke u ruajtur.</string>
+    <string name="screenshot_saved_title">Pamja e çastit u nxorr.</string>
+    <string name="screenshot_saved_text">Prekni për të parë pamjen e çastit.</string>
+    <string name="screenshot_failed_title">Nuk mund të nxirrte pamjen e çastit.</string>
+    <string name="screenshot_failed_text">Nuk mund të ruante pamjen e çastit. Arkivi mund të jetë duke u përdorur.</string>
+    <string name="usb_preference_title">Opsionet e transferimit të skedarëve USB</string>
+    <string name="use_mtp_button_title">Monto si riprodhues mediash (MTP)</string>
+    <string name="use_ptp_button_title">Monto si kamerë (PTP)</string>
+    <string name="installer_cd_button_title">Instalo aplikacionin Transferimi i Skedarëve të Android për Mac</string>
+    <string name="accessibility_back">Prapa</string>
+    <string name="accessibility_home">Ekrani bazë</string>
+    <string name="accessibility_menu">Menyja</string>
+    <string name="accessibility_recent">Aplikacionet e fundit</string>
+    <string name="accessibility_ime_switch_button">Butoni i ndërrimit të metodës së futjes.</string>
+    <string name="accessibility_compatibility_zoom_button">Butoni i përputhshmërisë së zoom-it.</string>
+    <string name="accessibility_compatibility_zoom_example">Bëni zoom të ekranit të vogël në ekran më të madh.</string>
+    <string name="accessibility_bluetooth_connected">Bluetooth u lidh.</string>
+    <string name="accessibility_bluetooth_disconnected">Bluetooth u shkëput.</string>
+    <string name="accessibility_no_battery">Nuk ka bateri.</string>
+    <string name="accessibility_battery_one_bar">Bateria një vizë.</string>
+    <string name="accessibility_battery_two_bars">Bateria dy viza.</string>
+    <string name="accessibility_battery_three_bars">Bateria tre viza.</string>
+    <string name="accessibility_battery_full">Bateria plot.</string>
+    <string name="accessibility_no_phone">Nuk ka telefon.</string>
+    <string name="accessibility_phone_one_bar">Telefoni një vizë.</string>
+    <string name="accessibility_phone_two_bars">Telefoni dy viza.</string>
+    <string name="accessibility_phone_three_bars">Telefoni tre viza.</string>
+    <string name="accessibility_phone_signal_full">Sinjali i telefonit i plotë.</string>
+    <string name="accessibility_no_data">Nuk ka të dhëna.</string>
+    <string name="accessibility_data_one_bar">Të dhënat një vizë.</string>
+    <string name="accessibility_data_two_bars">Të dhënat dy viza.</string>
+    <string name="accessibility_data_three_bars">Të dhënat tre viza.</string>
+    <string name="accessibility_data_signal_full">Sinjali i të dhënave plot.</string>
+    <string name="accessibility_no_wifi">Wi-Fi i shkëputur.</string>
+    <string name="accessibility_wifi_one_bar">Wi-Fi një vizë.</string>
+    <string name="accessibility_wifi_two_bars">Wi-Fi dy viza.</string>
+    <string name="accessibility_wifi_three_bars">Wi-Fi tre viza.</string>
+    <string name="accessibility_wifi_signal_full">Sinjali i Wi-Fi plot.</string>
+    <string name="accessibility_no_wimax">Nuk ka WiMAX.</string>
+    <string name="accessibility_wimax_one_bar">WiMAX një shirit.</string>
+    <string name="accessibility_wimax_two_bars">WiMAX dy shirita.</string>
+    <string name="accessibility_wimax_three_bars">WiMAX tre shirita.</string>
+    <string name="accessibility_wimax_signal_full">Sinjali i WiMAX plot.</string>
+    <string name="accessibility_data_connection_gprs">GPRS</string>
+    <string name="accessibility_data_connection_3g">3G</string>
+    <string name="accessibility_data_connection_3.5g">3,5 G</string>
+    <string name="accessibility_data_connection_4g">4G</string>
+    <string name="accessibility_data_connection_cdma">CDMA</string>
+    <string name="accessibility_data_connection_edge">Edge</string>
+    <string name="accessibility_data_connection_wifi">Wi-Fi</string>
+    <string name="accessibility_no_sim">Nuk ka SIM.</string>
+    <string name="accessibility_bluetooth_tether">Ndërlidhja me Bluetooth.</string>
+    <string name="accessibility_airplane_mode">Mënyra Në avion.</string>
+    <string name="accessibility_battery_level">Bateria %d për qind.</string>
+    <string name="accessibility_settings_button">Cilësimet e sistemit.</string>
+    <string name="accessibility_notifications_button">Njoftimet.</string>
+    <string name="accessibility_remove_notification">Zbraz njoftimin.</string>
+    <string name="accessibility_gps_enabled">GPS-ja aktive.</string>
+    <string name="accessibility_gps_acquiring">Duke marrë GPS-në.</string>
+    <string name="accessibility_tty_enabled">Teletajpi i aktivizuar.</string>
+    <string name="accessibility_ringer_vibrate">Zilja me dridhje.</string>
+    <string name="accessibility_ringer_silent">Zilja e heshtur.</string>
+    <string name="accessibility_recents_item_dismissed">%s u hoq.</string>
+    <string name="data_usage_disabled_dialog_3g_title">Të dhënat e 2G-3G u çaktivizuan</string>
+    <string name="data_usage_disabled_dialog_4g_title">Të dhënat e 4G u çaktivizuan</string>
+    <string name="data_usage_disabled_dialog_mobile_title">Të dhënat celulare u çaktivizuan</string>
+    <string name="data_usage_disabled_dialog_title">Të dhënat u çaktivizuan</string>
+    <string name="data_usage_disabled_dialog">"Keni arritur kufirin e specifikuar të përdorimit të të dhënave.
+
+Nëse riaktivizoni të dhënat, mund të faturoheni nga operatori."</string>
+    <string name="data_usage_disabled_dialog_enable">Riaktivizoni të dhënat</string>
+    <string name="status_bar_settings_signal_meter_disconnected">"S'ka lidhje interneti"</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Wi-Fi u lidh</string>
+    <string name="gps_notification_searching_text">Duke kërkuar për GPS-në</string>
+    <string name="gps_notification_found_text">Vendndodhja u cilësua nga GPS-ja</string>
+    <string name="accessibility_clear_all">Zbrazni të gjitha njoftimet.</string>
+    <string name="dreams_dock_launcher">Aktivizo ruajtësin e ekranit</string>
+    <string name="status_bar_notification_inspect_item_title">Informacioni për aplikacionin</string>
+    <string name="notifications_off_title">Njoftimet joaktive</string>
+    <string name="notifications_off_text">Trokitni lehtë këtu për të aktivizuar përsëri njoftimet.</string>
+    <string name="accessibility_rotation_lock_off">Ekrani do të rrotullohet automatikisht.</string>
+    <string name="accessibility_rotation_lock_on_landscape">Ekrani është i kyçur në orientimin si peizazh.</string>
+    <string name="accessibility_rotation_lock_on_portrait">Ekrani është i kyçur në orientimin si portret.</string>
+    <string name="unmount_strings_dialog_content_txt">Mos e hiqni kartën SD kur është duke u shkëputur</string>
+    <string name="accessibility_state_vibrate">Dridhu</string>
+    <string name="carrier_invalid_sim_card">Karta SIM e pavlefshme</string>
+    <string name="new_note">Shënim i ri</string>
+    <string name="new_sketch">Skicë e re</string>
+    <string name="quick_Settings">Cilësimet e shpejta</string>
+    <string name="quick_settings_description">Përzgjidhni numrin e cilësimeve të shpejta te Paneli i njoftimeve e modifikoni renditjen e tyre</string>
+    <string name="start_note_app">Nisni aplikacionin e shënimeve</string>
+    <string name="start_sketch_app">Nisni aplikacionin e skicave</string>
+    <string name="status_bar_airplanemode">Në aeroplan</string>
+    <string name="status_bar_autorotate">Vetërrotullo</string>
+    <string name="status_bar_autosync">Sinkronizimi auto.</string>
+    <string name="status_bar_autosync_dialog_disable_title">Të çaktivizohet sinkronizimi automatik i të dhënave?</string>
+    <string name="status_bar_autosync_dialog_disable_warning">"Ky do të kursejë përdorimin e të dhënave dhe baterisë, por për të mbledhur informacionet e fundit do t'ju duhet të sinkronizoni me dorë çdo llogari. Dhe nuk do të merrni njoftime kur të ndodhin përditësimet."</string>
+    <string name="status_bar_autosync_dialog_enable_title">Të aktivizohet sinkronizimi automatik i të dhënave?</string>
+    <string name="status_bar_autosync_dialog_enable_warning">"Çdo ndryshim që bëni në llogaritë tuaja në ueb, do të kopjohet automatikisht në telefonin tuaj.
+
+
+
+Disa llogari mund të kopjojnë gjithashtu automatikisht në ueb çdo ndryshim që bëni në telefon. Një llogari në Google funksionon në këtë mënyrë.
+
+
+
+Për të zgjedhur cilat lloje informacionesh të sinkronizohen brenda çdo llogarie, shkoni te Cilësimet > Llogaritë."</string>
+    <string name="status_bar_autosync_dialog_extended_enable_warning">"Të gjitha ndryshimet që bëni në llogaritë tuaja në ueb do të kopjohen automatikisht në pajisjen tuaj.
+
+Disa llogari mund të kopjojnë gjithashtu automatikisht të gjitha ndryshimet që bëni te pajisja në ueb. Një llogari e Google funksionon në këtë mënyrë.
+
+Për të përzgjedhur se çfarë lloji informacioni të sinkronizoni brenda çdo llogarie, shkoni te Cilësimet > Llogaritë.
+
+Mund të zbatohen tarifa për transmetimin e të dhënave kur bëhen përditësime në pajisjen tuaj. Rekomandohet një plan i pakufizuar të dhënash."</string>
+    <string name="status_bar_bluetooth">Bluetooth</string>
+    <string name="status_bar_brightness">Ndriçimi i kundërt</string>
+    <string name="status_bar_gps">GPS</string>
+    <string name="status_bar_mobile_data">Të dhënat celulare</string>
+    <string name="status_bar_nfc">NFC</string>
+    <string name="status_bar_roaming">Roaming</string>
+    <string name="status_bar_settings">Cilësimet</string>
+    <string name="status_bar_settings_airplanemode">Regjimi në aeroplan</string>
+    <string name="status_bar_settings_autorotate">Vetërrotullo ekranin</string>
+    <string name="status_bar_settings_autosync">Të dhënat e sinkronizimit automatik</string>
+    <string name="status_bar_settings_bluetooth">Bluetooth</string>
+    <string name="status_bar_settings_brightness">Ndriçimi i kundërt</string>
+    <string name="status_bar_settings_gps">GPS</string>
+    <string name="status_bar_settings_mobile_data">Trafiku i të dhënave celulare</string>
+    <string name="status_bar_settings_nfc">Kom. në fush. e afërt (NFC)</string>
+    <string name="status_bar_settings_roaming">Roaming</string>
+    <string name="status_bar_settings_settings">Shkurtore te cilësimet</string>
+    <string name="status_bar_settings_sound">Tingulli</string>
+    <string name="status_bar_settings_wifi">Wi-Fi</string>
+    <string name="status_bar_settings_wifi_hotspot">Zona e internetit me valë Wi-Fi</string>
+    <string name="status_bar_sound">Tingulli</string>
+    <string name="status_bar_toolsbar_settings_title">Përzgjidh cilësimet e shpejta</string>
+    <string name="status_bar_wifi">Wi-Fi</string>
+    <string name="status_bar_wifi_hotspot">Zona e intern. me valë</string>
+    <string name="to_charge_use_charger_txt">Për të karikuar pajisjen tuaj, përdorni karikuesin tuaj Sony™</string>
+    <string name="toast_message_maximum_number_of_tools_reached">U përzgjodh numri maksimal i cilësimeve të shpejta</string>
+    <string name="toast_message_not_allow_turn_on_hotspot">Zona e internetit me valë Wi-Fi e padisponueshme në regjimin në aeroplan</string>
+    <string name="usb_connected_txt">USB e lidhur</string>
+</resources>

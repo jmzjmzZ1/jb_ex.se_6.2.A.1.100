@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="power_settings_instructions">"Activer le mode STAMINA en mode de gestion de l'alimentation optimisera la durée de vie de la batterie"</string>
+    <string name="battery_low_power_settings">Infos sur batterie</string>
+    <string name="app_label">IU système</string>
+    <string name="status_bar_clear_all_button">Effacer</string>
+    <string name="status_bar_do_not_disturb_button">Ne pas déranger</string>
+    <string name="status_bar_please_disturb_button">Afficher notifications</string>
+    <string name="status_bar_recent_remove_item_title">Supprimer de la liste</string>
+    <string name="status_bar_recent_inspect_item_title">Infos application</string>
+    <string name="status_bar_no_recent_apps">Aucune application récente</string>
+    <string name="status_bar_accessibility_dismiss_recents">Rejeter les applications récentes</string>
+    <string name="status_bar_no_notifications_title">Pas de notifications</string>
+    <string name="status_bar_ongoing_events_title">Continu</string>
+    <string name="status_bar_latest_events_title">Notifications</string>
+    <string name="battery_low_title">Veuillez connecter le chargeur</string>
+    <string name="battery_low_subtitle">La batterie est déchargée.</string>
+    <string name="battery_low_percent_format">%d%% restants</string>
+    <string name="invalid_charger">"Chargement USB non pris en charge.
+Utiliser uniquement le chargeur fourni."</string>
+    <string name="battery_low_why">Utilisation de batterie</string>
+    <string name="status_bar_settings_settings_button">Paramètres</string>
+    <string name="status_bar_settings_wifi_button">Wi-Fi</string>
+    <string name="status_bar_settings_airplane">Mode Avion</string>
+    <string name="status_bar_settings_auto_rotation">"Rotation d'écran auto"</string>
+    <string name="status_bar_settings_mute_label">SOURD.</string>
+    <string name="status_bar_settings_auto_brightness_label">AUTO</string>
+    <string name="status_bar_settings_notifications">Notifications</string>
+    <string name="bluetooth_tethered">Connecté en partage Bluetooth</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">Configurer les modes de saisie</string>
+    <string name="status_bar_use_physical_keyboard">Clavier physique</string>
+    <string name="usb_device_permission_prompt">"Autoriser l'application %1$s à accéder à l'appareil USB ?"</string>
+    <string name="usb_accessory_permission_prompt">"Autoriser l'application %1$s au périphérique USB ?"</string>
+    <string name="usb_device_confirm_prompt">Ouvrir %1$s lorsque cet appareil USB est connecté ?</string>
+    <string name="usb_accessory_confirm_prompt">Ouvrir %1$s lorsque cet accessoire USB est connecté ?</string>
+    <string name="usb_accessory_uri_prompt">Aucune application installée ne fonctionne avec cet accessoire USB. Pour plus de renseignements sur cet accessoire : %1$s</string>
+    <string name="title_usb_accessory">Accessoire USB</string>
+    <string name="label_view">Afficher</string>
+    <string name="always_use_device">Utiliser par défaut pour cet appareil USB</string>
+    <string name="always_use_accessory">Utiliser par défaut pour cet accessoire USB</string>
+    <string name="compat_mode_on">"Zoomer pour remplir l'écran"</string>
+    <string name="compat_mode_off">"Étirer pour remplir l'écran"</string>
+    <string name="compat_mode_help_header">Zoom de compatibilité</string>
+    <string name="compat_mode_help_body">"Lorsque l'application est conçue pour un écran plus petit, une commande d'agrandissement s'affiche près de l'horloge."</string>
+    <string name="screenshot_saving_ticker">"Sauvegarde capture d'écran..."</string>
+    <string name="screenshot_saving_title">"Sauvegarde capture d'écran..."</string>
+    <string name="screenshot_saving_text">"Capture d'écran en cours de sauvegarde."</string>
+    <string name="screenshot_saved_title">"Capture d'écran sauvegardée."</string>
+    <string name="screenshot_saved_text">"Touchez pour afficher votre capture d'écran. "</string>
+    <string name="screenshot_failed_title">"Sauvegarde de la capture d'écran impossible."</string>
+    <string name="screenshot_failed_text">"Sauvegarde de la capture d'écran impossible. La mémoire n'est peut-être pas disponible."</string>
+    <string name="usb_preference_title">Options de transfert USB</string>
+    <string name="use_mtp_button_title">Monter en tant que diffuseur de médias (MTP)</string>
+    <string name="use_ptp_button_title">"Monter en tant qu'appareil photo (PTP)"</string>
+    <string name="installer_cd_button_title">"Installer l'application Android File Transfer pour Mac"</string>
+    <string name="accessibility_back">Retour</string>
+    <string name="accessibility_home">Accueil</string>
+    <string name="accessibility_menu">Menu</string>
+    <string name="accessibility_recent">Applications récentes</string>
+    <string name="accessibility_ime_switch_button">Bouton de changement de mode de saisie.</string>
+    <string name="accessibility_compatibility_zoom_button">Bouton zoom de compatibilité.</string>
+    <string name="accessibility_compatibility_zoom_example">"Zoom de l'écran plus petit au plus grand."</string>
+    <string name="accessibility_bluetooth_connected">Bluetooth connecté.</string>
+    <string name="accessibility_bluetooth_disconnected">Bluetooth déconnecté.</string>
+    <string name="accessibility_no_battery">Aucune batterie.</string>
+    <string name="accessibility_battery_one_bar">Batterie à une barre.</string>
+    <string name="accessibility_battery_two_bars">Batterie à deux barres.</string>
+    <string name="accessibility_battery_three_bars">Batterie à trois barres.</string>
+    <string name="accessibility_battery_full">Batterie pleine.</string>
+    <string name="accessibility_no_phone">Aucun téléphone.</string>
+    <string name="accessibility_phone_one_bar">Téléphone une barre.</string>
+    <string name="accessibility_phone_two_bars">Téléphone deux barres.</string>
+    <string name="accessibility_phone_three_bars">Téléphone trois barres.</string>
+    <string name="accessibility_phone_signal_full">Signal téléphone maximal.</string>
+    <string name="accessibility_no_data">Aucune donnée.</string>
+    <string name="accessibility_data_one_bar">Données à une barre.</string>
+    <string name="accessibility_data_two_bars">Données à deux barres.</string>
+    <string name="accessibility_data_three_bars">Données à trois barres.</string>
+    <string name="accessibility_data_signal_full">Signal de données maximal.</string>
+    <string name="accessibility_no_wifi">Wi-Fi est déconnecté.</string>
+    <string name="accessibility_wifi_one_bar">Réception Wi-Fi une barre.</string>
+    <string name="accessibility_wifi_two_bars">Réception Wi-Fi deux barres.</string>
+    <string name="accessibility_wifi_three_bars">Réception Wi-Fi trois barres.</string>
+    <string name="accessibility_wifi_signal_full">Réception Wi-Fi complète.</string>
+    <string name="accessibility_no_wimax">Pas de WiMAX.</string>
+    <string name="accessibility_wimax_one_bar">Réception WiMAX une barre.</string>
+    <string name="accessibility_wimax_two_bars">Réception WiMAX deux barres.</string>
+    <string name="accessibility_wimax_three_bars">Réception WiMAX trois barres.</string>
+    <string name="accessibility_wimax_signal_full">Réception WiMAX complète.</string>
+    <string name="accessibility_data_connection_gprs">GPRS</string>
+    <string name="accessibility_data_connection_3g">3G</string>
+    <string name="accessibility_data_connection_3.5g">3.5G</string>
+    <string name="accessibility_data_connection_4g">4G</string>
+    <string name="accessibility_data_connection_cdma">CDMA</string>
+    <string name="accessibility_data_connection_edge">Edge</string>
+    <string name="accessibility_data_connection_wifi">Wi-Fi</string>
+    <string name="accessibility_no_sim">Aucune carte SIM.</string>
+    <string name="accessibility_bluetooth_tether">Partage de connexion Bluetooth.</string>
+    <string name="accessibility_airplane_mode">Mode Avion.</string>
+    <string name="accessibility_battery_level">Batterie à %d pour cent.</string>
+    <string name="accessibility_settings_button">Paramètres du système.</string>
+    <string name="accessibility_notifications_button">Notifications.</string>
+    <string name="accessibility_remove_notification">Effacer la notification.</string>
+    <string name="accessibility_gps_enabled">GPS activé.</string>
+    <string name="accessibility_gps_acquiring">Acquisition GPS.</string>
+    <string name="accessibility_tty_enabled">Téléscripteur activé.</string>
+    <string name="accessibility_ringer_vibrate">Mode vibration.</string>
+    <string name="accessibility_ringer_silent">Mode silencieux.</string>
+    <string name="accessibility_recents_item_dismissed">%s supprimé.</string>
+    <string name="data_usage_disabled_dialog_3g_title">Données 2G-3G désactivées</string>
+    <string name="data_usage_disabled_dialog_4g_title">Données 4G désactivées</string>
+    <string name="data_usage_disabled_dialog_mobile_title">Données mobiles désactivées</string>
+    <string name="data_usage_disabled_dialog_title">Données désactivées</string>
+    <string name="data_usage_disabled_dialog">"Vous avez atteint la limite d'utilisation des données indiquée.
+
+Si vous activez de nouveau les données, des frais pourraient vous êtres imposés par votre opérateur."</string>
+    <string name="data_usage_disabled_dialog_enable">Réactiver les données</string>
+    <string name="status_bar_settings_signal_meter_disconnected">Aucune connexion Internet</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Connexion Wi-Fi</string>
+    <string name="gps_notification_searching_text">Recherche de GPS</string>
+    <string name="gps_notification_found_text">Positionnement défini par GPS</string>
+    <string name="accessibility_clear_all">Effacer toutes les notifications.</string>
+    <string name="dreams_dock_launcher">"Activer l'économiseur d'écran"</string>
+    <string name="status_bar_notification_inspect_item_title">"Infos sur l'appli"</string>
+    <string name="notifications_off_title">Notifications désactivées</string>
+    <string name="notifications_off_text">Taper ici pour réactiver les notifications.</string>
+    <string name="accessibility_rotation_lock_off">"L'écran tournera automatiquement."</string>
+    <string name="accessibility_rotation_lock_on_landscape">Écran verrouillé en mode paysage.</string>
+    <string name="accessibility_rotation_lock_on_portrait">Écran verrouillé en mode portrait.</string>
+    <string name="unmount_strings_dialog_content_txt">Ne retirez pas la carte SD en cours de déconnexion</string>
+    <string name="accessibility_state_vibrate">Vibration</string>
+    <string name="carrier_invalid_sim_card">Carte SIM invalide</string>
+    <string name="new_note">Nouvelle note</string>
+    <string name="new_sketch">Nouvelle esquisse</string>
+    <string name="quick_Settings">Réglages rapides</string>
+    <string name="quick_settings_description">"Sélectionner le nombre de réglages rapides dans le volet Notifications, avant d'en modifier l'ordre"</string>
+    <string name="start_note_app">"Lancer l'application de notes"</string>
+    <string name="start_sketch_app">"Lancer l'application d'esquisse"</string>
+    <string name="status_bar_airplanemode">Avion</string>
+    <string name="status_bar_autorotate">Rotation automatique</string>
+    <string name="status_bar_autosync">Synchr. auto</string>
+    <string name="status_bar_autosync_dialog_disable_title">Désactiver la synchr auto?</string>
+    <string name="status_bar_autosync_dialog_disable_warning">"Conserve les données et réduit l'utilisation de la batterie, mais vous devrez synchroniser chaque compte séparément pour obtenir les informations les plus récentes. Vous ne recevrez pas non plus d'avis lorsque les mises à jour sont effectuées."</string>
+    <string name="status_bar_autosync_dialog_enable_title">Activer la synchronisation automatique des données?</string>
+    <string name="status_bar_autosync_dialog_enable_warning">"Toute modification apportée à vos comptes sur le Web sera automatiquement copiée sur votre téléphone.
+
+
+
+Certains comptes peuvent aussi copier automatiquement sur le Web toutes les modifications effectuées sur votre téléphone. C'est exactement ce que fait un compte Google.
+
+
+
+Pour choisir les types d'information à synchroniser pour chacun des comptes, ouvrez Paramètres > Comptes."</string>
+    <string name="status_bar_autosync_dialog_extended_enable_warning">"Toute modification apportée à vos comptes sur le Web sera automatiquement copiée sur votre appareil.
+
+Certains comptes peuvent aussi copier automatiquement sur le Web toute modification effectuée sur l'appareil. Un compte Google fonctionne de cette façon.
+
+Pour sélectionner le type d'information à synchroniser avec chaque compte, allez dans Paramètres > Comptes.
+
+Des frais de transmission de données peuvent s'appliquer lorsque vous mettez votre appareil à jour. Un forfait de données illimité est recommandé."</string>
+    <string name="status_bar_bluetooth">Bluetooth</string>
+    <string name="status_bar_brightness">Contre-jour</string>
+    <string name="status_bar_gps">GPS</string>
+    <string name="status_bar_mobile_data">Données mobiles</string>
+    <string name="status_bar_nfc">NFC</string>
+    <string name="status_bar_roaming">En itinérance</string>
+    <string name="status_bar_settings">Paramètres</string>
+    <string name="status_bar_settings_airplanemode">Mode avion</string>
+    <string name="status_bar_settings_autorotate">"Rotation d'écran auto"</string>
+    <string name="status_bar_settings_autosync">Synchronisation auto des données</string>
+    <string name="status_bar_settings_bluetooth">Bluetooth</string>
+    <string name="status_bar_settings_brightness">Contre-jour</string>
+    <string name="status_bar_settings_gps">GPS</string>
+    <string name="status_bar_settings_mobile_data">Trafic de données mobiles</string>
+    <string name="status_bar_settings_nfc">NFC</string>
+    <string name="status_bar_settings_roaming">En itinérance</string>
+    <string name="status_bar_settings_settings">Raccourci vers Paramètres</string>
+    <string name="status_bar_settings_sound">Son</string>
+    <string name="status_bar_settings_wifi">Wi-Fi</string>
+    <string name="status_bar_settings_wifi_hotspot">"Point d'accès Wi-Fi sans fil"</string>
+    <string name="status_bar_sound">Son</string>
+    <string name="status_bar_toolsbar_settings_title">Sélectionner les réglages rapides</string>
+    <string name="status_bar_wifi">Wi-Fi</string>
+    <string name="status_bar_wifi_hotspot">"Point d'accès sans fil"</string>
+    <string name="to_charge_use_charger_txt">Utilisez votre chargeur Sony™ pour charger votre appareil</string>
+    <string name="toast_message_maximum_number_of_tools_reached">Vous avez sélectionné le nombre maximal de réglages rapides</string>
+    <string name="toast_message_not_allow_turn_on_hotspot">"Point d'accès sans fil Wi-Fi non disponible en mode avion"</string>
+    <string name="usb_connected_txt">USB connecté</string>
+</resources>

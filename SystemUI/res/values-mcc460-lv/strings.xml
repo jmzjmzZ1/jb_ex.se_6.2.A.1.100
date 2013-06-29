@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_settings_wifi_button">WLAN</string>
+    <string name="accessibility_no_wifi">WLAN savienojums ir pārtraukts.</string>
+    <string name="accessibility_wifi_one_bar">WLAN: viena josla</string>
+    <string name="accessibility_wifi_two_bars">WLAN: divas joslas</string>
+    <string name="accessibility_wifi_three_bars">WLAN: trīs joslas</string>
+    <string name="accessibility_wifi_signal_full">Pilna piekļuve WLAN signālam</string>
+    <string name="accessibility_data_connection_wifi">WLAN</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Izv. sav. ar WLAN</string>
+    <string name="status_bar_settings_wifi">WLAN</string>
+    <string name="status_bar_settings_wifi_hotspot">WLAN tīklājs</string>
+    <string name="status_bar_wifi">WLAN</string>
+    <string name="toast_message_not_allow_turn_on_hotspot">WLAN tīklājs lidmašīnas režīmā nav pieejams</string>
+</resources>

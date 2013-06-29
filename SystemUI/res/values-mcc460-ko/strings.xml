@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_settings_wifi_button">WLAN</string>
+    <string name="accessibility_no_wifi">WLAN 연결이 끊어졌습니다.</string>
+    <string name="accessibility_wifi_one_bar">WLAN 신호 막대가 하나입니다.</string>
+    <string name="accessibility_wifi_two_bars">WLAN 신호 막대가 두 개입니다.</string>
+    <string name="accessibility_wifi_three_bars">WLAN 신호 막대가 세 개입니다.</string>
+    <string name="accessibility_wifi_signal_full">WLAN 신호가 강합니다.</string>
+    <string name="accessibility_data_connection_wifi">WLAN</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">WLAN 연결됨</string>
+    <string name="status_bar_settings_wifi">WLAN</string>
+    <string name="status_bar_settings_wifi_hotspot">WLAN 핫스팟</string>
+    <string name="status_bar_wifi">WLAN</string>
+    <string name="toast_message_not_allow_turn_on_hotspot">비행 모드에서는 WLAN 핫스팟을 사용할 수 없음</string>
+</resources>

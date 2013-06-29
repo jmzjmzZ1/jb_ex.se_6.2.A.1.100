@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="power_settings_instructions">पॉवर प्रबंधन में विस्तृत STAMINA मोड सक्षम करने से बैटरी का जीवनकाल ऑप्टिमाइज़ हो जाएगा</string>
+    <string name="battery_low_power_settings">बैटरी सूचना</string>
+    <string name="app_label">सिस्‍टम UI</string>
+    <string name="status_bar_clear_all_button">साफ़ करें</string>
+    <string name="status_bar_do_not_disturb_button">परेशान न करें</string>
+    <string name="status_bar_please_disturb_button">सूचनाएं दिखाएं</string>
+    <string name="status_bar_recent_remove_item_title">सूची से निकालें</string>
+    <string name="status_bar_recent_inspect_item_title">एप्‍लिकेशन जानकारी</string>
+    <string name="status_bar_no_recent_apps">कोई हाल ही के एप्लिकेशन नहीं</string>
+    <string name="status_bar_accessibility_dismiss_recents">हाल ही के एप्लिकेशन ख़ारिज करें</string>
+    <string name="status_bar_no_notifications_title">कोई सूचनाएँ नहीं</string>
+    <string name="status_bar_ongoing_events_title">चालू है</string>
+    <string name="status_bar_latest_events_title">सूचनाएँ</string>
+    <string name="battery_low_title">कृपया चार्जर कनेक्ट करें</string>
+    <string name="battery_low_subtitle">बैटरी कम हो रही है।</string>
+    <string name="battery_low_percent_format">%d%% शेष</string>
+    <string name="invalid_charger">"USB चार्जिंग समर्थित नहीं है.
+केवल आपूर्ति किए गए चार्जर का उपयोग करें।"</string>
+    <string name="battery_low_why">बैटरी उपयोग</string>
+    <string name="status_bar_settings_settings_button">सेटिंग</string>
+    <string name="status_bar_settings_wifi_button">Wi-Fi</string>
+    <string name="status_bar_settings_airplane">हवाई जहाज़ मोड</string>
+    <string name="status_bar_settings_auto_rotation">स्वतः घुमाएं स्क्रीन</string>
+    <string name="status_bar_settings_mute_label">म्यूट करें</string>
+    <string name="status_bar_settings_auto_brightness_label">स्वत:</string>
+    <string name="status_bar_settings_notifications">सूचनाएं</string>
+    <string name="bluetooth_tethered">Bluetooth टीदर किया गया</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">इनपुट विधियां सेट अप करें</string>
+    <string name="status_bar_use_physical_keyboard">भौतिक कीबोर्ड</string>
+    <string name="usb_device_permission_prompt">एप्लिकेशन %1$s को USBडिवाइस में एक्सेस की अनुमति दें?</string>
+    <string name="usb_accessory_permission_prompt">एप्लिकेशन %1$s को USB सहायक उपकरण में एक्सेस की अनुमति दें?</string>
+    <string name="usb_device_confirm_prompt">जब यह USB डिवाइस कनेक्ट किया जाए, तब %1$s को खोलें?</string>
+    <string name="usb_accessory_confirm_prompt">जब यह USB सहायक उपकरण कनेक्ट किया जाए, तब %1$s को खोलें?</string>
+    <string name="usb_accessory_uri_prompt">इस USB सहायक उपकरण के साथ कोई स्‍थापित अनुप्रयोग कार्य नहीं करता। %1$s पर इस सहायक उपकरण के बारे में और अधिक जानें</string>
+    <string name="title_usb_accessory">USB सहायक उपकरण</string>
+    <string name="label_view">देखें</string>
+    <string name="always_use_device">इस USB डिवाइस के लिए डिफॉल्ट रूप से उपयोग करें</string>
+    <string name="always_use_accessory">इस USB सहायक उपकरण के लिए डिफॉल्‍ट रूप से उपयोग करें</string>
+    <string name="compat_mode_on">स्‍क्रीन भरने हेतु ज़ूम करें</string>
+    <string name="compat_mode_off">स्‍क्रीन भरने के लिए खींचें</string>
+    <string name="compat_mode_help_header">संगतता ज़ूम</string>
+    <string name="compat_mode_help_body">जब किसी छोटी स्‍क्रीन के लिए एप्‍लिकेशन को डिज़ाइन किया जाता है, तो ज़ूम नियंत्रण क्लॉक के पास प्रदर्शित होगा।</string>
+    <string name="screenshot_saving_ticker">स्क्रीनशॉट सहेजा जा रहा है...</string>
+    <string name="screenshot_saving_title">स्क्रीनशॉट सहेजा जा रहा है...</string>
+    <string name="screenshot_saving_text">स्क्रीनशॉट रक्षित किया जा रहा है।</string>
+    <string name="screenshot_saved_title">स्‍क्रीनशॉट कैप्‍चर किया गया।</string>
+    <string name="screenshot_saved_text">अपना स्‍क्रीनशॉट देखने के लिए स्‍पर्श करें।</string>
+    <string name="screenshot_failed_title">स्क्रीनशॉट को कैप्चर नहीं किया जा सका।</string>
+    <string name="screenshot_failed_text">स्‍क्रीनशॉट को रक्षित नहीं किया जा सका। संभवत: संग्रहण उपयोग में है।</string>
+    <string name="usb_preference_title">USB फ़ाइल स्थानांतरण विकल्प</string>
+    <string name="use_mtp_button_title">मीडिया प्लेयर के रूप में माउंट करें (MTP)</string>
+    <string name="use_ptp_button_title">कैमरे के रूप में माउंट करें (PTP)</string>
+    <string name="installer_cd_button_title">Mac के लिए Android फ़ाइल स्थानांतरण एप्लिकेशन स्थापित करें</string>
+    <string name="accessibility_back">वापस जाएं</string>
+    <string name="accessibility_home">होम</string>
+    <string name="accessibility_menu">मेनू</string>
+    <string name="accessibility_recent">हाल ही के एप्‍लिकेशन</string>
+    <string name="accessibility_ime_switch_button">इनपुट विधि‍ बटन अदल-बदल करें।</string>
+    <string name="accessibility_compatibility_zoom_button">संगतता ज़ूम बटन।</string>
+    <string name="accessibility_compatibility_zoom_example">छोटी से बड़ी स्‍क्रीन पर ज़ूम करें।</string>
+    <string name="accessibility_bluetooth_connected">Bluetooth कनेक्ट किया गया।</string>
+    <string name="accessibility_bluetooth_disconnected">Bluetooth डि‍स्‍कनेक्‍ट कि‍या गया।</string>
+    <string name="accessibility_no_battery">कोई बैटरी नहीं।</string>
+    <string name="accessibility_battery_one_bar">बैटरी एक बार।</string>
+    <string name="accessibility_battery_two_bars">बैटरी दो बार।</string>
+    <string name="accessibility_battery_three_bars">बैटरी तीन बार।</string>
+    <string name="accessibility_battery_full">बैटरी पूर्ण।</string>
+    <string name="accessibility_no_phone">कोई फ़ोन नहीं।</string>
+    <string name="accessibility_phone_one_bar">फ़ोन एक बार।</string>
+    <string name="accessibility_phone_two_bars">फ़ोन दो बार।</string>
+    <string name="accessibility_phone_three_bars">फोन तीन बार।</string>
+    <string name="accessibility_phone_signal_full">फ़ोन सि‍ग्‍नल पूर्ण।</string>
+    <string name="accessibility_no_data">कोई डेटा नहीं।</string>
+    <string name="accessibility_data_one_bar">डेटा एक बार।</string>
+    <string name="accessibility_data_two_bars">डेटा दो बार।</string>
+    <string name="accessibility_data_three_bars">डेटा तीन बार।</string>
+    <string name="accessibility_data_signal_full">पूर्ण डेटा सि‍ग्‍नल।</string>
+    <string name="accessibility_no_wifi">Wi-Fi डिस्कनेक्ट है.</string>
+    <string name="accessibility_wifi_one_bar">Wi-Fi एक बार.</string>
+    <string name="accessibility_wifi_two_bars">Wi-Fi दो बार.</string>
+    <string name="accessibility_wifi_three_bars">Wi-Fi तीन बार.</string>
+    <string name="accessibility_wifi_signal_full">पूर्ण Wi-Fi सि‍ग्‍नल.</string>
+    <string name="accessibility_no_wimax">WiMAX नहीं।</string>
+    <string name="accessibility_wimax_one_bar">WiMAX एक बार।</string>
+    <string name="accessibility_wimax_two_bars">WiMAX दो बार।</string>
+    <string name="accessibility_wimax_three_bars">WiMAX तीन बार।</string>
+    <string name="accessibility_wimax_signal_full">WiMAX सि‍ग्‍नल पूर्ण।</string>
+    <string name="accessibility_data_connection_gprs">GPRS</string>
+    <string name="accessibility_data_connection_3g">3G</string>
+    <string name="accessibility_data_connection_3.5g">3.5G</string>
+    <string name="accessibility_data_connection_4g">4G</string>
+    <string name="accessibility_data_connection_cdma">CDMA</string>
+    <string name="accessibility_data_connection_edge">किनारा</string>
+    <string name="accessibility_data_connection_wifi">Wi-Fi</string>
+    <string name="accessibility_no_sim">कोई सिम नहीं।</string>
+    <string name="accessibility_bluetooth_tether">Bluetooth टेदरिंग।</string>
+    <string name="accessibility_airplane_mode">हवाई जहाज मोड।</string>
+    <string name="accessibility_battery_level">%d प्रति‍शत बैटरी।</string>
+    <string name="accessibility_settings_button">सिस्टम सेटिंग।</string>
+    <string name="accessibility_notifications_button">सूचनाएं।</string>
+    <string name="accessibility_remove_notification">सूचना साफ़ करें।</string>
+    <string name="accessibility_gps_enabled">GPS सक्षम।</string>
+    <string name="accessibility_gps_acquiring">GPS प्राप्त करना।</string>
+    <string name="accessibility_tty_enabled">टेलीटाइपराइटर सक्षम।</string>
+    <string name="accessibility_ringer_vibrate">रिंगर कंपन।</string>
+    <string name="accessibility_ringer_silent">रिंगर मौन।</string>
+    <string name="accessibility_recents_item_dismissed">%s खा़रिज कर दिया गया।</string>
+    <string name="data_usage_disabled_dialog_3g_title">2G-3G डेटा अक्षम किया गया</string>
+    <string name="data_usage_disabled_dialog_4g_title">4G डेटा अक्षम किया गया</string>
+    <string name="data_usage_disabled_dialog_mobile_title">मोबाइल डेटा अक्षम किया गया</string>
+    <string name="data_usage_disabled_dialog_title">डेटा अक्षम किया गया</string>
+    <string name="data_usage_disabled_dialog">"आप निर्दिष्ट डेटा उपयोग सीमा तक पहुंच चुके हैं।
+
+अगर आप डेटा को पुनः सक्षम करते हैं, तो ऑपरेटर द्वारा आपसे शुल्क लिया जा सकता है।"</string>
+    <string name="data_usage_disabled_dialog_enable">डेटा पुन: सक्षम करें</string>
+    <string name="status_bar_settings_signal_meter_disconnected">"कोई इंटरनेट कनेक्शन नहीं "</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Wi-Fi कनेक्‍ट किया गया</string>
+    <string name="gps_notification_searching_text">GPS को खोजा जा रहा है</string>
+    <string name="gps_notification_found_text">GPS द्वारा सेट किया गया स्‍थान</string>
+    <string name="accessibility_clear_all">सभी सूचनाएं साफ़ करें।</string>
+    <string name="dreams_dock_launcher">स्‍क्रीन सेवर सक्रिय करें</string>
+    <string name="status_bar_notification_inspect_item_title">अनुप्रयोग जानकारी</string>
+    <string name="notifications_off_title">सूचनाएं बंद</string>
+    <string name="notifications_off_text">सूचनाओं को पुन: चालू करने के लिए यहां टैप करें।</string>
+    <string name="accessibility_rotation_lock_off">स्‍क्रीन स्‍वचालित रूप से घूमेगी।</string>
+    <string name="accessibility_rotation_lock_on_landscape">स्‍क्रीन लैंडस्केप अभिविन्यास में लॉक है।</string>
+    <string name="accessibility_rotation_lock_on_portrait">स्‍क्रीन पोर्ट्रेट अभिविन्‍यास में लॉक है।</string>
+    <string name="unmount_strings_dialog_content_txt">इसके अलग होने के दौरान SD कार्ड न निकालें</string>
+    <string name="accessibility_state_vibrate">वाइब्रेट करें</string>
+    <string name="carrier_invalid_sim_card">अमान्य सिम कार्ड</string>
+    <string name="new_note">नयी टिप्पणी</string>
+    <string name="new_sketch">नया स्केच</string>
+    <string name="quick_Settings">त्वरित सेटिंग</string>
+    <string name="quick_settings_description">सूचना पैनल में त्वरित सेटिंग की संख्या का चयन करें और उनका क्रम संपादित करें</string>
+    <string name="start_note_app">नोट एप आरंभ करें</string>
+    <string name="start_sketch_app">स्केच एप आरंभ करें</string>
+    <string name="status_bar_airplanemode">एयरप्लेन</string>
+    <string name="status_bar_autorotate">स्वतः घुमाव</string>
+    <string name="status_bar_autosync">स्वतः-सिंक</string>
+    <string name="status_bar_autosync_dialog_disable_title">स्वत: सिंक डेटा बंद करें?</string>
+    <string name="status_bar_autosync_dialog_disable_warning">यह डेटा और बैटरी उपयोग को संरक्षित करेगा, लेकिन हाल की जानकारी एकत्रित करने के लिए आपको प्रत्‍येक खाते का सिंक मैन्‍युअल रूप से करना होगा. और जब अद्यतन होंगे तो आपको सूचनाएं प्राप्‍त नहीं होंगी.</string>
+    <string name="status_bar_autosync_dialog_enable_title">स्वत: सिंक डेटा चालू करें?</string>
+    <string name="status_bar_autosync_dialog_enable_warning">"वेब पर अपने खातों में कोई भी परिवर्तन करने पर आपके फ़ोन में उसकी कॉपी स्‍वत: बन जाएगी.
+
+
+
+उसी प्रकार वेब पर फ़ोन में आपके द्वारा कोई भी परिवर्तन होने पर कुछ खाते उसकी कॉपी स्‍वत: बना सकते हैं. एक Google खाता इसी प्रकार कार्य करता है.
+
+
+
+चयन करने के लिए कि प्रत्‍येक खाते के अन्तर्गत किस प्रकार की जानकारी सिंक करना है, सेटिंग > खाते पर जाएं."</string>
+    <string name="status_bar_autosync_dialog_extended_enable_warning">"वेब पर आपके द्वारा अपने खाते में किए गए कोई भी परिवर्तन स्वचालित रूप से आपके डिवाइस में कॉपी हो जाएंगे.
+
+कुछ खाते आपके द्वारा वेब के लिए डिवाइस पर किए गए किसी भी परिवर्तन को स्वचालित रूप से कॉपी कर सकते हैं. Google खाता इस तरह कार्य करता है.
+
+प्रत्येक खाते में सिंक की जाने वाली सूचना का चयन करने के लिए, सेटिंग > खातों पर जाएं.
+
+आपके डिवाइस में अद्यतन किए जाने पर डेटा प्रसारण शुल्क लागू हो सकते हैं. एक असीमित डेटा प्लान अनुशंसित है."</string>
+    <string name="status_bar_bluetooth">Bluetooth</string>
+    <string name="status_bar_brightness">बैकलाइट</string>
+    <string name="status_bar_gps">GPS</string>
+    <string name="status_bar_mobile_data">मोबाइल डेटा</string>
+    <string name="status_bar_nfc">NFC</string>
+    <string name="status_bar_roaming">रोमिंग</string>
+    <string name="status_bar_settings">सेटिंग</string>
+    <string name="status_bar_settings_airplanemode">उड़ान मोड</string>
+    <string name="status_bar_settings_autorotate">स्वतः घुमाव स्क्रीन</string>
+    <string name="status_bar_settings_autosync">डेटा स्वतः-सिंक करें</string>
+    <string name="status_bar_settings_bluetooth">Bluetooth</string>
+    <string name="status_bar_settings_brightness">बैकलाइट</string>
+    <string name="status_bar_settings_gps">GPS</string>
+    <string name="status_bar_settings_mobile_data">मोबाइल डेटा ट्रैफ़िक</string>
+    <string name="status_bar_settings_nfc">NFC</string>
+    <string name="status_bar_settings_roaming">रोमिंग</string>
+    <string name="status_bar_settings_settings">सेटिंग के लिए शॉर्टकट</string>
+    <string name="status_bar_settings_sound">ध्वनि</string>
+    <string name="status_bar_settings_wifi">वाई-फ़ाई</string>
+    <string name="status_bar_settings_wifi_hotspot">वाई-फ़ाई hotspot</string>
+    <string name="status_bar_sound">ध्वनि</string>
+    <string name="status_bar_toolsbar_settings_title">त्वरित सेटिंग का चयन करें</string>
+    <string name="status_bar_wifi">वाई-फ़ाई</string>
+    <string name="status_bar_wifi_hotspot">Hotspot</string>
+    <string name="to_charge_use_charger_txt">अपना डिवाइस चार्ज करने के लिए, अपने Sony™ चार्जर का उपयोग करें</string>
+    <string name="toast_message_maximum_number_of_tools_reached">त्वरित सेटिंग की अधिकतम संख्या का चयन किया जा चुका है</string>
+    <string name="toast_message_not_allow_turn_on_hotspot">वाई-फ़ाई hotspot हवाई मोड में उपलब्ध नहीं</string>
+    <string name="usb_connected_txt">USB कनेक्ट किया गया</string>
+</resources>

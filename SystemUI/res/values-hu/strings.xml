@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_date_formatter">"%2$s
+%1$s"</string>
+    <string name="power_settings_instructions">Az akkumulátor üzemideje optimalizálható a STAMINA üzemmód engedélyezésével az Energiagazdálkodás pontban</string>
+    <string name="battery_low_power_settings">Akku adatai</string>
+    <string name="app_label">Rendszer UI</string>
+    <string name="status_bar_clear_all_button">Törlés</string>
+    <string name="status_bar_do_not_disturb_button">Ne zavarjanak</string>
+    <string name="status_bar_please_disturb_button">Értesítések megjelenítése</string>
+    <string name="status_bar_recent_remove_item_title">Eltávolítás a listából</string>
+    <string name="status_bar_recent_inspect_item_title">Alkalmazásinformáció</string>
+    <string name="status_bar_no_recent_apps">Nincs újabb alkalmazás</string>
+    <string name="status_bar_accessibility_dismiss_recents">Újabb alkalmazások elvetése</string>
+    <string name="status_bar_no_notifications_title">Nincs értesítés</string>
+    <string name="status_bar_ongoing_events_title">Folyamatban</string>
+    <string name="status_bar_latest_events_title">Értesítések</string>
+    <string name="battery_low_title">Csatlakoztassa töltőhöz</string>
+    <string name="battery_low_subtitle">Az akku lemerülőben van.</string>
+    <string name="battery_low_percent_format">%d%% maradt</string>
+    <string name="invalid_charger">"Az USB-n keresztüli töltés nincs támogatva.
+Használja a kapott töltőt."</string>
+    <string name="battery_low_why">Akkuhasználat</string>
+    <string name="status_bar_settings_settings_button">Beállítások</string>
+    <string name="status_bar_settings_wifi_button">WiFi</string>
+    <string name="status_bar_settings_airplane">Repülőgépes mód</string>
+    <string name="status_bar_settings_auto_rotation">Képernyő automatikus forgatása</string>
+    <string name="status_bar_settings_mute_label">NÉMÍT</string>
+    <string name="status_bar_settings_auto_brightness_label">AUTO</string>
+    <string name="status_bar_settings_notifications">Értesítések</string>
+    <string name="bluetooth_tethered">Bluetooth megosztva</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">Beviteli módok beállítása</string>
+    <string name="status_bar_use_physical_keyboard">Fizikai billentyűzet</string>
+    <string name="usb_device_permission_prompt">Hozzáférhet a(z) %1$s alkalmazás az USB-eszközhöz?</string>
+    <string name="usb_accessory_permission_prompt">Hozzáférhet a(z) %1$s alkalmazás az USB-kiegészítőhöz?</string>
+    <string name="usb_device_confirm_prompt">Megnyitja a(z) %1$s tevékenységet, ha csatlakoztatva van USB-eszköz?</string>
+    <string name="usb_accessory_confirm_prompt">Megnyitja a(z) %1$s tevékenységet, ha ez az USB-kiegészítő csatlakoztatva van?</string>
+    <string name="usb_accessory_uri_prompt">Egyetlen telepített alkalmazás sem működik ezzel az USB-tartozékkal. További információt talál a tartozékról ezen a címen: %1$s</string>
+    <string name="title_usb_accessory">USB-tartozék</string>
+    <string name="label_view">Megnéz</string>
+    <string name="always_use_device">Alapértelmezett használat ehhez az USB-eszközhöz</string>
+    <string name="always_use_accessory">Alapértelmezés szerint használandó ehhez az USB-tartozékhoz</string>
+    <string name="compat_mode_on">Nagyítás kitöltéshez</string>
+    <string name="compat_mode_off">Nyújtás kitöltéshez</string>
+    <string name="compat_mode_help_header">Kompatibilitási nagyítás/kicsinyítés</string>
+    <string name="compat_mode_help_body">Ha egy alkalmazást kisebb képernyőre terveztek, akkor a nagyítás/kicsinyítés vezérlője az óra mellett jelenik meg.</string>
+    <string name="screenshot_saving_ticker">Képernyőfelvétel mentése...</string>
+    <string name="screenshot_saving_title">Képernyőfelvétel mentése...</string>
+    <string name="screenshot_saving_text">Képernyőfelvétel mentése.</string>
+    <string name="screenshot_saved_title">Képernyőfelvétel rögzítve.</string>
+    <string name="screenshot_saved_text">Megérintésével megtekintheti a képernyőfelvételt.</string>
+    <string name="screenshot_failed_title">Nem sikerült a képernyőfelvétel rögzítése.</string>
+    <string name="screenshot_failed_text">Nem sikerült a képernyőfelvétel mentése. Lehet, hogy a tárhely használatban van.</string>
+    <string name="usb_preference_title">USB-fájlátvitel beállításai</string>
+    <string name="use_mtp_button_title">Csatlakoztatás médialejátszóként (MTP)</string>
+    <string name="use_ptp_button_title">Csatlakoztatás kameraként (PTP)</string>
+    <string name="installer_cd_button_title">Android-fájlátviteli alkalmazás telepítése Mac rendszerhez</string>
+    <string name="accessibility_back">Vissza</string>
+    <string name="accessibility_home">Főoldal</string>
+    <string name="accessibility_menu">Menü</string>
+    <string name="accessibility_recent">Legújabb alkalmazások</string>
+    <string name="accessibility_ime_switch_button">Beviteli mód váltása gomb.</string>
+    <string name="accessibility_compatibility_zoom_button">Kompatibilitási nagyítás gomb.</string>
+    <string name="accessibility_compatibility_zoom_example">Kicsinyítés a nagyobb képernyőhöz.</string>
+    <string name="accessibility_bluetooth_connected">Bluetooth csatlakoztatva.</string>
+    <string name="accessibility_bluetooth_disconnected">Bluetooth leválasztva.</string>
+    <string name="accessibility_no_battery">Nincs akkumulátor.</string>
+    <string name="accessibility_battery_one_bar">Akkumulátor: egy sáv.</string>
+    <string name="accessibility_battery_two_bars">Akkumulátor: két sáv.</string>
+    <string name="accessibility_battery_three_bars">Akkumulátor: három sáv.</string>
+    <string name="accessibility_battery_full">Akkumulátor feltöltve.</string>
+    <string name="accessibility_no_phone">Nincs telefon.</string>
+    <string name="accessibility_phone_one_bar">Telefon: egy sáv.</string>
+    <string name="accessibility_phone_two_bars">Telefon: két sáv.</string>
+    <string name="accessibility_phone_three_bars">Telefon: három sáv.</string>
+    <string name="accessibility_phone_signal_full">Telefon jel: teljes.</string>
+    <string name="accessibility_no_data">Nincsenek adatok.</string>
+    <string name="accessibility_data_one_bar">Adat: egy sáv.</string>
+    <string name="accessibility_data_two_bars">Adat: két sáv.</string>
+    <string name="accessibility_data_three_bars">Adat: három sáv.</string>
+    <string name="accessibility_data_signal_full">Adat jel: teljes.</string>
+    <string name="accessibility_no_wifi">Nincs Wi-Fi kapcsolat.</string>
+    <string name="accessibility_wifi_one_bar">Wi-Fi jel: egy sáv.</string>
+    <string name="accessibility_wifi_two_bars">Wi-Fi jel: két sáv.</string>
+    <string name="accessibility_wifi_three_bars">Wi-Fi jel: három sáv.</string>
+    <string name="accessibility_wifi_signal_full">Wi-Fi jel teljes.</string>
+    <string name="accessibility_no_wimax">Nincs WiMAX-jel.</string>
+    <string name="accessibility_wimax_one_bar">WiMAX-jel: egy sáv.</string>
+    <string name="accessibility_wimax_two_bars">WiMAX-jel: két sáv.</string>
+    <string name="accessibility_wimax_three_bars">WiMAX-jel: három sáv.</string>
+    <string name="accessibility_wimax_signal_full">WiMAX-jel: teljes.</string>
+    <string name="accessibility_data_connection_gprs">GPRS</string>
+    <string name="accessibility_data_connection_3g">3G</string>
+    <string name="accessibility_data_connection_3.5g">3.5G</string>
+    <string name="accessibility_data_connection_4g">4G</string>
+    <string name="accessibility_data_connection_cdma">CDMA</string>
+    <string name="accessibility_data_connection_edge">Edge</string>
+    <string name="accessibility_data_connection_wifi">WiFi</string>
+    <string name="accessibility_no_sim">Nincs SIM.</string>
+    <string name="accessibility_bluetooth_tether">Internetmegosztás Bluetooth használatával.</string>
+    <string name="accessibility_airplane_mode">Repülőgépes üzemmód.</string>
+    <string name="accessibility_battery_level">Az akkumulátor töltöttsége %d százalék.</string>
+    <string name="accessibility_settings_button">Rendszerbeállítások.</string>
+    <string name="accessibility_notifications_button">Értesítések.</string>
+    <string name="accessibility_remove_notification">Értesítés törlése.</string>
+    <string name="accessibility_gps_enabled">GPS engedélyezve.</string>
+    <string name="accessibility_gps_acquiring">GPS lekérése.</string>
+    <string name="accessibility_tty_enabled">Távgépíró (TTY) engedélyezve.</string>
+    <string name="accessibility_ringer_vibrate">Csengő rezeg.</string>
+    <string name="accessibility_ringer_silent">Csengő néma.</string>
+    <string name="accessibility_recents_item_dismissed">%s bezárva.</string>
+    <string name="data_usage_disabled_dialog_3g_title">2G-3G adatforgalom letiltva</string>
+    <string name="data_usage_disabled_dialog_4g_title">4G adatforgalom letiltva</string>
+    <string name="data_usage_disabled_dialog_mobile_title">Mobil adatforgalom letiltva</string>
+    <string name="data_usage_disabled_dialog_title">Adatforgalom letiltva</string>
+    <string name="data_usage_disabled_dialog">"Elérte a megadott adathasználati korlátot.
+
+Ha újra engedélyezi az adatforgalmat, szolgáltatója díjat számolhat fel."</string>
+    <string name="data_usage_disabled_dialog_enable">Adatforgalom újbóli engedélyezése</string>
+    <string name="status_bar_settings_signal_meter_disconnected">Nincs internetkapcsolat</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">WiFi csatlakoztatva</string>
+    <string name="gps_notification_searching_text">GPS keresése</string>
+    <string name="gps_notification_found_text">A GPS beállította a helyet</string>
+    <string name="accessibility_clear_all">Minden értesítés törlése</string>
+    <string name="dreams_dock_launcher">Képernyővédő aktiválása</string>
+    <string name="status_bar_notification_inspect_item_title">Alkalmazásinformáció</string>
+    <string name="notifications_off_title">Értesítések kikapcsolva</string>
+    <string name="notifications_off_text">Koppintson ide az értesítések bekapcsolásához.</string>
+    <string name="accessibility_rotation_lock_off">A képernyő forgatása automatikusan történik.</string>
+    <string name="accessibility_rotation_lock_on_landscape">A képernyő zárolva van fekvő tájolásban.</string>
+    <string name="accessibility_rotation_lock_on_portrait">A képernyő zárolva van álló tájolásban.</string>
+    <string name="unmount_strings_dialog_content_txt">Ne távolítsa el az SD kártyát a leválasztás során</string>
+    <string name="accessibility_state_vibrate">Rezgő</string>
+    <string name="carrier_invalid_sim_card">Érvénytelen SIM kártya</string>
+    <string name="new_note">Új megjegyzés</string>
+    <string name="new_sketch">Új rajz</string>
+    <string name="quick_Settings">Gyors beállítások</string>
+    <string name="quick_settings_description">Gyors beállítások számának kiválasztása az értesítési panelen és a sorrendjük módosítása</string>
+    <string name="start_note_app">A Megjegyzés alkalmazás indítása</string>
+    <string name="start_sketch_app">A Rajz alkalmazás indítása</string>
+    <string name="status_bar_airplanemode">Repülőgépes</string>
+    <string name="status_bar_autorotate">Automatikus forgatás</string>
+    <string name="status_bar_autosync">Aut. szinkroniz.</string>
+    <string name="status_bar_autosync_dialog_disable_title">Kikapcsolja az automatikus szinkronizálást?</string>
+    <string name="status_bar_autosync_dialog_disable_warning">Ez mérsékelni fogja az adat- és akkumulátorhasználatot, de minden fiókot manuálisan kell majd szinkronizálnia a legfrissebb információk begyűjtéséhez. Továbbá nem fog értesítéseket kapni a frissítésekről.</string>
+    <string name="status_bar_autosync_dialog_enable_title">Bekapcsolja az automatikus szinkronizálást?</string>
+    <string name="status_bar_autosync_dialog_enable_warning">"Az interneten végrehajtott fiókmódosítások automatikusan megjelennek telefonján is.
+
+
+
+Egyes fiókok azonban automatikusan a webre is másolhatják a telefonon eszközölt módosításait. A Google Fiók az utóbbi szerint működik.
+
+
+
+Annak kiválasztásához, hogy mi legyen szinkronizálva az egyes fiókokon belül, lépjen a Beállítások > Fiókok lehetőségre."</string>
+    <string name="status_bar_autosync_dialog_extended_enable_warning">"A fiókok interneten végzett minden módosítása automatikusan a készülékre lesz másolva.
+
+Egyes fiókok szintén automatikusan az internetre másolhatják a készüléken végzett módosításokat. A Google Fiókok így működnek.
+
+Az egyes fiókokban szinkronizálandó információk típusának kiválasztásához lépjen a Beállítások > Fiókok pontra.
+
+Adatátviteli költségek merülhetnek fel, amikor készülékén frissítések történnek. Korlátlan adatátvitelt lehetővé tevő díjcsomag ajánlott."</string>
+    <string name="status_bar_bluetooth">Bluetooth</string>
+    <string name="status_bar_brightness">Háttérvilágítás</string>
+    <string name="status_bar_gps">GPS</string>
+    <string name="status_bar_mobile_data">Mobilhálózati adatok</string>
+    <string name="status_bar_nfc">NFC</string>
+    <string name="status_bar_roaming">Barangolás</string>
+    <string name="status_bar_settings">Beállítások</string>
+    <string name="status_bar_settings_airplanemode">Repülőgépes mód</string>
+    <string name="status_bar_settings_autorotate">Képernyő automatikus forgatása</string>
+    <string name="status_bar_settings_autosync">Automatikus adatszinkronizálás</string>
+    <string name="status_bar_settings_bluetooth">Bluetooth</string>
+    <string name="status_bar_settings_brightness">Háttérvilágítás</string>
+    <string name="status_bar_settings_gps">GPS</string>
+    <string name="status_bar_settings_mobile_data">Mobilhálózati adatforgalom</string>
+    <string name="status_bar_settings_nfc">NFC</string>
+    <string name="status_bar_settings_roaming">Barangolás</string>
+    <string name="status_bar_settings_settings">Beállítások parancsikonja</string>
+    <string name="status_bar_settings_sound">Hang</string>
+    <string name="status_bar_settings_wifi">Wi-Fi</string>
+    <string name="status_bar_settings_wifi_hotspot">Wi-Fi csatlakozási pont</string>
+    <string name="status_bar_sound">Hang</string>
+    <string name="status_bar_toolsbar_settings_title">Gyors beállítások kiválasztása</string>
+    <string name="status_bar_wifi">Wi-Fi</string>
+    <string name="status_bar_wifi_hotspot">Csatlakozási pont</string>
+    <string name="to_charge_use_charger_txt">Az eszköz töltéséhez használja a Sony™ töltőt</string>
+    <string name="toast_message_maximum_number_of_tools_reached">Maximális számú gyors beállítás van kiválasztva</string>
+    <string name="toast_message_not_allow_turn_on_hotspot">Repülőgépes módban nem érhető el Wi-Fi csatlakozási pont</string>
+    <string name="usb_connected_txt">USB csatlakoztatva</string>
+</resources>

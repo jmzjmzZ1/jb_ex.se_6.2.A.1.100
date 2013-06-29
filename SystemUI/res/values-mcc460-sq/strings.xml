@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_settings_wifi_button">WLAN</string>
+    <string name="accessibility_no_wifi">WLAN i shkëputur.</string>
+    <string name="accessibility_wifi_one_bar">WLAN një vizë.</string>
+    <string name="accessibility_wifi_two_bars">WLAN dy viza.</string>
+    <string name="accessibility_wifi_three_bars">WLAN tre viza.</string>
+    <string name="accessibility_wifi_signal_full">Sinjali i WLAN plot.</string>
+    <string name="accessibility_data_connection_wifi">WLAN</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">WLAN u lidh</string>
+    <string name="status_bar_settings_wifi">WLAN</string>
+    <string name="status_bar_settings_wifi_hotspot">Zona e internetit me valë WLAN</string>
+    <string name="status_bar_wifi">WLAN</string>
+    <string name="toast_message_not_allow_turn_on_hotspot">Zona e internetit me valë WLAN e padisponueshme në regjimin në aeroplan</string>
+</resources>

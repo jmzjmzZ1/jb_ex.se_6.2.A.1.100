@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="power_settings_instructions">Genom att aktivera STAMINA-läget i strömhanteringen optimeras batterilivslängden</string>
+    <string name="battery_low_power_settings">Batteriinformation</string>
+    <string name="app_label">Gränssnitt</string>
+    <string name="status_bar_clear_all_button">Ta bort</string>
+    <string name="status_bar_do_not_disturb_button">Stör ej</string>
+    <string name="status_bar_please_disturb_button">Visa aviseringar</string>
+    <string name="status_bar_recent_remove_item_title">Ta bort från listan</string>
+    <string name="status_bar_recent_inspect_item_title">Info om appen</string>
+    <string name="status_bar_no_recent_apps">Inga nya appar</string>
+    <string name="status_bar_accessibility_dismiss_recents">Avvisa nya appar</string>
+    <string name="status_bar_no_notifications_title">Inga aviseringar</string>
+    <string name="status_bar_ongoing_events_title">Pågående</string>
+    <string name="status_bar_latest_events_title">Meddelanden</string>
+    <string name="battery_low_title">Anslut laddaren</string>
+    <string name="battery_low_subtitle">Batteriet håller på att ta slut.</string>
+    <string name="battery_low_percent_format">%d%% återstår</string>
+    <string name="invalid_charger">"Det går inte att ladda via USB.
+Använd endast den laddare som levererades med mobilen."</string>
+    <string name="battery_low_why">Batteriförbrukn.</string>
+    <string name="status_bar_settings_settings_button">Inställningar</string>
+    <string name="status_bar_settings_wifi_button">Wi-Fi</string>
+    <string name="status_bar_settings_airplane">Flygplansläge</string>
+    <string name="status_bar_settings_auto_rotation">Rotera skärmen automatiskt</string>
+    <string name="status_bar_settings_mute_label">TYST</string>
+    <string name="status_bar_settings_auto_brightness_label">AUTO</string>
+    <string name="status_bar_settings_notifications">Aviseringar</string>
+    <string name="bluetooth_tethered">Internetdelning via Bluetooth</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">Konfigurera inmatningsmetoder</string>
+    <string name="status_bar_use_physical_keyboard">Fysiskt tangentbord</string>
+    <string name="usb_device_permission_prompt">Vill du tillåta att appen %1$s använder USB-enheten?</string>
+    <string name="usb_accessory_permission_prompt">Vill du tillåta att appen %1$s använder USB-tillbehöret?</string>
+    <string name="usb_device_confirm_prompt">Vill du öppna %1$s när den här USB-enheten ansluts?</string>
+    <string name="usb_accessory_confirm_prompt">Vill du öppna %1$s när det här USB-tillbehöret ansluts?</string>
+    <string name="usb_accessory_uri_prompt">Inga installerade appar fungerar med USB-tillbehöret. Läs mer om tillbehöret på %1$s</string>
+    <string name="title_usb_accessory">USB-tillbehör</string>
+    <string name="label_view">Visa</string>
+    <string name="always_use_device">Använd som standard för den här USB-enheten</string>
+    <string name="always_use_accessory">Använd som standard för detta USB-tillbehör</string>
+    <string name="compat_mode_on">Zooma för att fylla skärm</string>
+    <string name="compat_mode_off">Dra för att fylla skärm</string>
+    <string name="compat_mode_help_header">Zoom i kompatibilitetsläge</string>
+    <string name="compat_mode_help_body">När en app är anpassad för en mindre skärm visas ett zoomreglage vid klockan.</string>
+    <string name="screenshot_saving_ticker">Skärmbilden sparas ...</string>
+    <string name="screenshot_saving_title">Skärmbilden sparas ...</string>
+    <string name="screenshot_saving_text">Skärmbilden sparas.</string>
+    <string name="screenshot_saved_title">Skärmbilden har tagits.</string>
+    <string name="screenshot_saved_text">Rör här om du vill visa skärmbilden.</string>
+    <string name="screenshot_failed_title">Det gick inte att ta någon skärmbild.</string>
+    <string name="screenshot_failed_text">Det gick inte att spara skärmbilden. Lagringen kanske används.</string>
+    <string name="usb_preference_title">Överföringsalternativ, USB</string>
+    <string name="use_mtp_button_title">Anslut som mediaspelare (MTP)</string>
+    <string name="use_ptp_button_title">Anslut som kamera (PTP)</string>
+    <string name="installer_cd_button_title">Installera Androids filöverföring för Mac</string>
+    <string name="accessibility_back">Tillbaka</string>
+    <string name="accessibility_home">Start</string>
+    <string name="accessibility_menu">Meny</string>
+    <string name="accessibility_recent">Senaste apparna</string>
+    <string name="accessibility_ime_switch_button">Knapp för byte av inmatningsmetod.</string>
+    <string name="accessibility_compatibility_zoom_button">Knapp för kompatibilitetszoom.</string>
+    <string name="accessibility_compatibility_zoom_example">Zooma mindre skärm till större.</string>
+    <string name="accessibility_bluetooth_connected">Bluetooth ansluten.</string>
+    <string name="accessibility_bluetooth_disconnected">Bluetooth har kopplats från.</string>
+    <string name="accessibility_no_battery">Inget batteri.</string>
+    <string name="accessibility_battery_one_bar">Batteri: en stapel.</string>
+    <string name="accessibility_battery_two_bars">Batteri: två staplar.</string>
+    <string name="accessibility_battery_three_bars">Batteri: tre staplar.</string>
+    <string name="accessibility_battery_full">Batteriet är fulladdat.</string>
+    <string name="accessibility_no_phone">Ingen mobil.</string>
+    <string name="accessibility_phone_one_bar">Mobil: en stapel.</string>
+    <string name="accessibility_phone_two_bars">Mobil: två staplar.</string>
+    <string name="accessibility_phone_three_bars">Mobil: tre staplar.</string>
+    <string name="accessibility_phone_signal_full">Mobilsignalen är full.</string>
+    <string name="accessibility_no_data">Inga data.</string>
+    <string name="accessibility_data_one_bar">Data: en stapel.</string>
+    <string name="accessibility_data_two_bars">Data: två staplar.</string>
+    <string name="accessibility_data_three_bars">Data: tre staplar.</string>
+    <string name="accessibility_data_signal_full">Datasignalen är full.</string>
+    <string name="accessibility_no_wifi">Ingen Wi-Fi-anslutning.</string>
+    <string name="accessibility_wifi_one_bar">Wi-Fi: en stapel.</string>
+    <string name="accessibility_wifi_two_bars">Wi-Fi: två staplar.</string>
+    <string name="accessibility_wifi_three_bars">Wi-Fi: tre staplar.</string>
+    <string name="accessibility_wifi_signal_full">Full signalstyrka för Wi-Fi.</string>
+    <string name="accessibility_no_wimax">Ingen WiMAX.</string>
+    <string name="accessibility_wimax_one_bar">WiMAX: en stapel.</string>
+    <string name="accessibility_wimax_two_bars">WiMAX: två staplar.</string>
+    <string name="accessibility_wimax_three_bars">WiMAX: tre staplar.</string>
+    <string name="accessibility_wimax_signal_full">WiMAX-signalen är full.</string>
+    <string name="accessibility_data_connection_gprs">GPRS</string>
+    <string name="accessibility_data_connection_3g">3G</string>
+    <string name="accessibility_data_connection_3.5g">3.5G</string>
+    <string name="accessibility_data_connection_4g">4G</string>
+    <string name="accessibility_data_connection_cdma">CDMA</string>
+    <string name="accessibility_data_connection_edge">Edge</string>
+    <string name="accessibility_data_connection_wifi">Wi-Fi</string>
+    <string name="accessibility_no_sim">Inget SIM-kort.</string>
+    <string name="accessibility_bluetooth_tether">Internetdelning via Bluetooth.</string>
+    <string name="accessibility_airplane_mode">Flygplansläge.</string>
+    <string name="accessibility_battery_level">Batteri %d procent.</string>
+    <string name="accessibility_settings_button">Systeminställningar.</string>
+    <string name="accessibility_notifications_button">Aviseringar.</string>
+    <string name="accessibility_remove_notification">Rensa aviseringen.</string>
+    <string name="accessibility_gps_enabled">GPS är aktiverad.</string>
+    <string name="accessibility_gps_acquiring">Tar emot GPS.</string>
+    <string name="accessibility_tty_enabled">TeleTypewriter aktiverad.</string>
+    <string name="accessibility_ringer_vibrate">Vibrerande ringsignal.</string>
+    <string name="accessibility_ringer_silent">Tyst ringsignal.</string>
+    <string name="accessibility_recents_item_dismissed">%s har tagits bort.</string>
+    <string name="data_usage_disabled_dialog_3g_title">Data via 2G-3G har inaktiverats</string>
+    <string name="data_usage_disabled_dialog_4g_title">Data via 4G har inaktiverats</string>
+    <string name="data_usage_disabled_dialog_mobile_title">Mobildata har inaktiverats</string>
+    <string name="data_usage_disabled_dialog_title">Data har inaktiverats</string>
+    <string name="data_usage_disabled_dialog">"Du har nått den angivna gränsen för dataanvändning.
+
+Om du aktiverar data på nytt kan du bli debiterad av operatören."</string>
+    <string name="data_usage_disabled_dialog_enable">Återaktivera data</string>
+    <string name="status_bar_settings_signal_meter_disconnected">Ingen anslutning</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Wi-Fi-ansluten</string>
+    <string name="gps_notification_searching_text">Sökning efter GPS pågår</string>
+    <string name="gps_notification_found_text">Platsen har identifierats av GPS</string>
+    <string name="accessibility_clear_all">Rensa alla aviseringar.</string>
+    <string name="dreams_dock_launcher">Aktivera skärmsläckare</string>
+    <string name="status_bar_notification_inspect_item_title">Info om appen</string>
+    <string name="notifications_off_title">Meddelanden av</string>
+    <string name="notifications_off_text">Knacka lätt här om du vill aktivera meddelanden igen.</string>
+    <string name="accessibility_rotation_lock_off">Skärmen roteras automatiskt.</string>
+    <string name="accessibility_rotation_lock_on_landscape">Bildskärmens riktning är låst i liggande format.</string>
+    <string name="accessibility_rotation_lock_on_portrait">Bildskärmens riktning är låst i stående format.</string>
+    <string name="unmount_strings_dialog_content_txt">Ta inte bort SD-kortet under frånkoppling</string>
+    <string name="accessibility_state_vibrate">Vibrera</string>
+    <string name="carrier_invalid_sim_card">Ogiltigt SIM-kort</string>
+    <string name="new_note">Ny anteckning</string>
+    <string name="new_sketch">Ny skiss</string>
+    <string name="quick_Settings">Snabbinställningar</string>
+    <string name="quick_settings_description">Välj antal snabbinställningar i Meddelandepanelen och redigera ordningen</string>
+    <string name="start_note_app">Starta anteckningsappen</string>
+    <string name="start_sketch_app">Starta skissappen</string>
+    <string name="status_bar_airplanemode">Flygplan</string>
+    <string name="status_bar_autorotate">Rotera automatiskt</string>
+    <string name="status_bar_autosync">Synkronisera auto.</string>
+    <string name="status_bar_autosync_dialog_disable_title">Inaktivera automatisk datasynkronisering?</string>
+    <string name="status_bar_autosync_dialog_disable_warning">Detta minskar dataanvändningen och sparar batteri, men varje konto måste synkroniseras manuellt varje gång du vill samla in aktuell information. Du får inte heller några meddelanden om uppdateringar.</string>
+    <string name="status_bar_autosync_dialog_enable_title">Aktivera automatisk datasynkronisering?</string>
+    <string name="status_bar_autosync_dialog_enable_warning">"Alla kontoändringar som görs på webben kopieras automatiskt till telefonen.
+
+
+
+För vissa konton kopieras även alla ändringar som görs på telefonen automatiskt till webben. Google-konton fungerar på det sättet.
+
+
+
+Du kan ställa in vilken typ av information som ska synkroniseras för varje konto under Inställningar > Konton."</string>
+    <string name="status_bar_autosync_dialog_extended_enable_warning">"Ändringar i dina konton på webben kommer automatiskt att kopieras till din enhet.
+
+Vissa konton kan även automatiskt kopiera ändringar på enheten till webben. Ett Google-konto fungerar på detta sätt.
+
+Om du vill välja vilken typ av information som ska synkroniseras går du till Inställningar > Konton.
+
+Debiteringar för dataöverföringar kan tillkomma vid uppdateringar på enheten. En obegränsad dataplan rekommenderas."</string>
+    <string name="status_bar_bluetooth">Bluetooth</string>
+    <string name="status_bar_brightness">Bakgrundsbelysning</string>
+    <string name="status_bar_gps">GPS</string>
+    <string name="status_bar_mobile_data">Mobildata</string>
+    <string name="status_bar_nfc">NFC</string>
+    <string name="status_bar_roaming">Roaming</string>
+    <string name="status_bar_settings">Inställningar</string>
+    <string name="status_bar_settings_airplanemode">Flygplansläge</string>
+    <string name="status_bar_settings_autorotate">Rotera skärmen automatiskt</string>
+    <string name="status_bar_settings_autosync">Synkronisera data automatiskt</string>
+    <string name="status_bar_settings_bluetooth">Bluetooth</string>
+    <string name="status_bar_settings_brightness">Bakgrundsbelysning</string>
+    <string name="status_bar_settings_gps">GPS</string>
+    <string name="status_bar_settings_mobile_data">Mobildatatrafik</string>
+    <string name="status_bar_settings_nfc">NFC</string>
+    <string name="status_bar_settings_roaming">Roaming</string>
+    <string name="status_bar_settings_settings">Genväg till Inställningar</string>
+    <string name="status_bar_settings_sound">Ljud</string>
+    <string name="status_bar_settings_wifi">Wi-Fi</string>
+    <string name="status_bar_settings_wifi_hotspot">Wi-Fi-hotspot</string>
+    <string name="status_bar_sound">Ljud</string>
+    <string name="status_bar_toolsbar_settings_title">Välj snabbinställningar</string>
+    <string name="status_bar_wifi">Wi-Fi</string>
+    <string name="status_bar_wifi_hotspot">Hotspot</string>
+    <string name="to_charge_use_charger_txt">Använd en Sony™-laddare för att ladda enheten</string>
+    <string name="toast_message_maximum_number_of_tools_reached">Högsta antal snabbinställningar har valts</string>
+    <string name="toast_message_not_allow_turn_on_hotspot">Wi-Fi-hotspot är inte tillgängligt i flygplansläget</string>
+    <string name="usb_connected_txt">USB ansluten</string>
+</resources>

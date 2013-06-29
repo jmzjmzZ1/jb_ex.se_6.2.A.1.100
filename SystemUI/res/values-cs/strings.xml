@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="power_settings_instructions">Povolení režimu STAMINA ve Správě napájení umožní optimalizaci životnosti baterie</string>
+    <string name="battery_low_power_settings">Informace o baterii</string>
+    <string name="app_label">UI systému</string>
+    <string name="status_bar_clear_all_button">Vymaz.</string>
+    <string name="status_bar_do_not_disturb_button">Nerušit</string>
+    <string name="status_bar_please_disturb_button">Zobrazit oznámení</string>
+    <string name="status_bar_recent_remove_item_title">Odebrat ze seznamu</string>
+    <string name="status_bar_recent_inspect_item_title">Informace o aplikaci</string>
+    <string name="status_bar_no_recent_apps">Žádné nové aplikace</string>
+    <string name="status_bar_accessibility_dismiss_recents">Zavřít nové aplikace</string>
+    <string name="status_bar_no_notifications_title">Žádná oznámení</string>
+    <string name="status_bar_ongoing_events_title">Probíhající</string>
+    <string name="status_bar_latest_events_title">Oznámení</string>
+    <string name="battery_low_title">Prosím připojte dobíjecí zařízení</string>
+    <string name="battery_low_subtitle">Baterie je vybitá.</string>
+    <string name="battery_low_percent_format">Zbývá %d%%</string>
+    <string name="invalid_charger">"Nabíjení pomocí rozhraní USB není podporováno.
+Používejte pouze nabíječku, která byla dodána se zařízením."</string>
+    <string name="battery_low_why">Využití baterie</string>
+    <string name="status_bar_settings_settings_button">Nastavení</string>
+    <string name="status_bar_settings_wifi_button">Wi-Fi</string>
+    <string name="status_bar_settings_airplane">Režim V letadle</string>
+    <string name="status_bar_settings_auto_rotation">Autom. otočení obrazovky</string>
+    <string name="status_bar_settings_mute_label">ZTLUM.</string>
+    <string name="status_bar_settings_auto_brightness_label">AUTOM.</string>
+    <string name="status_bar_settings_notifications">Oznámení</string>
+    <string name="bluetooth_tethered">Datové připojení Bluetooth se sdílí</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">Nastavit metody zadávání</string>
+    <string name="status_bar_use_physical_keyboard">Fyzická klávesnice</string>
+    <string name="usb_device_permission_prompt">Chcete povolit aplikaci %1$s přístup k zařízení USB?</string>
+    <string name="usb_accessory_permission_prompt">Chcete povolit aplikaci %1$s přístup k perifernímu zařízení USB?</string>
+    <string name="usb_device_confirm_prompt">Chcete při připojení tohoto zařízení USB otevřít aplikaci %1$s?</string>
+    <string name="usb_accessory_confirm_prompt">Chcete při připojení tohoto periferního zařízení USB otevřít aplikaci %1$s?</string>
+    <string name="usb_accessory_uri_prompt">S tímto příslušenstvím USB nepracuje žádná z instalovaných aplikací. Další informace o tomto příslušenství najdete na adrese %1$s.</string>
+    <string name="title_usb_accessory">Příslušenství USB</string>
+    <string name="label_view">Zobrazit</string>
+    <string name="always_use_device">Pro toto zařízení USB použít jako výchozí</string>
+    <string name="always_use_accessory">Ve výchozím nastavení používat pro toto příslušenství USB</string>
+    <string name="compat_mode_on">Přiblížit na celou obrazovku</string>
+    <string name="compat_mode_off">Na celou obrazovku</string>
+    <string name="compat_mode_help_header">Kompatibilní lupa</string>
+    <string name="compat_mode_help_body">Pokud je aplikace navržena pro menší obrazovku, zobrazí se vedle hodin ovládací prvek lupy.</string>
+    <string name="screenshot_saving_ticker">Ukládání snímku obrazovky...</string>
+    <string name="screenshot_saving_title">Ukládání snímku obrazovky...</string>
+    <string name="screenshot_saving_text">Probíhá ukládání snímku obrazovky.</string>
+    <string name="screenshot_saved_title">Snímek obrazovky byl zachycen.</string>
+    <string name="screenshot_saved_text">Snímek obrazovky zobrazíte dotykem.</string>
+    <string name="screenshot_failed_title">Snímek obrazovky se nepodařilo zachytit.</string>
+    <string name="screenshot_failed_text">Snímek obrazovky se nepodařilo uložit. Je možné, že je externí úložiště právě používáno.</string>
+    <string name="usb_preference_title">Možnosti přenosu souborů pomocí rozhraní USB</string>
+    <string name="use_mtp_button_title">Připojit jako přehrávač médií (MTP)</string>
+    <string name="use_ptp_button_title">Připojit jako fotoaparát (PTP)</string>
+    <string name="installer_cd_button_title">Instalovat aplikaci Android File Transfer pro Mac</string>
+    <string name="accessibility_back">Zpět</string>
+    <string name="accessibility_home">Domů</string>
+    <string name="accessibility_menu">"Nabídka "</string>
+    <string name="accessibility_recent">Nové aplikace</string>
+    <string name="accessibility_ime_switch_button">Tlačítko přepnutí metody vstupu</string>
+    <string name="accessibility_compatibility_zoom_button">Tlačítko lupy z důvodu kompatibility</string>
+    <string name="accessibility_compatibility_zoom_example">Přiblížit menší obrázek na větší obrazovku.</string>
+    <string name="accessibility_bluetooth_connected">Rozhraní Bluetooth je připojeno.</string>
+    <string name="accessibility_bluetooth_disconnected">Rozhraní Bluetooth je odpojeno.</string>
+    <string name="accessibility_no_battery">Chybí baterie.</string>
+    <string name="accessibility_battery_one_bar">Jedna čárka baterie.</string>
+    <string name="accessibility_battery_two_bars">Dvě čárky baterie.</string>
+    <string name="accessibility_battery_three_bars">Tři čárky baterie.</string>
+    <string name="accessibility_battery_full">Baterie je nabitá.</string>
+    <string name="accessibility_no_phone">Žádná telefonní síť.</string>
+    <string name="accessibility_phone_one_bar">Jedna čárka signálu telefonní sítě.</string>
+    <string name="accessibility_phone_two_bars">Dvě čárky signálu telefonní sítě.</string>
+    <string name="accessibility_phone_three_bars">Tři čárky signálu telefonní sítě.</string>
+    <string name="accessibility_phone_signal_full">Plný signál telefonní sítě.</string>
+    <string name="accessibility_no_data">Žádné datové připojení.</string>
+    <string name="accessibility_data_one_bar">Jedna čárka signálu datové sítě.</string>
+    <string name="accessibility_data_two_bars">Dvě čárky signálu datové sítě.</string>
+    <string name="accessibility_data_three_bars">Tři čárky signálu datové sítě.</string>
+    <string name="accessibility_data_signal_full">Plný signál datové sítě.</string>
+    <string name="accessibility_no_wifi">Síť Wi-Fi odpojena.</string>
+    <string name="accessibility_wifi_one_bar">Jedna čárka signálu sítě Wi-Fi.</string>
+    <string name="accessibility_wifi_two_bars">Dvě čárky signálu sítě Wi-Fi.</string>
+    <string name="accessibility_wifi_three_bars">Tři čárky signálu sítě Wi-Fi.</string>
+    <string name="accessibility_wifi_signal_full">Plný signál sítě Wi-Fi.</string>
+    <string name="accessibility_no_wimax">Žádný signál sítě WiMAX.</string>
+    <string name="accessibility_wimax_one_bar">Jedna čárka signálu sítě WiMAX.</string>
+    <string name="accessibility_wimax_two_bars">Dvě čárky signálu sítě WiMAX.</string>
+    <string name="accessibility_wimax_three_bars">Tři čárky signálu sítě WiMAX.</string>
+    <string name="accessibility_wimax_signal_full">Plný signál sítě WiMAX.</string>
+    <string name="accessibility_data_connection_gprs">GPRS</string>
+    <string name="accessibility_data_connection_3g">3G</string>
+    <string name="accessibility_data_connection_3.5g">3.5G</string>
+    <string name="accessibility_data_connection_4g">4G</string>
+    <string name="accessibility_data_connection_cdma">CDMA</string>
+    <string name="accessibility_data_connection_edge">Edge</string>
+    <string name="accessibility_data_connection_wifi">Wi-Fi</string>
+    <string name="accessibility_no_sim">Žádná karta SIM.</string>
+    <string name="accessibility_bluetooth_tether">Sdílení připojení přes Bluetooth.</string>
+    <string name="accessibility_airplane_mode">Režim V letadle.</string>
+    <string name="accessibility_battery_level">Baterie %d procent.</string>
+    <string name="accessibility_settings_button">Systémová nastavení.</string>
+    <string name="accessibility_notifications_button">Oznámení.</string>
+    <string name="accessibility_remove_notification">Vymazat oznámení.</string>
+    <string name="accessibility_gps_enabled">GPS je povoleno.</string>
+    <string name="accessibility_gps_acquiring">Zaměřování GPS.</string>
+    <string name="accessibility_tty_enabled">Rozhraní TeleTypewriter zapnuto.</string>
+    <string name="accessibility_ringer_vibrate">Vibrační vyzvánění.</string>
+    <string name="accessibility_ringer_silent">Tiché vyzvánění.</string>
+    <string name="accessibility_recents_item_dismissed">Aplikace %s byla odebrána.</string>
+    <string name="data_usage_disabled_dialog_3g_title">Datové přenosy 2G a 3G zakázány</string>
+    <string name="data_usage_disabled_dialog_4g_title">Datové přenosy 4G zakázány</string>
+    <string name="data_usage_disabled_dialog_mobile_title">Mobilní data zakázána</string>
+    <string name="data_usage_disabled_dialog_title">Přenos dat vypnut</string>
+    <string name="data_usage_disabled_dialog">"Dosáhli jste stanoveného limitu využití dat.
+
+Chcete-li datové připojení znovu zapnout, operátor vám může účtovat poplatky."</string>
+    <string name="data_usage_disabled_dialog_enable">Znovu povolit data</string>
+    <string name="status_bar_settings_signal_meter_disconnected">Žádné přip. k Internetu</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Wi-Fi: připojeno</string>
+    <string name="gps_notification_searching_text">Vyhledávání satelitů GPS</string>
+    <string name="gps_notification_found_text">Poloha nastavena pomocí systému GPS</string>
+    <string name="accessibility_clear_all">Vymazat všechna oznámení.</string>
+    <string name="dreams_dock_launcher">Aktivovat spořič obrazovky</string>
+    <string name="status_bar_notification_inspect_item_title">Informace o aplikaci</string>
+    <string name="notifications_off_title">Oznámení jsou vypnuta</string>
+    <string name="notifications_off_text">Chcete-li oznámení znovu zapnout, klepněte sem.</string>
+    <string name="accessibility_rotation_lock_off">Obrazovka se automaticky otočí.</string>
+    <string name="accessibility_rotation_lock_on_landscape">Obrazovka je uzamčena v orientaci na šířku.</string>
+    <string name="accessibility_rotation_lock_on_portrait">Obrazovka je uzamčena v orientaci na výšku.</string>
+    <string name="unmount_strings_dialog_content_txt">Neodebírejte kartu SD během odpojování.</string>
+    <string name="accessibility_state_vibrate">Vibrace</string>
+    <string name="carrier_invalid_sim_card">Karta SIM je neplatná.</string>
+    <string name="new_note">Nová poznámka</string>
+    <string name="new_sketch">Nový náčrt</string>
+    <string name="quick_Settings">Rychlé nastavení</string>
+    <string name="quick_settings_description">Vyberte počet rychlých nastavení na panelu Oznámení a upravte jejich pořadí.</string>
+    <string name="start_note_app">Spustit aplikaci poznámek</string>
+    <string name="start_sketch_app">Spustit aplikaci náčrtů</string>
+    <string name="status_bar_airplanemode">Letadlo</string>
+    <string name="status_bar_autorotate">Automatické otočení</string>
+    <string name="status_bar_autosync">Automat. synchr.</string>
+    <string name="status_bar_autosync_dialog_disable_title">Vypnout automatickou synchronizaci dat?</string>
+    <string name="status_bar_autosync_dialog_disable_warning">Toto nastavení šetří využití dat a baterii. Nejnovější informace však bude třeba získávat pomocí ruční synchronizace účtu a nebudete také dostávat oznámení o dostupných aktualizacích.</string>
+    <string name="status_bar_autosync_dialog_enable_title">Zapnout automatickou synchronizaci dat?</string>
+    <string name="status_bar_autosync_dialog_enable_warning">"Změny, které v rámci svých účtů provedete na webu, se automaticky zkopírují do telefonu.
+
+
+
+Některé účty také automaticky zkopírují změny provedené v telefonu na web. Tímto způsobem funguje například účet Google.
+
+
+
+Typy informací, které se budou v jednotlivých účtech synchronizovat, nastavíte v části Nastavení > Účty."</string>
+    <string name="status_bar_autosync_dialog_extended_enable_warning">"Všechny změny účtu provedené na webu se automaticky zkopírují do vašeho zařízení.
+
+Některé účty mohou také automaticky zkopírovat změny provedené v zařízení na web. Tak pracuje účet Google.
+
+Chcete-li určit, které typy informací se mají pro jednotlivé účty synchronizovat, Přejděte k možnosti Nastavení > Účty.
+
+Při aktualizaci dat v zařízení mohou být účtovány poplatky za přenos dat. Doporučuje se používat datový tarif bez omezení."</string>
+    <string name="status_bar_bluetooth">Bluetooth</string>
+    <string name="status_bar_brightness">Podsvícení</string>
+    <string name="status_bar_gps">GPS</string>
+    <string name="status_bar_mobile_data">Mobilní data</string>
+    <string name="status_bar_nfc">NFC</string>
+    <string name="status_bar_roaming">Roaming</string>
+    <string name="status_bar_settings">Nastavení</string>
+    <string name="status_bar_settings_airplanemode">Režim Letadlo</string>
+    <string name="status_bar_settings_autorotate">Automatické otočení obrazovky</string>
+    <string name="status_bar_settings_autosync">Automatická synchronizace dat</string>
+    <string name="status_bar_settings_bluetooth">Bluetooth</string>
+    <string name="status_bar_settings_brightness">Podsvícení</string>
+    <string name="status_bar_settings_gps">GPS</string>
+    <string name="status_bar_settings_mobile_data">Přenos mobilních dat</string>
+    <string name="status_bar_settings_nfc">NFC</string>
+    <string name="status_bar_settings_roaming">Roaming</string>
+    <string name="status_bar_settings_settings">Zkratka pro Nastavení</string>
+    <string name="status_bar_settings_sound">Zvuk</string>
+    <string name="status_bar_settings_wifi">Wi-Fi</string>
+    <string name="status_bar_settings_wifi_hotspot">Přístupový bod Wi-Fi</string>
+    <string name="status_bar_sound">Zvuk</string>
+    <string name="status_bar_toolsbar_settings_title">Vybrat rychlá nastavení</string>
+    <string name="status_bar_wifi">Wi-Fi</string>
+    <string name="status_bar_wifi_hotspot">Přístupový bod</string>
+    <string name="to_charge_use_charger_txt">K nabíjení zařízení použijte nabíječku Sony™.</string>
+    <string name="toast_message_maximum_number_of_tools_reached">Byl vybrán maximální počet rychlých nastavení</string>
+    <string name="toast_message_not_allow_turn_on_hotspot">Přístupový bod Wi-Fi není v režimu Letadlo k dispozici</string>
+    <string name="usb_connected_txt">Připojeno USB</string>
+</resources>

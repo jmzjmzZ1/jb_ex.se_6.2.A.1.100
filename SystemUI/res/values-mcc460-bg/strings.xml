@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_settings_wifi_button">WLAN връзка</string>
+    <string name="accessibility_no_wifi">Връзката с WLAN е прекъсната.</string>
+    <string name="accessibility_wifi_one_bar">WLAN е с една чертичка.</string>
+    <string name="accessibility_wifi_two_bars">WLAN е с две чертички.</string>
+    <string name="accessibility_wifi_three_bars">WLAN е с три чертички.</string>
+    <string name="accessibility_wifi_signal_full">Сигналът за WLAN е пълен.</string>
+    <string name="accessibility_data_connection_wifi">WLAN</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Свързано е с WLAN мрежа</string>
+    <string name="status_bar_settings_wifi">WLAN</string>
+    <string name="status_bar_settings_wifi_hotspot">Гореща точка за WLAN мрежа</string>
+    <string name="status_bar_wifi">WLAN</string>
+    <string name="toast_message_not_allow_turn_on_hotspot">Функцията за гореща точка за WLAN мрежа не е налична в самолетен режим</string>
+</resources>

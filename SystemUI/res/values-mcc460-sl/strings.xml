@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_settings_wifi_button">WLAN</string>
+    <string name="accessibility_no_wifi">Povezava WLAN je prekinjena.</string>
+    <string name="accessibility_wifi_one_bar">WLAN z eno črtico.</string>
+    <string name="accessibility_wifi_two_bars">WLAN z dvema črticama.</string>
+    <string name="accessibility_wifi_three_bars">WLAN s tremi črticami.</string>
+    <string name="accessibility_wifi_signal_full">Poln signal WLAN.</string>
+    <string name="accessibility_data_connection_wifi">WLAN</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Vzpostavljena povezava z omrežjem WLAN</string>
+    <string name="status_bar_settings_wifi">WLAN</string>
+    <string name="status_bar_settings_wifi_hotspot">Vroča točka za WLAN</string>
+    <string name="status_bar_wifi">WLAN</string>
+    <string name="toast_message_not_allow_turn_on_hotspot">Vroča točka za WLAN ni na voljo v načinu za letenje</string>
+</resources>

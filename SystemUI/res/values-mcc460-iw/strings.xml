@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_settings_wifi_button">WLAN</string>
+    <string name="accessibility_no_wifi">WLAN מנותק.</string>
+    <string name="accessibility_wifi_one_bar">פס אחד של WLAN.</string>
+    <string name="accessibility_wifi_two_bars">שני פסים של WLAN.</string>
+    <string name="accessibility_wifi_three_bars">שלושה פסים של WLAN.</string>
+    <string name="accessibility_wifi_signal_full">אות ה-WLAN מלא.</string>
+    <string name="accessibility_data_connection_wifi">WLAN</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">WLAN מחובר</string>
+    <string name="status_bar_settings_wifi">WLAN</string>
+    <string name="status_bar_settings_wifi_hotspot">נקודה חמה של WLAN</string>
+    <string name="status_bar_wifi">WLAN</string>
+    <string name="toast_message_not_allow_turn_on_hotspot">נקודה חמה של WLAN לא זמינה במצב טיסה</string>
+</resources>

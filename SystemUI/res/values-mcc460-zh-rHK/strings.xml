@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_settings_wifi_button">WLAN</string>
+    <string name="accessibility_no_wifi">WLAN已中斷連接。</string>
+    <string name="accessibility_wifi_one_bar">WLAN信號強度一格。</string>
+    <string name="accessibility_wifi_two_bars">WLAN信號強度兩格。</string>
+    <string name="accessibility_wifi_three_bars">WLAN信號強度三格。</string>
+    <string name="accessibility_wifi_signal_full">WLAN信號滿格。</string>
+    <string name="accessibility_data_connection_wifi">WLAN</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">WLAN已連接</string>
+    <string name="status_bar_settings_wifi">WLAN</string>
+    <string name="status_bar_settings_wifi_hotspot">WLAN無線基地台</string>
+    <string name="status_bar_wifi">WLAN</string>
+    <string name="toast_message_not_allow_turn_on_hotspot">飛航模式中無法使用WLAN無線基地台</string>
+</resources>

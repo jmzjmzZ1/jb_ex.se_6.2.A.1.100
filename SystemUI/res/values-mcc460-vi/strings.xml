@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_settings_wifi_button">WLAN</string>
+    <string name="accessibility_no_wifi">Đã ngắt kết nối WLAN.</string>
+    <string name="accessibility_wifi_one_bar">Tín hiệu WLAN một vạch.</string>
+    <string name="accessibility_wifi_two_bars">Tín hiệu WLAN hai vạch.</string>
+    <string name="accessibility_wifi_three_bars">Tín hiệu WLAN ba vạch.</string>
+    <string name="accessibility_wifi_signal_full">Tín hiệu WLAN đầy đủ.</string>
+    <string name="accessibility_data_connection_wifi">WLAN</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Đã kết nối WLAN</string>
+    <string name="status_bar_settings_wifi">WLAN</string>
+    <string name="status_bar_settings_wifi_hotspot">Điểm phát sóng WLAN</string>
+    <string name="status_bar_wifi">WLAN</string>
+    <string name="toast_message_not_allow_turn_on_hotspot">Không sử dụng được điểm truy cập WLAN ở chế độ máy bay</string>
+</resources>
